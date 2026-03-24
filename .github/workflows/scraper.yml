@@ -1,6 +1,10 @@
 name: Job Scraper
 
 on:
+  schedule:
+    # Täglich um 6:00 UTC (8:00 MEZ)
+    - cron: "0 6 * * *"
+
   workflow_dispatch:
     inputs:
       urls:
@@ -13,11 +17,6 @@ on:
         description: "Ausgabedatei (Standard: ergebnisse.json)"
         required: false
         default: ergebnisse.json
-      commit_results:
-        description: Ergebnisse zurück ins Repo committen
-        required: false
-        type: boolean
-        default: false
       no_js:
         description: JS-Rendering deaktivieren (schneller, für statische Seiten)
         required: false
@@ -42,6 +41,16 @@ jobs:
       - name: Abhängigkeiten installieren
         run: pip install -r requirements.txt
 
+      - name: Vorherige Ergebnisse sichern (für Diff)
+        run: |
+          OUTPUT="${{ inputs.output_file || 'ergebnisse.json' }}"
+          if [ -f "$OUTPUT" ]; then
+            cp "$OUTPUT" "${OUTPUT%.json}_vorher.json"
+            echo "has_previous=true" >> $GITHUB_ENV
+          else
+            echo "has_previous=false" >> $GITHUB_ENV
+          fi
+
       - name: URLs-Datei vorbereiten
         id: prepare
         run: |
@@ -60,24 +69,37 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           SCRAPER_API_KEY: ${{ secrets.SCRAPER_API_KEY }}
         run: |
-          ARGS="--file ${{ steps.prepare.outputs.urls_file }} --output ${{ inputs.output_file || 'ergebnisse.json' }}"
+          OUTPUT="${{ inputs.output_file || 'ergebnisse.json' }}"
+          ARGS="--file ${{ steps.prepare.outputs.urls_file }} --output $OUTPUT"
           if [ "${{ inputs.no_js }}" = "true" ]; then
             ARGS="$ARGS --no-js"
           fi
           python job_scraper.py $ARGS
 
+      - name: Diff berechnen
+        if: env.has_previous == 'true'
+        env:
+          ANTHROPIC_API_KEY: unused
+          SCRAPER_API_KEY: unused
+        run: |
+          OUTPUT="${{ inputs.output_file || 'ergebnisse.json' }}"
+          python job_scraper.py --diff "${OUTPUT%.json}_vorher.json" "$OUTPUT" --output diff.json
+          cat diff.json
+
       - name: Ergebnisse als Artifact hochladen
         uses: actions/upload-artifact@v4
         with:
           name: scraping-ergebnisse-${{ github.run_number }}
-          path: ${{ inputs.output_file || 'ergebnisse.json' }}
+          path: |
+            ${{ inputs.output_file || 'ergebnisse.json' }}
+            diff.json
           retention-days: 30
 
       - name: Ergebnisse committen
-        if: inputs.commit_results == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add "${{ inputs.output_file || 'ergebnisse.json' }}"
+          OUTPUT="${{ inputs.output_file || 'ergebnisse.json' }}"
+          git add "$OUTPUT"
           git diff --staged --quiet || git commit -m "chore: scraping ergebnisse aktualisiert $(date -u +%Y-%m-%d)"
           git push
