@@ -74,7 +74,7 @@ jobs:
           retention-days: 30
 
       - name: Ergebnisse committen
-        if: inputs.commit_results == true
+        if: inputs.commit_results == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
