@@ -141,14 +141,119 @@ def fetch_html(url: str, render_js: bool = True) -> str:
         raise
 
 
+# Data attributes commonly used by JS frameworks instead of href
+_DATA_LINK_ATTRS = ["data-href", "data-url", "data-link", "data-target",
+                    "data-detail-url", "data-job-url", "data-path"]
+
+# Regex to extract URLs from onclick handlers
+_ONCLICK_URL_RE = re.compile(
+    r"""(?:location\.href|window\.(?:open|location)|navigate|href)\s*[=(]\s*['"]([^'"]+)['"]""",
+    re.IGNORECASE,
+)
+
+
+def _extract_jsonld_jobs(raw_html: str, karriereseite: str) -> Optional[list[JobInfo]]:
+    """Extract jobs from JSON-LD structured data (schema.org/JobPosting).
+
+    Many job sites embed complete job data in <script type="application/ld+json">.
+    This is the highest-quality source: no Claude needed, no link guessing.
+    """
+    soup = BeautifulSoup(raw_html, "lxml")
+    postings: list[dict] = []
+
+    for script in soup.find_all("script", type="application/ld+json"):
+        try:
+            data = json.loads(script.string or "")
+        except (json.JSONDecodeError, TypeError):
+            continue
+
+        # Normalise: unwrap @graph arrays
+        if isinstance(data, dict) and "@graph" in data:
+            data = data["@graph"]
+        if not isinstance(data, list):
+            data = [data]
+
+        for item in data:
+            if not isinstance(item, dict):
+                continue
+            typ = item.get("@type", "")
+            # Accept both string and list type declarations
+            types = [typ] if isinstance(typ, str) else typ
+            if "JobPosting" in types:
+                postings.append(item)
+
+    if not postings:
+        return None
+
+    print(f"  [JSON-LD] {len(postings)} JobPosting(s) gefunden", file=sys.stderr)
+    results = []
+    for p in postings:
+        title = p.get("title") or p.get("name")
+        if not title or _is_generic_application(title):
+            continue
+
+        # Extract aufgaben + profil from description HTML
+        description = p.get("description") or ""
+        aufgaben, profil = _parse_description_html(description)
+
+        detail_url = p.get("url") or p.get("identifier", {}).get("value") if isinstance(p.get("identifier"), dict) else None
+
+        results.append(JobInfo(
+            karriereseite=karriereseite,
+            stellen_url=detail_url or None,
+            stellentitel=title,
+            aufgaben=aufgaben,
+            profil=profil,
+        ))
+
+    return results if results else None
+
+
+def _parse_description_html(html: str) -> tuple[list[str], list[str]]:
+    """Heuristically split a job description into aufgaben and profil bullet points."""
+    if not html:
+        return [], []
+
+    soup = BeautifulSoup(html, "lxml")
+    text = soup.get_text(separator="\n", strip=True)
+    lines = [l.strip() for l in text.splitlines() if l.strip()]
+
+    aufgaben: list[str] = []
+    profil: list[str] = []
+    current: list[str] = []  # buffer before first section detected
+
+    _AUFGABEN_HEADERS = re.compile(
+        r"(?i)(aufgaben|tätigkeiten|deine aufgabe|was dich erwartet|responsibilities|your tasks|aufgabenbereich)"
+    )
+    _PROFIL_HEADERS = re.compile(
+        r"(?i)(profil|anforderungen|qualifikation|was du mitbringst|requirements|your profile|das bringst du mit)"
+    )
+
+    mode = None
+    for line in lines:
+        if _AUFGABEN_HEADERS.search(line):
+            mode = "aufgaben"
+            continue
+        if _PROFIL_HEADERS.search(line):
+            mode = "profil"
+            continue
+        if mode == "aufgaben":
+            aufgaben.append(line)
+        elif mode == "profil":
+            profil.append(line)
+
+    # Limit to reasonable length
+    return aufgaben[:20], profil[:20]
+
+
 def clean_html(raw_html: str, max_chars: int = 80_000) -> str:
-    """Strip noise tags and extract readable text, preserving link hrefs inline."""
+    """Strip noise tags and extract readable text, preserving all link signals inline."""
     soup = BeautifulSoup(raw_html, "lxml")
 
     for tag in soup(_NOISE_TAGS):
         tag.decompose()
 
-    # Inline link hrefs so Claude can see and extract URLs
+    # 1) Inline <a href> — standard links
     for a in soup.find_all("a", href=True):
         href = a.get("href", "").strip()
         text = a.get_text(strip=True)
@@ -157,27 +262,46 @@ def clean_html(raw_html: str, max_chars: int = 80_000) -> str:
         elif href:
             a.replace_with(f"[{href}]")
 
-    # Try to find main content area, but fall back to body if too little text
+    # 2) Inline data-href / data-url / ... on non-anchor elements
+    #    e.g. <div data-href="/jobs/123">Job Title</div>
+    for attr in _DATA_LINK_ATTRS:
+        for tag in soup.find_all(attrs={attr: True}):
+            url_val = tag.get(attr, "").strip()
+            if not url_val or url_val.startswith("javascript:"):
+                continue
+            text = tag.get_text(strip=True)
+            if text:
+                tag.replace_with(f"{text} [{url_val}]")
+
+    # 3) Extract URLs from onclick handlers
+    #    e.g. <div onclick="location.href='/jobs/123'">Job Title</div>
+    for tag in soup.find_all(onclick=True):
+        onclick = tag.get("onclick", "")
+        match = _ONCLICK_URL_RE.search(onclick)
+        if match:
+            url_val = match.group(1)
+            text = tag.get_text(strip=True)
+            if text:
+                tag.replace_with(f"{text} [{url_val}]")
+
+    # Try to find main content area, fall back to body if too little text
     main = (
         soup.find("main")
         or soup.find("article")
         or soup.find(id=lambda x: x and "job" in x.lower())
         or soup.find(class_=lambda x: x and any(
-            kw in " ".join(x).lower() for kw in ("job", "stelle", "position", "career", "karriere", "vacancy")
+            kw in " ".join(x).lower()
+            for kw in ("job", "stelle", "position", "career", "karriere", "vacancy")
         ))
     )
 
-    # If main content area has too little text, fall back to body
     if main:
-        main_text = main.get_text(strip=True)
-        if len(main_text) < 200:
+        if len(main.get_text(strip=True)) < 200:
             main = soup.find("body") or soup
     else:
         main = soup.find("body") or soup
 
     text = main.get_text(separator="\n", strip=True)
-
-    # Collapse excessive blank lines
     lines = [line for line in text.splitlines() if line.strip()]
     cleaned = "\n".join(lines)
 
@@ -360,12 +484,23 @@ def scrape_jobs(
         print("  Fetching HTML...", file=sys.stderr)
         raw_html = fetch_html(url, render_js=render_js)
 
-        # b-ite Career Suite: handle before generic pipeline
+        # 1) JSON-LD structured data — best quality, no Claude needed
+        jsonld_jobs = _extract_jsonld_jobs(raw_html, effective_karriereseite)
+        if jsonld_jobs is not None:
+            # On detail pages, enrich the single result with the actual URL
+            if is_detail_call:
+                for j in jsonld_jobs:
+                    if not j.stellen_url:
+                        j.stellen_url = url
+            return jsonld_jobs
+
+        # 2) b-ite Career Suite — direct DOM parser, no Claude needed
         if not is_detail_call:
             bite_jobs = _parse_bite_jobs(raw_html, effective_karriereseite)
             if bite_jobs is not None:
                 return bite_jobs
 
+        # 3) Generic pipeline: clean HTML → Claude
         print("  Bereinige HTML...", file=sys.stderr)
         content = clean_html(raw_html)
 
