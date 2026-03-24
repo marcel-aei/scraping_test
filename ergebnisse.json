@@ -1,0 +1,110 @@
+[
+  {
+    "url": "https://www.sabag.ch/de/stellen",
+    "stellentitel": null,
+    "aufgaben": [],
+    "profil": [],
+    "ansprechpartner": null,
+    "unternehmen": null,
+    "standort": null,
+    "beschaeftigungsart": null,
+    "hinweise": null,
+    "fehler": "HTTP-Fehler: 403 Client Error: Forbidden for url: http://api.scraperapi.com/?api_key=351741dd563e4ca9799f4406b7a50e09&url=https%3A%2F%2Fwww.sabag.ch%2Fde%2Fstellen&render=true"
+  },
+  {
+    "url": "https://www.sakret.de/de/unternehmen/karriere",
+    "stellentitel": null,
+    "aufgaben": [],
+    "profil": [],
+    "ansprechpartner": null,
+    "unternehmen": null,
+    "standort": null,
+    "beschaeftigungsart": null,
+    "hinweise": null,
+    "fehler": "HTTP-Fehler: 403 Client Error: Forbidden for url: http://api.scraperapi.com/?api_key=351741dd563e4ca9799f4406b7a50e09&url=https%3A%2F%2Fwww.sakret.de%2Fde%2Funternehmen%2Fkarriere&render=true"
+  },
+  {
+    "url": "https://junior.talentstorm.de/",
+    "stellentitel": null,
+    "aufgaben": [],
+    "profil": [],
+    "ansprechpartner": null,
+    "unternehmen": null,
+    "standort": null,
+    "beschaeftigungsart": null,
+    "hinweise": null,
+    "fehler": "HTTP-Fehler: 403 Client Error: Forbidden for url: http://api.scraperapi.com/?api_key=351741dd563e4ca9799f4406b7a50e09&url=https%3A%2F%2Fjunior.talentstorm.de%2F&render=true"
+  },
+  {
+    "url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+    "stellentitel": null,
+    "aufgaben": [],
+    "profil": [],
+    "ansprechpartner": null,
+    "unternehmen": null,
+    "standort": null,
+    "beschaeftigungsart": null,
+    "hinweise": null,
+    "fehler": "HTTP-Fehler: 403 Client Error: Forbidden for url: http://api.scraperapi.com/?api_key=351741dd563e4ca9799f4406b7a50e09&url=https%3A%2F%2Fwww.wir-sind-schlueter.de%2Fstellenangebote-schlueter-baumaschinen&render=true"
+  },
+  {
+    "url": "https://herchenbach-industrial.com/de/unternehmen/karriere",
+    "stellentitel": null,
+    "aufgaben": [],
+    "profil": [],
+    "ansprechpartner": null,
+    "unternehmen": null,
+    "standort": null,
+    "beschaeftigungsart": null,
+    "hinweise": null,
+    "fehler": "HTTP-Fehler: 403 Client Error: Forbidden for url: http://api.scraperapi.com/?api_key=351741dd563e4ca9799f4406b7a50e09&url=https%3A%2F%2Fherchenbach-industrial.com%2Fde%2Funternehmen%2Fkarriere&render=true"
+  },
+  {
+    "url": "https://www.avescorent.ch/de/arbeitsplaetze/",
+    "stellentitel": null,
+    "aufgaben": [],
+    "profil": [],
+    "ansprechpartner": null,
+    "unternehmen": null,
+    "standort": null,
+    "beschaeftigungsart": null,
+    "hinweise": null,
+    "fehler": "HTTP-Fehler: 403 Client Error: Forbidden for url: http://api.scraperapi.com/?api_key=351741dd563e4ca9799f4406b7a50e09&url=https%3A%2F%2Fwww.avescorent.ch%2Fde%2Farbeitsplaetze%2F&render=true"
+  },
+  {
+    "url": "https://www.hkl-baumaschinen.de/karriere/jobs",
+    "stellentitel": null,
+    "aufgaben": [],
+    "profil": [],
+    "ansprechpartner": null,
+    "unternehmen": null,
+    "standort": null,
+    "beschaeftigungsart": null,
+    "hinweise": null,
+    "fehler": "HTTP-Fehler: 403 Client Error: Forbidden for url: http://api.scraperapi.com/?api_key=351741dd563e4ca9799f4406b7a50e09&url=https%3A%2F%2Fwww.hkl-baumaschinen.de%2Fkarriere%2Fjobs&render=true"
+  },
+  {
+    "url": "https://kmls.de/karriere/",
+    "stellentitel": null,
+    "aufgaben": [],
+    "profil": [],
+    "ansprechpartner": null,
+    "unternehmen": null,
+    "standort": null,
+    "beschaeftigungsart": null,
+    "hinweise": null,
+    "fehler": "HTTP-Fehler: 403 Client Error: Forbidden for url: http://api.scraperapi.com/?api_key=351741dd563e4ca9799f4406b7a50e09&url=https%3A%2F%2Fkmls.de%2Fkarriere%2F&render=true"
+  },
+  {
+    "url": "https://www.sikla.career/",
+    "stellentitel": null,
+    "aufgaben": [],
+    "profil": [],
+    "ansprechpartner": null,
+    "unternehmen": null,
+    "standort": null,
+    "beschaeftigungsart": null,
+    "hinweise": null,
+    "fehler": "HTTP-Fehler: 403 Client Error: Forbidden for url: http://api.scraperapi.com/?api_key=351741dd563e4ca9799f4406b7a50e09&url=https%3A%2F%2Fwww.sikla.career%2F&render=true"
+  }
+]
