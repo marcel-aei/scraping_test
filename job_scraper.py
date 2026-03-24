@@ -14,6 +14,7 @@ import os
 import sys
 from dataclasses import asdict, dataclass, field
 from typing import Optional
+from urllib.parse import urljoin
 
 import anthropic
 import requests
@@ -65,6 +66,9 @@ Bei Typ A (Einzelstelle):
 Bei Typ B (Übersichtsseite):
 {
   "seitentyp": "uebersicht",
+  "job_links": [
+    "URL oder relativer Pfad zur Einzel-Stellenseite (aus den [Link]-Angaben im Text entnehmen)"
+  ],
   "stellen": [
     {
       "stellentitel": "Jobtitel",
@@ -81,6 +85,8 @@ Bei Typ B (Übersichtsseite):
 
 Regeln:
 - Extrahiere NUR was tatsächlich auf der Seite steht — erfinde nichts
+- Bei Übersichtsseiten: job_links sind die URLs der Einzelstellenseiten (aus den [URL]-Angaben im Text)
+  Nur Links aufnehmen, die wirklich zu einer Stellendetailseite führen (nicht Filterseiten, nicht die aktuelle Seite selbst)
 - Bei Übersichtsseiten: ALLE gefundenen Stellen auflisten, auch wenn Details fehlen
 - Wenn ein Feld nicht vorhanden ist: null (bei Listen: [])
 - Aufgaben und Profil: einzelne, klare Stichpunkte
@@ -92,7 +98,8 @@ Seiteninhalt:
 
 @dataclass
 class JobInfo:
-    url: str
+    karriereseite: str = ""
+    stellen_url: Optional[str] = None
     stellentitel: Optional[str] = None
     aufgaben: list = field(default_factory=list)
     profil: list = field(default_factory=list)
@@ -123,11 +130,20 @@ def fetch_html(url: str, render_js: bool = True) -> str:
 
 
 def clean_html(raw_html: str, max_chars: int = 40_000) -> str:
-    """Strip noise tags and extract readable text to reduce token usage."""
+    """Strip noise tags and extract readable text, preserving link hrefs inline."""
     soup = BeautifulSoup(raw_html, "lxml")
 
-    for tag in soup(NOISE_TAGS := _NOISE_TAGS):
+    for tag in soup(_NOISE_TAGS):
         tag.decompose()
+
+    # Inline link hrefs so Claude can see and extract URLs
+    for a in soup.find_all("a", href=True):
+        href = a.get("href", "").strip()
+        text = a.get_text(strip=True)
+        if href and text:
+            a.replace_with(f"{text} [{href}]")
+        elif href:
+            a.replace_with(f"[{href}]")
 
     # Extract main content areas preferentially
     main = (
@@ -182,9 +198,11 @@ def extract_job_info(content: str, client: anthropic.Anthropic) -> dict:
     return json.loads(raw_text)
 
 
-def _build_job(url: str, stelle: dict) -> JobInfo:
+def _build_job(karriereseite: str, stellen_url: Optional[str], stelle: dict) -> JobInfo:
+    effective_stellen_url = stellen_url if stellen_url and stellen_url != karriereseite else None
     return JobInfo(
-        url=url,
+        karriereseite=karriereseite,
+        stellen_url=effective_stellen_url,
         stellentitel=stelle.get("stellentitel"),
         aufgaben=stelle.get("aufgaben") or [],
         profil=stelle.get("profil") or [],
@@ -196,21 +214,32 @@ def _build_job(url: str, stelle: dict) -> JobInfo:
     )
 
 
-def scrape_jobs(url: str, client: anthropic.Anthropic) -> list[JobInfo]:
+def scrape_jobs(
+    url: str,
+    client: anthropic.Anthropic,
+    karriereseite: Optional[str] = None,
+    render_js: bool = True,
+) -> list[JobInfo]:
     """Full pipeline: fetch → clean → extract for a single URL.
-    Returns a list: one item for single-job pages, multiple for listing pages."""
+
+    karriereseite: set when this is a detail-page call from an overview page.
+    Returns a list of JobInfo objects.
+    """
+    is_detail_call = karriereseite is not None
+    effective_karriereseite = karriereseite or url
+
     print(f"\n→ Verarbeite: {url}", file=sys.stderr)
 
     try:
         print("  Fetching HTML...", file=sys.stderr)
-        raw_html = fetch_html(url)
+        raw_html = fetch_html(url, render_js=render_js)
 
         print("  Bereinige HTML...", file=sys.stderr)
         content = clean_html(raw_html)
 
         if not content.strip():
-            err = JobInfo(url=url, fehler="Kein verwertbarer Inhalt nach Bereinigung")
-            return [err]
+            return [JobInfo(karriereseite=effective_karriereseite, stellen_url=url if is_detail_call else None,
+                            fehler="Kein verwertbarer Inhalt nach Bereinigung")]
 
         print("  Extrahiere Stelleninfos via Claude...", file=sys.stderr)
         extracted = extract_job_info(content, client)
@@ -218,39 +247,67 @@ def scrape_jobs(url: str, client: anthropic.Anthropic) -> list[JobInfo]:
         seitentyp = extracted.get("seitentyp", "einzelstelle")
         stellen = extracted.get("stellen") or []
 
+        # --- Overview page: follow individual job links ---
+        if seitentyp == "uebersicht" and not is_detail_call:
+            job_links = extracted.get("job_links") or []
+            print(
+                f"  ✓ Übersichtsseite: {len(stellen)} Stelle(n) gefunden, "
+                f"{len(job_links)} Einzel-Link(s) erkannt",
+                file=sys.stderr,
+            )
+
+            if job_links:
+                print(f"  → Folge {len(job_links)} Einzel-Links für Details...", file=sys.stderr)
+                all_detail_jobs: list[JobInfo] = []
+                for link in job_links:
+                    abs_link = urljoin(url, link)
+                    detail_jobs = scrape_jobs(
+                        abs_link, client, karriereseite=url, render_js=render_js
+                    )
+                    all_detail_jobs.extend(detail_jobs)
+                return all_detail_jobs
+
+            # No links found — return overview-level data (no detail available)
+            if not stellen:
+                return [JobInfo(karriereseite=effective_karriereseite, fehler="Keine Stellen gefunden")]
+            return [_build_job(effective_karriereseite, None, s) for s in stellen]
+
+        # --- Single job page (or detail call) ---
         if not stellen:
-            return [JobInfo(url=url, fehler="Keine Stellen gefunden")]
+            return [JobInfo(karriereseite=effective_karriereseite,
+                            stellen_url=url if is_detail_call else None,
+                            fehler="Keine Stellen gefunden")]
 
-        jobs = [_build_job(url, s) for s in stellen]
-
-        if seitentyp == "uebersicht":
-            print(
-                f"  ✓ Übersichtsseite: {len(jobs)} Stelle(n) gefunden",
-                file=sys.stderr,
-            )
-        else:
-            print(
-                f"  ✓ Stelle gefunden: {jobs[0].stellentitel or '(Titel unbekannt)'}",
-                file=sys.stderr,
-            )
-
+        jobs = [_build_job(effective_karriereseite, url if is_detail_call else None, s) for s in stellen]
+        print(
+            f"  ✓ Stelle gefunden: {jobs[0].stellentitel or '(Titel unbekannt)'}",
+            file=sys.stderr,
+        )
         return jobs
 
     except requests.exceptions.RequestException as e:
         print(f"  ✗ Fetch-Fehler: {e}", file=sys.stderr)
-        return [JobInfo(url=url, fehler=f"HTTP-Fehler: {e}")]
+        return [JobInfo(karriereseite=effective_karriereseite,
+                        stellen_url=url if is_detail_call else None,
+                        fehler=f"HTTP-Fehler: {e}")]
     except json.JSONDecodeError as e:
         print(f"  ✗ JSON-Fehler: {e}", file=sys.stderr)
-        return [JobInfo(url=url, fehler=f"JSON-Parsing fehlgeschlagen: {e}")]
+        return [JobInfo(karriereseite=effective_karriereseite,
+                        stellen_url=url if is_detail_call else None,
+                        fehler=f"JSON-Parsing fehlgeschlagen: {e}")]
     except anthropic.APIError as e:
         print(f"  ✗ Claude-Fehler: {e}", file=sys.stderr)
-        return [JobInfo(url=url, fehler=f"Claude API-Fehler: {e}")]
+        return [JobInfo(karriereseite=effective_karriereseite,
+                        stellen_url=url if is_detail_call else None,
+                        fehler=f"Claude API-Fehler: {e}")]
 
 
 def print_job(job: JobInfo) -> None:
     """Pretty-print a single job result to stdout."""
     print("\n" + "=" * 60)
-    print(f"URL: {job.url}")
+    print(f"Karriereseite: {job.karriereseite}")
+    if job.stellen_url:
+        print(f"Stellen-URL:   {job.stellen_url}")
 
     if job.fehler:
         print(f"FEHLER: {job.fehler}")
@@ -312,7 +369,7 @@ def main() -> None:
         epilog="""
 Beispiele:
   python job_scraper.py https://example.com/jobs/software-engineer
-  python job_scraper.py https://jobs.firma.de/stelle-1 https://jobs.firma.de/stelle-2
+  python job_scraper.py https://jobs.firma.de/karriere
   python job_scraper.py --file urls.txt --output ergebnisse.json
         """,
     )
@@ -353,11 +410,12 @@ Beispiele:
     validate_env()
 
     client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
+    render_js = not args.no_js
 
     results = []
     all_jobs: list[JobInfo] = []
     for url in urls:
-        jobs = scrape_jobs(url, client)
+        jobs = scrape_jobs(url, client, render_js=render_js)
         all_jobs.extend(jobs)
         results.extend(asdict(j) for j in jobs)
 
