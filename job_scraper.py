@@ -154,6 +154,90 @@ _ONCLICK_URL_RE = re.compile(
 )
 
 
+def _find_job_lists_in(obj: object, depth: int = 0) -> list[list]:
+    """Recursively find lists that look like job listings in arbitrary nested JSON."""
+    if depth > 8:
+        return []
+    if isinstance(obj, list):
+        if _looks_like_job_list(obj):
+            return [obj]
+        nested: list[list] = []
+        for item in obj:
+            nested.extend(_find_job_lists_in(item, depth + 1))
+        return nested
+    if isinstance(obj, dict):
+        found: list[list] = []
+        for v in obj.values():
+            found.extend(_find_job_lists_in(v, depth + 1))
+        return found
+    return []
+
+
+def _extract_nextjs_jobs(raw_html: str, karriereseite: str) -> Optional[list[JobInfo]]:
+    """Extract job listings from Next.js __NEXT_DATA__ embedded JSON.
+
+    Next.js sites embed all page data in a <script id="__NEXT_DATA__"> block.
+    clean_html strips all scripts, so this must run on the raw HTML.
+    Returns None if no __NEXT_DATA__ found or no job-like data inside.
+    """
+    soup = BeautifulSoup(raw_html, "lxml")
+    script = soup.find("script", id="__NEXT_DATA__")
+    if not script or not script.string:
+        return None
+
+    try:
+        data = json.loads(script.string)
+    except (json.JSONDecodeError, TypeError):
+        return None
+
+    job_lists = _find_job_lists_in(data)
+    if not job_lists:
+        return None
+
+    # Take the largest candidate list (most likely the full job listing)
+    best = max(job_lists, key=len)
+    print(f"  [Next.js] __NEXT_DATA__: {len(best)} Einträge gefunden", file=sys.stderr)
+
+    results = []
+    for item in best:
+        if not isinstance(item, dict):
+            continue
+        title = (
+            item.get("title") or item.get("name") or item.get("stellentitel")
+            or item.get("jobtitle") or item.get("position")
+        )
+        if not title or _is_generic_application(str(title)):
+            continue
+
+        # Try common URL / slug patterns
+        detail_url = item.get("url") or item.get("link")
+        if not detail_url:
+            slug = item.get("slug") or item.get("uri") or item.get("path")
+            if slug:
+                detail_url = urljoin(karriereseite, slug)
+
+        # Try to extract aufgaben/profil from any description field
+        description = item.get("description") or item.get("content") or item.get("text") or ""
+        aufgaben, profil = _parse_description_html(str(description)) if description else ([], [])
+
+        results.append(JobInfo(
+            karriereseite=karriereseite,
+            stellen_url=detail_url or None,
+            stellentitel=str(title),
+            aufgaben=aufgaben,
+            profil=profil,
+        ))
+
+    if results:
+        with_links = sum(1 for j in results if j.stellen_url)
+        print(
+            f"  [Next.js] {len(results)} Stelle(n) extrahiert "
+            f"({with_links} mit Detail-Link)",
+            file=sys.stderr,
+        )
+    return results if results else None
+
+
 def _extract_jsonld_jobs(raw_html: str, karriereseite: str) -> Optional[list[JobInfo]]:
     """Extract jobs from JSON-LD structured data (schema.org/JobPosting).
 
@@ -629,6 +713,36 @@ def scrape_jobs(
         print(f"  [Fetch] ScraperAPI {'mit' if render_js else 'ohne'} JS-Rendering...", file=sys.stderr)
         raw_html = fetch_html(url, render_js=render_js)
         print(f"  [Fetch] HTML erhalten: {len(raw_html):,} Zeichen", file=sys.stderr)
+
+        # Next.js __NEXT_DATA__ — try to get full job list before scripts are stripped
+        # Only on overview pages (not detail calls), to avoid losing data the scraper
+        # would otherwise miss due to JS-rendered accordions / lazy-loading.
+        if not is_detail_call:
+            nextjs_jobs = _extract_nextjs_jobs(raw_html, effective_karriereseite)
+            if nextjs_jobs is not None:
+                jobs_with_links = [j for j in nextjs_jobs if j.stellen_url]
+                if jobs_with_links:
+                    print(f"  [Next.js] Folge {len(jobs_with_links)} Detail-Link(s) mit Claude...", file=sys.stderr)
+                    all_detail_jobs: list[JobInfo] = []
+                    for i, j in enumerate(jobs_with_links, 1):
+                        print(f"  [Next.js] Link {i}/{len(jobs_with_links)}: {j.stellen_url}", file=sys.stderr)
+                        detail_jobs = scrape_jobs(
+                            j.stellen_url, client,
+                            karriereseite=effective_karriereseite,
+                            render_js=render_js,
+                        )
+                        all_detail_jobs.extend(detail_jobs)
+                    all_detail_jobs = [j for j in all_detail_jobs
+                                       if not _is_generic_application(j.stellentitel or "")]
+                    if all_detail_jobs:
+                        print(f"  [Next.js] ✓ {len(all_detail_jobs)} Stelle(n) via Detail-Seiten", file=sys.stderr)
+                        return all_detail_jobs
+                    # Detail-Seiten lieferten nichts → fall through to Claude
+                    print("  [Next.js] Detail-Seiten leer → falle zurück auf Claude", file=sys.stderr)
+                else:
+                    # No detail URLs (accordion-only page) — return __NEXT_DATA__ results directly
+                    print(f"  [Next.js] Keine Detail-Links → gebe {len(nextjs_jobs)} Titel zurück", file=sys.stderr)
+                    return nextjs_jobs
 
         # Generic pipeline: clean HTML → Claude
         content = clean_html(raw_html)
