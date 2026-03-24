@@ -624,8 +624,19 @@ def _looks_like_job_list(items: list) -> bool:
     if not isinstance(items, list) or len(items) < 1:
         return False
     sample = items[0] if isinstance(items[0], dict) else {}
-    job_fields = {"title", "name", "jobtitle", "stellentitel", "position"}
-    return bool(job_fields & {k.lower() for k in sample.keys()})
+    title_fields = {"title", "name", "jobtitle", "stellentitel", "position"}
+    if not (title_fields & {k.lower() for k in sample.keys()}):
+        return False
+    # Must also have at least one additional job-characteristic field beyond just a name.
+    # This prevents non-job lists (e.g. theme or font selections with only a "name" key)
+    # from being mistaken for job listings.
+    job_extra_fields = {
+        "url", "link", "href", "description", "location", "department",
+        "id", "category", "dateposted", "validthrough", "applyurl",
+        "slug", "path", "uri", "hash", "tasks", "requirements",
+        "aufgaben", "profil", "textblocks",
+    }
+    return bool(job_extra_fields & {k.lower() for k in sample.keys()})
 
 
 def _extract_jobs_from_api_responses(

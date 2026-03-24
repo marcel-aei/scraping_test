@@ -83,4 +83,5 @@ jobs:
           OUTPUT="${{ inputs.output_file || 'ergebnisse.json' }}"
           git add "$OUTPUT"
           git diff --staged --quiet || git commit -m "chore: scraping ergebnisse aktualisiert $(date -u +%Y-%m-%d)"
-          git push
+          git pull --rebase origin ${{ github.ref_name }}
+          git push -u origin ${{ github.ref_name }}
