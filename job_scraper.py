@@ -845,7 +845,12 @@ def scrape_jobs(
                 except Exception as e:
                     print(f"  [Playwright] Fehler: {type(e).__name__}: {e}", file=sys.stderr)
 
-            # All methods exhausted — return titles only
+            # All methods exhausted — last resort: b-ite DOM/API for title guarantee
+            bite_fallback = _parse_bite_jobs(raw_html, effective_karriereseite)
+            if bite_fallback:
+                print(f"  [b-ite] Fallback: {len(bite_fallback)} Titel extrahiert (kein Stellendetail)", file=sys.stderr)
+                return bite_fallback
+
             if not stellen:
                 print("  [!] Keine Stellen gefunden (alle Methoden erschöpft)", file=sys.stderr)
                 return [JobInfo(karriereseite=effective_karriereseite, fehler="Keine Stellen gefunden")]
