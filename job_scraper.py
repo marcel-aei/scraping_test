@@ -216,6 +216,119 @@ def extract_job_info(content: str, client: anthropic.Anthropic) -> dict:
     return json.loads(raw_text)
 
 
+# ---------------------------------------------------------------------------
+# b-ite Career Suite: special direct parser
+# ---------------------------------------------------------------------------
+# b-ite renders job entries as <div class="bite-jobs--entry"> with NO href.
+# Links are constructed on-click via JS and are not accessible from the HTML.
+# We detect b-ite, extract titles directly from DOM (no Claude needed),
+# and try the b-ite public API for detail URLs + job content.
+#
+# b-ite API (v5): https://api.b-ite.com/v5/jobpostings/{company-slug}
+# Detail page:    https://jobs.{company-domain}/jobposting/{hash}
+
+_BITE_API_BASE = "https://api.b-ite.com/v5/jobpostings"
+
+
+def _detect_bite_company(soup: BeautifulSoup) -> Optional[str]:
+    """Return the b-ite company slug if this page uses b-ite Career Suite."""
+    tag = soup.find(attrs={"data-bite-jobs-api-listing": True})
+    if not tag:
+        return None
+    # Format: "schlueter-baumaschinen:main-listing"
+    value = tag["data-bite-jobs-api-listing"]
+    return value.split(":")[0]
+
+
+def _fetch_bite_api(company_slug: str) -> Optional[list[dict]]:
+    """Try to fetch job listings from the b-ite public API.
+    Returns list of raw job dicts or None on failure.
+    """
+    url = f"{_BITE_API_BASE}/{company_slug}"
+    try:
+        resp = requests.get(url, timeout=15, headers={"Accept": "application/json"})
+        resp.raise_for_status()
+        data = resp.json()
+        # API returns either a list or {"jobpostings": [...]}
+        if isinstance(data, list):
+            return data
+        if isinstance(data, dict):
+            for key in ("jobpostings", "jobs", "data", "items"):
+                if isinstance(data.get(key), list):
+                    return data[key]
+        return None
+    except Exception as e:
+        print(f"  [b-ite] API nicht erreichbar ({url}): {e}", file=sys.stderr)
+        return None
+
+
+def _parse_bite_jobs(raw_html: str, karriereseite: str) -> Optional[list[JobInfo]]:
+    """Parse b-ite Career Suite pages.
+
+    Strategy:
+    1. Try the b-ite public API for job data incl. detail URLs
+    2. Fall back to DOM-parsing for titles only (no Claude needed, no links)
+    """
+    soup = BeautifulSoup(raw_html, "lxml")
+    company_slug = _detect_bite_company(soup)
+    if not company_slug:
+        return None
+
+    print(f"  [b-ite] Erkannt: {company_slug}", file=sys.stderr)
+
+    # --- Try b-ite API first ---
+    api_jobs = _fetch_bite_api(company_slug)
+    if api_jobs:
+        print(f"  [b-ite] API: {len(api_jobs)} Jobs gefunden", file=sys.stderr)
+        results = []
+        for job in api_jobs:
+            title = job.get("title") or job.get("name") or job.get("stellentitel")
+            job_id = job.get("id") or job.get("hash") or job.get("jobpostingId")
+            # Construct detail URL from known pattern
+            detail_url = None
+            if job_id:
+                # Try to derive the jobs subdomain from karriereseite domain
+                # e.g. www.wir-sind-schlueter.de → jobs.schlueter-baumaschinen.de is unknown,
+                # but the API response might include a url field
+                detail_url = (
+                    job.get("url") or job.get("detailUrl") or job.get("link")
+                    or f"https://api.b-ite.com/v5/jobpostings/{company_slug}/{job_id}"
+                )
+            if title and not _is_generic_application(title):
+                results.append(JobInfo(
+                    karriereseite=karriereseite,
+                    stellen_url=detail_url,
+                    stellentitel=title,
+                    aufgaben=job.get("tasks") or job.get("aufgaben") or [],
+                    profil=job.get("requirements") or job.get("profil") or [],
+                ))
+        if results:
+            return results
+
+    # --- Fallback: extract titles from DOM ---
+    print(
+        "  [b-ite] Fallback: extrahiere Titel aus DOM (keine Links verfügbar)",
+        file=sys.stderr,
+    )
+    results = []
+    for entry in soup.find_all(class_="bite-jobs--entry--title"):
+        title = entry.get_text(strip=True)
+        if title and not _is_generic_application(title):
+            results.append(JobInfo(
+                karriereseite=karriereseite,
+                stellen_url=None,
+                stellentitel=title,
+                aufgaben=[],
+                profil=[],
+            ))
+
+    if results:
+        print(f"  [b-ite] {len(results)} Stellen-Titel extrahiert (kein Stellendetail)", file=sys.stderr)
+        return results
+
+    return None
+
+
 def _build_job(karriereseite: str, stellen_url: Optional[str], stelle: dict) -> JobInfo:
     effective_stellen_url = stellen_url if stellen_url and stellen_url != karriereseite else None
     return JobInfo(
@@ -246,6 +359,12 @@ def scrape_jobs(
     try:
         print("  Fetching HTML...", file=sys.stderr)
         raw_html = fetch_html(url, render_js=render_js)
+
+        # b-ite Career Suite: handle before generic pipeline
+        if not is_detail_call:
+            bite_jobs = _parse_bite_jobs(raw_html, effective_karriereseite)
+            if bite_jobs is not None:
+                return bite_jobs
 
         print("  Bereinige HTML...", file=sys.stderr)
         content = clean_html(raw_html)
