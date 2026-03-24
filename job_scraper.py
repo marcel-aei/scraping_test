@@ -138,7 +138,7 @@ def fetch_html(url: str, render_js: bool = True) -> str:
         return response.text
     except requests.exceptions.HTTPError as e:
         if render_js and e.response is not None and e.response.status_code in (429, 500):
-            print(f"  [!] JS rendering fehlgeschlagen, versuche ohne JS...", file=sys.stderr)
+            print(f"  [Fetch] JS-Rendering fehlgeschlagen (HTTP {e.response.status_code}) → Retry ohne JS", file=sys.stderr)
             return fetch_html(url, render_js=False)
         raise
 
@@ -621,52 +621,62 @@ def scrape_jobs(
     is_detail_call = karriereseite is not None
     effective_karriereseite = karriereseite or url
 
-    print(f"\n→ Verarbeite: {url}", file=sys.stderr)
+    label = "[Detail]" if is_detail_call else "[Übersicht]"
+    print(f"\n{'─'*60}", file=sys.stderr)
+    print(f"{label} {url}", file=sys.stderr)
 
     try:
-        print("  Fetching HTML...", file=sys.stderr)
+        print(f"  [Fetch] ScraperAPI {'mit' if render_js else 'ohne'} JS-Rendering...", file=sys.stderr)
         raw_html = fetch_html(url, render_js=render_js)
+        print(f"  [Fetch] HTML erhalten: {len(raw_html):,} Zeichen", file=sys.stderr)
 
         # Generic pipeline: clean HTML → Claude
-        print("  Bereinige HTML...", file=sys.stderr)
         content = clean_html(raw_html)
+        print(f"  [Clean] Bereinigter Text: {len(content):,} Zeichen", file=sys.stderr)
 
         if not content.strip():
+            print("  [!] Kein verwertbarer Inhalt nach Bereinigung", file=sys.stderr)
             return [JobInfo(karriereseite=effective_karriereseite, stellen_url=url if is_detail_call else None,
                             fehler="Kein verwertbarer Inhalt nach Bereinigung")]
 
-        print("  Extrahiere Stelleninfos via Claude...", file=sys.stderr)
+        print("  [Claude] Extrahiere Stelleninfos...", file=sys.stderr)
         extracted = extract_job_info(content, client)
 
         seitentyp = extracted.get("seitentyp", "einzelstelle")
-        stellen = extracted.get("stellen") or []
+        stellen_roh = extracted.get("stellen") or []
+        print(f"  [Claude] Seitentyp: {seitentyp} | {len(stellen_roh)} Stelle(n) erkannt", file=sys.stderr)
 
         # Post-processing: filter generic application entries
-        stellen = [s for s in stellen if not _is_generic_application(s.get("stellentitel", "") or "")]
-        if not stellen and extracted.get("stellen"):
-            print("  [i] Alle Stellen waren Initiativ-/Spontanbewerbungen → übersprungen", file=sys.stderr)
+        stellen = [s for s in stellen_roh if not _is_generic_application(s.get("stellentitel", "") or "")]
+        gefiltert = len(stellen_roh) - len(stellen)
+        if gefiltert:
+            print(f"  [Filter] {gefiltert} Initiativ-/Spontanbewerbung(en) entfernt → {len(stellen)} verbleiben", file=sys.stderr)
 
         # --- Overview page: follow individual job links ---
         if seitentyp == "uebersicht" and not is_detail_call:
             job_links = extracted.get("job_links") or []
             print(
-                f"  ✓ Übersichtsseite: {len(stellen)} Stelle(n) gefunden, "
-                f"{len(job_links)} Einzel-Link(s) erkannt",
+                f"  [Übersicht] {len(stellen)} Stelle(n) im Listing | {len(job_links)} Einzel-Link(s) erkannt",
                 file=sys.stderr,
             )
 
             if job_links:
-                print(f"  → Folge {len(job_links)} Einzel-Links für Details...", file=sys.stderr)
+                print(f"  [Übersicht] Folge {len(job_links)} Detail-Link(s)...", file=sys.stderr)
                 all_detail_jobs: list[JobInfo] = []
-                for link in job_links:
+                for i, link in enumerate(job_links, 1):
                     abs_link = urljoin(url, link)
+                    print(f"  [Übersicht] Link {i}/{len(job_links)}: {abs_link}", file=sys.stderr)
                     detail_jobs = scrape_jobs(
                         abs_link, client, karriereseite=url, render_js=render_js
                     )
                     all_detail_jobs.extend(detail_jobs)
 
                 # Filter generic applications from detail results too
+                vorher = len(all_detail_jobs)
                 all_detail_jobs = [j for j in all_detail_jobs if not _is_generic_application(j.stellentitel or "")]
+                if len(all_detail_jobs) < vorher:
+                    print(f"  [Filter] {vorher - len(all_detail_jobs)} generische Einträge aus Detailseiten entfernt", file=sys.stderr)
+                print(f"  [Übersicht] ✓ {len(all_detail_jobs)} Stelle(n) nach Detail-Scraping", file=sys.stderr)
                 return all_detail_jobs
 
             # No links found — try Playwright before giving up
@@ -677,21 +687,24 @@ def scrape_jobs(
                 )
                 try:
                     pw_html, pw_api = _fetch_with_playwright(url)
+                    print(f"  [Playwright] HTML: {len(pw_html):,} Zeichen | {len(pw_api)} API-Response(s) abgefangen", file=sys.stderr)
 
                     # Re-run JSON-LD on the Playwright-rendered DOM
                     pw_jsonld = _extract_jsonld_jobs(pw_html, effective_karriereseite)
                     if pw_jsonld:
-                        print("  [Playwright] JSON-LD gefunden", file=sys.stderr)
+                        print(f"  [Playwright] JSON-LD: {len(pw_jsonld)} Stelle(n) gefunden", file=sys.stderr)
                         return pw_jsonld
 
                     # Search captured XHR/fetch responses for job data
                     pw_api_jobs = _extract_jobs_from_api_responses(pw_api, effective_karriereseite)
                     if pw_api_jobs:
+                        print(f"  [Playwright] XHR-API: {len(pw_api_jobs)} Stelle(n) gefunden", file=sys.stderr)
                         return pw_api_jobs
 
                     # Re-run Claude pipeline on Playwright-rendered HTML
-                    print("  [Playwright] Versuche Claude mit Playwright-HTML...", file=sys.stderr)
+                    print("  [Playwright] Kein XHR-Treffer → Claude auf Playwright-HTML...", file=sys.stderr)
                     pw_content = clean_html(pw_html)
+                    print(f"  [Playwright] Bereinigter Text: {len(pw_content):,} Zeichen", file=sys.stderr)
                     if pw_content.strip():
                         pw_extracted = extract_job_info(pw_content, client)
                         pw_links = pw_extracted.get("job_links") or []
@@ -699,10 +712,12 @@ def scrape_jobs(
                             s for s in (pw_extracted.get("stellen") or [])
                             if not _is_generic_application(s.get("stellentitel", "") or "")
                         ]
+                        print(f"  [Playwright/Claude] {len(pw_stellen)} Stelle(n) | {len(pw_links)} Link(s)", file=sys.stderr)
                         if pw_links:
                             all_detail_jobs: list[JobInfo] = []
-                            for link in pw_links:
+                            for i, link in enumerate(pw_links, 1):
                                 abs_link = urljoin(url, link)
+                                print(f"  [Playwright] Link {i}/{len(pw_links)}: {abs_link}", file=sys.stderr)
                                 all_detail_jobs.extend(
                                     scrape_jobs(abs_link, client, karriereseite=url,
                                                 render_js=render_js, _playwright_attempted=True)
@@ -714,38 +729,41 @@ def scrape_jobs(
                 except RuntimeError as e:
                     print(f"  [Playwright] Nicht verfügbar: {e}", file=sys.stderr)
                 except Exception as e:
-                    print(f"  [Playwright] Fehler: {e}", file=sys.stderr)
+                    print(f"  [Playwright] Fehler: {type(e).__name__}: {e}", file=sys.stderr)
 
             # All methods exhausted — return titles only
             if not stellen:
+                print("  [!] Keine Stellen gefunden (alle Methoden erschöpft)", file=sys.stderr)
                 return [JobInfo(karriereseite=effective_karriereseite, fehler="Keine Stellen gefunden")]
+            print(f"  [!] Keine Einzel-Links → gebe {len(stellen)} Listing-Titel zurück (ohne Details)", file=sys.stderr)
             return [_build_job(effective_karriereseite, None, s) for s in stellen]
 
         # --- Single job page (or detail call) ---
         if not stellen:
+            print("  [!] Einzelseite: keine Stelle extrahiert", file=sys.stderr)
             return [JobInfo(karriereseite=effective_karriereseite,
                             stellen_url=url if is_detail_call else None,
                             fehler="Keine Stellen gefunden")]
 
         jobs = [_build_job(effective_karriereseite, url if is_detail_call else None, s) for s in stellen]
-        print(
-            f"  ✓ Stelle gefunden: {jobs[0].stellentitel or '(Titel unbekannt)'}",
-            file=sys.stderr,
-        )
+        titel = jobs[0].stellentitel or "(Titel unbekannt)"
+        aufg = len(jobs[0].aufgaben)
+        prof = len(jobs[0].profil)
+        print(f"  [Detail] ✓ '{titel}' | {aufg} Aufgabe(n) | {prof} Profil-Punkt(e)", file=sys.stderr)
         return jobs
 
     except requests.exceptions.RequestException as e:
-        print(f"  ✗ Fetch-Fehler: {_sanitize_error(str(e))}", file=sys.stderr)
+        print(f"  [!] Fetch-Fehler ({type(e).__name__}): {_sanitize_error(str(e))}", file=sys.stderr)
         return [JobInfo(karriereseite=effective_karriereseite,
                         stellen_url=url if is_detail_call else None,
                         fehler=f"HTTP-Fehler: {_sanitize_error(str(e))}")]
     except json.JSONDecodeError as e:
-        print(f"  ✗ JSON-Fehler: {e}", file=sys.stderr)
+        print(f"  [!] JSON-Parse-Fehler: {e}", file=sys.stderr)
         return [JobInfo(karriereseite=effective_karriereseite,
                         stellen_url=url if is_detail_call else None,
                         fehler=f"JSON-Parsing fehlgeschlagen: {e}")]
     except anthropic.APIError as e:
-        print(f"  ✗ Claude-Fehler: {e}", file=sys.stderr)
+        print(f"  [!] Claude API-Fehler ({type(e).__name__}): {e}", file=sys.stderr)
         return [JobInfo(karriereseite=effective_karriereseite,
                         stellen_url=url if is_detail_call else None,
                         fehler=f"Claude API-Fehler: {e}")]
