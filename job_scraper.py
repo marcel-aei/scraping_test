@@ -453,6 +453,146 @@ def _parse_bite_jobs(raw_html: str, karriereseite: str) -> Optional[list[JobInfo
     return None
 
 
+# ---------------------------------------------------------------------------
+# Playwright: network-interception fallback for JS-heavy sites
+# ---------------------------------------------------------------------------
+# Triggered automatically when the regular pipeline finds titles but no links
+# on an overview page. Playwright intercepts every XHR/fetch response and
+# looks for job data in the captured JSON payloads.
+#
+# Playwright is an optional dependency — if not installed the scraper still
+# works, just without this fallback.
+
+def _fetch_with_playwright(url: str) -> tuple[str, list[dict]]:
+    """Load URL in a real headless browser, capture all JSON API responses.
+
+    Returns (rendered_html, [{"url": ..., "data": ...}, ...]).
+    Raises RuntimeError if Playwright is not installed.
+    """
+    try:
+        from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
+    except ImportError:
+        raise RuntimeError(
+            "Playwright nicht installiert. "
+            "Ausführen: pip install playwright && playwright install chromium"
+        )
+
+    captured: list[dict] = []
+
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        page = browser.new_page()
+
+        def handle_response(response):
+            if response.request.resource_type in ("image", "stylesheet", "font", "media"):
+                return
+            ct = response.headers.get("content-type", "")
+            if "json" not in ct:
+                return
+            try:
+                body = response.json()
+                if body:
+                    captured.append({"url": response.url, "data": body})
+            except Exception:
+                pass
+
+        page.on("response", handle_response)
+
+        try:
+            page.goto(url, wait_until="networkidle", timeout=30_000)
+        except PWTimeout:
+            # networkidle timed out — DOM is likely ready, XHR may still run
+            pass
+
+        html = page.content()
+        browser.close()
+
+    return html, captured
+
+
+def _looks_like_job_list(items: list) -> bool:
+    """Heuristic: does this list look like a list of job postings?"""
+    if not isinstance(items, list) or len(items) < 1:
+        return False
+    sample = items[0] if isinstance(items[0], dict) else {}
+    job_fields = {"title", "name", "jobtitle", "stellentitel", "position"}
+    return bool(job_fields & {k.lower() for k in sample.keys()})
+
+
+def _extract_jobs_from_api_responses(
+    api_responses: list[dict], karriereseite: str
+) -> Optional[list[JobInfo]]:
+    """Search captured Playwright API responses for job listing data.
+
+    Returns JobInfo list if anything useful is found, else None.
+    """
+    candidates: list[dict] = []
+
+    for resp in api_responses:
+        data = resp.get("data")
+        source_url = resp.get("url", "")
+
+        # Unwrap common envelope shapes
+        if isinstance(data, list):
+            raw_list = data
+        elif isinstance(data, dict):
+            raw_list = None
+            for key in ("jobs", "jobpostings", "items", "results", "data", "entries"):
+                if isinstance(data.get(key), list):
+                    raw_list = data[key]
+                    break
+            if raw_list is None:
+                continue
+        else:
+            continue
+
+        if not _looks_like_job_list(raw_list):
+            continue
+
+        print(
+            f"  [Playwright] Job-API erkannt: {source_url} "
+            f"({len(raw_list)} Einträge)",
+            file=sys.stderr,
+        )
+        candidates.extend(raw_list)
+
+    if not candidates:
+        return None
+
+    results: list[JobInfo] = []
+    for item in candidates:
+        if not isinstance(item, dict):
+            continue
+        # Normalise title
+        title = (
+            item.get("title") or item.get("name") or item.get("jobtitle")
+            or item.get("stellentitel") or item.get("position")
+        )
+        if not title or _is_generic_application(str(title)):
+            continue
+
+        # Normalise detail URL
+        detail_url = (
+            item.get("url") or item.get("detailUrl") or item.get("link")
+            or item.get("applyUrl") or item.get("jobUrl")
+        )
+
+        # Normalise aufgaben / profil from description if present
+        description = item.get("description") or item.get("content") or ""
+        aufgaben, profil = _parse_description_html(str(description))
+
+        results.append(JobInfo(
+            karriereseite=karriereseite,
+            stellen_url=detail_url or None,
+            stellentitel=str(title),
+            aufgaben=aufgaben,
+            profil=profil,
+        ))
+
+    print(f"  [Playwright] {len(results)} Jobs aus API extrahiert", file=sys.stderr)
+    return results if results else None
+
+
 def _build_job(karriereseite: str, stellen_url: Optional[str], stelle: dict) -> JobInfo:
     effective_stellen_url = stellen_url if stellen_url and stellen_url != karriereseite else None
     return JobInfo(
@@ -469,6 +609,7 @@ def scrape_jobs(
     client: anthropic.Anthropic,
     karriereseite: Optional[str] = None,
     render_js: bool = True,
+    _playwright_attempted: bool = False,
 ) -> list[JobInfo]:
     """Full pipeline: fetch → clean → extract for a single URL.
 
@@ -542,7 +683,54 @@ def scrape_jobs(
                 all_detail_jobs = [j for j in all_detail_jobs if not _is_generic_application(j.stellentitel or "")]
                 return all_detail_jobs
 
-            # No links found — return overview-level data (no detail available)
+            # No links found — try Playwright before giving up
+            if not _playwright_attempted:
+                print(
+                    "  [Playwright] Keine Links via ScraperAPI → starte Playwright-Fallback...",
+                    file=sys.stderr,
+                )
+                try:
+                    pw_html, pw_api = _fetch_with_playwright(url)
+
+                    # Re-run JSON-LD on the Playwright-rendered DOM
+                    pw_jsonld = _extract_jsonld_jobs(pw_html, effective_karriereseite)
+                    if pw_jsonld:
+                        print("  [Playwright] JSON-LD gefunden", file=sys.stderr)
+                        return pw_jsonld
+
+                    # Search captured XHR/fetch responses for job data
+                    pw_api_jobs = _extract_jobs_from_api_responses(pw_api, effective_karriereseite)
+                    if pw_api_jobs:
+                        return pw_api_jobs
+
+                    # Re-run Claude pipeline on Playwright-rendered HTML
+                    print("  [Playwright] Versuche Claude mit Playwright-HTML...", file=sys.stderr)
+                    pw_content = clean_html(pw_html)
+                    if pw_content.strip():
+                        pw_extracted = extract_job_info(pw_content, client)
+                        pw_links = pw_extracted.get("job_links") or []
+                        pw_stellen = [
+                            s for s in (pw_extracted.get("stellen") or [])
+                            if not _is_generic_application(s.get("stellentitel", "") or "")
+                        ]
+                        if pw_links:
+                            all_detail_jobs: list[JobInfo] = []
+                            for link in pw_links:
+                                abs_link = urljoin(url, link)
+                                all_detail_jobs.extend(
+                                    scrape_jobs(abs_link, client, karriereseite=url,
+                                                render_js=render_js, _playwright_attempted=True)
+                                )
+                            return [j for j in all_detail_jobs
+                                    if not _is_generic_application(j.stellentitel or "")]
+                        if pw_stellen:
+                            return [_build_job(effective_karriereseite, None, s) for s in pw_stellen]
+                except RuntimeError as e:
+                    print(f"  [Playwright] Nicht verfügbar: {e}", file=sys.stderr)
+                except Exception as e:
+                    print(f"  [Playwright] Fehler: {e}", file=sys.stderr)
+
+            # All methods exhausted — return titles only
             if not stellen:
                 return [JobInfo(karriereseite=effective_karriereseite, fehler="Keine Stellen gefunden")]
             return [_build_job(effective_karriereseite, None, s) for s in stellen]
