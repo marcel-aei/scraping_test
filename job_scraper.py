@@ -41,13 +41,12 @@ _NOISE_TAGS = [
 
 # Patterns for generic application entries (not real job postings)
 _GENERIC_APPLICATION_PATTERNS = [
-    r"(?i)^initiativbewerbung$",
-    r"(?i)^ihre\s+initiativbewerbung$",
-    r"(?i)^spontanbewerbung$",
-    r"(?i)^blind\s+application$",
-    r"(?i)^offene\s+bewerbung$",
-    r"(?i)^unsolicited\s+application$",
     r"(?i)^initiativ",
+    r"(?i)^spontanbewerbung",
+    r"(?i)^ihre\s+initiativbewerbung",
+    r"(?i)^blind\s+application",
+    r"(?i)^offene\s+bewerbung",
+    r"(?i)^unsolicited\s+application",
 ]
 
 EXTRACTION_PROMPT = """Du bist ein Spezialist für die Analyse von Karriereseiten und Stellenanzeigen.
@@ -89,6 +88,9 @@ Regeln:
 - Bei Übersichtsseiten: job_links sind die URLs der Einzelstellenseiten (aus den [URL]-Angaben im Text)
   Nur Links aufnehmen, die wirklich zu einer Stellendetailseite führen (nicht Filterseiten, nicht die aktuelle Seite selbst)
 - Bei Übersichtsseiten: ALLE gefundenen Stellen auflisten, auch wenn Details fehlen
+- IGNORIERE und ÜBERSPRINGE vollständig Einträge wie "Initiativbewerbung", "Spontanbewerbung",
+  "Blind Application", "Offene Bewerbung" oder ähnliche allgemeine Bewerbungsoptionen ohne
+  konkreten Stellentitel — diese sind keine echten Stellenanzeigen und sollen nicht extrahiert werden
 - Wenn ein Feld nicht vorhanden ist: null (bei Listen: [])
 - Aufgaben und Profil: einzelne, klare Stichpunkte
 - Antwort NUR als reines JSON, kein Markdown, keine Erklärung
@@ -625,23 +627,7 @@ def scrape_jobs(
         print("  Fetching HTML...", file=sys.stderr)
         raw_html = fetch_html(url, render_js=render_js)
 
-        # 1) JSON-LD structured data — best quality, no Claude needed
-        jsonld_jobs = _extract_jsonld_jobs(raw_html, effective_karriereseite)
-        if jsonld_jobs is not None:
-            # On detail pages, enrich the single result with the actual URL
-            if is_detail_call:
-                for j in jsonld_jobs:
-                    if not j.stellen_url:
-                        j.stellen_url = url
-            return jsonld_jobs
-
-        # 2) b-ite Career Suite — direct DOM parser, no Claude needed
-        if not is_detail_call:
-            bite_jobs = _parse_bite_jobs(raw_html, effective_karriereseite)
-            if bite_jobs is not None:
-                return bite_jobs
-
-        # 3) Generic pipeline: clean HTML → Claude
+        # Generic pipeline: clean HTML → Claude
         print("  Bereinige HTML...", file=sys.stderr)
         content = clean_html(raw_html)
 
