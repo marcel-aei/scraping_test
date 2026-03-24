@@ -33,34 +33,60 @@ _NOISE_TAGS = [
     "header", "footer", "nav", "aside",
 ]
 
-EXTRACTION_PROMPT = """Du bist ein Spezialist für die Analyse von Stellenanzeigen.
-Analysiere den folgenden HTML-Inhalt einer Karriereseite und extrahiere alle Stelleninformationen.
+EXTRACTION_PROMPT = """Du bist ein Spezialist für die Analyse von Karriereseiten und Stellenanzeigen.
 
-Gib deine Antwort als JSON-Objekt zurück mit folgender Struktur:
+Analysiere den folgenden Seiteninhalt und bestimme zuerst den Seitentyp:
+
+A) EINZELNE STELLENANZEIGE: Die Seite zeigt eine konkrete Stelle mit Details (Aufgaben, Profil, etc.)
+B) ÜBERSICHTSSEITE: Die Seite listet mehrere Stellen auf (Karriereübersicht, Jobboard, etc.)
+
+Gib deine Antwort als JSON zurück:
+
+Bei Typ A (Einzelstelle):
 {
-  "stellentitel": "Exakter Titel der Stelle",
-  "aufgaben": ["Aufgabe 1", "Aufgabe 2", ...],
-  "profil": ["Anforderung 1", "Anforderung 2", ...],
-  "ansprechpartner": {
-    "name": "Vor- und Nachname oder null",
-    "titel": "z.B. HR Manager oder null",
-    "email": "email@beispiel.de oder null",
-    "telefon": "Telefonnummer oder null"
-  },
-  "unternehmen": "Unternehmensname oder null",
-  "standort": "Standort/Stadt oder null",
-  "beschaeftigungsart": "z.B. Vollzeit, Teilzeit, Remote oder null",
-  "hinweise": "Wichtige Informationen, die nicht in die anderen Felder passen, oder null"
+  "seitentyp": "einzelstelle",
+  "stellen": [{
+    "stellentitel": "Exakter Titel",
+    "aufgaben": ["Aufgabe 1", "Aufgabe 2"],
+    "profil": ["Anforderung 1", "Anforderung 2"],
+    "ansprechpartner": {
+      "name": "Name oder null",
+      "titel": "z.B. HR Manager oder null",
+      "email": "email@beispiel.de oder null",
+      "telefon": "Telefonnummer oder null"
+    },
+    "unternehmen": "Unternehmensname oder null",
+    "standort": "Standort oder null",
+    "beschaeftigungsart": "Vollzeit/Teilzeit/Remote oder null",
+    "hinweise": "Sonstige wichtige Infos oder null"
+  }]
+}
+
+Bei Typ B (Übersichtsseite):
+{
+  "seitentyp": "uebersicht",
+  "stellen": [
+    {
+      "stellentitel": "Jobtitel",
+      "aufgaben": [],
+      "profil": [],
+      "ansprechpartner": {"name": null, "titel": null, "email": null, "telefon": null},
+      "unternehmen": "Unternehmensname oder null",
+      "standort": "Standort oder null",
+      "beschaeftigungsart": "Art der Stelle oder null",
+      "hinweise": "Weitere verfügbare Infos oder null"
+    }
+  ]
 }
 
 Regeln:
 - Extrahiere NUR was tatsächlich auf der Seite steht — erfinde nichts
-- Bei mehreren Stellen auf einer Seite: extrahiere die prominenteste/erste vollständige Stelle
-- Wenn ein Feld nicht gefunden wird, setze den Wert auf null (bei Listen: leeres Array [])
-- Aufgaben und Profil als einzelne, klare Stichpunkte (keine Oberkategorien)
+- Bei Übersichtsseiten: ALLE gefundenen Stellen auflisten, auch wenn Details fehlen
+- Wenn ein Feld nicht vorhanden ist: null (bei Listen: [])
+- Aufgaben und Profil: einzelne, klare Stichpunkte
 - Antwort NUR als reines JSON, kein Markdown, keine Erklärung
 
-HTML-Inhalt:
+Seiteninhalt:
 """
 
 
@@ -131,11 +157,11 @@ def clean_html(raw_html: str, max_chars: int = 40_000) -> str:
     return cleaned
 
 
-def extract_job_info(content: str, url: str, client: anthropic.Anthropic) -> dict:
+def extract_job_info(content: str, client: anthropic.Anthropic) -> dict:
     """Use Claude to extract structured job info from cleaned page content."""
     response = client.messages.create(
         model="claude-opus-4-6",
-        max_tokens=4096,
+        max_tokens=8192,
         messages=[
             {
                 "role": "user",
@@ -156,9 +182,23 @@ def extract_job_info(content: str, url: str, client: anthropic.Anthropic) -> dic
     return json.loads(raw_text)
 
 
-def scrape_job(url: str, client: anthropic.Anthropic) -> JobInfo:
-    """Full pipeline: fetch → clean → extract for a single URL."""
-    job = JobInfo(url=url)
+def _build_job(url: str, stelle: dict) -> JobInfo:
+    return JobInfo(
+        url=url,
+        stellentitel=stelle.get("stellentitel"),
+        aufgaben=stelle.get("aufgaben") or [],
+        profil=stelle.get("profil") or [],
+        ansprechpartner=stelle.get("ansprechpartner"),
+        unternehmen=stelle.get("unternehmen"),
+        standort=stelle.get("standort"),
+        beschaeftigungsart=stelle.get("beschaeftigungsart"),
+        hinweise=stelle.get("hinweise"),
+    )
+
+
+def scrape_jobs(url: str, client: anthropic.Anthropic) -> list[JobInfo]:
+    """Full pipeline: fetch → clean → extract for a single URL.
+    Returns a list: one item for single-job pages, multiple for listing pages."""
     print(f"\n→ Verarbeite: {url}", file=sys.stderr)
 
     try:
@@ -169,34 +209,42 @@ def scrape_job(url: str, client: anthropic.Anthropic) -> JobInfo:
         content = clean_html(raw_html)
 
         if not content.strip():
-            job.fehler = "Kein verwertbarer Inhalt nach Bereinigung"
-            return job
+            err = JobInfo(url=url, fehler="Kein verwertbarer Inhalt nach Bereinigung")
+            return [err]
 
         print("  Extrahiere Stelleninfos via Claude...", file=sys.stderr)
-        extracted = extract_job_info(content, url, client)
+        extracted = extract_job_info(content, client)
 
-        job.stellentitel = extracted.get("stellentitel")
-        job.aufgaben = extracted.get("aufgaben") or []
-        job.profil = extracted.get("profil") or []
-        job.ansprechpartner = extracted.get("ansprechpartner")
-        job.unternehmen = extracted.get("unternehmen")
-        job.standort = extracted.get("standort")
-        job.beschaeftigungsart = extracted.get("beschaeftigungsart")
-        job.hinweise = extracted.get("hinweise")
+        seitentyp = extracted.get("seitentyp", "einzelstelle")
+        stellen = extracted.get("stellen") or []
 
-        print(f"  ✓ Stelle gefunden: {job.stellentitel or '(Titel unbekannt)'}", file=sys.stderr)
+        if not stellen:
+            return [JobInfo(url=url, fehler="Keine Stellen gefunden")]
+
+        jobs = [_build_job(url, s) for s in stellen]
+
+        if seitentyp == "uebersicht":
+            print(
+                f"  ✓ Übersichtsseite: {len(jobs)} Stelle(n) gefunden",
+                file=sys.stderr,
+            )
+        else:
+            print(
+                f"  ✓ Stelle gefunden: {jobs[0].stellentitel or '(Titel unbekannt)'}",
+                file=sys.stderr,
+            )
+
+        return jobs
 
     except requests.exceptions.RequestException as e:
-        job.fehler = f"HTTP-Fehler: {e}"
         print(f"  ✗ Fetch-Fehler: {e}", file=sys.stderr)
+        return [JobInfo(url=url, fehler=f"HTTP-Fehler: {e}")]
     except json.JSONDecodeError as e:
-        job.fehler = f"JSON-Parsing fehlgeschlagen: {e}"
         print(f"  ✗ JSON-Fehler: {e}", file=sys.stderr)
+        return [JobInfo(url=url, fehler=f"JSON-Parsing fehlgeschlagen: {e}")]
     except anthropic.APIError as e:
-        job.fehler = f"Claude API-Fehler: {e}"
         print(f"  ✗ Claude-Fehler: {e}", file=sys.stderr)
-
-    return job
+        return [JobInfo(url=url, fehler=f"Claude API-Fehler: {e}")]
 
 
 def print_job(job: JobInfo) -> None:
@@ -307,9 +355,11 @@ Beispiele:
     client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
 
     results = []
+    all_jobs: list[JobInfo] = []
     for url in urls:
-        job = scrape_job(url, client)
-        results.append(asdict(job))
+        jobs = scrape_jobs(url, client)
+        all_jobs.extend(jobs)
+        results.extend(asdict(j) for j in jobs)
 
     # Output
     output_json = json.dumps(results, ensure_ascii=False, indent=2)
@@ -317,15 +367,15 @@ Beispiele:
     if args.output:
         with open(args.output, "w", encoding="utf-8") as f:
             f.write(output_json)
-        print(f"\n✓ Ergebnisse gespeichert: {args.output}", file=sys.stderr)
+        total = len(all_jobs)
+        print(f"\n✓ {total} Stelle(n) gespeichert: {args.output}", file=sys.stderr)
+        for job in all_jobs:
+            print_job(job)
     else:
+        for job in all_jobs:
+            print_job(job)
         print("\n" + "=" * 60 + "\nJSON-Ausgabe:\n" + "=" * 60)
         print(output_json)
-
-    # Pretty-print to stderr for readability when writing to file
-    if args.output:
-        for job_dict in results:
-            print_job(JobInfo(**job_dict))
 
 
 if __name__ == "__main__":
