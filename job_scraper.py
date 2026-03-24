@@ -88,6 +88,9 @@ Regeln:
 - Bei Übersichtsseiten: job_links sind die URLs der Einzelstellenseiten (aus den [URL]-Angaben im Text)
   Nur Links aufnehmen, die wirklich zu einer Stellendetailseite führen (nicht Filterseiten, nicht die aktuelle Seite selbst)
 - Bei Übersichtsseiten: ALLE gefundenen Stellen auflisten, auch wenn Details fehlen
+- IGNORIERE und ÜBERSPRINGE vollständig Einträge wie "Initiativbewerbung", "Spontanbewerbung",
+  "Blind Application", "Offene Bewerbung" oder ähnliche allgemeine Bewerbungsoptionen ohne
+  konkreten Stellentitel — diese sind keine echten Stellenanzeigen und sollen nicht extrahiert werden
 - Wenn ein Feld nicht vorhanden ist: null (bei Listen: [])
 - Aufgaben und Profil: einzelne, klare Stichpunkte
 - Antwort NUR als reines JSON, kein Markdown, keine Erklärung
@@ -118,6 +121,9 @@ def fetch_html(url: str, render_js: bool = True) -> str:
         "url": url,
         "render": "true" if render_js else "false",
     }
+    if render_js:
+        # Wait 5 s after initial load so JS-heavy job boards have time to render
+        params["wait"] = "5000"
     try:
         response = requests.get(SCRAPER_API_URL, params=params, timeout=60)
         response.raise_for_status()
@@ -129,7 +135,7 @@ def fetch_html(url: str, render_js: bool = True) -> str:
         raise
 
 
-def clean_html(raw_html: str, max_chars: int = 40_000) -> str:
+def clean_html(raw_html: str, max_chars: int = 80_000) -> str:
     """Strip noise tags and extract readable text, preserving link hrefs inline."""
     soup = BeautifulSoup(raw_html, "lxml")
 
