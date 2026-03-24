@@ -1,0 +1,83 @@
+name: Job Scraper
+
+on:
+  workflow_dispatch:
+    inputs:
+      urls:
+        description: |
+          URLs zum Scrapen (eine pro Zeile).
+          Leer lassen → urls.txt im Repo wird verwendet.
+        required: false
+        type: string
+      output_file:
+        description: Ausgabedatei (Standard: ergebnisse.json)
+        required: false
+        default: ergebnisse.json
+      commit_results:
+        description: Ergebnisse zurück ins Repo committen
+        required: false
+        type: boolean
+        default: false
+      no_js:
+        description: JS-Rendering deaktivieren (schneller, für statische Seiten)
+        required: false
+        type: boolean
+        default: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Abhängigkeiten installieren
+        run: pip install -r requirements.txt
+
+      - name: URLs-Datei vorbereiten
+        id: prepare
+        run: |
+          if [ -n "${{ inputs.urls }}" ]; then
+            echo "${{ inputs.urls }}" > /tmp/scraper_urls.txt
+            echo "urls_file=/tmp/scraper_urls.txt" >> $GITHUB_OUTPUT
+          elif [ -f "urls.txt" ]; then
+            echo "urls_file=urls.txt" >> $GITHUB_OUTPUT
+          else
+            echo "::error::Keine URLs angegeben und keine urls.txt im Repo gefunden."
+            exit 1
+          fi
+
+      - name: Scraper ausführen
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SCRAPER_API_KEY: ${{ secrets.SCRAPER_API_KEY }}
+        run: |
+          ARGS="--file ${{ steps.prepare.outputs.urls_file }} --output ${{ inputs.output_file || 'ergebnisse.json' }}"
+          if [ "${{ inputs.no_js }}" = "true" ]; then
+            ARGS="$ARGS --no-js"
+          fi
+          python job_scraper.py $ARGS
+
+      - name: Ergebnisse als Artifact hochladen
+        uses: actions/upload-artifact@v4
+        with:
+          name: scraping-ergebnisse-${{ github.run_number }}
+          path: ${{ inputs.output_file || 'ergebnisse.json' }}
+          retention-days: 30
+
+      - name: Ergebnisse committen
+        if: inputs.commit_results == true
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add "${{ inputs.output_file || 'ergebnisse.json' }}"
+          git diff --staged --quiet || git commit -m "chore: scraping ergebnisse aktualisiert $(date -u +%Y-%m-%d)"
+          git push

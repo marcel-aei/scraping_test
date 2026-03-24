@@ -1,0 +1,12 @@
+# Job-Scraper URL-Liste
+# Eine URL pro Zeile. Zeilen mit # werden ignoriert.
+
+https://www.sabag.ch/de/stellen
+https://www.sakret.de/de/unternehmen/karriere
+https://junior.talentstorm.de/
+https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen
+https://herchenbach-industrial.com/de/unternehmen/karriere
+https://www.avescorent.ch/de/arbeitsplaetze/
+https://www.hkl-baumaschinen.de/karriere/jobs
+https://kmls.de/karriere/
+https://www.sikla.career/
