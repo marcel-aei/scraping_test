@@ -176,7 +176,7 @@ def clean_html(raw_html: str, max_chars: int = 40_000) -> str:
 def extract_job_info(content: str, client: anthropic.Anthropic) -> dict:
     """Use Claude to extract structured job info from cleaned page content."""
     response = client.messages.create(
-        model="claude-opus-4-6",
+        model="claude-sonnet-4-6",
         max_tokens=8192,
         messages=[
             {
