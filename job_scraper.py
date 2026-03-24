@@ -210,7 +210,11 @@ def _extract_nextjs_jobs(raw_html: str, karriereseite: str) -> Optional[list[Job
             continue
 
         # Try common URL / slug patterns
-        detail_url = item.get("url") or item.get("link")
+        detail_url = (
+            item.get("url") or item.get("link")
+            or item.get("apply-url") or item.get("applyUrl")
+            or item.get("ad-url") or item.get("adUrl")
+        )
         if not detail_url:
             slug = item.get("slug") or item.get("uri") or item.get("path")
             if slug:
@@ -219,6 +223,25 @@ def _extract_nextjs_jobs(raw_html: str, karriereseite: str) -> Optional[list[Job
         # Try to extract aufgaben/profil from any description field
         description = item.get("description") or item.get("content") or item.get("text") or ""
         aufgaben, profil = _parse_description_html(str(description)) if description else ([], [])
+
+        # Solique/SABAG-style: textblocks["text block"] list with internal-name keys
+        if not aufgaben and not profil:
+            textblocks = item.get("textblocks") or {}
+            blocks = textblocks.get("text block") or []
+            if isinstance(blocks, dict):
+                blocks = [blocks]
+            block_map: dict[str, str] = {}
+            for block in blocks:
+                if isinstance(block, dict):
+                    key = (block.get("internal-name") or "").strip()
+                    text = str(block.get("text") or "").strip()
+                    if key and text:
+                        block_map[key] = text
+            if block_map:
+                raw_aufgaben = block_map.get("Aufgaben") or block_map.get("aufgaben") or ""
+                raw_profil = block_map.get("Profil") or block_map.get("profil") or ""
+                aufgaben = [li.strip("- ").strip() for li in raw_aufgaben.split("- ") if li.strip("- ").strip()]
+                profil = [li.strip("- ").strip() for li in raw_profil.split("- ") if li.strip("- ").strip()]
 
         results.append(JobInfo(
             karriereseite=karriereseite,
