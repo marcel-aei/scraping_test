@@ -10,7 +10,7 @@ on:
         required: false
         type: string
       output_file:
-        description: Ausgabedatei (Standard: ergebnisse.json)
+        description: "Ausgabedatei (Standard: ergebnisse.json)"
         required: false
         default: ergebnisse.json
       commit_results:
