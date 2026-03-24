@@ -347,55 +347,6 @@ def print_job(job: JobInfo) -> None:
             print(f"  • {p}")
 
 
-# ---------------------------------------------------------------------------
-# Diff: compare two result sets to find new / removed jobs
-# ---------------------------------------------------------------------------
-
-def _job_key(job: dict) -> str:
-    """Unique key for a job: karriereseite + stellentitel (lowercased)."""
-    site = (job.get("karriereseite") or "").strip().rstrip("/").lower()
-    title = (job.get("stellentitel") or "").strip().lower()
-    return f"{site}|||{title}"
-
-
-def compute_diff(old_results: list[dict], new_results: list[dict]) -> dict:
-    """Compare two scraping results. Returns dict with neue/entfernte Stellen."""
-    old_keys = {_job_key(j): j for j in old_results if not j.get("fehler")}
-    new_keys = {_job_key(j): j for j in new_results if not j.get("fehler")}
-
-    added_keys = set(new_keys.keys()) - set(old_keys.keys())
-    removed_keys = set(old_keys.keys()) - set(new_keys.keys())
-
-    return {
-        "neue_stellen": [new_keys[k] for k in sorted(added_keys)],
-        "entfernte_stellen": [old_keys[k] for k in sorted(removed_keys)],
-        "gesamt_vorher": len(old_keys),
-        "gesamt_nachher": len(new_keys),
-    }
-
-
-def print_diff(diff: dict) -> None:
-    """Pretty-print a diff result."""
-    print(f"\n{'=' * 60}")
-    print(f"Stellen-Diff: {diff['gesamt_vorher']} → {diff['gesamt_nachher']}")
-    print(f"{'=' * 60}")
-
-    if diff["neue_stellen"]:
-        print(f"\n+ {len(diff['neue_stellen'])} NEUE Stelle(n):")
-        for j in diff["neue_stellen"]:
-            print(f"  + {j.get('stellentitel', '?')}  ({j.get('karriereseite', '?')})")
-    else:
-        print("\nKeine neuen Stellen.")
-
-    if diff["entfernte_stellen"]:
-        print(f"\n- {len(diff['entfernte_stellen'])} ENTFERNTE Stelle(n):")
-        for j in diff["entfernte_stellen"]:
-            print(f"  - {j.get('stellentitel', '?')}  ({j.get('karriereseite', '?')})")
-    else:
-        print("\nKeine entfernten Stellen.")
-
-    if not diff["neue_stellen"] and not diff["entfernte_stellen"]:
-        print("\n✓ Keine Änderungen.")
 
 
 # ---------------------------------------------------------------------------
@@ -483,30 +434,8 @@ Beispiele:
         action="store_true",
         help="JS-Rendering deaktivieren (schneller, für statische Seiten)",
     )
-    parser.add_argument(
-        "--diff",
-        nargs=2,
-        metavar=("ALT", "NEU"),
-        help="Zwei JSON-Ergebnisdateien vergleichen und Änderungen anzeigen",
-    )
 
     args = parser.parse_args()
-
-    # --- Diff mode ---
-    if args.diff:
-        old_file, new_file = args.diff
-        with open(old_file, encoding="utf-8") as f:
-            old_data = json.load(f)
-        with open(new_file, encoding="utf-8") as f:
-            new_data = json.load(f)
-        diff = compute_diff(old_data, new_data)
-        print_diff(diff)
-
-        if args.output:
-            with open(args.output, "w", encoding="utf-8") as f:
-                json.dump(diff, f, ensure_ascii=False, indent=2)
-            print(f"\nDiff gespeichert: {args.output}", file=sys.stderr)
-        return
 
     # --- Scrape mode ---
     urls = list(args.urls)

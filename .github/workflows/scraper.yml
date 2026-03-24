@@ -41,16 +41,6 @@ jobs:
       - name: Abhängigkeiten installieren
         run: pip install -r requirements.txt
 
-      - name: Vorherige Ergebnisse sichern (für Diff)
-        run: |
-          OUTPUT="${{ inputs.output_file || 'ergebnisse.json' }}"
-          if [ -f "$OUTPUT" ]; then
-            cp "$OUTPUT" "${OUTPUT%.json}_vorher.json"
-            echo "has_previous=true" >> $GITHUB_ENV
-          else
-            echo "has_previous=false" >> $GITHUB_ENV
-          fi
-
       - name: URLs-Datei vorbereiten
         id: prepare
         run: |
@@ -76,23 +66,11 @@ jobs:
           fi
           python job_scraper.py $ARGS
 
-      - name: Diff berechnen
-        if: env.has_previous == 'true'
-        env:
-          ANTHROPIC_API_KEY: unused
-          SCRAPER_API_KEY: unused
-        run: |
-          OUTPUT="${{ inputs.output_file || 'ergebnisse.json' }}"
-          python job_scraper.py --diff "${OUTPUT%.json}_vorher.json" "$OUTPUT" --output diff.json
-          cat diff.json
-
       - name: Ergebnisse als Artifact hochladen
         uses: actions/upload-artifact@v4
         with:
           name: scraping-ergebnisse-${{ github.run_number }}
-          path: |
-            ${{ inputs.output_file || 'ergebnisse.json' }}
-            diff.json
+          path: ${{ inputs.output_file || 'ergebnisse.json' }}
           retention-days: 30
 
       - name: Ergebnisse committen
