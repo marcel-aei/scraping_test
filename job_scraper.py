@@ -30,10 +30,6 @@ load_dotenv()
 
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
 SCRAPER_API_KEY = os.getenv("SCRAPER_API_KEY")
-IONOS_API_TOKEN = os.getenv("IONOS_API_TOKEN")
-
-IONOS_BASE_URL = "https://openai.inference.de-txl.ionos.com/v1"
-IONOS_MODEL = "openai/gpt-oss-120b"
 
 SCRAPER_API_URL = "http://api.scraperapi.com"
 
@@ -437,27 +433,8 @@ def _parse_llm_response(raw_text: str) -> dict:
     return json.loads(raw_text)
 
 
-def extract_job_info(content: str, client: anthropic.Anthropic, is_detail_page: bool = False) -> dict:
-    """Extract structured job info from cleaned page content.
-
-    Overview pages (is_detail_page=False): always Claude Sonnet — reliable link extraction
-    matters most here; wrong links cost N wasted follow-up requests.
-    Detail pages (is_detail_page=True): IONOS GPT-OSS 120B first (cheaper), Claude fallback.
-    """
-    if is_detail_page and IONOS_API_TOKEN:
-        try:
-            from openai import OpenAI as _OpenAI
-            ionos = _OpenAI(base_url=IONOS_BASE_URL, api_key=IONOS_API_TOKEN)
-            resp = ionos.chat.completions.create(
-                model=IONOS_MODEL,
-                max_tokens=8192,
-                messages=[{"role": "user", "content": EXTRACTION_PROMPT + content}],
-            )
-            print("  [IONOS] Extraktion erfolgreich", file=sys.stderr)
-            return _parse_llm_response(resp.choices[0].message.content)
-        except Exception as e:
-            print(f"  [IONOS] Fehler: {type(e).__name__}: {e} → Claude Fallback", file=sys.stderr)
-
+def extract_job_info(content: str, client: anthropic.Anthropic) -> dict:
+    """Extract structured job info from cleaned page content via Claude Sonnet."""
     print("  [Claude] Extrahiere Stelleninfos...", file=sys.stderr)
     response = client.messages.create(
         model="claude-sonnet-4-6",
@@ -802,10 +779,48 @@ def scrape_jobs(
 
         if not content.strip():
             print("  [!] Kein verwertbarer Inhalt nach Bereinigung", file=sys.stderr)
+            if not _playwright_attempted:
+                print("  [Playwright] Leerer Inhalt (JS-only?) → starte Playwright-Fallback...", file=sys.stderr)
+                try:
+                    pw_html, pw_api = _fetch_with_playwright(url)
+                    print(f"  [Playwright] HTML: {len(pw_html):,} Zeichen | {len(pw_api)} API-Response(s)", file=sys.stderr)
+                    pw_jsonld = _extract_jsonld_jobs(pw_html, effective_karriereseite)
+                    if pw_jsonld:
+                        return pw_jsonld
+                    pw_api_jobs = _extract_jobs_from_api_responses(pw_api, effective_karriereseite)
+                    if pw_api_jobs:
+                        return pw_api_jobs
+                    pw_content = clean_html(pw_html)
+                    if pw_content.strip():
+                        pw_extracted = extract_job_info(pw_content, client)
+                        pw_links = pw_extracted.get("job_links") or []
+                        pw_stellen = [
+                            s for s in (pw_extracted.get("stellen") or [])
+                            if not _is_generic_application(s.get("stellentitel", "") or "")
+                        ]
+                        if pw_links:
+                            all_pw_jobs: list[JobInfo] = []
+                            for i, link in enumerate(pw_links, 1):
+                                abs_link = urljoin(url, link)
+                                print(f"  [Playwright] Link {i}/{len(pw_links)}: {abs_link}", file=sys.stderr)
+                                all_pw_jobs.extend(
+                                    scrape_jobs(abs_link, client, karriereseite=url,
+                                                render_js=render_js, _playwright_attempted=True)
+                                )
+                            filtered = [j for j in all_pw_jobs
+                                        if not _is_generic_application(j.stellentitel or "")]
+                            if filtered:
+                                return filtered
+                        if pw_stellen:
+                            return [_build_job(effective_karriereseite, None, s) for s in pw_stellen]
+                except RuntimeError as e:
+                    print(f"  [Playwright] Nicht verfügbar: {e}", file=sys.stderr)
+                except Exception as e:
+                    print(f"  [Playwright] Fehler: {type(e).__name__}: {e}", file=sys.stderr)
             return [JobInfo(karriereseite=effective_karriereseite, stellen_url=url if is_detail_call else None,
                             fehler="Kein verwertbarer Inhalt nach Bereinigung")]
 
-        extracted = extract_job_info(content, client, is_detail_page=is_detail_call)
+        extracted = extract_job_info(content, client)
 
         seitentyp = extracted.get("seitentyp", "einzelstelle")
         stellen_roh = extracted.get("stellen") or []
@@ -834,6 +849,55 @@ def scrape_jobs(
             )
 
             if job_links:
+                # If ALL links lack query params they are likely category pages, not individual jobs.
+                # In that case try Playwright first: JS execution often reveals individual job URLs
+                # via AJAX (e.g. HKL's ?jh=<hash> pattern) that are invisible in static HTML.
+                if not _playwright_attempted and all("?" not in lnk for lnk in job_links):
+                    print(
+                        "  [Playwright] Links ohne Query-Parameter (ggf. Kategorie-Seiten) → "
+                        "versuche Playwright für AJAX-geladene Einzel-URLs...",
+                        file=sys.stderr,
+                    )
+                    try:
+                        pw_html, pw_api = _fetch_with_playwright(url)
+                        print(f"  [Playwright] HTML: {len(pw_html):,} Zeichen | {len(pw_api)} API-Response(s)", file=sys.stderr)
+                        pw_jsonld = _extract_jsonld_jobs(pw_html, effective_karriereseite)
+                        if pw_jsonld:
+                            print(f"  [Playwright] JSON-LD: {len(pw_jsonld)} Stelle(n) gefunden", file=sys.stderr)
+                            return pw_jsonld
+                        pw_api_jobs = _extract_jobs_from_api_responses(pw_api, effective_karriereseite)
+                        if pw_api_jobs:
+                            print(f"  [Playwright] XHR-API: {len(pw_api_jobs)} Stelle(n) gefunden", file=sys.stderr)
+                            return pw_api_jobs
+                        pw_content = clean_html(pw_html)
+                        if pw_content.strip():
+                            pw_extracted = extract_job_info(pw_content, client)
+                            pw_links = pw_extracted.get("job_links") or []
+                            # Only use Playwright links if they contain individual job URLs (query params)
+                            individual_pw_links = [lnk for lnk in pw_links if "?" in lnk]
+                            if individual_pw_links:
+                                print(
+                                    f"  [Playwright/Claude] {len(individual_pw_links)} individuelle Job-Links gefunden",
+                                    file=sys.stderr,
+                                )
+                                all_pw_jobs: list[JobInfo] = []
+                                for i, link in enumerate(individual_pw_links, 1):
+                                    abs_link = urljoin(url, link)
+                                    print(f"  [Playwright] Link {i}/{len(individual_pw_links)}: {abs_link}", file=sys.stderr)
+                                    all_pw_jobs.extend(
+                                        scrape_jobs(abs_link, client, karriereseite=url,
+                                                    render_js=render_js, _playwright_attempted=True)
+                                    )
+                                filtered = [j for j in all_pw_jobs
+                                            if not _is_generic_application(j.stellentitel or "")]
+                                if filtered:
+                                    print(f"  [Playwright] ✓ {len(filtered)} Stelle(n) via AJAX-Links", file=sys.stderr)
+                                    return filtered
+                    except RuntimeError as e:
+                        print(f"  [Playwright] Nicht verfügbar: {e}", file=sys.stderr)
+                    except Exception as e:
+                        print(f"  [Playwright] Fehler: {type(e).__name__}: {e}", file=sys.stderr)
+
                 print(f"  [Übersicht] Folge {len(job_links)} Detail-Link(s)...", file=sys.stderr)
                 all_detail_jobs: list[JobInfo] = []
                 for i, link in enumerate(job_links, 1):
@@ -879,7 +943,7 @@ def scrape_jobs(
                     pw_content = clean_html(pw_html)
                     print(f"  [Playwright] Bereinigter Text: {len(pw_content):,} Zeichen", file=sys.stderr)
                     if pw_content.strip():
-                        pw_extracted = extract_job_info(pw_content, client, is_detail_page=is_detail_call)
+                        pw_extracted = extract_job_info(pw_content, client)
                         pw_links = pw_extracted.get("job_links") or []
                         pw_stellen = [
                             s for s in (pw_extracted.get("stellen") or [])
