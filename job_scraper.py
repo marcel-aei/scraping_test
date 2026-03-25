@@ -908,6 +908,42 @@ def scrape_jobs(
 
     except requests.exceptions.RequestException as e:
         print(f"  [!] Fetch-Fehler ({type(e).__name__}): {_sanitize_error(str(e))}", file=sys.stderr)
+        # ScraperAPI failed entirely → try Playwright as last resort
+        if not _playwright_attempted:
+            print("  [Playwright] ScraperAPI-Fehler → starte Playwright-Fallback...", file=sys.stderr)
+            try:
+                pw_html, pw_api = _fetch_with_playwright(url)
+                print(f"  [Playwright] HTML: {len(pw_html):,} Zeichen | {len(pw_api)} API-Response(s)", file=sys.stderr)
+                pw_jsonld = _extract_jsonld_jobs(pw_html, effective_karriereseite)
+                if pw_jsonld:
+                    return pw_jsonld
+                pw_api_jobs = _extract_jobs_from_api_responses(pw_api, effective_karriereseite)
+                if pw_api_jobs:
+                    return pw_api_jobs
+                pw_content = clean_html(pw_html)
+                if pw_content.strip():
+                    pw_extracted = extract_job_info(pw_content, client)
+                    pw_stellen = [
+                        s for s in (pw_extracted.get("stellen") or [])
+                        if not _is_generic_application(s.get("stellentitel", "") or "")
+                    ]
+                    pw_links = pw_extracted.get("job_links") or []
+                    if pw_links:
+                        all_detail_jobs: list[JobInfo] = []
+                        for link in pw_links:
+                            abs_link = urljoin(url, link)
+                            all_detail_jobs.extend(
+                                scrape_jobs(abs_link, client, karriereseite=url,
+                                            render_js=render_js, _playwright_attempted=True)
+                            )
+                        return [j for j in all_detail_jobs
+                                if not _is_generic_application(j.stellentitel or "")]
+                    if pw_stellen:
+                        return [_build_job(effective_karriereseite, None, s) for s in pw_stellen]
+            except RuntimeError as e2:
+                print(f"  [Playwright] Nicht verfügbar: {e2}", file=sys.stderr)
+            except Exception as e2:
+                print(f"  [Playwright] Fehler: {type(e2).__name__}: {e2}", file=sys.stderr)
         return [JobInfo(karriereseite=effective_karriereseite,
                         stellen_url=url if is_detail_call else None,
                         fehler=f"HTTP-Fehler: {_sanitize_error(str(e))}")]
