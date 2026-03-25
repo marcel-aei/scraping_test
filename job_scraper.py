@@ -30,6 +30,10 @@ load_dotenv()
 
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
 SCRAPER_API_KEY = os.getenv("SCRAPER_API_KEY")
+IONOS_API_TOKEN = os.getenv("IONOS_API_TOKEN")
+
+IONOS_BASE_URL = "https://openai.inference.de-txl.ionos.com/v1"
+IONOS_MODEL = "openai/gpt-oss-120b"
 
 SCRAPER_API_URL = "http://api.scraperapi.com"
 
@@ -425,29 +429,42 @@ def clean_html(raw_html: str, max_chars: int = 80_000) -> str:
     return cleaned
 
 
-def extract_job_info(content: str, client: anthropic.Anthropic) -> dict:
-    """Use Claude to extract structured job info from cleaned page content."""
+def _parse_llm_response(raw_text: str) -> dict:
+    raw_text = raw_text.strip()
+    if raw_text.startswith("```"):
+        lines = raw_text.splitlines()
+        raw_text = "\n".join(line for line in lines if not line.startswith("```"))
+    return json.loads(raw_text)
+
+
+def extract_job_info(content: str, client: anthropic.Anthropic, is_detail_page: bool = False) -> dict:
+    """Extract structured job info from cleaned page content.
+
+    Overview pages (is_detail_page=False): always Claude Sonnet — reliable link extraction
+    matters most here; wrong links cost N wasted follow-up requests.
+    Detail pages (is_detail_page=True): IONOS GPT-OSS 120B first (cheaper), Claude fallback.
+    """
+    if is_detail_page and IONOS_API_TOKEN:
+        try:
+            from openai import OpenAI as _OpenAI
+            ionos = _OpenAI(base_url=IONOS_BASE_URL, api_key=IONOS_API_TOKEN)
+            resp = ionos.chat.completions.create(
+                model=IONOS_MODEL,
+                max_tokens=8192,
+                messages=[{"role": "user", "content": EXTRACTION_PROMPT + content}],
+            )
+            print("  [IONOS] Extraktion erfolgreich", file=sys.stderr)
+            return _parse_llm_response(resp.choices[0].message.content)
+        except Exception as e:
+            print(f"  [IONOS] Fehler: {type(e).__name__}: {e} → Claude Fallback", file=sys.stderr)
+
+    print("  [Claude] Extrahiere Stelleninfos...", file=sys.stderr)
     response = client.messages.create(
         model="claude-sonnet-4-6",
         max_tokens=8192,
-        messages=[
-            {
-                "role": "user",
-                "content": EXTRACTION_PROMPT + content,
-            }
-        ],
+        messages=[{"role": "user", "content": EXTRACTION_PROMPT + content}],
     )
-
-    raw_text = response.content[0].text.strip()
-
-    # Strip markdown code blocks if present
-    if raw_text.startswith("```"):
-        lines = raw_text.splitlines()
-        raw_text = "\n".join(
-            line for line in lines if not line.startswith("```")
-        )
-
-    return json.loads(raw_text)
+    return _parse_llm_response(response.content[0].text)
 
 
 # ---------------------------------------------------------------------------
@@ -788,8 +805,7 @@ def scrape_jobs(
             return [JobInfo(karriereseite=effective_karriereseite, stellen_url=url if is_detail_call else None,
                             fehler="Kein verwertbarer Inhalt nach Bereinigung")]
 
-        print("  [Claude] Extrahiere Stelleninfos...", file=sys.stderr)
-        extracted = extract_job_info(content, client)
+        extracted = extract_job_info(content, client, is_detail_page=is_detail_call)
 
         seitentyp = extracted.get("seitentyp", "einzelstelle")
         stellen_roh = extracted.get("stellen") or []
@@ -803,7 +819,15 @@ def scrape_jobs(
 
         # --- Overview page: follow individual job links ---
         if seitentyp == "uebersicht" and not is_detail_call:
-            job_links = extracted.get("job_links") or []
+            job_links_raw = extracted.get("job_links") or []
+            # Remove parent/ancestor URLs (e.g. /karriere when scraping /karriere/jobs)
+            url_path = url.rstrip("/")
+            job_links = [
+                lnk for lnk in job_links_raw
+                if not url_path.startswith(urljoin(url, lnk).rstrip("/") + "/")
+            ]
+            if len(job_links) < len(job_links_raw):
+                print(f"  [Filter] {len(job_links_raw) - len(job_links)} Parent-URL(s) entfernt", file=sys.stderr)
             print(
                 f"  [Übersicht] {len(stellen)} Stelle(n) im Listing | {len(job_links)} Einzel-Link(s) erkannt",
                 file=sys.stderr,
@@ -855,7 +879,7 @@ def scrape_jobs(
                     pw_content = clean_html(pw_html)
                     print(f"  [Playwright] Bereinigter Text: {len(pw_content):,} Zeichen", file=sys.stderr)
                     if pw_content.strip():
-                        pw_extracted = extract_job_info(pw_content, client)
+                        pw_extracted = extract_job_info(pw_content, client, is_detail_page=is_detail_call)
                         pw_links = pw_extracted.get("job_links") or []
                         pw_stellen = [
                             s for s in (pw_extracted.get("stellen") or [])
