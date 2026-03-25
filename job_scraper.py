@@ -608,6 +608,32 @@ def _fetch_with_playwright(url: str) -> tuple[str, list[dict]]:
             # networkidle timed out — DOM is likely ready, XHR may still run
             pass
 
+        # Click "load more" buttons repeatedly until all jobs are visible.
+        # Matches common German/English patterns like "Mehr laden", "Load more", etc.
+        _LOAD_MORE_TEXTS = [
+            "mehr laden", "load more", "mehr anzeigen", "alle anzeigen",
+            "weitere stellen", "weitere jobs", "show more", "mehr jobs",
+        ]
+        for _ in range(20):  # safety cap: max 20 clicks
+            btn = None
+            for el in page.query_selector_all("button, a, [role='button']"):
+                try:
+                    txt = (el.inner_text() or "").strip().lower()
+                except Exception:
+                    continue
+                if any(pattern in txt for pattern in _LOAD_MORE_TEXTS):
+                    btn = el
+                    break
+            if btn is None:
+                break
+            try:
+                btn.click()
+                page.wait_for_load_state("networkidle", timeout=10_000)
+            except PWTimeout:
+                pass
+            except Exception:
+                break
+
         html = page.content()
         browser.close()
 
