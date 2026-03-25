@@ -85,8 +85,9 @@ Bei Typ B (Übersichtsseite):
 
 Regeln:
 - Extrahiere NUR was tatsächlich auf der Seite steht — erfinde nichts
-- Bei Übersichtsseiten: job_links sind die URLs der Einzelstellenseiten (aus den [URL]-Angaben im Text)
-  Nur Links aufnehmen, die wirklich zu einer Stellendetailseite führen (nicht Filterseiten, nicht die aktuelle Seite selbst)
+- Bei Übersichtsseiten: job_links sind URLs zu Einzelstellenseiten ODER zu Unter-Karrierekategorien mit weiteren Stellen
+  (z.B. /karriere/ausbildung, /karriere/stellenangebote — also Seiten, die selbst Stellen enthalten)
+  Nicht aufnehmen: reine Filter-/Sortierlinks, die aktuelle Seite selbst, externe Domains
 - Bei Übersichtsseiten: ALLE gefundenen Stellen auflisten, auch wenn Details fehlen
 - IGNORIERE und ÜBERSPRINGE vollständig Einträge wie "Initiativbewerbung", "Spontanbewerbung",
   "Blind Application", "Offene Bewerbung" oder ähnliche allgemeine Bewerbungsoptionen ohne
