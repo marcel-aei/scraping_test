@@ -805,7 +805,7 @@ def scrape_jobs(
                                 print(f"  [Playwright] Link {i}/{len(pw_links)}: {abs_link}", file=sys.stderr)
                                 all_pw_jobs.extend(
                                     scrape_jobs(abs_link, client, karriereseite=url,
-                                                render_js=render_js, _playwright_attempted=True)
+                                                render_js=render_js, _playwright_attempted=False)
                                 )
                             filtered = [j for j in all_pw_jobs
                                         if not _is_generic_application(j.stellentitel or "")]
