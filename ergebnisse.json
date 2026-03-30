@@ -1,9 +1,9 @@
 {
   "meta": {
-    "timestamp": "2026-03-29T07:57:59.254683+00:00",
+    "timestamp": "2026-03-30T08:42:36.854255+00:00",
     "urls_count": 9,
-    "stellen_count": 244,
-    "fehler_count": 2
+    "stellen_count": 315,
+    "fehler_count": 3
   },
   "stellen": [
     {
@@ -169,9 +169,7 @@
       "profil": [
         "Schulzeugnisse der letzten 3 Jahre erforderlich",
         "Multicheck erforderlich",
-        "Bewerbungsschreiben/Motivationsschreiben erforderlich",
-        "Lebenslauf erforderlich",
-        "Schnupperlehren im gewünschten Beruf von Vorteil"
+        "Praktikumsberichte falls vorhanden"
       ],
       "fehler": null
     },
@@ -184,7 +182,7 @@
         "Suivi des offres",
         "Gestion des commandes",
         "Suivi du dossier jusqu'à la pose",
-        "Accueillir et conseiller les clients à l'exposition",
+        "Acceuillir et conseiller les clients à l'exposition",
         "Soutien au responsable ainsi qu'à l'équipe de notre agence"
       ],
       "profil": [
@@ -216,8 +214,6 @@
       "profil": [
         "Schulzeugnisse der letzten 3 Jahre erforderlich",
         "Multicheck erforderlich",
-        "Bewerbungsschreiben/Motivationsschreiben erforderlich",
-        "Lebenslauf erforderlich",
         "Schnupperlehren im gewünschten Beruf von Vorteil"
       ],
       "fehler": null
@@ -353,11 +349,11 @@
       "stellen_url": "https://www.sakret.de/de/sachbearbeiter-customer-service-m-w-d",
       "stellentitel": "Sachbearbeiter Customer Service (m/w/d)",
       "aufgaben": [
-        "Komplette Abwicklung von Kundenaufträgen – von der Annahme bis zur Erfassung in SAP R/3",
+        "Verantwortung für die komplette Abwicklung von Kundenaufträgen – von der Annahme bis zur Erfassung in SAP R/3",
         "Koordination und Nachverfolgung von Streckenaufträgen bis zum erfolgreichen Abschluss",
         "Kundenorientierte Terminplanung und -überwachung für eine reibungslose Abwicklung",
-        "Sorgfältige Erfassung und Bearbeitung von Reklamationen in Salesforce und im AMM-System",
-        "Zentrale Schnittstelle zwischen Unternehmen, Kunden und Lieferanten für effektive Kommunikation",
+        "Erfassung und Bearbeitung von Reklamationen in Salesforce und im AMM-System",
+        "Zentrale Schnittstelle zwischen Unternehmen, Kunden und Lieferanten für effektive Kommunikation und Zusammenarbeit",
         "Flexible Unterstützung im gesamten Auftragsmanagementteam"
       ],
       "profil": [
@@ -376,16 +372,17 @@
       "stellen_url": "https://www.sakret.de/de/gebietsverkaufsleiter-fliese-m-w-d-in-region-berlin-brandenburg",
       "stellentitel": "Gebietsverkaufsleiter Fliese (m/w/d) in Region Berlin/ Brandenburg",
       "aufgaben": [
-        "Gewinnung und Begeisterung neuer sowie bestehender Kunden in der Region Berlin/ Brandenburg",
+        "Gewinnung und Begeisterung neuer sowie bestehender Kunden in der Region Berlin/Brandenburg",
         "Technische Beratung zu spezifischen Verarbeitungssituationen und Bauobjekten",
         "Betreuung von Baustofffachhandelsstandorten sowie Fliesenfachhändlern",
         "Beratung verarbeitender Unternehmen aus dem Bereich Fliesen- und Natursteinverlegung",
-        "Definition der Schwerpunkte der Marktbearbeitung innerhalb des Gebietes und der Fokuskunden",
-        "Erfassung und Ausschöpfung der Potentiale von Bestands- und Neukunden",
+        "Definition der Schwerpunkte der Marktbearbeitung innerhalb des Gebietes",
+        "Definition der Fokuskunden",
+        "Erfassung der Potentiale von Bestands- und Neukunden und kontinuierliche Ausschöpfung",
         "Entwicklung und Umsetzung strategischer Initiativen zur Kundenentwicklung"
       ],
       "profil": [
-        "Leidenschaft für Vertrieb bei unterschiedlichen Zielgruppen aus dem Bereich der Fliesenbauchemie",
+        "Große Leidenschaft für Vertrieb bei unterschiedlichsten Zielgruppen aus dem Bereich der Fliesenbauchemie",
         "Fundierte Marktkenntnisse in der Baustoffbranche, insbesondere im Bereich der Fliesenbauchemie",
         "Erfahrung im Umgang mit einem CRM-System, vorzugsweise Salesforce",
         "Hohe Ausdauer zur kontinuierlichen Gewinnung neuer Kunden",
@@ -407,7 +404,7 @@
         "Dokumentation der Arbeiten und Unterstützung bei der Planung und Umsetzung von Projekten"
       ],
       "profil": [
-        "Abgeschlossene Ausbildung zum Industriemechaniker, Landmaschinenmechaniker, Mechatroniker, Schlosser (m/w/d) oder vergleichbare Qualifikation",
+        "Abgeschlossene Ausbildung zum Industriemechaniker, Landmaschinenmechaniker, Mechatroniker, Schlosser oder vergleichbare Qualifikation",
         "Kenntnisse in den Bereichen Hydraulik, Pneumatik und gängige Schweißverfahren",
         "Lösungsorientierte Arbeitsweise sowie hohes Maß an Zuverlässigkeit und Bewusstsein für Arbeitssicherheit",
         "Freude bei der Entwicklung und Umsetzung von Optimierungsansätzen",
@@ -421,7 +418,7 @@
       "stellentitel": "Verlader (m/w/d)",
       "aufgaben": [
         "Be- und Entladen der LKWs sowie Vorbereitung der Kommissionierung",
-        "Kommissionierung von Kundenaufträgen und Zusammenstellen der Waren für den Versand",
+        "Kommissionieren von Kundenaufträgen und Zusammenstellen der Waren für den Versand",
         "Entladen eingehender Fahrzeuge und Beladen nach internen Aufträgen",
         "Überprüfung der Ladungssicherung",
         "Annahme eingehender Sendungen, Prüfung auf Vollständigkeit und Beschädigungen sowie Dokumentation der Ergebnisse"
@@ -441,7 +438,7 @@
       "aufgaben": [
         "Bedienung und Überwachung der modernen, automatisierten Produktionsanlage",
         "Einhaltung der Arbeitssicherheitsvorschriften",
-        "Abnahme und Einlagerung von palettierter Ware mit dem Gabelstapler",
+        "Abnahme und Einlagerung palettierter Ware mit dem Gabelstapler",
         "Behebung von Störungen im Produktionsablauf",
         "Durchführung von Reinigungsarbeiten gemäß Reinigungs- und Wartungsplan"
       ],
@@ -450,7 +447,7 @@
         "Motivation und Lernbereitschaft",
         "Hohes Maß an Qualitäts- und Sicherheitsbewusstsein",
         "Bereitschaft zur Arbeit im Schichtbetrieb",
-        "Staplerschein (für Flurförderfahrzeuge) von Vorteil, aber kein Muss"
+        "Staplerschein (für Flurförderfahrzeuge) von Vorteil, aber nicht zwingend erforderlich"
       ],
       "fehler": null
     },
@@ -466,8 +463,8 @@
         "Ausbildung zum Maschinen- und Anlagenführer"
       ],
       "profil": [
-        "Interesse an einer qualifizierten Ausbildung",
-        "Engagement und Motivation"
+        "Engagement und Motivation für eine qualifizierte Ausbildung",
+        "Interesse an einem der angebotenen Ausbildungsberufe"
       ],
       "fehler": null
     },
@@ -574,10 +571,10 @@
       ],
       "profil": [
         "Eigenverantwortliches, bedarfsgerechtes Arbeiten",
-        "Aufmerksam und verlässlich",
-        "Sauberes und strukturiertes Arbeiten",
+        "Aufmerksamkeit und Verlässlichkeit",
+        "Saubere und strukturierte Arbeitsweise",
         "Diskretion im Umgang mit betriebsinternen Abläufen und Informationen",
-        "Freundlich, gepflegt und hilfsbereit"
+        "Freundliches, gepflegtes und hilfsbereites Auftreten"
       ],
       "fehler": null
     },
@@ -1576,14 +1573,6 @@
     {
       "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
       "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
-      "stellentitel": "Ausbildung zum Kaufmann-/frau Büromanagement für 2026 (m/w/d) in Kreuztal",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
       "stellentitel": "Ausbildung zum Kaufmann-/frau Büromanagement für 2026 (m/w/d) in Geesthacht",
       "aufgaben": [],
       "profil": [],
@@ -1592,7 +1581,7 @@
     {
       "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
       "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
-      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Sarstedt",
+      "stellentitel": "Ausbildung zum Kaufmann-/frau Büromanagement für 2026 (m/w/d) in Kreuztal",
       "aufgaben": [],
       "profil": [],
       "fehler": null
@@ -1625,14 +1614,6 @@
       "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
       "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
       "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Gröbers",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
-      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Braunschweig",
       "aufgaben": [],
       "profil": [],
       "fehler": null
@@ -1680,14 +1661,6 @@
     {
       "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
       "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
-      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Friedrichsthal",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
       "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Erwitte",
       "aufgaben": [],
       "profil": [],
@@ -1712,23 +1685,7 @@
     {
       "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
       "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
-      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Zella-Mehlis",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
       "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Ludwigshafen",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
-      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Dortmund",
       "aufgaben": [],
       "profil": [],
       "fehler": null
@@ -1744,7 +1701,7 @@
     {
       "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
       "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
-      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Bingen am Rhein",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Friedrichsthal",
       "aufgaben": [],
       "profil": [],
       "fehler": null
@@ -1822,6 +1779,556 @@
       "fehler": null
     },
     {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/technische-ausbildung",
+      "stellentitel": "Ausbildung zum Fachinformatiker für Systemintegration für 2026 (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/technische-ausbildung",
+      "stellentitel": "Ausbildung zum Kaufmann-/frau Büromanagement für 2026 (m/w/d) in Geesthacht",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/technische-ausbildung",
+      "stellentitel": "Ausbildung zum Kaufmann-/frau Büromanagement für 2026 (m/w/d) in Kreuztal",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/technische-ausbildung",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Kreuztal",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/technische-ausbildung",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Bremervörde",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/technische-ausbildung",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Himmelkron",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/technische-ausbildung",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Gröbers",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/technische-ausbildung",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Hanau",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/technische-ausbildung",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Kassel",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/technische-ausbildung",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Teltow",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/technische-ausbildung",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Geeste",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/technische-ausbildung",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Georgsmarienhütte",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/technische-ausbildung",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Erwitte",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/technische-ausbildung",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Trier",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/technische-ausbildung",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Geesthacht",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/technische-ausbildung",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Ludwigshafen",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/technische-ausbildung",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Eschwege",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/technische-ausbildung",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Friedrichsthal",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/technische-ausbildung",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Magdeburg",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/technische-ausbildung",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Altdorf bei Nürnberg",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/technische-ausbildung",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Estenfeld",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/technische-ausbildung",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Köln",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/technische-ausbildung",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Aurich",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/technische-ausbildung",
+      "stellentitel": "Ausbildung zur Fachkraft für Lagerlogistik in 2026 (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/technische-ausbildung",
+      "stellentitel": "Dualer Student (m/w/d) Informatik (B.A.)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/technische-ausbildung",
+      "stellentitel": "Dualer Student (m/w/d) Management & Digitalisierung (B.A.)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/technische-ausbildung",
+      "stellentitel": "Duales Studium zum Betriebswirt (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/kaufmaennische-ausbildung",
+      "stellentitel": "Ausbildung zum Fachinformatiker für Systemintegration für 2026 (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/kaufmaennische-ausbildung",
+      "stellentitel": "Ausbildung zum Kaufmann-/frau Büromanagement für 2026 (m/w/d) in Kreuztal",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/kaufmaennische-ausbildung",
+      "stellentitel": "Ausbildung zum Kaufmann-/frau Büromanagement für 2026 (m/w/d) in Geesthacht",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/kaufmaennische-ausbildung",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Sarstedt",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/kaufmaennische-ausbildung",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Kreuztal",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/kaufmaennische-ausbildung",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Bremervörde",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/kaufmaennische-ausbildung",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Himmelkron",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/kaufmaennische-ausbildung",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Gröbers",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/kaufmaennische-ausbildung",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Braunschweig",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/kaufmaennische-ausbildung",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Hanau",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/kaufmaennische-ausbildung",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Kassel",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/kaufmaennische-ausbildung",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Teltow",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/kaufmaennische-ausbildung",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Geeste",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/kaufmaennische-ausbildung",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Georgsmarienhütte",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/kaufmaennische-ausbildung",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Friedrichsthal",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/kaufmaennische-ausbildung",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Erwitte",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/kaufmaennische-ausbildung",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Trier",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/kaufmaennische-ausbildung",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Geesthacht",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/kaufmaennische-ausbildung",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Zella-Mehlis",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/kaufmaennische-ausbildung",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Ludwigshafen",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/kaufmaennische-ausbildung",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Dortmund",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/kaufmaennische-ausbildung",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Eschwege",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/kaufmaennische-ausbildung",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Bingen am Rhein",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/kaufmaennische-ausbildung",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Magdeburg",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/kaufmaennische-ausbildung",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Altdorf bei Nürnberg",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/kaufmaennische-ausbildung",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Estenfeld",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/kaufmaennische-ausbildung",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Köln",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/kaufmaennische-ausbildung",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Aurich",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/kaufmaennische-ausbildung",
+      "stellentitel": "Ausbildung zur Fachkraft für Lagerlogistik in 2026 (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/kaufmaennische-ausbildung",
+      "stellentitel": "Dualer Student (m/w/d) Informatik (B.A.)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/kaufmaennische-ausbildung",
+      "stellentitel": "Dualer Student (m/w/d) Management & Digitalisierung (B.A.)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/kaufmaennische-ausbildung",
+      "stellentitel": "Duales Studium zum Betriebswirt (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/it-berufe",
+      "stellentitel": "Fachinformatiker/in – Systemintegration",
+      "aufgaben": [
+        "Kennenlernen der informationstechnischen Infrastruktur des Unternehmens",
+        "Durchlaufen verschiedener Aufgabenbereiche rund um das Lösen von Systemstörungen",
+        "Konfigurieren von Hard- und Software",
+        "Kennenlernen der täglichen IT-Probleme im beruflichen Alltag",
+        "Teamarbeit mit Kollegen an Projekten und Testen neuer Softwarelösungen",
+        "Entwickeln, Erstellen und Betreuen von IT-Lösungen",
+        "Eigenverantwortliche Mitarbeit im Tagesgeschäft",
+        "Konzipieren und Realisieren von IT-Projekten"
+      ],
+      "profil": [
+        "Spaß an digitaler Technik",
+        "Gutes Auffassungsvermögen",
+        "Engagement und hohe Motivation",
+        "Lernfähigkeit und Organisationsvermögen",
+        "Freude an Teamarbeit",
+        "Gute Noten in den MINT-Fächern sowie in Englisch"
+      ],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/lagerlogistik",
+      "stellentitel": "Ausbildung zur Fachkraft für Lagerlogistik",
+      "aufgaben": [
+        "Annahme und Kontrolle von Lieferungen",
+        "Lagerung und Kommissionierung von Waren",
+        "Versand der Waren",
+        "Sicherstellung reibungsloser Abläufe",
+        "Bedienung von Flurförderfahrzeugen",
+        "Umgang mit verschiedenen Lagertechniken und -systemen"
+      ],
+      "profil": [
+        "Serviceorientiertes Arbeiten",
+        "Gutes Auffassungsvermögen",
+        "Engagement, Motivation und Leistungsbereitschaft",
+        "Zuverlässigkeit und Organisationsvermögen",
+        "Freude an Teamarbeit",
+        "Erfolgreicher Schulabschluss"
+      ],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/duales-studium-bei-schlueter",
+      "stellentitel": "Duales Studium (Kaufmann/-frau für Groß- und Außenhandelsmanagement / Bachelor of Arts)",
+      "aufgaben": [
+        "Durchlaufen kaufmännischer Abteilungen und Kennenlernen der Vermarktung, des Verkaufs und der Verrechnung von Investitionsgütern",
+        "Eigenverantwortliche Bearbeitung und Umsetzung von Projektarbeiten",
+        "Eigenverantwortliche Mitarbeit im Tagesgeschäft",
+        "Festes Mitglied einer Fachabteilung in den letzten Monaten des Studiums",
+        "Erarbeitung von Seminararbeiten und der Bachelorarbeit"
+      ],
+      "profil": [
+        "Interesse an praktischer Arbeit im Unternehmen kombiniert mit Studium",
+        "Vollständige schriftliche Bewerbung mit individuellem Anschreiben, tabellarischem Lebenslauf, aktuellem Bewerbungsfoto und Kopien der letzten 3 Schulzeugnisse",
+        "Ausbildungsbeginn zum 01. August eines jeden Jahres",
+        "Ausbildungsdauer: 3,5 Jahre (7 Semester, Verkürzung möglich)"
+      ],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/ausbildung-bei-schlueter-baumaschinen/praktika-bei-schlueter",
+      "stellentitel": "Praktikum bei Schlüter für Baumaschinen",
+      "aufgaben": [
+        "Arbeiten mit Metall im technischen Bereich",
+        "Einblicke in das Aufgabenfeld des Land- und Baumaschinenmechatronikers",
+        "Unterstützung in kaufmännischen Bereichen wie Vertrieb und Marketing (für Werkstudenten)",
+        "Anstoßen, Verfolgen und Umsetzen von Projekten (für Werkstudenten)"
+      ],
+      "profil": [],
+      "fehler": null
+    },
+    {
       "karriereseite": "https://herchenbach-industrial.com/de/unternehmen/karriere",
       "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/fachkraft-fuer-lagerlogistik-lagermitarbeiter-m-w-d-digitales-zentrallager",
       "stellentitel": "Fachkraft für Lagerlogistik/ Lagermitarbeiter (m/w/d) - Digitales Zentrallager",
@@ -1850,23 +2357,23 @@
     {
       "karriereseite": "https://herchenbach-industrial.com/de/unternehmen/karriere",
       "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/sales-representative-field-sales-manager-b2b-industrial-customersm-f-d",
-      "stellentitel": "Sales Representative / Field Sales Manager (B2B - Industrial Customers) (m/f/d)",
+      "stellentitel": "Sales Representative / Field Sales Manager (B2B - Industrial Customers)(m/f/d)",
       "aufgaben": [
-        "Professionelle, bedarfs- und lösungsorientierte Beratung von Kunden aus Industrie, Logistik und weiteren Branchen",
+        "Needs- und solution-orientierte Beratung von Kunden aus Industrie, Logistik und weiteren Branchen mit dem umfangreichen Produktportfolio",
         "Vor-Ort-Analyse von Kundenanforderungen und Erstellung individueller, kostenoptimierter Angebote",
         "Verkaufsverhandlungen, Abschlüsse und proaktives sowie konsequentes Nachfassen offener Angebote",
         "Enge Zusammenarbeit mit Entscheidungsträgern auf Kundenseite sowie internen Schnittstellen (Projektmanagement, Einkauf, Innendienst, Marketing)",
         "Gewissenhafte Dokumentation von Kontakten und Ergebnissen im CRM-System"
       ],
       "profil": [
-        "Studium in Betriebswirtschaft, Vertriebsmanagement, Marketing oder vergleichbarer Fachrichtung",
-        "Mindestens erste, vorzugsweise mehrjährige Erfahrung im B2B-Außendienst mit erklärungsbedürftigen, möglichst technischen Produkten, Investitionsgütern und/oder Dienstleistungen",
-        "Hohe Affinität zu beratungsintensivem Vertrieb, starke Zielorientierung, Engagement und Abschlussstärke",
-        "Schnelle Auffassungsgabe, sehr gute Präsentationsfähigkeiten und adressatengerechte rhetorische Kompetenz",
-        "Motivierte, selbstständige Persönlichkeit, die auch im Home Office dynamisch, proaktiv und zielorientiert agiert",
+        "Abschluss in Betriebswirtschaft, Vertriebsmanagement, Marketing oder vergleichbarem Studiengang",
+        "Erste, vorzugsweise mehrjährige Erfahrung im B2B-Außendienst mit erklärungsbedürftigen, möglichst technischen Produkten, Investitionsgütern und/oder Dienstleistungen",
+        "Hohe Affinität zu beratungsintensivem Vertrieb, starke Zielorientierung, Engagement, Begeisterung und Abschlussstärke",
+        "Schnelle Auffassungsgabe, sehr gute Präsentationsfähigkeiten und adressatenorientierte rhetorische Fähigkeiten",
+        "Motivierte, selbstständige Persönlichkeit, die dynamisch, proaktiv und zielorientiert arbeitet – auch im Home Office",
         "Sicherer Umgang mit MS Office, Erfahrung mit ERP- und/oder CRM-Systemen von Vorteil",
-        "Verhandlungssicheres Englisch und gute Kenntnisse der britischen Geschäftsmentalität und lokaler Marktmechanismen",
-        "Wohnort idealerweise in Cambridge oder Umgebung"
+        "Verhandlungssicheres Englisch und gute Kenntnisse der britischen Geschäftsmentalität und lokalen Marktmechanismen",
+        "Idealerweise wohnhaft in Cambridge oder Umgebung"
       ],
       "fehler": null
     },
@@ -1875,22 +2382,21 @@
       "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/project-manager-industrial-lightweight-buildings-poland-m-f-d-remote",
       "stellentitel": "Project Manager industrial lightweight buildings Poland (m/f/d) - Remote",
       "aufgaben": [
-        "Kommerzielle, technische und organisatorische Leitung der termingerechten, kosteneffizienten und fehlerfreien Umsetzung internationaler Leichtbau-Hallenprojekte",
+        "Kaufmännische, technische und organisatorische Leitung der termingerechten, kostengünstigen und einwandfreien Umsetzung internationaler Leichtbauhallenprojekte",
         "Koordination interner Schnittstellen (Vertrieb, Supply Chain Management, Planung, Terminplanung) und externer Schnittstellen (insbesondere Bauherren und Subunternehmer)",
         "Sicherstellung, dass alle externen und internen Projektbeteiligten alle notwendigen Informationen und Vorarbeiten rechtzeitig erhalten",
-        "Erstellung von Stücklisten für Komponenten und Materialien aus dem Modulsystem auf Basis der Hallenkonfigurationen vom Vertrieb",
-        "Definition des Kapazitätsbedarfs für Personal, Werkzeuge und Dienstleistungen",
-        "Agieren als Kommunikator, Vermittler und De-Eskalationspunkt bei Hindernissen und Konflikten im Projekt",
-        "Projektbezogene Baustellenbesuche in Polen oder europäischen Ländern (maximal 30% der Arbeitszeit)"
+        "Erstellung von Stücklisten für Komponenten und Materialien aus dem Modulsystem sowie Definition von Kapazitätsanforderungen für Personal, Werkzeuge und Dienstleistungen",
+        "Agieren als Kommunikator, Mediator und De-Eskalationsinstanz bei Hindernissen und Konflikten während des Projekts",
+        "Projektbezogene Baustellenbesuche in Polen oder europäischen Ländern (max. 30% der Arbeitszeit)"
       ],
       "profil": [
-        "Erfolgreich abgeschlossene Ausbildung oder Studium, idealerweise mit technischem oder baubezogenem Schwerpunkt (z.B. Wirtschaftsingenieur, Bauingenieur, Maschinenbauingenieur, Architekt, Bautechniker, Architekturdraftsman, technischer Zeichner, technischer Systemplaner, Bauleiter, technischer Betriebswirt, Industriekaufmann, Schlosser oder Schreiner mit Weiterbildung zum Techniker oder Meister)",
-        "Alternativ: relevante Berufserfahrung im technischen Projektmanagement (z.B. Messebau, Bühnenbau, Eventbau, Fassadenbau, Gerüstbau, Metallbau, Anlagenbau, Mastbau, Windkraft, Solaranlagen) ohne formale Ausbildung",
-        "Praktische Erfahrung in Projektmanagement, Projektsteuerung, Projektdurchführung, Projektleitung, Bauleitung, Arbeitsvorbereitung, Produktionsplanung, Produktionssteuerung, Auftragszentrum, Auftragsabwicklung oder ähnlichen Bereichen",
+        "Erfolgreich abgeschlossene Ausbildung oder Studium, idealerweise mit technischem oder baubezogenem Schwerpunkt (z.B. Wirtschaftsingenieur, Bauingenieur, Maschinenbauingenieur, Architekt, Bautechniker, Architekturtechnischer Zeichner, Technischer Zeichner, Technischer Systemplaner, Bauleiter, Technischer Betriebswirt, Industriekaufmann, Metallbauer oder Tischler mit Weiterbildung zum Techniker oder Meister)",
+        "Alternativ: keine formale Ausbildung in diesem Bereich, aber relevante Berufserfahrung im technischen Projektmanagement (z.B. Messebau, Bühnenbau, Eventbau, Fassadenbau, Gerüstbau, Metallbau, Anlagenbau, Mastenbau, Windkraft, Solaranlagen)",
+        "Praktische Erfahrung in den Bereichen Projektmanagement, Projektsteuerung, Projektabwicklung, Projektleitung, Bauleitung, Arbeitsvorbereitung, Produktionsplanung, Produktionssteuerung, Auftragszentrum, Auftragsabwicklung oder ähnlichen Bereichen",
         "Fließende Englisch- und Polnischkenntnisse mindestens auf Niveau B2",
         "Organisationstalent, ausgeprägte Umsetzungsstärke und sehr gute Kommunikationsfähigkeiten",
         "Sicherer Umgang mit MS Office; Erfahrung mit einem ERP-System von Vorteil, aber nicht zwingend erforderlich",
-        "Reisebereitschaft sporadisch im Land und ggf. innerhalb Europas für projektbezogene Zwecke (max. 30%)"
+        "Reisebereitschaft sporadisch im Land und ggf. europaweit für projektbezogene Zwecke (max. 30%)"
       ],
       "fehler": null
     },
@@ -1899,21 +2405,20 @@
       "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/performance-marketing-manager-czech-republic-m-f-d-remote-job",
       "stellentitel": "Performance Marketing Manager Czech Republic (m/f/d) remote",
       "aufgaben": [
-        "Entwicklung und Management von Performance-Marketing-Kampagnen für den tschechischen Markt zur Lead-Generierung",
-        "Analyse von Markttrends, Nischen und Zielgruppenverhalten zur Kampagnenoptimierung",
+        "Entwicklung und Management von Performance-Marketing-Kampagnen für den tschechischen Markt mit Fokus auf Lead-Generierungsziele",
+        "Analyse von Markttrends, Nischen und Zielgruppenverhalten zur Identifizierung von Optimierungs- und Wachstumschancen inkl. datengetriebener Kampagnen",
         "Definition von Kampagnenzielen, Optimierung der Kanalperformance sowie Monitoring von KPIs und Budgets zur ROI-Maximierung",
-        "Auswertung von Kampagnenergebnissen, Ableitung von Erkenntnissen und Umsetzung von Verbesserungen",
-        "Aufbau und Pflege von Beziehungen zu internen Stakeholdern",
-        "Steuerung von Übersetzungen und Recherche von Themen für neue Märkte"
+        "Auswertung von Kampagnenergebnissen, Ableitung von Erkenntnissen und Umsetzung von Verbesserungen zur Steigerung der Lead-Generierung",
+        "Aufbau und Pflege von Beziehungen zu internen Stakeholdern zur Unterstützung des Kampagnenerfolgs",
+        "Steuerung von Übersetzungen und Recherche von Themen im neuen Markt"
       ],
       "profil": [
         "1–2 Jahre Erfahrung im Multichannel-Performance-Marketing (Google Ads, LinkedIn, Facebook) mit Fokus auf den tschechischen Markt",
-        "Kenntnisse in CMS, Google Analytics, PPC, SEA und CRM-Systemen",
-        "Nachgewiesene Erfolge in der Konzeption und Umsetzung von Performance-Marketing-Kampagnen",
-        "Datengetriebener Ansatz mit starkem KPI-Fokus",
-        "Tschechisch als Muttersprache, fließendes Englisch in Wort und Schrift",
-        "Selbstständige, eigenmotivierte Arbeitsweise mit gutem Zeitmanagement; Erfahrung im Remote-Arbeiten von Vorteil",
-        "Unternehmerisches Denken mit tiefem Verständnis des tschechischen Marktes, B2B-Kaufverhalten und lokaler Gegebenheiten"
+        "Kenntnisse in Tools wie CMS, Google Analytics, PPC, SEA und CRM-Systemen",
+        "Nachgewiesene Erfolge bei der Konzeption und Umsetzung von Performance-Marketing-Kampagnen mit datengetriebenem Ansatz",
+        "Muttersprachliche Tschechischkenntnisse sowie fließende Englischkenntnisse in Wort und Schrift",
+        "Selbstständige, eigenmotivierte Arbeitsweise mit Zeitmanagementkompetenz; Erfahrung im Remote-Arbeiten von Vorteil",
+        "Unternehmerisches Denken mit tiefem Verständnis des tschechischen Marktes, B2B-Kaufverhaltens und lokaler Gegebenheiten"
       ],
       "fehler": null
     },
@@ -1922,18 +2427,18 @@
       "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/inside-sales-manager-mit-fokus-auf-after-sales-kundenberater-m-w-d",
       "stellentitel": "Inside Sales Manager mit Fokus auf After Sales/Kundenberater (m/w/d)",
       "aufgaben": [
-        "Beratung von Kunden zu Produkten und Services, telefonisch, schriftlich und vor Ort",
-        "Eigenständige Kalkulation von Angeboten, Preisverhandlungen mit Blick auf Umsatz- und Margenziele",
-        "Konsequente Angebotsverfolgung, Pipeline-Steuerung im CRM-System und aktive Verhandlungsführung bis zum Abschluss",
-        "Erste Anlaufstelle für Kundenanfragen im After Sales, Priorisierung und Lieferung wirtschaftlich sinnvoller Lösungen",
-        "Aktives Erkennen von Kundenbedarfen (Ersatzteile, Reparaturen, Umbaumaßnahmen) und Entwicklung zu Verkaufschancen mit Technik, Einkauf und Montage",
-        "Proaktive Betreuung von Bestandskunden, Beziehungsausbau und Umsatzgenerierung durch Cross- und Upselling",
+        "Beratung von Kunden zu Produkten und Services, Vermittlung technischer Inhalte telefonisch, schriftlich und vor Ort",
+        "Eigenständige Kalkulation von Angeboten, Preisverhandlungen und Steuerung von Umsatz- und Margenzielen",
+        "Konsequente Nachverfolgung von Angeboten, Pipeline-Steuerung im CRM-System und aktive Verhandlungsführung bis zum Abschluss",
+        "Erste Anlaufstelle für Kundenanfragen im After Sales, Priorisierung und Lieferung schneller, wirtschaftlich sinnvoller Lösungen",
+        "Aktive Erkennung von Kundenbedarfen (Ersatzteile, Reparaturen, Umbaumaßnahmen) und Entwicklung zu konkreten Verkaufschancen mit Technik, Einkauf und Montage",
+        "Proaktive Betreuung von Bestandskunden, Ausbau von Beziehungen sowie Generierung zusätzlicher Umsätze durch Cross- und Upselling",
         "Überwachung von Terminen, Qualität, Status und Kosten vom Auftragseingang bis zur Abnahme sowie transparente Kundenkommunikation"
       ],
       "profil": [
         "Kaufmännische Ausbildung oder 2–3 Jahre Praxiserfahrung im After Sales, technischen Vertrieb oder Customer Service",
         "Strukturierte Arbeitsweise mit Zielen, KPIs und Margenvorgaben sowie Abschlussorientierung",
-        "Sicherer Umgang mit ERP- und CRM-Systemen",
+        "Sicherer Umgang mit ERP- und CRM-Systemen zur Steuerung von Angeboten, Leads und Kundenbeziehungen",
         "Verhandlungssichere Deutsch- und Englischkenntnisse",
         "Führerschein Klasse B",
         "Eigeninitiative, selbstständige Projektstrukturierung und ergebnisorientiertes Arbeiten"
@@ -1955,11 +2460,11 @@
       ],
       "profil": [
         "Erfahrung im B2B Vertrieb, vorzugsweise im industriellen Sektor",
-        "Leidenschaft für Sales und Kenntnis des österreichischen Markts",
+        "Leidenschaft für Sales und Kenntnisse des österreichischen Markts",
         "Kommunikationsstärke und überzeugendes Auftreten im Kundengespräch",
         "Gutes Gespür für Kennzahlen und Prozesse zur Organisation der eigenen Pipeline",
         "Eigenmotivation, Ergebnis- und Abschlussorientierung sowie Durchhaltevermögen",
-        "Bereitschaft zu erfolgsabhängigem Gehaltsanteil",
+        "Affinität zu erfolgsabhängigen Gehaltsanteilen",
         "Einwandfreie Deutschkenntnisse, gute Englischkenntnisse von Vorteil"
       ],
       "fehler": null
@@ -1969,23 +2474,25 @@
       "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/project-manager-industrial-lightweight-buildings-uk-m-f-d-remote",
       "stellentitel": "Project Manager industrial lightweight buildings UK (m/f/d) Remote",
       "aufgaben": [
-        "Kommerzielle, technische und organisatorische Koordination der termingerechten, budgetgerechten und mangelfreien Realisierung von Leichtbauprojekten",
+        "Kommerzielle, technische und organisatorische Koordination der termingerechten, budgetkonformen und mängelfreien Realisierung von Leichtbauprojekten",
         "Koordination interner Schnittstellen (z.B. Vertrieb, Einkauf, Planung, Terminplanung) und externer Schnittstellen (z.B. Baubehörden, Bauherren, Subunternehmer, Montageteams)",
-        "Plausibilitätsprüfungen eingehender Projekte als Sparringspartner für den Vertrieb",
-        "Identifikation möglicher Komplikationen und Entwicklung individueller Lösungen in Zusammenarbeit mit dem Engineering-Team",
-        "Moderation, Mediation und Deeskalation bei Hindernissen und Konflikten im Projektablauf",
-        "Hauptsächliche Aufgabenerfüllung im Home Office in England",
-        "Gelegentliche Teilnahme an Strategie-Workshops, Trainings oder Team-Events am Hauptsitz in Deutschland (ca. einmal pro Quartal)",
-        "Gelegentliche Besuche der Baustellen (Schwerpunkt UK und Irland), Reiseanteil 30%"
+        "Plausibilitätsprüfungen eingehender Projekte als Sparringspartner für den Vertrieb und frühzeitige Identifikation möglicher Komplikationen",
+        "Individuelle Lösungsfindung in Zusammenarbeit mit dem Engineering-Team",
+        "Moderation, Mediation und Deeskalation bei Hindernissen und Konflikten im Projektprozess",
+        "Überwiegende Tätigkeit im Home Office in England",
+        "Gelegentliche Teilnahme an Strategie-Workshops, Trainings und Team-Events am Hauptsitz in Deutschland (ca. einmal pro Quartal)",
+        "Gelegentliche Baustellenbesuche in UK und Irland (Reiseanteil 30%)"
       ],
       "profil": [
-        "Abgeschlossene Ausbildung oder Studium mit technischem Schwerpunkt sowie fundierte Berufserfahrung im Projektmanagement in einem technischen Umfeld",
-        "Einschlägige Vorerfahrung im Industrie- oder Lagerbau nicht zwingend erforderlich; andere technische Bereiche als Grundlage akzeptiert (z.B. Anlagenbau, Hoch- oder Tiefbau, Industriebau, Metallbau, Stahlbau, Holzbau, Funkmastkonstruktion, Solaranlagenbau, Windkraftanlagenbau oder Maschinenbau)",
+        "Abgeschlossene Ausbildung oder Studium mit technischem Schwerpunkt",
+        "Fundierte Berufserfahrung im Projektmanagement in einem technischen Umfeld",
+        "Vorerfahrung in Industrie- oder Lagerhallenbau nicht zwingend erforderlich; andere technische Bereiche werden akzeptiert (z.B. Anlagenbau, Hoch- oder Tiefbau, Industriebau, Metallbau, Stahlbau, Holzbau, Mastenbau, Solaranlagenbau, Windkraftanlagenbau, Maschinenbau)",
         "Sehr gute Englischkenntnisse zwingend erforderlich",
-        "Sicherer Umgang mit MS Office und allgemeine Affinität für digitale Tools",
+        "Sicherer Umgang mit MS Office und Affinität zu digitalen Tools",
         "Vorerfahrung mit ERP-System und CAD-Software von Vorteil, aber nicht zwingend erforderlich",
-        "Organisationstalent, sehr gute Kommunikationsfähigkeiten, Umsetzungsstärke und hohe Eigenmotivation",
-        "Bereitschaft zu gelegentlichen nationalen und internationalen Dienstreisen von mehreren Tagen (30%, ca. 1,5 Tage pro Woche)"
+        "Organisationstalent und sehr gute Kommunikationsfähigkeiten",
+        "Umsetzungsstärke und hohe Eigenmotivation",
+        "Bereitschaft zu gelegentlichen nationalen und internationalen Dienstreisen von mehreren Tagen (ca. 1,5 Tage pro Woche, 30%)"
       ],
       "fehler": null
     },
@@ -2024,11 +2531,11 @@
       ],
       "profil": [
         "Erfahrung im B2B Vertrieb, vorzugsweise im industriellen Sektor",
-        "Leidenschaft für Sales und Kenntnisse des deutschen Marktes",
+        "Leidenschaft für Sales und Kenntnis des deutschen Markts",
         "Kommunikationsstärke und überzeugendes Auftreten im Kundengespräch",
-        "Gutes Gespür für Kennzahlen und Prozesse zur Selbstorganisation und Pipeline-Management",
+        "Gutes Gespür für Kennzahlen und Prozesse zur Organisation der eigenen Pipeline",
         "Eigenmotivation, Ergebnis- und Abschlussorientierung sowie Durchhaltevermögen",
-        "Affinität zu erfolgsabhängigen Gehaltsanteilen",
+        "Bereitschaft zu erfolgsabhängigem Gehaltsanteil",
         "Einwandfreie Deutschkenntnisse, gute Englischkenntnisse von Vorteil"
       ],
       "fehler": null
@@ -2061,18 +2568,18 @@
       "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/sales-representative-field-sales-manager-b2b-industrial-customersm-f-d-south-west",
       "stellentitel": "Sales Representative / Field Sales Manager (B2B - Industrial Customers)(m/f/d) - South West",
       "aufgaben": [
-        "Professionelle, bedarfs- und lösungsorientierte Beratung von Kunden aus Industrie, Logistik und weiteren Branchen",
-        "Analyse von Kundenanforderungen vor Ort und Erstellung individueller sowie kostenoptimierter Angebote",
+        "Needs- und solution-orientierte Beratung von Kunden aus Industrie, Logistik und anderen Sektoren mit dem Produktportfolio eines spezialisierten Herstellers",
+        "Analyse von Kundenanforderungen vor Ort und Erstellung individueller, kostenoptimierter Angebote",
         "Verkaufsverhandlungen, Abschlüsse und proaktives sowie konsequentes Follow-up offener Angebote",
         "Enge Zusammenarbeit mit Entscheidungsträgern auf Kundenseite sowie internen Schnittstellen (Projektmanagement, Einkauf, Innendienst, Marketing)",
         "Gewissenhafte Dokumentation von Kontakten und Ergebnissen im CRM-System"
       ],
       "profil": [
-        "Abschluss in Betriebswirtschaft, Vertriebsmanagement, Marketing oder vergleichbarem Studiengang",
-        "Erste, vorzugsweise mehrjährige Erfahrung im B2B-Außendienst mit erklärungsbedürftigen, vorzugsweise technischen Produkten, Investitionsgütern und/oder Dienstleistungen",
-        "Hohe Affinität zum beratungsintensiven Verkauf, starke Zielorientierung, Engagement, Begeisterungsfähigkeit und Abschlussstärke",
-        "Schnelle Auffassungsgabe, sehr gute Präsentationsfähigkeiten und adressatenorientierte rhetorische Kompetenz",
-        "Motivierte und selbstständige Persönlichkeit, dynamisch, proaktiv und zielorientiert auch im Homeoffice",
+        "Studium in Betriebswirtschaft, Sales Management, Marketing oder vergleichbares Studium",
+        "Mindestens erste, bevorzugt mehrjährige Erfahrung im B2B-Außendienst mit erklärungsbedürftigen, vorzugsweise technischen Produkten, Investitionsgütern und/oder Dienstleistungen",
+        "Hohe Affinität für beratungsintensiven Vertrieb, starke Zielorientierung, Engagement, Begeisterung und Abschlussstärke",
+        "Schnelle Auffassungsgabe, sehr gute Präsentationsfähigkeiten und adressatenorientierte rhetorische Fähigkeiten",
+        "Motivierte und selbstständige Persönlichkeit, die dynamisch, proaktiv und zielorientiert auch im Home Office arbeitet",
         "Sicherer Umgang mit MS-Office, Erfahrung mit ERP- und/oder CRM-Systemen von Vorteil",
         "Verhandlungssicheres Englisch und gute Kenntnisse der britischen Geschäftsmentalität und lokaler Marktmechanismen",
         "Idealerweise wohnhaft in Bristol oder Umgebung"
@@ -2086,14 +2593,14 @@
       "aufgaben": [
         "Unterstützung des jährlichen Budget- und Planungsprozesses, Erarbeitung von Forecasts und laufende Abweichungsanalyse",
         "Aufbereitung monatlicher Reports, Management-Präsentationen und Ad-hoc-Analysen sowie Erklärung der Story hinter den Zahlen",
-        "Einbringung von Analysen in Performance Reviews und Lieferung von Entscheidungsgrundlagen für das Management",
-        "Aktive Mitarbeit an der Weiterentwicklung von Controlling-Tools, Reports und Prozessen"
+        "Einbringen von Analysen in Performance Reviews und Lieferung von Entscheidungsgrundlagen für das Management",
+        "Aktive Weiterentwicklung von Controlling-Tools, Reports und Prozessen"
       ],
       "profil": [
         "Studium im Bereich Finance, Controlling oder BWL oder vergleichbare Ausbildung mit entsprechender Praxiserfahrung",
         "Erste Erfahrung (ca. 2–3 Jahre) im Controlling oder in der CFO-nahen Beratung, idealerweise im mittelständischen Umfeld",
         "Sehr gute Excel-Kenntnisse, sicherer Umgang mit PowerPoint und Power BI",
-        "Erfahrung mit Microsoft Dynamics Business Central und LucaNet von Vorteil",
+        "Erfahrung mit Microsoft Dynamics Business Central und LucaNet ist hilfreich, aber kein Muss",
         "Analytisches Denken mit Blick für das große Ganze",
         "Strukturierte, präzise und zuverlässige Arbeitsweise",
         "Eigeninitiative und aktives Einbringen von Verbesserungspotenzialen"
@@ -2105,10 +2612,11 @@
       "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/mitarbeiter-inside-sales-vertriebsinnendienst-m-w-d",
       "stellentitel": "Mitarbeiter Inside Sales / Vertriebsinnendienst (m/w/d)",
       "aufgaben": [
-        "Qualifizierung von Kundenanfragen durch strukturierte Telefonate und Bedarfserkennung",
+        "Qualifizierung von Kundenanfragen durch strukturierte Telefonate und Bedarfsermittlung",
         "Terminierung für den Außendienst mit strategischer Routenplanung",
-        "Sorgfältige Datenpflege in CRM & ERP sowie Vorbereitung von Unterlagen für den Außendienst",
-        "Follow-Ups mit Kunden zu offenen Punkten und Aufrechterhaltung von Prozessen"
+        "Sorgfältige Datenpflege in CRM & ERP-Systemen",
+        "Vorbereitung von Unterlagen und Kontakten für den Außendienst",
+        "Follow-Ups mit Kunden zu offenen Punkten und Prozessen"
       ],
       "profil": [
         "Spaß an telefonischer Kundenberatung und klarer Kommunikation",
@@ -2116,7 +2624,7 @@
         "Gute MS-Office-Kenntnisse sowie Interesse an CRM/ERP-Systemen",
         "Erste Erfahrung im Kundenkontakt (z.B. Vertrieb, Service, Callcenter, Einzelhandel, Hotellerie/Gastronomie, Assistenz oder Quereinstieg)",
         "Motivation, Zuverlässigkeit und Freude an messbaren Ergebnissen",
-        "Umschüler, Wiedereinsteiger, Quereinsteiger und Berufseinsteiger ausdrücklich erwünscht"
+        "Bewerbungen von Umschülern, Wiedereinsteigern, Quereinsteigern und Berufseinsteigern ausdrücklich erwünscht"
       ],
       "fehler": null
     },
@@ -2125,17 +2633,17 @@
       "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/b2b-telemarketer-hungary-m-f-d",
       "stellentitel": "B2B Telemarketer Hungary (m/f/d)",
       "aufgaben": [
-        "Identifizierung und Erstkontakt mit potenziellen Kunden über verschiedene Kanäle, mit Fokus auf Telefongespräche im ungarischen Markt",
-        "Generierung von Projekten und Leads aus Neukunden sowie Qualifizierung zur Terminvorbereitung für das Field Sales Team",
+        "Identifizierung und Erstkontakt mit potenziellen Kunden über verschiedene Kanäle, insbesondere telefonisch im ungarischen Markt",
+        "Generierung von Projekten und Leads aus Neukunden sowie deren Qualifizierung zur Vorbereitung von Terminen für das Field Sales Team",
         "Beratung von B2B-Kunden und Interessenten zu Produkten und Dienstleistungen als erste Anlaufstelle in der Customer Journey",
         "Überwachung und Dokumentation der Aktivitäten in einem cloudbasierten CRM-System"
       ],
       "profil": [
-        "Freude an telefonischen Erstkontakten im Rahmen klar definierter Gesprächsziele und Arbeit mit strukturierten KPIs",
-        "Professionelles und sicheres Auftreten mit ausgezeichneten Kenntnissen in gesprochenem und geschriebenem Ungarisch/Englisch",
-        "Hohe Frustrationstoleranz – motiviert und beharrlich auch bei Rückschlägen",
+        "Freude an telefonischen Erstkontakten im Rahmen klar definierter Gesprächsziele und Erfahrung mit strukturierten KPIs",
+        "Professionelles und sicheres Auftreten mit ausgezeichneten Kenntnissen in Ungarisch und Englisch (Wort und Schrift)",
+        "Hohe Frustrationstoleranz – bleibt auch bei Rückschlägen motiviert und beharrlich",
         "Kreativität bei der Entwicklung von Lösungen, die auf die Bedürfnisse potenzieller Kunden zugeschnitten sind",
-        "Sicherer Umgang mit MS Office-Tools (z.B. Teams, Word, Excel, PowerPoint) und allgemeine Affinität für digitale Arbeit",
+        "Kenntnisse in MS Office (Teams, Word, Excel, PowerPoint) und allgemeine Affinität für digitales Arbeiten",
         "Erfahrung im direkten Kundenkontakt, idealerweise im B2B-Umfeld"
       ],
       "fehler": null
@@ -2148,16 +2656,16 @@
         "Eigenständige Verantwortung für die gesamte operative Projektabwicklung in Europa",
         "Führung und Weiterentwicklung der Bereiche Project Management, Operational Procurement sowie Site Management",
         "Sicherstellung hoher Kundenzufriedenheit entlang der gesamten Operations Customer Journey durch klare Strukturen, transparente Kommunikation und verlässliche Projektumsetzung",
-        "Etablierung zentraler KPIs (Kosten, Durchlaufzeiten, NPS, Fehlerquoten, Auslastung) und deren Analyse und Weiterentwicklung",
-        "Wirtschaftlich erfolgreiche Umsetzung von Projekten durch aktive Steuerung von Projektmargen, Einkaufskonditionen und Ressourcenkapazitäten",
+        "Einführung, Analyse und Weiterentwicklung zentraler KPIs (Kosten, Durchlaufzeiten, NPS, Fehlerquoten, Auslastung)",
+        "Steuerung von Projektmargen, Einkaufskonditionen und Ressourcenkapazitäten für wirtschaftlich erfolgreiche Projektumsetzung",
         "Weiterentwicklung skalierbarer Prozesse und Standards im Projektmanagement, in der Montage sowie im operativen Einkauf",
-        "In kritischen Projektsituationen: operative Steuerung, klare Priorisierung und lösungsorientierte Führung aus Eskalationen heraus"
+        "Operative Steuerung in kritischen Projektsituationen, klare Priorisierung und lösungsorientierte Führung aus Eskalationen heraus"
       ],
       "profil": [
         "Master oder Diplom in BWL, International Business oder Wirtschaftsingenieurwesen",
         "Mehrjährige Führungserfahrung (mind. 6 Jahre) in einer operativen, projektgetriebenen Umgebung (z. B. Bau, Maschinenbau, Industrie-Services oder Anlagenbau)",
         "Erfahrung in Kosten-, Margen- und Ergebnisverantwortung",
-        "Fähigkeit, datenbasierte Entscheidungen zu treffen und komplexe Projekte zu steuern",
+        "Fähigkeit zu datenbasierten Entscheidungen und Steuerung komplexer Projekte mit Blick fürs große Ganze",
         "Erfahrung im Umgang mit externen Dienstleistern und Subunternehmern",
         "Verhandlungssicheres Englisch",
         "Bereitschaft zu regelmäßigen Reisen innerhalb Europas (ca. 4–8 Tage pro Monat)",
@@ -2170,29 +2678,29 @@
       "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/general-manager-country-manager-uk-irl",
       "stellentitel": "General Manager / Country Manager UK & IRL",
       "aufgaben": [
-        "Volle kommerzielle Verantwortung für die Region UK & IRL (P&L)",
-        "Definition und Umsetzung eines 3+ Jahres-Wachstumsplans zur Erweiterung der Mietflotte und Marktanteilsgewinnung",
-        "Senior Commercial Representative: Führung hochrangiger Verhandlungen und Abschluss strategischer Vereinbarungen",
-        "Verantwortung für den gesamten Vertriebszyklus vom Erstkontakt bis zur Vertragsunterzeichnung",
-        "Neukundengewinnung in den Bereichen Industrie, Logistik, Fertigung und Bauwesen",
-        "Übersetzung von Markt- und Wettbewerbserkenntnissen in konkrete Go-to-Market-Maßnahmen",
-        "Aufbau, Führung und Entwicklung der lokalen kommerziellen Organisation (aktuell 6 Mitarbeitende)",
+        "Volle kommerzielle Verantwortung für UK & IRL, einschließlich Umsatzwachstum, Pipeline-Gesundheit, Marktentwicklung und lokale Rentabilität (P&L)",
+        "Definition und Umsetzung eines 3+ Jahre Wachstumsplans zur Erweiterung der Mietflotte und nachhaltigen Marktanteilsgewinnung",
+        "Senior-kommerzielle Vertretung bei hochrangigen Verhandlungen und strategischen Vertragsabschlüssen",
+        "Verantwortung für den End-to-End-Verkaufszyklus vom Erstkontakt bis zur Vertragsunterzeichnung",
+        "Neukundenakquise in den Bereichen Industrie, Logistik, Fertigung und Bauwesen",
+        "Umsetzung von Markt- und Wettbewerbserkenntnissen in konkrete Go-to-Market-Maßnahmen",
+        "Aufbau, Führung und Entwicklung der lokalen kommerziellen Organisation mit aktuell 6 Mitarbeitern",
         "Setzen klarer Leistungserwartungen und Coaching anhand definierter KPIs",
-        "Abstimmung von Marketing, Operations und zentralen Support-Funktionen für eine konsistente Customer Journey",
-        "Betrieb einer disziplinierten, datengetriebenen Vertriebsorganisation mit hochwertigen CRM-Daten",
-        "Erstellung zuverlässiger Auftragseingangs-Forecasts mit transparenten Annahmen",
-        "Regelmäßiges Reporting an das Group Executive Team zu Performance, Risiken und Entwicklungen"
+        "Abstimmung von Marketing, Operations und zentralen Supportfunktionen für eine konsistente Customer Journey",
+        "Steuerung einer datengetriebenen Sales-Engine mit hochwertigen CRM-Daten",
+        "Lieferung zuverlässiger Auftragseingangsforecast mit transparenten Annahmen",
+        "Regelmäßiges Reporting an das Group Executive Team zu Performance, Risiken und wichtigen Entwicklungen"
       ],
       "profil": [
         "Master-Abschluss in Betriebswirtschaft, International Business, Wirtschaftsingenieurwesen oder vergleichbarem Bereich",
         "6+ Jahre Führungserfahrung in vertriebsorientierten, projektbasierten B2B-Umgebungen",
-        "Nachgewiesene Erfolgsbilanz beim Skalieren von Märkten oder dem Wachstum projektbasierter Geschäfte",
-        "Starkes kommerzielles Verständnis kombiniert mit der Fähigkeit, Strategie in operative Umsetzung zu übersetzen",
+        "Nachweisliche Erfolgsbilanz beim Skalieren von Märkten oder Wachstum projektbasierter Unternehmen",
+        "Starke kommerzielle Kompetenz kombiniert mit der Fähigkeit, Strategie in operative Umsetzung zu überführen",
         "Ausgeprägte analytische Fähigkeiten zur Ableitung klarer Prioritäten und messbarer Ergebnisse",
-        "Sicheres Kommunizieren auf verschiedenen Hierarchieebenen und mit diversen Stakeholdern",
-        "Erfahrung im Einsatz von CRM- und ERP-Systemen als Management- und Steuerungstools",
+        "Sicheres Kommunikationsvermögen auf verschiedenen Hierarchieebenen und mit diversen Stakeholdern",
+        "Erfahrung im Einsatz von CRM- und ERP-Systemen als Management- und Steuerungsinstrumente",
         "Erfahrung in dezentralen, internationalen Organisationen",
-        "Reisebereitschaft innerhalb der Region sowie zum deutschen Hauptsitz (4–6 Mal pro Jahr)"
+        "Reisebereitschaft innerhalb der Region sowie zur deutschen Zentrale (4–6 Mal pro Jahr)"
       ],
       "fehler": null
     },
@@ -2206,7 +2714,7 @@
         "Kontinuierliche Optimierung entlang klarer KPIs",
         "Enge Zusammenarbeit mit Sales, Content und Produktmanagement",
         "Steuerung von Agenturen und Partnern",
-        "Aktives Einbringen von Ideen und Gestaltung der Performance-Strategie für die DACH-Region"
+        "Aktives Einbringen von Ideen und Mitgestaltung der Performance-Strategie für die DACH-Region"
       ],
       "profil": [
         "Mindestens 5 Jahre Erfahrung im Performance Marketing",
@@ -2224,27 +2732,27 @@
       "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/country-manager-netherlands-build-up-pl-ownership",
       "stellentitel": "Country Manager Netherlands (Build-up | P&L Ownership)",
       "aufgaben": [
-        "Vollständige kommerzielle Verantwortung für die Niederlande inkl. Umsatzwachstum, Pipeline-Gesundheit, Marktentwicklung und lokale Profitabilität (P&L)",
-        "Definition und Umsetzung eines 3+ Jahres-Wachstumsplans zur Erweiterung der Mietflotte und Steigerung des Marktanteils",
-        "Senior Commercial Representative: Führung von hochrangigen Verhandlungen und Abschluss strategischer Vereinbarungen",
-        "Verantwortung für den End-to-End-Verkaufszyklus von erstem Kontakt bis Vertragsunterzeichnung",
-        "Aktive Vertriebsrolle in der Anfangsphase mit direktem Kundenkontakt und Vor-Ort-Besuchen",
+        "Volle kommerzielle Verantwortung für die Niederlande inkl. Umsatzwachstum, Pipeline-Gesundheit, Marktentwicklung und lokale Profitabilität (P&L)",
+        "Definition und Umsetzung eines 3+ Jahre Wachstumsplans zur Erweiterung der Mietflotte und nachhaltigen Marktanteilssteigerung",
+        "Führung hochkarätiger Verhandlungen und Abschluss strategischer Vereinbarungen als Senior Commercial Representative",
+        "Verantwortung für den End-to-End Verkaufszyklus von Erstkontakt bis Vertragsunterzeichnung – Neukundengewinnung in Industrie, Logistik, Fertigung und Bauwesen",
+        "Aktive Verkaufsrolle in der Anfangsphase mit direktem Kundenkontakt und Vor-Ort-Besuchen",
         "Übersetzung von Markt- und Wettbewerbserkenntnissen in konkrete Go-to-Market-Maßnahmen",
         "Führung und Entwicklung der lokalen kommerziellen Organisation mit aktuell 2–3 Mitarbeitern",
-        "Festlegung klarer Leistungserwartungen und Coaching anhand definierter KPIs",
-        "Abstimmung von Marketing, Operations und zentralen Support-Funktionen für eine konsistente Customer Journey",
-        "Führung einer datengetriebenen Vertriebsorganisation mit hochwertigen CRM-Daten",
-        "Lieferung zuverlässiger Auftragseingangs-Prognosen mit transparenten Annahmen",
+        "Setzen klarer Leistungserwartungen und Coaching anhand definierter KPIs",
+        "Abstimmung von Marketing, Operations und zentralen Supportfunktionen für eine konsistente Customer Journey",
+        "Betrieb einer disziplinierten, datengetriebenen Sales Engine mit hochwertigen CRM-Daten",
+        "Lieferung zuverlässiger Auftragseingangs-Forecasts mit transparenten Annahmen",
         "Regelmäßiges Reporting an das Group Executive Team zu Performance, Risiken und Entwicklungen"
       ],
       "profil": [
-        "Fließende Kenntnisse in Niederländisch und Englisch (Business-Level)",
+        "Fließend in Niederländisch und Englisch (Business-Niveau)",
         "Master-Abschluss in Betriebswirtschaft, International Business, Wirtschaftsingenieurwesen oder vergleichbarem Bereich",
         "5+ Jahre Erfahrung in vertriebsorientierten, projektbasierten B2B-Umgebungen",
-        "Erste Erfolge in der Marktentwicklung, dem Aufbau von Strukturen oder in unternehmerischen/frühen Setup-Phasen",
-        "Starke kommerzielle Kompetenz kombiniert mit der Fähigkeit, Strategie in operative Umsetzung zu überführen",
-        "Ausgeprägte analytische Fähigkeiten zur Priorisierung und Erzielung messbarer Ergebnisse",
-        "Kenntnisse im Umgang mit CRM- und ERP-Systemen als Management- und Steuerungswerkzeuge",
+        "Erste Erfolge in der Marktentwicklung, Strukturaufbau oder in unternehmerischen/frühen Setups",
+        "Starker kommerzieller Sachverstand kombiniert mit der Fähigkeit, Strategie in operative Umsetzung zu übersetzen",
+        "Ausgeprägte analytische Fähigkeiten zur Ableitung klarer Prioritäten und messbarer Ergebnisse",
+        "Sicherer Umgang mit CRM- und ERP-Systemen als Steuerungs- und Managementwerkzeuge",
         "Erfahrung in dezentralen, internationalen Organisationen"
       ],
       "fehler": null
@@ -2258,7 +2766,7 @@
         "Soutien au recrutement",
         "Accueil et orientation de collaborateurs lors de formations internes",
         "Aide à l'organisation de différents événements",
-        "Être le point de contact des collègues",
+        "Point de contact des collègues",
         "Participation à des projets motivants",
         "Comptabilisation et suivi des encaissements",
         "Gestion des contentieux",
@@ -2266,11 +2774,11 @@
         "Gestion du standard téléphonique et des fournitures"
       ],
       "profil": [
-        "Terminer sa scolarité obligatoire avec succès, l'avoir récemment terminée ou souhaiter se réorienter à la suite d'une première formation de base",
+        "Terminer sa scolarité obligatoire avec succès, l'avoir récemment terminée ou souhaiter se réorienter après une première formation de base",
         "Bonnes compétences en langues, notamment en allemand",
         "Aimer le contact avec les gens et posséder un bon esprit de collaboration",
         "Intérêt marqué pour les tâches administratives et les chiffres",
-        "Excellente maîtrise du français, orale et rédactionnelle",
+        "Excellente maîtrise du français oral et rédactionnel",
         "Maîtrise des outils informatiques standards (Word, Excel, Outlook)",
         "Être organisé·e, curieux·se, volontaire, flexible et prêt·e à relever de nouveaux défis"
       ],
@@ -2362,7 +2870,7 @@
         "Solide kommerzielle und technische Kenntnisse",
         "Hervorragende schriftliche und mündliche Kompetenzen in Deutsch",
         "Führerausweis Kategorie B",
-        "Gute Anwender-Kenntnisse Microsoft Office"
+        "Gute Anwenderkenntnisse Microsoft Office"
       ],
       "fehler": null
     },
@@ -2372,7 +2880,7 @@
       "stellentitel": "Organisationstalent für unsere Disposition (m/w/d)",
       "aufgaben": [
         "Disponieren von Maschinen unter Berücksichtigung der Kundenbedürfnisse",
-        "Erstellen von Offerten, Mietverträgen sowie Reparaturen und Rechnungen",
+        "Erstellen von Offerten, Mietverträgen sowie Reparaturen / Rechnungen",
         "Führen und Kontrollieren der Maschinen-Einsatzpläne",
         "Organisieren der Transporte",
         "Koordinieren der Arbeitsprioritäten der Werkstatt sowie deren Mechaniker"
@@ -2380,7 +2888,7 @@
       "profil": [
         "Erfahrungen als Disponent/in oder in einem vergleichbaren Bereich von Vorteil",
         "Technisches Flair und hohes Interesse an Baumaschinen",
-        "Fähigkeit, vielseitige Aufgaben und Herausforderungen zu managen, auch unter Zeitdruck",
+        "Fähigkeit, vielseitige Aufgaben und Herausforderungen zu bewältigen, auch unter Zeitdruck",
         "Hohe Kundenorientierung und Eigenverantwortung",
         "Kaufmann/-frau EBA oder EFZ, oder technische Ausbildung mit administrativer Weiterbildung"
       ],
@@ -2422,12 +2930,204 @@
         "Projektbegleitung & technische Unterstützung vor Ort"
       ],
       "profil": [
-        "Technisches Verständnis und Erfahrung mit Energieanlagen (Generatoren, Stromerzeugern, Heiz- und Klimasystemen)",
+        "Technisches Verständnis und Erfahrung mit Energieanlagen (Generatoren, Stromerzeugern, Heiz- und Klimasystemen) – aus Ausbildung oder on the job",
         "Selbstständig, zuverlässig & lösungsorientiert",
         "Freude am Kundenkontakt und gelegentlichen Ausseneinsätzen",
         "IT-Grundkenntnisse"
       ],
       "fehler": null
+    },
+    {
+      "karriereseite": "https://www.hkl-baumaschinen.de/karriere/jobs",
+      "stellen_url": "https://www.hkl-baumaschinen.de/karriere/jobs",
+      "stellentitel": null,
+      "aufgaben": [],
+      "profil": [],
+      "fehler": "Keine Stellen gefunden"
+    },
+    {
+      "karriereseite": "https://www.hkl-baumaschinen.de/karriere/jobs",
+      "stellen_url": "https://www.hkl-baumaschinen.de/karriere/ausbildungsstellen",
+      "stellentitel": null,
+      "aufgaben": [],
+      "profil": [],
+      "fehler": "Keine Stellen gefunden"
+    },
+    {
+      "karriereseite": "https://www.hkl-baumaschinen.de/karriere/jobs",
+      "stellen_url": "https://www.hkl-baumaschinen.de/karriere/technik-service-und-werkstatt",
+      "stellentitel": "Monteur / Mechaniker / Techniker im Bereich Service (m/w/d)",
+      "aufgaben": [
+        "Reparatur, Wartung und Pflege von hochwertigen Baumaschinen",
+        "Erstellung von Schadensdiagnosen",
+        "Kalkulation von Kostenvoranschlägen",
+        "Technischer Ansprechpartner für Kunden vor Ort"
+      ],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.hkl-baumaschinen.de/karriere/jobs",
+      "stellen_url": "https://www.hkl-baumaschinen.de/karriere/technik-service-und-werkstatt",
+      "stellentitel": "Monteur / Mechaniker / Techniker im Bereich Miete (m/w/d)",
+      "aufgaben": [
+        "Ausgabe und Rückgabe von Mietmaschinen und -geräten",
+        "Beratung von Kunden zu Einsatzmöglichkeiten",
+        "Einweisung der Kunden in die Bedienung der Maschinen",
+        "Reparatur, Wartung und Reinigung von Baumaschinen"
+      ],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.hkl-baumaschinen.de/karriere/jobs",
+      "stellen_url": "https://www.hkl-baumaschinen.de/karriere/technik-service-und-werkstatt",
+      "stellentitel": "Elektriker / Elektroniker / Elektroinstallateur (m/w/d)",
+      "aufgaben": [
+        "Instandsetzung, Wartung und Inspektion von Elektrowerkzeugen und Maschinen im Innen- und Außendienst",
+        "Durchführung von Prüfungen nach DGUV V3",
+        "Reparatur und Wartung von Stromerzeugern",
+        "Ansprechpartner für Kunden in allen Fragen rund um elektrische Produkte"
+      ],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.hkl-baumaschinen.de/karriere/jobs",
+      "stellen_url": "https://www.hkl-baumaschinen.de/karriere/technik-service-und-werkstatt",
+      "stellentitel": "Lagerist (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.hkl-baumaschinen.de/karriere/jobs",
+      "stellen_url": "https://www.hkl-baumaschinen.de/karriere/technik-service-und-werkstatt",
+      "stellentitel": "Kraftfahrer (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.hkl-baumaschinen.de/karriere/jobs",
+      "stellen_url": "https://www.hkl-baumaschinen.de/karriere/vertrieb-verkauf-und-disposition",
+      "stellentitel": "Kundenberater / Disponent für den Bereich Miete (m/w/d)",
+      "aufgaben": [
+        "Verantwortung für die Vermietung von Baumaschinen und -geräten",
+        "Erstellen individueller Angebote",
+        "Koordination von Kundenaufträgen",
+        "Zentraler Ansprechpartner für Kunden im Tagesgeschäft",
+        "Begleitung vom ersten Kundenkontakt bis zur erfolgreichen Maschinenübergabe"
+      ],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.hkl-baumaschinen.de/karriere/jobs",
+      "stellen_url": "https://www.hkl-baumaschinen.de/karriere/vertrieb-verkauf-und-disposition",
+      "stellentitel": "Kundenberater / Verkäufer für den Bereich Baushop oder Ersatzteile (m/w/d)",
+      "aufgaben": [
+        "Verkauf und Kundenberatung im Baushop oder Ersatzteile",
+        "Beratung bei der Auswahl des richtigen Equipments für Kundenprojekte",
+        "Betreuung eines großen Sortiments (Großgeräte, Kleingeräte, Werkzeuge, Arbeits- und Schutzkleidung)"
+      ],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.hkl-baumaschinen.de/karriere/jobs",
+      "stellen_url": "https://www.hkl-baumaschinen.de/karriere/vertrieb-verkauf-und-disposition",
+      "stellentitel": "Kundenberater im Außendienst / Sales Manager (m/w/d)",
+      "aufgaben": [
+        "Vertrieb von Mietmaschinen, Baugeräten, Werkzeugen und Zubehör an Neu- und Bestandskunden",
+        "Aufbau und Pflege starker Kundenbeziehungen",
+        "Unterstützung der Kunden bei der optimalen Umsetzung ihrer Bauprojekte"
+      ],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.hkl-baumaschinen.de/karriere/jobs",
+      "stellen_url": "https://www.hkl-baumaschinen.de/karriere/vertrieb-verkauf-und-disposition",
+      "stellentitel": "Kaufmännischer Mitarbeiter im Vertriebsinnendienst (m/w/d)",
+      "aufgaben": [
+        "Eigenständige Betreuung von Bestandskunden",
+        "Gewinnung neuer Kunden und Geschäftspartner",
+        "Erstellen individueller Angebote",
+        "Enge Zusammenarbeit mit dem Außendienst",
+        "Neukundenrecherche und Aufbereitung relevanter Informationen",
+        "Terminvereinbarung und Abstimmung im Team"
+      ],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.hkl-baumaschinen.de/karriere/jobs",
+      "stellen_url": "https://www.hkl-baumaschinen.de/karriere/fuehrungskraefte",
+      "stellentitel": "Betriebsleiter (m/w/d)",
+      "aufgaben": [
+        "Verantwortung für den Erfolg des Centers",
+        "Operativ und vertrieblich tätig in der Vermietung und im Verkauf von Baumaschinen und Baugeräten",
+        "Führung des Teams mit Engagement, Klarheit und Teamgeist",
+        "Pflege von direktem Kundenkontakt",
+        "Sicherstellung, dass das Center ein verlässlicher und kompetenter Partner für Kunden ist",
+        "Betriebsergebnis im Blick behalten und regelmäßige Reportings erstellen"
+      ],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.hkl-baumaschinen.de/karriere/jobs",
+      "stellen_url": "https://www.hkl-baumaschinen.de/karriere/fuehrungskraefte",
+      "stellentitel": "Werkstattleiter / Werkstattmeister (m/w/d)",
+      "aufgaben": [
+        "Verantwortung für Servicemonteure",
+        "Sicherstellung eines reibungslosen Ablaufs in der Werkstatt",
+        "Erstellung von Schadensdiagnosen",
+        "Unterstützung bei komplexen Reparaturen",
+        "Betreuung und Beratung von Servicekunden",
+        "Aufbau langfristiger Kundenbeziehungen und Weiterentwicklung des Kundenstamms"
+      ],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.hkl-baumaschinen.de/karriere/jobs",
+      "stellen_url": "https://www.hkl-baumaschinen.de/karriere/fuehrungskraefte",
+      "stellentitel": "Kundendienstleiter (m/w/d)",
+      "aufgaben": [
+        "Leitung der Servicebetriebe in der betreuten Niederlassung",
+        "Planung von Personal, Kosten und Kapazitäten gemeinsam mit dem Team",
+        "Weiterentwicklung der Servicebetriebe",
+        "Pflege von Geschäftsverbindungen",
+        "Aktive Weiterentwicklung des Kundenkreises",
+        "Aktive Kundenbetreuung sowie Verhandlung von Serviceverträgen"
+      ],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.hkl-baumaschinen.de/karriere/jobs",
+      "stellen_url": "https://www.hkl-baumaschinen.de/karriere/fuehrungskraefte",
+      "stellentitel": "Führungskraft in der Unternehmenszentrale (m/w/d)",
+      "aufgaben": [
+        "Betreuung und Weiterentwicklung der gesamten Organisation",
+        "Steuerung strategisch wichtiger Themen",
+        "Weiterentwicklung von Prozessen",
+        "Sicherstellung effizienter, kundenorientierter und zukunftssicherer operativer Abläufe",
+        "Enge Zusammenarbeit mit anderen Fachbereichen und Centern",
+        "Leitung eines Teams mit wertschätzender Zusammenarbeit auf Augenhöhe"
+      ],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.hkl-baumaschinen.de/karriere/jobs",
+      "stellen_url": "https://www.hkl-baumaschinen.de/karriere/unternehmenszentrale",
+      "stellentitel": null,
+      "aufgaben": [],
+      "profil": [],
+      "fehler": "Keine Stellen gefunden"
     },
     {
       "karriereseite": "https://www.hkl-baumaschinen.de/karriere/jobs",
@@ -2443,9 +3143,9 @@
       ],
       "profil": [
         "Interesse für Vertrieb",
-        "Verlässlichkeit und Verantwortungsbereitschaft",
-        "Teamfähigkeit",
-        "Einbringen eigener Ideen"
+        "Verlässlichkeit und Bereitschaft Verantwortung zu übernehmen",
+        "Freude an Teamarbeit",
+        "Bereitschaft eigene Ideen einzubringen"
       ],
       "fehler": null
     },
@@ -2458,13 +3158,12 @@
         "Diagnose und Fehlersuche an Maschinen",
         "Umgang mit neuester Motor- und Antriebstechnik",
         "Erstellung von Kostenvoranschlägen",
-        "Erwerb von außerbetrieblichen Zertifikaten wie Schweißerschein und Staplerschein"
+        "Erwerb von außerbetrieblichen Zertifikaten wie z.B. Schweißerschein und Staplerschein"
       ],
       "profil": [
         "Interesse für Technikinnovationen",
-        "Begeisterung für Schweißen mit modernster Datentechnik",
-        "Freude an Teamarbeit",
-        "Interesse an Wartung und Instandsetzung hochwertiger Baumaschinen"
+        "Freude an der Arbeit mit modernster Datentechnik und Schweißen",
+        "Freude an Teamarbeit"
       ],
       "fehler": null
     },
@@ -2481,26 +3180,9 @@
       ],
       "profil": [
         "Begeisterung für Baumaschinen, Werkzeug und Zubehör",
-        "Interesse an Zusammenstellen von Lieferungen und Koordination von Verladungen",
-        "Interesse an Disposition von Ersatzteilen und Lagerbestandsplanung"
+        "Interesse an Lieferungskoordination und Lagerplanung"
       ],
       "fehler": null
-    },
-    {
-      "karriereseite": "https://www.hkl-baumaschinen.de/karriere/jobs",
-      "stellen_url": "https://www.hkl-baumaschinen.de/karriere/ausbildungsstellen",
-      "stellentitel": null,
-      "aufgaben": [],
-      "profil": [],
-      "fehler": "Keine Stellen gefunden"
-    },
-    {
-      "karriereseite": "https://www.hkl-baumaschinen.de/karriere/jobs",
-      "stellen_url": "https://www.hkl-baumaschinen.de/karriere/jobs",
-      "stellentitel": null,
-      "aufgaben": [],
-      "profil": [],
-      "fehler": "Keine Stellen gefunden"
     },
     {
       "karriereseite": "https://kmls.de/karriere/",
@@ -2509,19 +3191,18 @@
       "aufgaben": [
         "Zentrale Ansprechperson für Kunden in der Serviceregion",
         "Verantwortung für die Kostenstelle in der Region und Sicherstellung reibungsloser Abläufe",
-        "Verantwortung für die Umsetzung aller Wartungs- und Inspektionsarbeiten sowie Einhaltung der Prüfpflichten",
+        "Verantwortung für die Umsetzung aller Wartungs- und Inspektionsarbeiten sowie Prüfpflichten",
         "Fachliche und disziplinarische Führung des Teams",
-        "Regelmäßige Besuche der Teammitglieder im Tagesgeschäft zur Qualitätssicherung und Überprüfung der Standards",
+        "Regelmäßige Besuche der Teammitglieder im Tagesgeschäft zur Qualitätssicherung",
         "Monatliches Reporting nach Kalkulation von einzelnen Projekten und Serviceaufträgen",
         "Regelmäßige Feedbackgespräche mit Mitarbeitenden zur Förderung von Entwicklung und Zufriedenheit"
       ],
       "profil": [
-        "(Fach-)Hochschulabschluss im Bereich Facility Management oder Betriebswirtschaft, oder Meisterausbildung bzw. staatl. geprüfter Techniker im Bereich Metallbau, Elektrotechnik, HKLS oder Versorgungstechnik",
+        "Idealerweise (Fach-)Hochschulabschluss im Bereich Facility Management oder Betriebswirtschaft, alternativ Meisterausbildung oder staatl. geprüfter Techniker im Bereich Metallbau, Elektrotechnik, HKLS oder Versorgungstechnik",
         "3–5 Jahre Erfahrung in einer Führungsposition",
-        "Erfahrung in der Verantwortung für eine Kostenstelle sowie fachliche und disziplinarische Führung eines Teams von mindestens fünf Mitarbeitenden",
-        "Kenntnisse der Anforderungen und Aufgaben im Facility Management",
-        "Echte Dienstleistungsmentalität",
-        "Teamplayer, selbstständige Arbeitsweise und Verantwortungsbereitschaft"
+        "Erfahrung mit Verantwortung für eine Kostenstelle sowie fachliche und disziplinarische Führung eines Teams von mindestens fünf Mitarbeitenden",
+        "Kenntnisse der Anforderungen im Facility Management und Dienstleistungsmentalität",
+        "Teamplayer mit selbstständiger Arbeitsweise und Verantwortungsbereitschaft"
       ],
       "fehler": null
     },
@@ -2561,7 +3242,7 @@
         "Installation und Inbetriebnahme von Netzwerkkomponenten",
         "Eigenständige Durchführung von Sicherheitsprüfungen und Instandsetzung ortsveränderlicher sowie ortsfester Anlagen",
         "Digitale Dokumentation der durchgeführten Arbeiten auf dem Tablet",
-        "Ansprechperson vor Ort für eine reibungslose Kommunikation und professionellen Arbeitsablauf"
+        "Direkte Ansprechperson vor Ort für Kunden"
       ],
       "profil": [
         "Abgeschlossene Ausbildung im Bereich Elektrotechnik oder vergleichbare Qualifikation",
@@ -2585,11 +3266,11 @@
       ],
       "profil": [
         "Abgeschlossene handwerkliche Ausbildung, z. B. als Schlosser, Maler, Trockenbauer, Metallbauer, Elektriker oder Anlagenmechaniker (w|m|d)",
-        "Idealerweise erste Erfahrungen im technischen Gebäudemanagement oder als Haustechniker, z. B. in der Instandhaltung gewerblicher Filialen",
-        "Zuverlässige und belastbare Arbeitsweise, hohes Maß an Einsatzbereitschaft, Teamplayer mit selbstständiger und lösungsorientierter Arbeitsweise",
+        "Idealerweise erste Erfahrungen im technischen Gebäudemanagement oder als Haustechniker (w|m|d), z. B. in der Instandhaltung gewerblicher Filialen",
+        "Zuverlässige, belastbare und einsatzbereite Arbeitsweise; Teamplayer mit selbstständiger und lösungsorientierter Arbeitsweise",
         "Gutes Organisationsvermögen und technisches Verständnis",
         "Reisebereitschaft innerhalb der Region sowie Führerschein Klasse B",
-        "Bereitschaft zu gelegentlichen Übernachtungen bei großer Entfernung zum Kunden"
+        "Bereitschaft zu gelegentlichen Übernachtungen bei größerer Entfernung zum Kunden"
       ],
       "fehler": null
     },
