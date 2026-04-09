@@ -1,18 +1,18 @@
 {
   "meta": {
-    "timestamp": "2026-04-08T07:57:23.068864+00:00",
+    "timestamp": "2026-04-09T08:28:27.145994+00:00",
     "urls_count": 9,
-    "stellen_count": 158,
-    "fehler_count": 28
+    "stellen_count": 18,
+    "fehler_count": 51
   },
   "stellen": [
     {
       "karriereseite": "https://www.sabag.ch/de/stellen",
       "stellen_url": "https://jobs.dualoo.com/link/6cb64f64-7ef8-4029-b92e-11731be11981/apply?lang=DE",
-      "stellentitel": null,
+      "stellentitel": "Kundenberater Innendienst Sanitär (m/w/d) 50-60%",
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZquxbWUT3o8ftfhDjJFS'}"
+      "fehler": null
     },
     {
       "karriereseite": "https://www.sabag.ch/de/stellen",
@@ -28,7 +28,7 @@
       "stellentitel": null,
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZqv37JEFLHGB5uTLMaDq'}"
+      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZspoqVGyxzdNA8FxTtqD'}"
     },
     {
       "karriereseite": "https://www.sabag.ch/de/stellen",
@@ -36,15 +36,7 @@
       "stellentitel": null,
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZqv5bLzphdruk4xcxyxJ'}"
-    },
-    {
-      "karriereseite": "https://www.sabag.ch/de/stellen",
-      "stellen_url": "https://jobs.dualoo.com/link/d6f7be71-0758-499c-8eb7-671047578e85/apply?lang=DE&backButton=hide&source=Internet Sabag Feed",
-      "stellentitel": null,
-      "aufgaben": [],
-      "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZqv7dPLXn7Vz5QcrtyX6'}"
+      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsprW73QZpM5cgqjqLLZ'}"
     },
     {
       "karriereseite": "https://www.sabag.ch/de/stellen",
@@ -57,10 +49,10 @@
     {
       "karriereseite": "https://www.sabag.ch/de/stellen",
       "stellen_url": "https://jobs.dualoo.com/link/6cb64f64-7ef8-4029-b92e-11731be11981/apply?lang=DE",
-      "stellentitel": null,
+      "stellentitel": "Kundenberater Innendienst Sanitär (m/w/d) 50-60%",
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZqvCHMDMtqJpXxaRqkr5'}"
+      "fehler": null
     },
     {
       "karriereseite": "https://www.sabag.ch/de/stellen",
@@ -68,7 +60,7 @@
       "stellentitel": null,
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZqvEfVHQrmkEDmJyYMKE'}"
+      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZspyHw1F5iXKtwcwXRYb'}"
     },
     {
       "karriereseite": "https://www.sabag.ch/de/stellen",
@@ -76,7 +68,7 @@
       "stellentitel": null,
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZqvH7E9XmAaYDiqcg1hP'}"
+      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsq291KNFKDNuivxgPF3'}"
     },
     {
       "karriereseite": "https://www.sabag.ch/de/stellen",
@@ -84,15 +76,15 @@
       "stellentitel": null,
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZqvKeVQ1rSzPLHphBU4x'}"
+      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsq5Gz7o32j899uMX914'}"
     },
     {
       "karriereseite": "https://www.sabag.ch/de/stellen",
       "stellen_url": "https://jobs.dualoo.com/link/c9787719-de3a-42d9-9328-440a398d86ea/apply?lang=DE",
-      "stellentitel": null,
+      "stellentitel": "Kundenberater Ausstellung Platten (m/w/d) 80-100%",
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZqvNu64fmewqSEYzXExF'}"
+      "fehler": null
     },
     {
       "karriereseite": "https://www.sabag.ch/de/stellen",
@@ -100,23 +92,23 @@
       "stellentitel": null,
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZqvRfohL395bwW12pJVa'}"
+      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsqAQbexZ1mZWWB2fMRw'}"
     },
     {
       "karriereseite": "https://www.sabag.ch/de/stellen",
       "stellen_url": "https://jobs.dualoo.com/link/c9787719-de3a-42d9-9328-440a398d86ea/apply?lang=DE",
-      "stellentitel": null,
+      "stellentitel": "Kundenberater Ausstellung Platten (m/w/d) 80-100%",
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZqvUjvL22xi37AfTHNti'}"
+      "fehler": null
     },
     {
       "karriereseite": "https://www.sabag.ch/de/stellen",
       "stellen_url": "https://jobs.dualoo.com/link/36b74e9b-ac98-4066-9052-e82d9bcad344/apply?lang=FR",
-      "stellentitel": "Collaborateur administration sanitaires (h/f/d) 50%",
+      "stellentitel": null,
       "aufgaben": [],
       "profil": [],
-      "fehler": null
+      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsqFBjPEuewcnXofFaRp'}"
     },
     {
       "karriereseite": "https://www.sabag.ch/de/stellen",
@@ -124,7 +116,7 @@
       "stellentitel": null,
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZqvZEMU87jReSf7w6EeF'}"
+      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsqHwBcXqpsZ9zxzsxRD'}"
     },
     {
       "karriereseite": "https://www.sabag.ch/de/stellen",
@@ -132,35 +124,31 @@
       "stellentitel": null,
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZqvbdADmy45XUqZuyBAC'}"
+      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsqM9GDodz1jLHnRG3MX'}"
     },
     {
       "karriereseite": "https://www.sabag.ch/de/stellen",
       "stellen_url": "https://jobs.dualoo.com/link/d66246b5-6d7c-448d-aeee-a1556e02f0c2/apply?lang=DE&backButton=hide&source=Internet Sabag Feed",
-      "stellentitel": null,
+      "stellentitel": "Kundenberater Innendienst Sanitär 100% (m/w/d) Fokus Offertwesen",
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZqvdM6PhMdc1KDBubz6k'}"
-    },
-    {
-      "karriereseite": "https://www.sabag.ch/de/stellen",
-      "stellen_url": "https://jobs.dualoo.com/link/bce18a26-fa7f-4be1-b7bf-1d355fd2d62c/apply?lang=DE&backButton=hide&source=Internet Sabag Feed",
-      "stellentitel": "Lehrstelle Logistiker/in EFZ",
-      "aufgaben": [],
-      "profil": [
-        "Schulzeugnisse der letzten 3 Jahre erforderlich",
-        "Multicheck erforderlich",
-        "Schnupperlehren im gewünschten Beruf von Vorteil"
-      ],
       "fehler": null
     },
     {
       "karriereseite": "https://www.sabag.ch/de/stellen",
-      "stellen_url": "https://jobs.dualoo.com/link/cdec43e8-cab2-4ce8-8cd3-58e4c7ec3f55/apply?lang=DE&backButton=hide&source=Internet Sabag Feed",
+      "stellen_url": "https://jobs.dualoo.com/link/bce18a26-fa7f-4be1-b7bf-1d355fd2d62c/apply?lang=DE&backButton=hide&source=Internet Sabag Feed",
       "stellentitel": null,
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZqvhkvTsN4Y19YAcZg4c'}"
+      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsqRjYba8CzaDEbS5goG'}"
+    },
+    {
+      "karriereseite": "https://www.sabag.ch/de/stellen",
+      "stellen_url": "https://jobs.dualoo.com/link/cdec43e8-cab2-4ce8-8cd3-58e4c7ec3f55/apply?lang=DE&backButton=hide&source=Internet Sabag Feed",
+      "stellentitel": "Kundenberater Profishop Sanitär 100% (m/w/d) Standort Füllinsdorf",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
     },
     {
       "karriereseite": "https://www.sabag.ch/de/stellen",
@@ -168,7 +156,15 @@
       "stellentitel": null,
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZqvjnBRP5Le9momfhVxv'}"
+      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsqWykWc6PgoDfEsoqQc'}"
+    },
+    {
+      "karriereseite": "https://www.sabag.ch/de/stellen",
+      "stellen_url": "https://jobs.dualoo.com/link/815edeba-6ccc-4a3e-8e02-eed8433d9385/apply?lang=DE",
+      "stellentitel": null,
+      "aufgaben": [],
+      "profil": [],
+      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsqa7tV1M6thU7YhJw61'}"
     },
     {
       "karriereseite": "https://www.sabag.ch/de/stellen",
@@ -176,15 +172,15 @@
       "stellentitel": null,
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZqvms5Qfg1dQfYy58bgN'}"
+      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsqd1hzrdVi54GwN2Eed'}"
     },
     {
       "karriereseite": "https://www.sabag.ch/de/stellen",
       "stellen_url": "https://jobs.dualoo.com/link/0be1eb3c-7c1a-4595-8862-8d9baf7f0ad3/apply?lang=DE",
-      "stellentitel": null,
+      "stellentitel": "Kundenberater Innendienst Sanitär 80 - 100% (m/w/d)",
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZqvoyuyhRfkzyEHmX9dm'}"
+      "fehler": null
     },
     {
       "karriereseite": "https://www.sabag.ch/de/stellen",
@@ -192,83 +188,171 @@
       "stellentitel": null,
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZqvr9j92bokYHPG7Kt9r'}"
+      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsqhLQFtrh4PX2AbjWL1'}"
     },
     {
       "karriereseite": "https://www.sabag.ch/de/stellen",
       "stellen_url": "https://jobs.dualoo.com/link/44a1bbaf-8b02-4741-941b-fd7f22afaea2/apply?lang=DE&backButton=hide&source=Internet Sabag Feed",
-      "stellentitel": "Projektleiter Küchen 80–100 % (w/m/d)",
+      "stellentitel": null,
       "aufgaben": [],
       "profil": [],
-      "fehler": null
+      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsqkBSLUsiAtcrZqXTpj'}"
     },
     {
       "karriereseite": "https://www.sabag.ch/de/stellen",
       "stellen_url": "https://jobs.dualoo.com/link/e4f5b914-f654-4687-80f2-c4cd917262c5/apply?lang=DE&backButton=hide&source=Internet Sabag Feed",
-      "stellentitel": "Kundenberater Innendienst Baumaterial 100% (m/w/d)",
+      "stellentitel": null,
       "aufgaben": [],
       "profil": [],
-      "fehler": null
+      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsqoGXWDsNdNREx86gUq'}"
     },
     {
       "karriereseite": "https://www.sabag.ch/de/stellen",
       "stellen_url": "https://jobs.dualoo.com/link/00ce6c65-5afa-4d6e-b3f4-dd6eeaaa45d0/detail?lang=DE",
-      "stellentitel": "Chauffeur Kategorie B/C Sanitär 100% (m/w/d)",
-      "aufgaben": [
-        "Ausliefern und Abholen von Materialien gemäss Lieferschein/Fuhrauftrag",
-        "Fachgerechtes Be- und Entladen sowie Ladungssicherung nach Vorschrift",
-        "Retournahme von defekter Ware in Absprache mit dem Innendienst",
-        "Pflege, Unterhalt und Serviceplanung des Fahrzeugs",
-        "Selbstständige Strecken- und Terminplanung, inklusive Kommunikation mit Kunden"
-      ],
-      "profil": [
-        "Führerausweis Kat. B und C, idealerweise Kat. E",
-        "Kunden- und serviceorientiert, korrektes Auftreten",
-        "Selbstständig, zuverlässig und teamfähig",
-        "Körperlich belastbar mit technischem Verständnis",
-        "Gute Deutsch- und Französischkenntnisse"
-      ],
-      "fehler": null
+      "stellentitel": null,
+      "aufgaben": [],
+      "profil": [],
+      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsqr2E7WAQM9s2GiKydY'}"
     },
     {
       "karriereseite": "https://www.sabag.ch/de/stellen",
       "stellen_url": "https://jobs.dualoo.com/link/73b2b26f-b04e-4ad0-b3ac-cf4749779425/apply?lang=DE",
-      "stellentitel": "Kundenberater Innendienst Holz (m/w/d) 80-100%",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.sabag.ch/de/stellen",
-      "stellen_url": "https://jobs.dualoo.com/link/37c1b60f-a584-437f-b2c1-ff9d574905e9/apply?lang=DE",
-      "stellentitel": "Chauffeur Kat. C / Baumaterial und Holz",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.sabag.ch/de/stellen",
-      "stellen_url": "https://jobs.dualoo.com/link/d07a22e9-f12b-4fcb-8062-65fc7efb1e9f/apply?lang=DE",
       "stellentitel": null,
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZqw2pXYKiECrmjnQyhDC'}"
-    },
-    {
-      "karriereseite": "https://www.sabag.ch/de/stellen",
-      "stellen_url": "https://jobs.dualoo.com/link/2787d7ea-41ec-4748-bd28-437979361bbe/apply?lang=DE",
-      "stellentitel": null,
-      "aufgaben": [],
-      "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZqw4bXFaU8LPReGDZrzQ'}"
+      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsqtyUzfgsMDPhkf2MtR'}"
     },
     {
       "karriereseite": "https://www.sakret.de/de/unternehmen/karriere",
-      "stellen_url": null,
+      "stellen_url": "https://www.sakret.de/de/studentische-hilfskraft-m-w-d",
       "stellentitel": null,
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZqw6PFNNmJJQYi6FBwGn'}"
+      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsqzhQnDuXtQnXpuopi7'}"
+    },
+    {
+      "karriereseite": "https://www.sakret.de/de/unternehmen/karriere",
+      "stellen_url": "https://www.sakret.de/de/entwickler-m-w-d-mineralische-trockenmortel",
+      "stellentitel": null,
+      "aufgaben": [],
+      "profil": [],
+      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsr3vgaL1WpUo7rjM2AY'}"
+    },
+    {
+      "karriereseite": "https://www.sakret.de/de/unternehmen/karriere",
+      "stellen_url": "https://www.sakret.de/de/sachbearbeiter-customer-service-m-w-d",
+      "stellentitel": null,
+      "aufgaben": [],
+      "profil": [],
+      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsr73RiGjPW7MwSkU11G'}"
+    },
+    {
+      "karriereseite": "https://www.sakret.de/de/unternehmen/karriere",
+      "stellen_url": "https://www.sakret.de/de/gebietsverkaufsleiter-fliese-m-w-d-in-region-berlin-brandenburg",
+      "stellentitel": "Gebietsverkaufsleiter Fliese (m/w/d) in Region Berlin/ Brandenburg",
+      "aufgaben": [
+        "Gewinnung und Begeisterung neuer sowie bestehender Kunden in der Region Berlin/Brandenburg",
+        "Technische Beratung zu spezifischen Verarbeitungssituationen und Bauobjekten",
+        "Betreuung von Baustofffachhandelsstandorten sowie Fliesenfachhändlern",
+        "Beratung verarbeitender Unternehmen aus dem Bereich Fliesen- und Natursteinverlegung",
+        "Definition der Schwerpunkte der Marktbearbeitung und der Fokuskunden im eigenen Gebiet",
+        "Erfassung und kontinuierliche Ausschöpfung der Potentiale von Bestands- und Neukunden",
+        "Entwicklung und Umsetzung strategischer Initiativen zur Kundenentwicklung"
+      ],
+      "profil": [
+        "Große Leidenschaft für Vertrieb bei Zielgruppen aus dem Bereich der Fliesenbauchemie",
+        "Fundierte Marktkenntnisse in der Baustoffbranche, insbesondere im Bereich Fliesenbauchemie",
+        "Erfahrung im Umgang mit einem CRM-System, vorzugsweise Salesforce",
+        "Hohe Ausdauer zur kontinuierlichen Neukundengewinnung",
+        "Starke Kundenorientierung",
+        "Hands-on-Mentalität",
+        "Gutes Selbst- und Zeitmanagement",
+        "Verhandlungsgeschick"
+      ],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.sakret.de/de/unternehmen/karriere",
+      "stellen_url": "https://www.sakret.de/de/schlosser-m-w-d",
+      "stellentitel": null,
+      "aufgaben": [],
+      "profil": [],
+      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsrBdwEMnPRiJuBzwJpK'}"
+    },
+    {
+      "karriereseite": "https://www.sakret.de/de/unternehmen/karriere",
+      "stellen_url": "https://www.sakret.de/de/verlader-m-w-d",
+      "stellentitel": null,
+      "aufgaben": [],
+      "profil": [],
+      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsrEWemQKtjKoRypPXVa'}"
+    },
+    {
+      "karriereseite": "https://www.sakret.de/de/unternehmen/karriere",
+      "stellen_url": "https://www.sakret.de/de/produktionsmitarbeiter-m-w-d",
+      "stellentitel": null,
+      "aufgaben": [],
+      "profil": [],
+      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsrH6dUkgRsXQHg2HUKq'}"
+    },
+    {
+      "karriereseite": "https://www.sakret.de/de/unternehmen/karriere",
+      "stellen_url": "https://www.sakret.de/de/auszubildende-r-bei-sakret-gmbh",
+      "stellentitel": null,
+      "aufgaben": [],
+      "profil": [],
+      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsrKo2toHAmEAzYKj96T'}"
+    },
+    {
+      "karriereseite": "https://www.sakret.de/de/unternehmen/karriere",
+      "stellen_url": "https://www.sakret.de/de/lagerist-mitarbeiter-im-lager-m-w-x",
+      "stellentitel": null,
+      "aufgaben": [],
+      "profil": [],
+      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsrMpZUWV99Z2gtd219o'}"
+    },
+    {
+      "karriereseite": "https://www.sakret.de/de/unternehmen/karriere",
+      "stellen_url": "https://www.sakret.de/de/quereinsteiger-als-produktionsmitarbeiter-helfer-m-w-x",
+      "stellentitel": "Quereinsteiger als Produktionsmitarbeiter/-helfer (m/w/x)",
+      "aufgaben": [
+        "Unterstützung im Produktionsablauf",
+        "Vorbereiten von Produktionsaufträgen und Zugabe von Rohstoffen zum Mischprozess",
+        "Bedienen der Abfülleinrichtung für Säcke",
+        "Abfahren der Ware vom Band ins Lager"
+      ],
+      "profil": [
+        "Keine spezielle Grundqualifikation oder Berufsausbildung erforderlich",
+        "Staplerschein von Vorteil, jedoch nicht zwingend erforderlich",
+        "Zuverlässigkeit und Flexibilität",
+        "Bereitschaft zum Arbeiten im Schichtdienst (Früh- und Spätschicht im Wechsel)",
+        "Körperliche Belastbarkeit"
+      ],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.sakret.de/de/unternehmen/karriere",
+      "stellen_url": "https://www.sakret.de/de/autokranfahrer-lkw-fahrer-mit-ladekran-erfahrung-m-w-d",
+      "stellentitel": null,
+      "aufgaben": [],
+      "profil": [],
+      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsrS4R2RcRUYJe85Yuji'}"
+    },
+    {
+      "karriereseite": "https://www.sakret.de/de/unternehmen/karriere",
+      "stellen_url": "https://www.sakret.de/de/monteur-schlosser-m-w-x",
+      "stellentitel": null,
+      "aufgaben": [],
+      "profil": [],
+      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsrUgvYQFdqn2NXtrj6x'}"
+    },
+    {
+      "karriereseite": "https://www.sakret.de/de/unternehmen/karriere",
+      "stellen_url": "https://www.sakret.de/de/ausbildung-industriekaufmann-m/w/d",
+      "stellentitel": null,
+      "aufgaben": [],
+      "profil": [],
+      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsrXVXX7QianqRCcs6AH'}"
     },
     {
       "karriereseite": "https://junior.talentstorm.de/",
@@ -276,1302 +360,321 @@
       "stellentitel": null,
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZqw8CGP16PC4nX5ZzEDM'}"
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Assistent (m/w/d) Bereichsleitung dxbau",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Disponent Mietpark überregional (m/w/d)",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Disponent Vermietung Baumaschinen (m/w/d) in Koblenz",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Disponent Vermietung Baumaschinen (m/w/d) in Georgsmarienhütte",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Disponent Vermietung Baumaschinen (m/w/d) in Ludwigshafen",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Disponent Vermietung Baumaschinen (m/w/d) in Karlsruhe",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Disponent Vermietung Baumaschinen (m/w/d) in Himmelkron",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Disponent Vermietung Baumaschinen (m/w/d) in Bingen am Rhein",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Disponent Vermietung Baumaschinen (m/w/d) in Gröbers",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Disponent Vermietung Baumaschinen (m/w/d) in Friedrichsthal",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Disponent Vermietung Baumaschinen (m/w/d) in Cottbus",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Disponent Vermietung Baumaschinen (m/w/d) in Altdorf bei Nürnberg",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Duales Studium zum Betriebswirt (m/w/d)",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Elektriker Fahrzeugtechnik (m/w/d)",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Gruppenleiter Intensivkundenbetreuung / Forderungsmanagement (m/w/d)",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Gruppenleiter (m/w/d) Rechnungswesen",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Hauptbuchhalter (m/w/d)",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Hofmonteur (m/w/d) in Remseck am Neckar",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Hofmonteur (m/w/d) in Köln",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Hofmonteur (m/w/d) in Erwitte",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Industrielackierer (m/w/d)",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Kaufmann / Buchhalter (m/w/d) Flottenmanagement",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Kaufmännischer Mitarbeiter Kundendienst (m/w/d) in Karlsruhe",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Kaufmännischer Mitarbeiter Kundendienst (m/w/d) in Gröbers",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Kaufmännischer Mitarbeiter Kundendienst (m/w/d) in Teltow",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Kaufmann (m/w/d) Vermietung zentral",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Kfz-Mechatroniker im Innendienst (m/w/d)",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Konstruktionsmechaniker Schweißtechnik (m/w/d)",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Kundendienstleiter (m/w/d) Baumaschinen in Altdorf bei Nürnberg",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Kundendienstleiter (m/w/d) Baumaschinen in Himmelkron",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Lagerfachkraft (m/w/d)",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Land- und Baumaschinenmechatroniker (m/w/d) in Georgsmarienhütte",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Land- und Baumaschinenmechatroniker (m/w/d) in Altdorf bei Nürnberg",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Land- und Baumaschinenmechatroniker (m/w/d) in Trier",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Land- und Baumaschinenmechatroniker (m/w/d) in Sarstedt",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Land- und Baumaschinenmechatroniker (m/w/d) in Eschwege",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Land- und Baumaschinenmechatroniker (m/w/d) in Geesthacht",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Land- und Baumaschinenmechatroniker (m/w/d) in Dortmund",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Land- und Baumaschinenmechatroniker (m/w/d) in Cottbus",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Land- und Baumaschinenmechatroniker (m/w/d) in Gröbers",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Land- und Baumaschinenmechatroniker (m/w/d) in Remseck am Neckar",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Land- und Baumaschinenmechatroniker (m/w/d) in Erwitte",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Land- und Baumaschinenmechatroniker (m/w/d) in Bremervörde",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Land- und Baumaschinenmechatroniker (m/w/d) in Himmelkron",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Land- und Baumaschinenmechatroniker (m/w/d) in Kassel",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Land- und Baumaschinenmechatroniker (m/w/d) in Ludwigshafen",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Land- und Baumaschinenmechatroniker (m/w/d) in Estenfeld",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Land- und Baumaschinenmechatroniker (m/w/d) in Braunschweig",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Land- und Baumaschinenmechatroniker (m/w/d) in Zwickau",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Land- und Baumaschinenmechatroniker (m/w/d) in Dresden",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Land- und Baumaschinenmechatroniker (m/w/d) in Kreuztal",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Land- und Baumaschinenmechatroniker (m/w/d) in Elxleben",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Land- und Baumaschinenmechatroniker (m/w/d) in Magdeburg",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Land- und Baumaschinenmechatroniker (m/w/d) in Gladbeck",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Land- und Baumaschinenmechatroniker (m/w/d) in Hanau",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Land- und Baumaschinenmechatroniker (m/w/d) in Bingen am Rhein",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Land- und Baumaschinenmechatroniker (m/w/d) in Karlsruhe",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Land- und Baumaschinenmechatroniker (m/w/d) in Teltow",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Land- und Baumaschinenmechatroniker (m/w/d) in Köln",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Land- und Baumaschinenmechatroniker (m/w/d) für die Region Bremen",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Land- und Baumaschinenmechatroniker (m/w/d) für die Region Bremerhaven",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Land- und Baumaschinenmechatroniker (m/w/d) für die Region Hamburg / Lüneburg",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Leiter Mietpark Baumaschinen (m/w/d) in Magdeburg",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Leiter Mietpark Baumaschinen (m/w/d) in Zwickau",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Leiter Mietpark Baumaschinen (m/w/d) in Geesthacht",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Maschinenwart Baumaschinen (m/w/d)",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Mechaniker / Techniker (m/w/d) für Umschlagmaschinen Region Unterfranken",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Mechatroniker Digitalisierung (m/w/d) in Gröbers",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Mechatroniker Digitalisierung (m/w/d) in Geesthacht",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Mechatroniker Digitalisierung (m/w/d) in Dresden",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Mechatroniker Digitalisierung (m/w/d) in Karlsruhe",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Mechatroniker im Innendienst (m/w/d)",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Mitarbeitender Werkstattmeister (m/w/d) in Koblenz",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Mitarbeitender Werkstattmeister (m/w/d) in Teltow",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Mitarbeiter Debitorenmanagement / Sanierungsbetreuung (m/w/d)",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Mitarbeiter Ersatzteilservice (m/w/d) in Estenfeld",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Mitarbeiter Ersatzteilservice (m/w/d) in Dortmund",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Mitarbeiter Ersatzteilservice (m/w/d) in Gröbers",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Mitarbeiter (m/w/d) Vertriebsinnendienst Schwerpunkt Key Account / Händlerbetreuung",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Platzmeister Baumaschinen (m/w/d) in Estenfeld",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Platzmeister Baumaschinen (m/w/d) in Cottbus",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Platzmeister Baumaschinen (m/w/d) in Braunschweig",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Platzmeister Baumaschinen (m/w/d) in Karlsruhe",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Platzmeister Baumaschinen (m/w/d) in Himmelkron",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Platzmeister Baumaschinen (m/w/d) in Trier",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Produktleiter Teleskoplader (m/w/d)",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Reinigungskraft Baumaschinen (m/w/d)",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Sachbearbeiter Vertriebsinnendienst (m/w/d)",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Schlosser im Innendienst (m/w/d)",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Serviceberater (m/w/d) Baumaschinen in Geesthacht",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Serviceberater (m/w/d) Baumaschinen in Bremervörde",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Servicetechniker Innendienst (m/w/d)",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Technischer Mitarbeiter Vermietung (m/w/d)",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Verkaufsleiter Baumaschinen (m/w/d)",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Vertriebsingenieur Hafen / Region Nord (m/w/d)",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Vertriebsmitarbeiter Digitale Baustelle (m/w/d)",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Vertriebsmitarbeiter im Außendienst (m/w/d) in Teltow",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Vertriebsmitarbeiter im Außendienst (m/w/d) in Hanau",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Vertriebsmitarbeiter im Außendienst (m/w/d) in Cottbus",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Vertriebsmitarbeiter im Außendienst (m/w/d) in Zwickau",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Vertriebsmitarbeiter im Außendienst (m/w/d) in Altdorf bei Nürnberg",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Vertriebsmitarbeiter im Außendienst (m/w/d) in Aachen",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Vertriebsmitarbeiter im Außendienst (m/w/d) in Lüneburg / Celle",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Vertriebsmitarbeiter Mietpark (m/w/d)",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Vertriebsspezialist Abbruch und Rückbau (m/w/d)",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Vertriebsspezialist Hafen (m/w/d)",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Vertriebsspezialist Kreislaufwirtschaft (m/w/d) in Kassel",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Vertriebsspezialist Kreislaufwirtschaft (m/w/d) in Hanau",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Vertriebsspezialist Kreislaufwirtschaft (m/w/d) in Ludwigshafen",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Vertriebsspezialist Kreislaufwirtschaft (m/w/d) in Remseck am Neckar",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Vertriebsspezialist Umschlagmaschinen / Schwaben (m/w/d)",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Wäscher Baumaschinen (m/w/d)",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Werkstattmeister (m/w/d) in Himmelkron",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Werkstattmeister (m/w/d) in Remseck am Neckar",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Werkstattmeister (m/w/d) in Bingen am Rhein",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Werkstattmeister (m/w/d) in Elxleben",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Werkstattmeister (m/w/d) in Friedrichsthal",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": "Werkstattmeister (m/w/d) in Gladbeck",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
-      "stellentitel": "Ausbildung zum Fachinformatiker für Systemintegration für 2026 (m/w/d)",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
-      "stellentitel": "Ausbildung zum Kaufmann-/frau Büromanagement für 2026 (m/w/d) in Geesthacht",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
-      "stellentitel": "Ausbildung zum Kaufmann-/frau Büromanagement für 2026 (m/w/d) in Kreuztal",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
-      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Kreuztal",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
-      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Bremervörde",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
-      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Himmelkron",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
-      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Gröbers",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
-      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Hanau",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
-      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Kassel",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
-      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Teltow",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
-      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Geeste",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
-      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Georgsmarienhütte",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
-      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Erwitte",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
-      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Trier",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
-      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Geesthacht",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
-      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Ludwigshafen",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
-      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Friedrichsthal",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
-      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Magdeburg",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
-      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Altdorf bei Nürnberg",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
-      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Estenfeld",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
-      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Köln",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
-      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Aurich",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
-      "stellentitel": "Ausbildung zur Fachkraft für Lagerlogistik in 2026 (m/w/d)",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
-      "stellentitel": "Dualer Student (m/w/d) Informatik (B.A.)",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
-      "stellentitel": "Dualer Student (m/w/d) Management & Digitalisierung (B.A.)",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
-      "stellentitel": "Duales Studium zum Betriebswirt (m/w/d)",
-      "aufgaben": [],
-      "profil": [],
+      "fehler": "Keine Stellen gefunden"
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": null,
+      "stellentitel": null,
+      "aufgaben": [],
+      "profil": [],
+      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsreG1NTGwFNbXj7Z6Ee'}"
+    },
+    {
+      "karriereseite": "https://herchenbach-industrial.com/de/unternehmen/karriere",
+      "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/fachkraft-fuer-lagerlogistik-lagermitarbeiter-m-w-d-digitales-zentrallager",
+      "stellentitel": "Fachkraft für Lagerlogistik/ Lagermitarbeiter (m/w/d) - Digitales Zentrallager",
+      "aufgaben": [
+        "Be- und Entladung von LKWs unter Einhaltung der Ladungssicherungsvorschriften",
+        "Steuerung der Warenbewegung über mobile Datenerfassungsgeräte (MDE) zur lückenlosen Bestandsverbuchung",
+        "Bedienung verschiedener Flurförderzeuge (Gas-Frontstapler, Elektro- und Diesel-Vier-Wege-Stapler, Mitgänger-Hochhubwagen, Schmalgang-Schubmaststapler)",
+        "Zusammenstellung von Aufträgen, insbesondere von Langgut wie Aluminiumprofilen, inklusive Dokumentation der kommissionierten Ware",
+        "Annahme, Sichtprüfung und Aufbereitung von Mietmaterial sowie Durchführung qualitätssichernder Maßnahmen nach DIN EN 1090",
+        "Ordnungsgemäße Einlagerung, Pflege und ggf. Reinigung von Material",
+        "Erstellung von Warenkennzeichnungen, Fracht- und Begleitpapieren sowie Dokumentation von Prüfergebnissen am PC"
+      ],
+      "profil": [
+        "Erfahrung in der Lagerlogistik, idealerweise mit Langgut oder im Industrieumfeld",
+        "Ausbildung im Bereich Lagerlogistik oder vergleichbar",
+        "Gültiger Gabelstaplerschein (mindestens Frontstapler)",
+        "Sicherer Umgang mit Gas-Frontstaplern, Elektro- und Diesel-Vier-Wege-Staplern, Mitgänger-Hochhubwagen sowie Schmalgang-Schubmaststaplern",
+        "Sicherer Umgang mit MDE-Geräten und grundlegende PC-Kenntnisse",
+        "Hohes Maß an Sorgfalt, Qualitätsbewusstsein und Teamfähigkeit",
+        "Physische Belastbarkeit für Arbeiten in nicht klimatisierten Hallen und im Freien",
+        "Bereitschaft zu gelegentlichen Überstunden bei erhöhtem Arbeitsaufkommen oder späten LKW-Anlieferungen"
+      ],
       "fehler": null
     },
     {
       "karriereseite": "https://herchenbach-industrial.com/de/unternehmen/karriere",
+      "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/sales-representative-field-sales-manager-b2b-industrial-customersm-f-d",
+      "stellentitel": null,
+      "aufgaben": [],
+      "profil": [],
+      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsro8k4FaBcuNrhvV92A'}"
+    },
+    {
+      "karriereseite": "https://herchenbach-industrial.com/de/unternehmen/karriere",
+      "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/project-manager-industrial-lightweight-buildings-poland-m-f-d-remote",
+      "stellentitel": null,
+      "aufgaben": [],
+      "profil": [],
+      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsrqbgMYXgVuijJJy8bX'}"
+    },
+    {
+      "karriereseite": "https://herchenbach-industrial.com/de/unternehmen/karriere",
+      "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/performance-marketing-manager-czech-republic-m-f-d-remote-job",
+      "stellentitel": null,
+      "aufgaben": [],
+      "profil": [],
+      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsrtXVvQD25kXh7iKttw'}"
+    },
+    {
+      "karriereseite": "https://herchenbach-industrial.com/de/unternehmen/karriere",
+      "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/inside-sales-manager-mit-fokus-auf-after-sales-kundenberater-m-w-d",
+      "stellentitel": "Inside Sales Manager mit Fokus auf After Sales/Kundenberater (m/w/d)",
+      "aufgaben": [
+        "Beratung von Kunden zu Produkten und Services – telefonisch, schriftlich und vor Ort",
+        "Eigenständige Kalkulation von Angeboten, Preisverhandlungen mit Fokus auf Umsatz- und Margenziele",
+        "Konsequentes Nachverfolgen von Angeboten, Pipeline-Steuerung im CRM-System und Verhandlungsführung bis zum Abschluss",
+        "Erste Anlaufstelle für Kundenanfragen im After Sales – Priorisierung und Lösungsfindung",
+        "Aktives Erkennen von Kundenbedarfen (Ersatzteile, Reparaturen, Umbaumaßnahmen) und Entwicklung zu Verkaufschancen in Zusammenarbeit mit Technik, Einkauf und Montage",
+        "Proaktive Betreuung von Bestandskunden sowie Umsatzgenerierung durch Cross- und Upselling",
+        "Überwachung von Terminen, Qualität, Status und Kosten vom Auftragseingang bis zur Abnahme sowie transparente Kundenkommunikation"
+      ],
+      "profil": [
+        "Kaufmännische Ausbildung oder 2–3 Jahre Praxiserfahrung im After Sales, technischen Vertrieb oder Customer Service",
+        "Strukturierte Arbeitsweise mit Fokus auf Ziele, KPIs und Margenvorgaben sowie Abschlussstärke",
+        "Sicherer Umgang mit ERP- und CRM-Systemen",
+        "Verhandlungssichere Deutsch- und Englischkenntnisse",
+        "Führerschein Klasse B",
+        "Eigeninitiative, selbstständige Projektstrukturierung und ergebnisorientiertes Arbeiten"
+      ],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://herchenbach-industrial.com/de/unternehmen/karriere",
+      "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/junior-field-sales-manager-b2b-industrial-sector-oesterreich",
+      "stellentitel": null,
+      "aufgaben": [],
+      "profil": [],
+      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsryrxbUHSj31fxtCB8w'}"
+    },
+    {
+      "karriereseite": "https://herchenbach-industrial.com/de/unternehmen/karriere",
+      "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/project-manager-industrial-lightweight-buildings-uk-m-f-d-remote",
+      "stellentitel": null,
+      "aufgaben": [],
+      "profil": [],
+      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZss34E6K8vewPDYhFhuM'}"
+    },
+    {
+      "karriereseite": "https://herchenbach-industrial.com/de/unternehmen/karriere",
+      "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/teleprospecteur-teleprospectrice-b2b-h-f-d",
+      "stellentitel": "Téléprospecteur / Téléprospectrice B2B (h/f/d)",
+      "aufgaben": [
+        "Identification et premier contact de clients potentiels via différents canaux, avec un accent particulier sur les échanges téléphoniques",
+        "Génération de projets et de leads auprès de nouveaux clients et de clients existants, qualification et transmission à l'équipe Inside Sales",
+        "Conseil aux clients et prospects B2B sur nos produits et services en tant que premier point de contact dans le parcours client",
+        "Suivi et documentation des activités à l'aide d'un CRM basé sur le cloud, utilisable de manière flexible en télétravail"
+      ],
+      "profil": [
+        "Plaisir à réaliser des premiers contacts téléphoniques dans le cadre d'objectifs d'entretien clairement définis",
+        "Présentation professionnelle et assurée, avec d'excellentes connaissances du français/anglais à l'oral comme à l'écrit",
+        "Grande tolérance à la frustration – rester motivé·e et persévérant·e même face aux revers",
+        "Créativité dans la recherche de solutions adaptées aux besoins des clients potentiels",
+        "Maîtrise des outils MS Office (Teams, Word, Excel, PowerPoint, etc.) et affinité générale pour le travail numérique",
+        "Expérience dans le contact direct avec les clients, idéalement dans un environnement B2B",
+        "Fort engagement et affinité pour les outils digitaux"
+      ],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://herchenbach-industrial.com/de/unternehmen/karriere",
+      "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/field-sales-manager-b2b-industrial-sector-m-w-d-ruhrgebiet-west",
+      "stellentitel": null,
+      "aufgaben": [],
+      "profil": [],
+      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZss7aw9ygVspafDYHYZQ'}"
+    },
+    {
+      "karriereseite": "https://herchenbach-industrial.com/de/unternehmen/karriere",
+      "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/business-analyst-m-w-d",
+      "stellentitel": null,
+      "aufgaben": [],
+      "profil": [],
+      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZss9yVn8s7PDNmWFN84a'}"
+    },
+    {
+      "karriereseite": "https://herchenbach-industrial.com/de/unternehmen/karriere",
+      "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/sales-representative-field-sales-manager-b2b-industrial-customersm-f-d-south-west",
+      "stellentitel": "Sales Representative / Field Sales Manager (B2B - Industrial Customers)(m/f/d) - South West",
+      "aufgaben": [
+        "Needs- und solution-orientierte Beratung von Kunden aus Industrie, Logistik und anderen Branchen mit dem Produktportfolio eines spezialisierten Herstellers",
+        "Vor-Ort-Analyse von Kundenanforderungen und Erstellung maßgeschneiderter, kostenoptimierter Angebote",
+        "Verkaufsverhandlungen, Abschlüsse und proaktives sowie konsequentes Follow-up offener Angebote",
+        "Enge Zusammenarbeit mit Entscheidungsträgern auf Kundenseite sowie internen Schnittstellen (insb. Projektmanagement, Einkauf, Innendienst und Marketing)",
+        "Gewissenhafte Dokumentation von Kontakten und Ergebnissen im CRM-System"
+      ],
+      "profil": [
+        "Abschluss in Betriebswirtschaft, Vertriebsmanagement, Marketing oder einem vergleichbaren Studiengang",
+        "Mindestens erste, vorzugsweise mehrjährige Erfahrung im B2B-Außendienst mit erklärungsbedürftigen, vorzugsweise technischen Produkten, Investitionsgütern und/oder Dienstleistungen",
+        "Hohe Affinität für beratungsintensiven Vertrieb, starke Zielorientierung, Engagement, Begeisterung und Abschlussstärke",
+        "Schnelle Auffassungsgabe, sehr gute Präsentationsfähigkeiten und adressatengerechte Rhetorik",
+        "Motivierte und selbstständige Persönlichkeit, dynamisch, proaktiv und zielorientiert auch im Home Office",
+        "Sicherer Umgang mit MS-Office, Erfahrung mit ERP- und/oder CRM-Systemen von Vorteil",
+        "Verhandlungssicheres Englisch und Kenntnisse der britischen Geschäftsmentalität und lokaler Marktmechanismen",
+        "Wohnort idealerweise im Raum Bristol"
+      ],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://herchenbach-industrial.com/de/unternehmen/karriere",
+      "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/controller-finance-controller-m-w-d",
+      "stellentitel": null,
+      "aufgaben": [],
+      "profil": [],
+      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZssF4bzYJtei3MwHisPb'}"
+    },
+    {
+      "karriereseite": "https://herchenbach-industrial.com/de/unternehmen/karriere",
+      "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/mitarbeiter-inside-sales-vertriebsinnendienst-m-w-d",
+      "stellentitel": "Mitarbeiter Inside Sales / Vertriebsinnendienst (m/w/d)",
+      "aufgaben": [
+        "Qualifizierung von Kundenanfragen durch strukturierte Telefonate und Bedarfsermittlung",
+        "Terminierung für den Außendienst mit strategischer Routenplanung",
+        "Sorgfältige Datenpflege in CRM & ERP-Systemen",
+        "Vorbereitung von Unterlagen und Kontakten für den Außendienst",
+        "Follow-Ups mit Kunden zu offenen Punkten und Prozessen"
+      ],
+      "profil": [
+        "Spaß an telefonischer Kundenberatung und klarer Kommunikation",
+        "Sehr gute Deutschkenntnisse und gute Englischkenntnisse",
+        "Gute MS-Office-Kenntnisse sowie Interesse an CRM/ERP-Systemen",
+        "Erste Erfahrung im Kundenkontakt (Vertrieb, Service, Callcenter, Einzelhandel, Hotellerie/Gastronomie, Assistenz oder Quereinstieg)",
+        "Motivation, Zuverlässigkeit und Freude an messbaren Ergebnissen",
+        "Umschüler, Wiedereinsteiger, Quereinsteiger und Berufseinsteiger ausdrücklich willkommen"
+      ],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://herchenbach-industrial.com/de/unternehmen/karriere",
+      "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/b2b-telemarketer-hungary-m-f-d",
+      "stellentitel": "B2B Telemarketer Hungary (m/f/d)",
+      "aufgaben": [
+        "Identifizierung und Erstkontakt mit potenziellen Kunden über verschiedene Kanäle, insbesondere Telefon, im ungarischen Markt",
+        "Generierung von Projekten und Leads aus Neukunden sowie Qualifizierung für Termine mit dem Field Sales Team",
+        "Beratung von B2B-Kunden und Interessenten zu Produkten und Dienstleistungen als erste Anlaufstelle in der Customer Journey",
+        "Überwachung und Dokumentation der Aktivitäten in einem cloudbasierten CRM-System"
+      ],
+      "profil": [
+        "Freude an telefonischen Erstkontakten mit klar definierten Gesprächszielen und strukturierten KPIs",
+        "Professionelles und sicheres Auftreten mit ausgezeichneten Kenntnissen in Wort und Schrift auf Ungarisch und Englisch",
+        "Hohe Frustrationstoleranz – motiviert und beharrlich auch bei Rückschlägen",
+        "Kreativität bei der Entwicklung von auf Kundenbedürfnisse zugeschnittenen Lösungen",
+        "Sicherer Umgang mit MS Office-Tools (Teams, Word, Excel, PowerPoint) und allgemeine Affinität für digitale Arbeit",
+        "Erfahrung im direkten Kundenkontakt, idealerweise im B2B-Umfeld"
+      ],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://herchenbach-industrial.com/de/unternehmen/karriere",
+      "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/director-operations-project-delivery-m-f-d",
+      "stellentitel": null,
+      "aufgaben": [],
+      "profil": [],
+      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZssLm4ijmBdjJA9hrjt9'}"
+    },
+    {
+      "karriereseite": "https://herchenbach-industrial.com/de/unternehmen/karriere",
+      "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/general-manager-country-manager-uk-irl",
+      "stellentitel": null,
+      "aufgaben": [],
+      "profil": [],
+      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZssPVYuDoine1QZkPJbW'}"
+    },
+    {
+      "karriereseite": "https://herchenbach-industrial.com/de/unternehmen/karriere",
+      "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/senior-performance-marketing-manager-m-w-d-dach-region",
+      "stellentitel": null,
+      "aufgaben": [],
+      "profil": [],
+      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZssSzZFUhPjy9qjtw9dG'}"
+    },
+    {
+      "karriereseite": "https://herchenbach-industrial.com/de/unternehmen/karriere",
+      "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/country-manager-netherlands-build-up-pl-ownership",
+      "stellentitel": null,
+      "aufgaben": [],
+      "profil": [],
+      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZssVqaqFbBgyMEHTxjeM'}"
+    },
+    {
+      "karriereseite": "https://herchenbach-industrial.com/de/unternehmen/karriere",
+      "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/key-account-manager-m-w-d-strategic-b2b-accounts-industrieumfeld",
+      "stellentitel": null,
+      "aufgaben": [],
+      "profil": [],
+      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZssYb534zTYUnYoyLXVe'}"
+    },
+    {
+      "karriereseite": "https://www.avescorent.ch/de/arbeitsplaetze/",
       "stellen_url": null,
       "stellentitel": null,
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZqwUAtbDf8adHDk18Svf'}"
-    },
-    {
-      "karriereseite": "https://www.avescorent.ch/de/arbeitsplaetze/",
-      "stellen_url": "https://www.avescorent.ch/de/karrierelaufbahn/apprentis-es-employe-es-de-commerce-service-et-administration/",
-      "stellentitel": "Apprentis-es Employé-es de commerce – Service et Administration",
-      "aufgaben": [
-        "Suivi administratif du personnel, gestion des dossiers et notes de frais",
-        "Soutien au recrutement",
-        "Accueil et orientation de collaborateurs lors de formations internes",
-        "Aide à l'organisation de différents événements",
-        "Point de contact des collègues et participation à des projets",
-        "Comptabilisation et suivi des encaissements",
-        "Gestion des contentieux",
-        "Traitement des factures et de pièces comptables et du courrier",
-        "Gestion du standard téléphonique et des fournitures"
-      ],
-      "profil": [
-        "Fin de scolarité obligatoire réussie ou souhait de réorientation après une première formation",
-        "Bonnes compétences en langues, notamment en allemand",
-        "Aime le contact avec les gens et possède un bon esprit de collaboration",
-        "Intérêt marqué pour les tâches administratives et les chiffres",
-        "Excellente maîtrise du français oral et rédactionnel",
-        "Maîtrise des outils informatiques standards (Word, Excel, Outlook)",
-        "Organisé·e, curieux·se, volontaire, flexible et prêt·e à relever de nouveaux défis"
-      ],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.avescorent.ch/de/arbeitsplaetze/",
-      "stellen_url": "https://www.avescorent.ch/de/karrierelaufbahn/administration-koordinator-mobilbau-80-100-m-w-d/",
-      "stellentitel": "Administration / Koordinator Mobilbau",
-      "aufgaben": [
-        "Erste Anlaufstelle für Kunden – am Telefon, per Mail oder persönlich",
-        "Kundenbedürfnisse erkennen und passende Lösungen finden",
-        "Angebote, Miet- und Kaufverträge erstellen sowie Debitoren und Kreditoren im Überblick behalten",
-        "Transporte organisieren, Einsatzpläne koordinieren und Filialleiter unterstützen oder vertreten",
-        "Flotte und alle Dokumentationen verwalten"
-      ],
-      "profil": [
-        "Erfahrung in einer ähnlichen Funktion – idealerweise im Vermietungs- oder Verkaufsumfeld",
-        "Technisches Verständnis und Freude am Organisieren",
-        "Starke Kommunikationsskills in Deutsch und gute mündliche Französischkenntnisse",
-        "Gute IT-Affinität"
-      ],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.avescorent.ch/de/arbeitsplaetze/",
-      "stellen_url": "https://www.avescorent.ch/de/karrierelaufbahn/junior-projektleiter-sales-container-mobilbau-m-w-d/",
-      "stellentitel": "Junior Projektleiter / Sales Container – Mobilbau",
-      "aufgaben": [
-        "Entwicklung und Förderung der Vermietung und des Verkaufs von neuen und gebrauchten Containern",
-        "Akquise und Entwicklung neuer Kunden in Verbindung mit der Geschäftsstrategie und den festgelegten Zielen",
-        "Besuchen, präsentieren und beraten der Kunden über die gesamte angebotene Produktpalette und Anbieten von massgeschneiderten Containerlösungen",
-        "Die Machbarkeit von Projekten untersuchen und die Kundenbetreuung nachverfolgen",
-        "Offerten und entsprechende Kalkulationen nach Vorgabe erstellen",
-        "Nachverfolgung des Angebots und Abschlüsse",
-        "Ansprechpartner für Kunden, Lieferwerk und Netzwerkpartner",
-        "In Zusammenarbeit mit Mitarbeitern und Netzwerkpartnern Projekte umsetzen"
-      ],
-      "profil": [
-        "Solide Erfahrung im kaufmännischen Bereich (3-5 Jahre)",
-        "Solide kommerzielle und technische Kenntnisse",
-        "Hervorragende schriftliche und mündliche Kompetenzen in Deutsch",
-        "Führerausweis Kategorie B",
-        "Gute Anwender-Kenntnisse Microsoft Office"
-      ],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.avescorent.ch/de/arbeitsplaetze/",
-      "stellen_url": "https://www.avescorent.ch/de/karrierelaufbahn/mechaniker-techniker-maschinen-energie-ittigen/",
-      "stellentitel": null,
-      "aufgaben": [],
-      "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZqwiF9DFCsgnNQuNP3gU'}"
-    },
-    {
-      "karriereseite": "https://www.avescorent.ch/de/arbeitsplaetze/",
-      "stellen_url": "https://www.avescorent.ch/de/karrierelaufbahn/technicien-polyvalent-m-w-d-80-100/",
-      "stellentitel": "Technicien Polyvalent",
-      "aufgaben": [
-        "Assurer la livraison, la reprise et le bon fonctionnement des installations de protection des eaux (IPE) du parc de location",
-        "Préparer, mettre en service, entretenir et dépanner les installations de manière autonome",
-        "Garantir la qualité, la maintenance et l'état du parc de location IPE",
-        "Gérer les stocks, les entrées / sorties et le contrôle qualité des composants",
-        "Evaluer les dommages du matériel retourné, avec le chef de projet et le responsable d'équipe et définir la suite des actions",
-        "Intervenir comme interface entre les chantiers, l'atelier et les chefs de projet",
-        "Contribuer à l'amélioration continue des processus et au développement des produits",
-        "Participer aux activités de la succursale de Rennaz et intervenir sur les chantiers en Suisse Romande"
-      ],
-      "profil": [
-        "Solides connaissances techniques",
-        "Aisance avec les composants électriques et leur maintenance",
-        "Minimum 5 ans d'expérience professionnelle",
-        "Bonnes connaissances des outils informatiques",
-        "Permis de conduire catégorie B",
-        "Permis cariste",
-        "Langue : français (connaissances orales de l'allemand ou de l'anglais souhaitées)"
-      ],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.avescorent.ch/de/arbeitsplaetze/",
-      "stellen_url": "https://www.avescorent.ch/de/karrierelaufbahn/vielseitiger-techniker-m-w-d-100-oftringen/",
-      "stellentitel": "Servicetechniker / Techniker Maschinen & Energie (m/w/d)",
-      "aufgaben": [
-        "Wartung, Reparatur und Inbetriebnahme von Generatoren, Stromerzeugern, Heiz- und Klimageräten",
-        "Fehlersuche, Diagnose und Behebung technischer Störungen an Energieanlagen",
-        "Kontrolle, Pflege & Bereitstellung des Maschinenparks",
-        "Projektbegleitung & technische Unterstützung vor Ort"
-      ],
-      "profil": [
-        "Technisches Verständnis und Erfahrung mit Energieanlagen (Generatoren, Stromerzeugern, Heiz- und Klimasystemen) – ob aus Ausbildung oder 'on the job'",
-        "Selbstständig, zuverlässig & lösungsorientiert",
-        "Freude am Kundenkontakt und gelegentlichen Ausseneinsätzen",
-        "IT-Grundkenntnisse"
-      ],
-      "fehler": null
+      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZssbmJXeVhcvp8LeJf5R'}"
     },
     {
       "karriereseite": "https://www.hkl-baumaschinen.de/karriere/jobs",
-      "stellen_url": null,
+      "stellen_url": "https://www.hkl-baumaschinen.de/karriere/ausbildung",
       "stellentitel": null,
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZqwqU1KLb68hbo8LF7PS'}"
+      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsskacLxq5dx4vvZsVwz'}"
+    },
+    {
+      "karriereseite": "https://www.hkl-baumaschinen.de/karriere/jobs",
+      "stellen_url": "https://www.hkl-baumaschinen.de/karriere/ausbildungsstellen",
+      "stellentitel": null,
+      "aufgaben": [],
+      "profil": [],
+      "fehler": "Keine Stellen gefunden"
     },
     {
       "karriereseite": "https://kmls.de/karriere/",
-      "stellen_url": null,
+      "stellen_url": "https://kmls.de/jobs/serviceleiter-facility-management-haustechnik-wmd/",
       "stellentitel": null,
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZqwsdj2HhKHgBVzhZYcy'}"
+      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZssuCsPNRUXNG1gtBiPF'}"
+    },
+    {
+      "karriereseite": "https://kmls.de/karriere/",
+      "stellen_url": "https://kmls.de/jobs/bauleiter-wmd-fuer-den-bereich-kaelte-klima-und-lueftungstechnik/",
+      "stellentitel": null,
+      "aufgaben": [],
+      "profil": [],
+      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsswiJW33xiEw8t5x2Zy'}"
+    },
+    {
+      "karriereseite": "https://kmls.de/karriere/",
+      "stellen_url": "https://kmls.de/jobs/service-und-wartungstechniker-wmd-elektrotechnik/",
+      "stellentitel": null,
+      "aufgaben": [],
+      "profil": [],
+      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsszR5k61vyN5pECAPTV'}"
+    },
+    {
+      "karriereseite": "https://kmls.de/karriere/",
+      "stellen_url": "https://kmls.de/jobs/haustechniker-wmd/",
+      "stellentitel": "Haustechniker im Kundendienst (w|m|d)",
+      "aufgaben": [
+        "Überwachung des Zustands technischer Anlagen in Gewerbeimmobilien (Lüftung, Beleuchtung, sanitäre Einrichtungen) und frühzeitige Meldung von Auffälligkeiten oder Störungen",
+        "Eigenständige Durchführung handwerklicher Reparaturen (Malerarbeiten, Austausch von Leuchtmitteln, kleinere Sanitär- und Trockenbauarbeiten)",
+        "Sicherstellung eines gepflegten Erscheinungsbilds der Filialen und Einhaltung von Sicherheits- und Sauberkeitsstandards",
+        "Überwachung von Wartungsintervallen und Abstimmung mit externen Handwerkern, Dienstleistern und Partnern für störungsfreien Betrieb",
+        "Übernahme des Notdienstes (Rufbereitschaft) im Wechsel mit Kollegen alle zwei bis vier Wochen"
+      ],
+      "profil": [
+        "Abgeschlossene handwerkliche Ausbildung (z. B. Schlosser, Maler, Trockenbauer, Metallbauer, Elektriker oder Anlagenmechaniker)",
+        "Idealerweise erste Erfahrungen im technischen Gebäudemanagement oder als Haustechniker, z. B. in der Instandhaltung gewerblicher Filialen",
+        "Zuverlässige, belastbare und einsatzbereite Arbeitsweise sowie Teamfähigkeit bei gleichzeitig selbstständigem und lösungsorientiertem Vorgehen",
+        "Gutes Organisationsvermögen und technisches Verständnis",
+        "Reisebereitschaft innerhalb der Region sowie Führerschein Klasse B",
+        "Bereitschaft zu gelegentlichen Übernachtungen bei größerer Entfernung zum Kunden"
+      ],
+      "fehler": null
     },
     {
       "karriereseite": "https://www.sikla.career/",
@@ -1579,7 +682,7 @@
       "stellentitel": null,
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZqwvFRRBmatnvJ68iguC'}"
+      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZst6DF2FHaYnFNwpFBjs'}"
     }
   ]
 }
