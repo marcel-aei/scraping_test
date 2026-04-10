@@ -1,9 +1,9 @@
 {
   "meta": {
-    "timestamp": "2026-04-09T08:28:27.145994+00:00",
+    "timestamp": "2026-04-10T08:40:06.485207+00:00",
     "urls_count": 9,
-    "stellen_count": 18,
-    "fehler_count": 51
+    "stellen_count": 105,
+    "fehler_count": 18
   },
   "stellen": [
     {
@@ -25,18 +25,18 @@
     {
       "karriereseite": "https://www.sabag.ch/de/stellen",
       "stellen_url": "https://jobs.dualoo.com/link/8eeee14e-a2e2-49fd-a2dd-5d8df7228699/apply?lang=DE",
-      "stellentitel": null,
+      "stellentitel": "Schnupperlehre Berufserkundung Praktikum Logistiker/-in",
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZspoqVGyxzdNA8FxTtqD'}"
+      "fehler": null
     },
     {
       "karriereseite": "https://www.sabag.ch/de/stellen",
       "stellen_url": "https://jobs.dualoo.com/link/75ec1caf-97fe-4b6f-b67c-5d999c7b5722/apply?lang=DE",
-      "stellentitel": null,
+      "stellentitel": "Praktikum Kauffrau/Kaufmann",
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsprW73QZpM5cgqjqLLZ'}"
+      "fehler": null
     },
     {
       "karriereseite": "https://www.sabag.ch/de/stellen",
@@ -60,23 +60,23 @@
       "stellentitel": null,
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZspyHw1F5iXKtwcwXRYb'}"
+      "fehler": null
     },
     {
       "karriereseite": "https://www.sabag.ch/de/stellen",
       "stellen_url": "https://jobs.dualoo.com/link/3ff77efa-ccaa-43ea-ace8-4f2717b4c51a/apply?lang=DE&backButton=hide&source=Internet Sabag Feed",
-      "stellentitel": null,
+      "stellentitel": "Sachbearbeiter Administration Baumaterial",
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsq291KNFKDNuivxgPF3'}"
+      "fehler": null
     },
     {
       "karriereseite": "https://www.sabag.ch/de/stellen",
       "stellen_url": "https://jobs.dualoo.com/link/26790079-914f-4435-8c95-31c2894e6d80/apply?lang=DE",
-      "stellentitel": null,
+      "stellentitel": "Kundenberater Innendienst Sanitär 100% (m/w/d)",
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsq5Gz7o32j899uMX914'}"
+      "fehler": null
     },
     {
       "karriereseite": "https://www.sabag.ch/de/stellen",
@@ -89,10 +89,10 @@
     {
       "karriereseite": "https://www.sabag.ch/de/stellen",
       "stellen_url": "https://jobs.dualoo.com/link/da8df912-9378-4559-b2c7-d7b5cb2c7faa/apply?lang=DE&backButton=hide&source=Internet Sabag Feed",
-      "stellentitel": null,
+      "stellentitel": "Kundenberater Ausstellung Sanitär (m/w/d) 60-100%",
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsqAQbexZ1mZWWB2fMRw'}"
+      "fehler": null
     },
     {
       "karriereseite": "https://www.sabag.ch/de/stellen",
@@ -105,26 +105,37 @@
     {
       "karriereseite": "https://www.sabag.ch/de/stellen",
       "stellen_url": "https://jobs.dualoo.com/link/36b74e9b-ac98-4066-9052-e82d9bcad344/apply?lang=FR",
-      "stellentitel": null,
+      "stellentitel": "Collaborateur administration sanitaires (h/f/d) 50%",
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsqFBjPEuewcnXofFaRp'}"
+      "fehler": null
     },
     {
       "karriereseite": "https://www.sabag.ch/de/stellen",
       "stellen_url": "https://jobs.dualoo.com/link/504ea525-1ba6-4749-9f6c-f6ed75596c6f/detail?lang=DE",
-      "stellentitel": null,
-      "aufgaben": [],
-      "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsqHwBcXqpsZ9zxzsxRD'}"
+      "stellentitel": "Logistiker EFZ (m/w/d) (für keramische Platten)",
+      "aufgaben": [
+        "Be- und Entladen von LKWs",
+        "Kommissionieren von Kundenbestellungen",
+        "Beladen von Kundenfahrzeugen",
+        "Wareneingangs- und Qualitätskontrolle"
+      ],
+      "profil": [
+        "Abgeschlossene Lehre Logistiker/in EFZ",
+        "Exakte und selbständige Arbeitsweise",
+        "Teamfähig und belastbar",
+        "Dienstleistungsorientiert und Freude am direkten Kundenkontakt",
+        "Körperliche Belastung gewohnt"
+      ],
+      "fehler": null
     },
     {
       "karriereseite": "https://www.sabag.ch/de/stellen",
       "stellen_url": "https://jobs.dualoo.com/link/72ca223f-b1d8-4dd2-89b9-03f69005767c/apply?lang=DE",
-      "stellentitel": null,
+      "stellentitel": "Produktmanager Bodenbeläge/Parkett 100% (m/w/d)",
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsqM9GDodz1jLHnRG3MX'}"
+      "fehler": null
     },
     {
       "karriereseite": "https://www.sabag.ch/de/stellen",
@@ -137,10 +148,14 @@
     {
       "karriereseite": "https://www.sabag.ch/de/stellen",
       "stellen_url": "https://jobs.dualoo.com/link/bce18a26-fa7f-4be1-b7bf-1d355fd2d62c/apply?lang=DE&backButton=hide&source=Internet Sabag Feed",
-      "stellentitel": null,
+      "stellentitel": "Lehrstelle Logistiker/in EFZ",
       "aufgaben": [],
-      "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsqRjYba8CzaDEbS5goG'}"
+      "profil": [
+        "Schulzeugnisse der letzten 3 Jahre erforderlich",
+        "Multicheck erforderlich",
+        "Praktikumsberichte falls vorhanden"
+      ],
+      "fehler": null
     },
     {
       "karriereseite": "https://www.sabag.ch/de/stellen",
@@ -153,26 +168,44 @@
     {
       "karriereseite": "https://www.sabag.ch/de/stellen",
       "stellen_url": "https://jobs.dualoo.com/link/26c45e83-237e-494f-85ed-d037a7b0a2b5/apply?lang=DE&backButton=hide&source=Internet Sabag Feed",
-      "stellentitel": null,
+      "stellentitel": "Kundenberater Profishop Platten 100 % (m/w/d)",
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsqWykWc6PgoDfEsoqQc'}"
+      "fehler": null
     },
     {
       "karriereseite": "https://www.sabag.ch/de/stellen",
       "stellen_url": "https://jobs.dualoo.com/link/815edeba-6ccc-4a3e-8e02-eed8433d9385/apply?lang=DE",
-      "stellentitel": null,
+      "stellentitel": "Lehrstelle Schreiner EFZ",
+      "aufgaben": [],
+      "profil": [
+        "Schulzeugnisse der letzten 3 Jahre erforderlich",
+        "Multicheck erforderlich",
+        "Bewerbungsschreiben & Motivationsschreiben erforderlich",
+        "Lebenslauf erforderlich"
+      ],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.sabag.ch/de/stellen",
+      "stellen_url": "https://jobs.dualoo.com/link/7026b47e-011c-4c35-a361-9409b986ba72/apply?lang=DE&backButton=hide&source=Internet Sabag Feed",
+      "stellentitel": "Chauffeur Kat CE 100% (m/w/d)",
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsqa7tV1M6thU7YhJw61'}"
+      "fehler": null
     },
     {
       "karriereseite": "https://www.sabag.ch/de/stellen",
       "stellen_url": "https://jobs.dualoo.com/link/4e705d67-47b6-4c26-9d07-48fd49474225/apply?lang=DE&backButton=hide&source=Internet Sabag Feed",
-      "stellentitel": null,
+      "stellentitel": "Lehrstelle Logistiker/in EFZ",
       "aufgaben": [],
-      "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsqd1hzrdVi54GwN2Eed'}"
+      "profil": [
+        "Schulzeugnisse der letzten 3 Jahre erforderlich",
+        "Multicheck erforderlich",
+        "Praktikumsberichte falls vorhanden",
+        "Schnupperlehren im gewünschten Beruf von Vorteil"
+      ],
+      "fehler": null
     },
     {
       "karriereseite": "https://www.sabag.ch/de/stellen",
@@ -185,10 +218,10 @@
     {
       "karriereseite": "https://www.sabag.ch/de/stellen",
       "stellen_url": "https://jobs.dualoo.com/link/ea404544-0f10-44aa-b614-e6acb3f14f77/apply?lang=DE&backButton=hide&source=Internet Sabag Feed",
-      "stellentitel": null,
+      "stellentitel": "Kundenberater Ausstellung Sanitär 60% (m/w/d)",
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsqhLQFtrh4PX2AbjWL1'}"
+      "fehler": null
     },
     {
       "karriereseite": "https://www.sabag.ch/de/stellen",
@@ -196,15 +229,15 @@
       "stellentitel": null,
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsqkBSLUsiAtcrZqXTpj'}"
+      "fehler": "Claude API-Fehler: Error code: 424 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Could not serve request.'}, 'request_id': 'req_011CZujwuhvmMbZWdjXipE6m'}"
     },
     {
       "karriereseite": "https://www.sabag.ch/de/stellen",
       "stellen_url": "https://jobs.dualoo.com/link/e4f5b914-f654-4687-80f2-c4cd917262c5/apply?lang=DE&backButton=hide&source=Internet Sabag Feed",
-      "stellentitel": null,
+      "stellentitel": "Kundenberater Innendienst Baumaterial 100% (m/w/d)",
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsqoGXWDsNdNREx86gUq'}"
+      "fehler": null
     },
     {
       "karriereseite": "https://www.sabag.ch/de/stellen",
@@ -212,7 +245,7 @@
       "stellentitel": null,
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsqr2E7WAQM9s2GiKydY'}"
+      "fehler": "Claude API-Fehler: Error code: 424 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Could not serve request.'}, 'request_id': 'req_011CZuk48pt2PyiBzRNiavjW'}"
     },
     {
       "karriereseite": "https://www.sabag.ch/de/stellen",
@@ -220,7 +253,7 @@
       "stellentitel": null,
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsqtyUzfgsMDPhkf2MtR'}"
+      "fehler": "Claude API-Fehler: Error code: 424 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Could not serve request.'}, 'request_id': 'req_011CZuk5tyFJo48EjNQSw9Xx'}"
     },
     {
       "karriereseite": "https://www.sakret.de/de/unternehmen/karriere",
@@ -228,7 +261,7 @@
       "stellentitel": null,
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsqzhQnDuXtQnXpuopi7'}"
+      "fehler": "Claude API-Fehler: Error code: 424 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Could not serve request.'}, 'request_id': 'req_011CZukBQSvqDaC9Mogx6kRY'}"
     },
     {
       "karriereseite": "https://www.sakret.de/de/unternehmen/karriere",
@@ -236,7 +269,7 @@
       "stellentitel": null,
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsr3vgaL1WpUo7rjM2AY'}"
+      "fehler": "Claude API-Fehler: Error code: 424 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Could not serve request.'}, 'request_id': 'req_011CZukCa696XN8FXtJAPxGk'}"
     },
     {
       "karriereseite": "https://www.sakret.de/de/unternehmen/karriere",
@@ -244,26 +277,26 @@
       "stellentitel": null,
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsr73RiGjPW7MwSkU11G'}"
+      "fehler": "Claude API-Fehler: Error code: 424 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Could not serve request.'}, 'request_id': 'req_011CZukEbmeSN21XcTEKdErz'}"
     },
     {
       "karriereseite": "https://www.sakret.de/de/unternehmen/karriere",
       "stellen_url": "https://www.sakret.de/de/gebietsverkaufsleiter-fliese-m-w-d-in-region-berlin-brandenburg",
       "stellentitel": "Gebietsverkaufsleiter Fliese (m/w/d) in Region Berlin/ Brandenburg",
       "aufgaben": [
-        "Gewinnung und Begeisterung neuer sowie bestehender Kunden in der Region Berlin/Brandenburg",
+        "Gewinnung und Begeisterung neuer sowie bestehender Kunden in der Region Berlin/ Brandenburg",
         "Technische Beratung zu spezifischen Verarbeitungssituationen und Bauobjekten",
         "Betreuung von Baustofffachhandelsstandorten sowie Fliesenfachhändlern",
         "Beratung verarbeitender Unternehmen aus dem Bereich Fliesen- und Natursteinverlegung",
-        "Definition der Schwerpunkte der Marktbearbeitung und der Fokuskunden im eigenen Gebiet",
-        "Erfassung und kontinuierliche Ausschöpfung der Potentiale von Bestands- und Neukunden",
+        "Definition der Schwerpunkte der Marktbearbeitung innerhalb des Gebietes und der Fokuskunden",
+        "Erfassung der Potentiale von Bestands- und Neukunden und kontinuierliche Ausschöpfung",
         "Entwicklung und Umsetzung strategischer Initiativen zur Kundenentwicklung"
       ],
       "profil": [
         "Große Leidenschaft für Vertrieb bei Zielgruppen aus dem Bereich der Fliesenbauchemie",
-        "Fundierte Marktkenntnisse in der Baustoffbranche, insbesondere im Bereich Fliesenbauchemie",
-        "Erfahrung im Umgang mit einem CRM-System, vorzugsweise Salesforce",
-        "Hohe Ausdauer zur kontinuierlichen Neukundengewinnung",
+        "Fundierte Marktkenntnisse in der Baustoffbranche, insbesondere im Bereich der Fliesenbauchemie",
+        "Erfahrungen im Umgang mit einem CRM-System, vorzugsweise Salesforce",
+        "Hohe Ausdauer zur kontinuierlichen Gewinnung neuer Kunden",
         "Starke Kundenorientierung",
         "Hands-on-Mentalität",
         "Gutes Selbst- und Zeitmanagement",
@@ -277,7 +310,7 @@
       "stellentitel": null,
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsrBdwEMnPRiJuBzwJpK'}"
+      "fehler": "Claude API-Fehler: Error code: 424 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Could not serve request.'}, 'request_id': 'req_011CZukHvZ5v54K6iZ9AMd5t'}"
     },
     {
       "karriereseite": "https://www.sakret.de/de/unternehmen/karriere",
@@ -285,7 +318,7 @@
       "stellentitel": null,
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsrEWemQKtjKoRypPXVa'}"
+      "fehler": "Claude API-Fehler: Error code: 424 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Could not serve request.'}, 'request_id': 'req_011CZukKD72AVFLRqck6PED2'}"
     },
     {
       "karriereseite": "https://www.sakret.de/de/unternehmen/karriere",
@@ -293,7 +326,7 @@
       "stellentitel": null,
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsrH6dUkgRsXQHg2HUKq'}"
+      "fehler": "Claude API-Fehler: Error code: 424 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Could not serve request.'}, 'request_id': 'req_011CZukNRwHDShaFhHSuZ59L'}"
     },
     {
       "karriereseite": "https://www.sakret.de/de/unternehmen/karriere",
@@ -301,15 +334,24 @@
       "stellentitel": null,
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsrKo2toHAmEAzYKj96T'}"
+      "fehler": "Claude API-Fehler: Error code: 424 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Could not serve request.'}, 'request_id': 'req_011CZukPWrisfXo5t7GDFXT7'}"
     },
     {
       "karriereseite": "https://www.sakret.de/de/unternehmen/karriere",
       "stellen_url": "https://www.sakret.de/de/lagerist-mitarbeiter-im-lager-m-w-x",
-      "stellentitel": null,
-      "aufgaben": [],
-      "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsrMpZUWV99Z2gtd219o'}"
+      "stellentitel": "Lagerist / Mitarbeiter im Lager (m/w/x)",
+      "aufgaben": [
+        "Warenannahme und -ausgabe mit dem Gabelstapler auf LKWs unter Berücksichtigung der gesetzlichen Ladungssicherung sowie Kontrolle der Dokumente",
+        "Kommissionierung der Waren",
+        "Bestandskontrolle im Lager"
+      ],
+      "profil": [
+        "Keine Ausbildung erforderlich, Vorkenntnisse im Lager wünschenswert",
+        "Staplerschein ist wünschenswert",
+        "Zuverlässigkeit, Flexibilität, Verantwortungsbewusstsein und Teamfähigkeit",
+        "Deutschkenntnisse sind wünschenswert"
+      ],
+      "fehler": null
     },
     {
       "karriereseite": "https://www.sakret.de/de/unternehmen/karriere",
@@ -333,10 +375,20 @@
     {
       "karriereseite": "https://www.sakret.de/de/unternehmen/karriere",
       "stellen_url": "https://www.sakret.de/de/autokranfahrer-lkw-fahrer-mit-ladekran-erfahrung-m-w-d",
-      "stellentitel": null,
-      "aufgaben": [],
-      "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsrS4R2RcRUYJe85Yuji'}"
+      "stellentitel": "Autokranfahrer / LKW-Fahrer mit Ladekran-Erfahrung (m/w/d)",
+      "aufgaben": [
+        "Fahren und Bedienen eines LKW mit Ladekran und Anhänger",
+        "Abheben, Bewegen und Absetzen der Palettenware auf der Baustelle mithilfe des Ladekrans",
+        "Regelmäßige Pflege und Wartung des Fahrzeuges"
+      ],
+      "profil": [
+        "Besitz der gültigen Führerscheinklasse C/CE",
+        "Erfahrung im Bereich Baustellenverkehr und Kranerfahrung ist wünschenswert",
+        "Kunden- und Serviceorientierung",
+        "Zuverlässigkeit, Flexibilität und Teamfähigkeit",
+        "Deutschkenntnisse wünschenswert"
+      ],
+      "fehler": null
     },
     {
       "karriereseite": "https://www.sakret.de/de/unternehmen/karriere",
@@ -344,19 +396,33 @@
       "stellentitel": null,
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsrUgvYQFdqn2NXtrj6x'}"
+      "fehler": "Claude API-Fehler: Error code: 424 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Could not serve request.'}, 'request_id': 'req_011CZukX4DpT4v1FwL5pEqgE'}"
     },
     {
       "karriereseite": "https://www.sakret.de/de/unternehmen/karriere",
       "stellen_url": "https://www.sakret.de/de/ausbildung-industriekaufmann-m/w/d",
-      "stellentitel": null,
-      "aufgaben": [],
-      "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsrXVXX7QianqRCcs6AH'}"
+      "stellentitel": "Ausbildung Industriekaufmann (m/w/d)",
+      "aufgaben": [
+        "Auftragsannahme/Disposition: Annahme von Bestellungen und deren Bearbeitung bis hin zur Organisation der Warenauslieferung",
+        "Einkauf: Bedarfsermittlung, Lieferantenvergleiche, Materialbestellung",
+        "Produktion: Prozesse der Leistungserstellung kennenlernen",
+        "Logistik: Lagerverwaltung, Annahme und Kontrolle von Warenanlieferungen",
+        "Finanz- und Rechnungswesen: Stammdatenpflege, Rechnungsprüfung und deren Verbuchung, Zahlungsvorgänge auslösen, Mahnwesen",
+        "Vertrieb: Preiskalkulation, Angebotserstellung, Marketing"
+      ],
+      "profil": [
+        "Sehr guter Realschulabschluss oder Hochschulreife",
+        "Gute Leistungen in den Fächern Deutsch und Mathematik",
+        "Interesse an betriebswirtschaftlichen Zusammenhängen und sehr gutes Zahlenverständnis",
+        "Sicherer Umgang mit Microsoft Office-Anwendungen und Interesse an EDV",
+        "Selbstständiges und sorgfältiges Arbeiten sowie Fähigkeit, eigene Projekte im Team zu bearbeiten",
+        "Zuverlässigkeit und Organisationsgeschick"
+      ],
+      "fehler": null
     },
     {
       "karriereseite": "https://junior.talentstorm.de/",
-      "stellen_url": null,
+      "stellen_url": "https://junior.talentstorm.de/stellenangebote/zerspanungsmechaniker-m-w-d-fachrichtung-drehtechnik-3790",
       "stellentitel": null,
       "aufgaben": [],
       "profil": [],
@@ -364,11 +430,211 @@
     },
     {
       "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": null,
-      "stellentitel": null,
+      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
+      "stellentitel": "Ausbildung zum Fachinformatiker für Systemintegration für 2026 (m/w/d)",
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsreG1NTGwFNbXj7Z6Ee'}"
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
+      "stellentitel": "Ausbildung zum Kaufmann-/frau Büromanagement für 2026 (m/w/d) in Geesthacht",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
+      "stellentitel": "Ausbildung zum Kaufmann-/frau Büromanagement für 2026 (m/w/d) in Kreuztal",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Kreuztal",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Bremervörde",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Himmelkron",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Gröbers",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Hanau",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Kassel",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Teltow",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Geeste",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Georgsmarienhütte",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Erwitte",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Trier",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Geesthacht",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Ludwigshafen",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Friedrichsthal",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Magdeburg",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Altdorf bei Nürnberg",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Estenfeld",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Köln",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Aurich",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
+      "stellentitel": "Ausbildung zur Fachkraft für Lagerlogistik in 2026 (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
+      "stellentitel": "Dualer Student (m/w/d) Informatik (B.A.)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
+      "stellentitel": "Dualer Student (m/w/d) Management & Digitalisierung (B.A.)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
+      "stellentitel": "Duales Studium zum Betriebswirt (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
     },
     {
       "karriereseite": "https://herchenbach-industrial.com/de/unternehmen/karriere",
@@ -389,7 +655,8 @@
         "Gültiger Gabelstaplerschein (mindestens Frontstapler)",
         "Sicherer Umgang mit Gas-Frontstaplern, Elektro- und Diesel-Vier-Wege-Staplern, Mitgänger-Hochhubwagen sowie Schmalgang-Schubmaststaplern",
         "Sicherer Umgang mit MDE-Geräten und grundlegende PC-Kenntnisse",
-        "Hohes Maß an Sorgfalt, Qualitätsbewusstsein und Teamfähigkeit",
+        "Hohes Maß an Sorgfalt und Qualitätsbewusstsein",
+        "Teamfähigkeit",
         "Physische Belastbarkeit für Arbeiten in nicht klimatisierten Hallen und im Freien",
         "Bereitschaft zu gelegentlichen Überstunden bei erhöhtem Arbeitsaufkommen oder späten LKW-Anlieferungen"
       ],
@@ -401,40 +668,70 @@
       "stellentitel": null,
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsro8k4FaBcuNrhvV92A'}"
+      "fehler": "Claude API-Fehler: Error code: 424 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Could not serve request.'}, 'request_id': 'req_011CZum1qQCL7WeFUzk5ULvH'}"
     },
     {
       "karriereseite": "https://herchenbach-industrial.com/de/unternehmen/karriere",
       "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/project-manager-industrial-lightweight-buildings-poland-m-f-d-remote",
-      "stellentitel": null,
-      "aufgaben": [],
-      "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsrqbgMYXgVuijJJy8bX'}"
+      "stellentitel": "Project Manager industrial lightweight buildings Poland (m/f/d) - Remote",
+      "aufgaben": [
+        "Kommerzielle, technische und organisatorische Leitung der termingerechten, kosteneffizienten und einwandfreien Umsetzung internationaler Leichtbauhallen-Projekte",
+        "Koordination interner Schnittstellen (Vertrieb, Supply Chain Management, Planung, Terminplanung) und externer Schnittstellen (insbesondere Bauherren und Subunternehmer)",
+        "Sicherstellung, dass alle externen und internen Projektbeteiligten alle notwendigen Informationen und Vorarbeiten rechtzeitig erhalten",
+        "Erstellung von Stücklisten für Komponenten und Materialien aus dem Modulsystem auf Basis der Hallenkonfigurationen sowie Definition von Kapazitätsanforderungen für Personal, Werkzeuge und Dienstleistungen",
+        "Agieren als starke Kommunikations-, Vermittlungs- und Deeskalationsstelle bei Hindernissen und Konflikten während des Projekts",
+        "Projektbezogene Baustellen-Besuche in Polen oder europäischen Ländern (maximal 30% der Arbeitszeit)"
+      ],
+      "profil": [
+        "Erfolgreich abgeschlossene Ausbildung oder Studium, idealerweise mit technischem oder baubezogenem Schwerpunkt (z.B. Wirtschaftsingenieur, Bauingenieur, Maschinenbauingenieur, Architekt, Bautechniker, technischer Zeichner, technischer Systemplaner, Bauleiter, technischer Betriebswirt, Industriekaufmann, Metallbauer oder Tischler mit Weiterbildung als Techniker oder Meister)",
+        "Alternativ: keine formale Ausbildung in diesem Bereich, aber relevante Berufserfahrung im technischen Projektmanagement (z.B. im Messebau, Bühnenbau, Eventbau, Fassadenbau, Gerüstbau, Metallbau, Anlagenbau, Mastenbau, Windkraft, Solaranlagen)",
+        "Praktische Erfahrung in den Bereichen Projektmanagement, Projektsteuerung, Projektdurchführung, Projektleitung, Bauleitung, Arbeitsvorbereitung, Produktionsplanung, Produktionssteuerung, Auftragszentrum oder Auftragsabwicklung",
+        "Fließende Englisch- und Polnischkenntnisse mindestens auf Niveau B2",
+        "Organisationsgeschick, starke Umsetzungsstärke und sehr gute Kommunikationsfähigkeiten",
+        "Sicherer Umgang mit MS Office; Erfahrung mit einem ERP-System von Vorteil, aber nicht zwingend erforderlich",
+        "Reisebereitschaft sporadisch im Land und ggf. innerhalb Europas für projektbezogene Zwecke (max. 30%)"
+      ],
+      "fehler": null
     },
     {
       "karriereseite": "https://herchenbach-industrial.com/de/unternehmen/karriere",
       "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/performance-marketing-manager-czech-republic-m-f-d-remote-job",
-      "stellentitel": null,
-      "aufgaben": [],
-      "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsrtXVvQD25kXh7iKttw'}"
+      "stellentitel": "Performance Marketing Manager Czech Republic (m/f/d) remote",
+      "aufgaben": [
+        "Entwicklung und Management von Performance-Marketing-Kampagnen für den tschechischen Markt mit Fokus auf Lead-Generierung",
+        "Analyse von Markttrends, Nischen und Zielgruppenverhalten zur Identifikation von Optimierungspotenzialen",
+        "Definition von Kampagnenzielen, Optimierung der Kanalleistung sowie Monitoring von KPIs und Budgets zur ROI-Maximierung",
+        "Auswertung von Kampagnenergebnissen, Ableitung von Erkenntnissen und Umsetzung von Verbesserungen",
+        "Aufbau und Pflege von Beziehungen zu internen Stakeholdern",
+        "Steuerung von Übersetzungen und Recherche zu Themen im neuen Markt"
+      ],
+      "profil": [
+        "1–2 Jahre Erfahrung im Multichannel-Performance-Marketing (Google Ads, LinkedIn, Facebook) mit Fokus auf den tschechischen Markt",
+        "Kenntnisse in Tools wie CMS, Google Analytics, PPC, SEA und CRM-Systemen",
+        "Nachgewiesene Erfolge bei der Konzeption und Durchführung von Performance-Marketing-Kampagnen",
+        "Starker datengetriebener Ansatz in Bezug auf KPIs",
+        "Muttersprachler Tschechisch mit fließenden Englischkenntnissen in Wort und Schrift",
+        "Selbstständige, eigenmotivierte Arbeitsweise mit gutem Zeitmanagement; Erfahrung im Remote-Arbeiten von Vorteil",
+        "Unternehmerisches Denken mit tiefem Verständnis des tschechischen Marktes, B2B-Kaufverhalten und lokalen Gegebenheiten"
+      ],
+      "fehler": null
     },
     {
       "karriereseite": "https://herchenbach-industrial.com/de/unternehmen/karriere",
       "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/inside-sales-manager-mit-fokus-auf-after-sales-kundenberater-m-w-d",
       "stellentitel": "Inside Sales Manager mit Fokus auf After Sales/Kundenberater (m/w/d)",
       "aufgaben": [
-        "Beratung von Kunden zu Produkten und Services – telefonisch, schriftlich und vor Ort",
-        "Eigenständige Kalkulation von Angeboten, Preisverhandlungen mit Fokus auf Umsatz- und Margenziele",
-        "Konsequentes Nachverfolgen von Angeboten, Pipeline-Steuerung im CRM-System und Verhandlungsführung bis zum Abschluss",
-        "Erste Anlaufstelle für Kundenanfragen im After Sales – Priorisierung und Lösungsfindung",
-        "Aktives Erkennen von Kundenbedarfen (Ersatzteile, Reparaturen, Umbaumaßnahmen) und Entwicklung zu Verkaufschancen in Zusammenarbeit mit Technik, Einkauf und Montage",
-        "Proaktive Betreuung von Bestandskunden sowie Umsatzgenerierung durch Cross- und Upselling",
+        "Beratung von Kunden zu Produkten und Services, Vermittlung technischer Inhalte (telefonisch, schriftlich, vor Ort)",
+        "Eigenständige Kalkulation von Angeboten, Preisverhandlungen mit Blick auf Umsatz- und Margenziele",
+        "Konsequente Angebotsverfolgung, Pipeline-Steuerung im CRM-System und aktive Verhandlungsführung bis zum Abschluss",
+        "Erste Anlaufstelle für Kundenanfragen im After Sales, Priorisierung und Lieferung wirtschaftlich sinnvoller Lösungen",
+        "Erkennung von Kundenbedarfen (Ersatzteile, Reparaturen, Umbaumaßnahmen) und Entwicklung zu Verkaufschancen in Zusammenarbeit mit Technik, Einkauf und Montage",
+        "Proaktive Betreuung von Bestandskunden, Ausbau von Beziehungen sowie Cross- und Upselling",
         "Überwachung von Terminen, Qualität, Status und Kosten vom Auftragseingang bis zur Abnahme sowie transparente Kundenkommunikation"
       ],
       "profil": [
         "Kaufmännische Ausbildung oder 2–3 Jahre Praxiserfahrung im After Sales, technischen Vertrieb oder Customer Service",
-        "Strukturierte Arbeitsweise mit Fokus auf Ziele, KPIs und Margenvorgaben sowie Abschlussstärke",
+        "Strukturierte Arbeitsweise mit Zielen, KPIs und Margenvorgaben sowie Abschlussorientierung",
         "Sicherer Umgang mit ERP- und CRM-Systemen",
         "Verhandlungssichere Deutsch- und Englischkenntnisse",
         "Führerschein Klasse B",
@@ -445,18 +742,53 @@
     {
       "karriereseite": "https://herchenbach-industrial.com/de/unternehmen/karriere",
       "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/junior-field-sales-manager-b2b-industrial-sector-oesterreich",
-      "stellentitel": null,
-      "aufgaben": [],
-      "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsryrxbUHSj31fxtCB8w'}"
+      "stellentitel": "(Junior) Field Sales Manager (B2B Industrial Sector) Österreich",
+      "aufgaben": [
+        "Entwicklung von Partnerschaften auf Augenhöhe in Industrie, Logistik und anderen Branchen",
+        "Analyse von Geschäftsmodellen und Erkennung von Bedarfen vor Ort",
+        "Übersetzung von Kundenanforderungen in wirtschaftlich smarte Lösungen",
+        "Führung von Verhandlungen vom ersten Gespräch bis zum Vertragsabschluss",
+        "Pflege und aktive Nutzung des CRM-Systems (Pipeline, Forecast, Aktivitäten)",
+        "Professionelle Repräsentation des Unternehmens beim Kunden und im Homeoffice",
+        "Mitgestaltung des Market Entry in Österreich"
+      ],
+      "profil": [
+        "Erfahrung im B2B-Vertrieb, idealerweise mit industriellem Bezug",
+        "Kenntnisse der Mechaniken des deutschen Marktes",
+        "Überzeugende Persönlichkeit und ausgeprägte Zuhörfähigkeit",
+        "Sicherer Umgang mit KPIs, Pipeline-Management und Forecasts",
+        "Hohe Eigenmotivation und Durchhaltevermögen",
+        "Bereitschaft zur variablen Vergütung",
+        "Sichere Kommunikation auf Deutsch, gute Englischkenntnisse",
+        "Humor und Teamgeist"
+      ],
+      "fehler": null
     },
     {
       "karriereseite": "https://herchenbach-industrial.com/de/unternehmen/karriere",
       "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/project-manager-industrial-lightweight-buildings-uk-m-f-d-remote",
-      "stellentitel": null,
-      "aufgaben": [],
-      "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZss34E6K8vewPDYhFhuM'}"
+      "stellentitel": "Project Manager industrial lightweight buildings UK (m/f/d) Remote",
+      "aufgaben": [
+        "Kommerzielle, technische und organisatorische Koordination der termingerechten, budgetkonformen und mängelfreien Realisierung von Leichtbauprojekten",
+        "Koordination interner Schnittstellen (z.B. Vertrieb, Einkauf, Planung, Terminierung) und externer Schnittstellen (z.B. Baubehörden, Bauherren, Subunternehmer, Montageteams)",
+        "Plausibilitätsprüfungen eingehender Projekte in frühen Phasen als Sparringspartner des Vertriebs",
+        "Identifikation möglicher Komplikationen und Erarbeitung individueller Lösungen in Zusammenarbeit mit dem Engineering",
+        "Moderation, Mediation und Deeskalation bei Hindernissen und Konflikten im Projektprozess",
+        "Hauptsächliche Aufgabenerfüllung aus dem Home Office in England",
+        "Gelegentliche Teilnahme an Strategie-Workshops, Trainings oder Team-Events am Hauptsitz in Deutschland (ca. einmal pro Quartal)",
+        "Gelegentliche Besuche der Baustellen der Projekte (Fokus UK und Irland)",
+        "Reiseanteil von 30%"
+      ],
+      "profil": [
+        "Abgeschlossene Ausbildung oder Studium mit technischem Schwerpunkt sowie fundierte Berufserfahrung im Projektmanagement in einem technischen Umfeld",
+        "Relevante Vorerfahrung im Industrie- oder Lagerhallenbau nicht zwingend erforderlich; andere technische Bereiche sind ebenfalls geeignet (z.B. Anlagenbau, Hoch- oder Tiefbau, Industriebau, Metallbau, Stahlbau, Holzbau, Funkmasten, Solaranlagen, Windkraftanlagen oder Maschinenbau)",
+        "Sehr gute Englischkenntnisse sind Pflicht",
+        "Sicherer Umgang mit MS Office und allgemeine Affinität zu digitalen Tools",
+        "Vorerfahrung mit ERP-Systemen und CAD-Software von Vorteil, aber nicht zwingend erforderlich",
+        "Organisationstalent, sehr gute Kommunikationsfähigkeiten, Umsetzungsstärke und hohe Eigenmotivation",
+        "Bereitschaft zu gelegentlichen nationalen und internationalen Dienstreisen von mehreren Tagen (30%)"
+      ],
+      "fehler": null
     },
     {
       "karriereseite": "https://herchenbach-industrial.com/de/unternehmen/karriere",
@@ -470,12 +802,11 @@
       ],
       "profil": [
         "Plaisir à réaliser des premiers contacts téléphoniques dans le cadre d'objectifs d'entretien clairement définis",
-        "Présentation professionnelle et assurée, avec d'excellentes connaissances du français/anglais à l'oral comme à l'écrit",
+        "Présentation professionnelle et assurée, avec d'excellentes connaissances du français/Anglais à l'oral comme à l'écrit",
         "Grande tolérance à la frustration – rester motivé·e et persévérant·e même face aux revers",
         "Créativité dans la recherche de solutions adaptées aux besoins des clients potentiels",
         "Maîtrise des outils MS Office (Teams, Word, Excel, PowerPoint, etc.) et affinité générale pour le travail numérique",
-        "Expérience dans le contact direct avec les clients, idéalement dans un environnement B2B",
-        "Fort engagement et affinité pour les outils digitaux"
+        "Expérience dans le contact direct avec les clients, idéalement dans un environnement B2B"
       ],
       "fehler": null
     },
@@ -485,46 +816,74 @@
       "stellentitel": null,
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZss7aw9ygVspafDYHYZQ'}"
+      "fehler": "Claude API-Fehler: Error code: 424 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Could not serve request.'}, 'request_id': 'req_011CZumKCi5f8n9PBRW9YYEH'}"
     },
     {
       "karriereseite": "https://herchenbach-industrial.com/de/unternehmen/karriere",
       "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/business-analyst-m-w-d",
-      "stellentitel": null,
-      "aufgaben": [],
-      "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZss9yVn8s7PDNmWFN84a'}"
+      "stellentitel": "Business Analyst (m/w/d)",
+      "aufgaben": [
+        "Analyse und Visualisierung von Prozessdaten mit Power BI",
+        "Entwicklung interaktiver Dashboards und Kennzahlen (KPIs) zur Steuerung und Verbesserung von Geschäftsprozessen",
+        "Enge Zusammenarbeit mit den Fachbereichen zur datenbasierten Prozessoptimierung",
+        "Identifikation von Prozessineffizienzen und Engpässen auf Basis realer Datenflüsse",
+        "Anwendung und Unterstützung bei der Steuerung des PDCA-Zyklus zur strukturierten Planung, Umsetzung, Überprüfung und Optimierung von Prozessen",
+        "Aufbau und Pflege von Datenmodellen und Datenpipelines in Zusammenarbeit mit der IT"
+      ],
+      "profil": [
+        "Abgeschlossenes Studium der Wirtschaftsinformatik, Data Science, Betriebswirtschaftslehre oder einer vergleichbaren Fachrichtung",
+        "Fundierte Erfahrung im Umgang mit Power BI",
+        "Gutes Verständnis von Datenarchitekturen und Datenflüssen",
+        "Ausgeprägtes analytisches Denkvermögen, Kommunikationsstärke sowie eine strukturierte Arbeitsweise",
+        "Erste Erfahrung in der Analyse und Optimierung von Geschäftsprozessen",
+        "Grundkenntnisse in der Anwendung und Steuerung von kontinuierlichen Verbesserungsmethoden, insbesondere des PDCA-Zyklus",
+        "Sehr gute Deutsch- und Englischkenntnisse in Wort und Schrift"
+      ],
+      "fehler": null
     },
     {
       "karriereseite": "https://herchenbach-industrial.com/de/unternehmen/karriere",
       "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/sales-representative-field-sales-manager-b2b-industrial-customersm-f-d-south-west",
       "stellentitel": "Sales Representative / Field Sales Manager (B2B - Industrial Customers)(m/f/d) - South West",
       "aufgaben": [
-        "Needs- und solution-orientierte Beratung von Kunden aus Industrie, Logistik und anderen Branchen mit dem Produktportfolio eines spezialisierten Herstellers",
-        "Vor-Ort-Analyse von Kundenanforderungen und Erstellung maßgeschneiderter, kostenoptimierter Angebote",
-        "Verkaufsverhandlungen, Abschlüsse und proaktives sowie konsequentes Follow-up offener Angebote",
-        "Enge Zusammenarbeit mit Entscheidungsträgern auf Kundenseite sowie internen Schnittstellen (insb. Projektmanagement, Einkauf, Innendienst und Marketing)",
+        "Professionelle, bedarfs- und lösungsorientierte Beratung von Kunden aus Industrie, Logistik und weiteren Branchen",
+        "Analyse von Kundenanforderungen vor Ort und Erstellung individueller sowie kostenoptimierter Angebote",
+        "Verkaufsverhandlungen, Abschlüsse und proaktives sowie konsequentes Nachverfolgen offener Angebote",
+        "Enge Zusammenarbeit mit Entscheidungsträgern auf Kundenseite sowie internen Schnittstellen (Projektmanagement, Einkauf, Innendienst, Marketing)",
         "Gewissenhafte Dokumentation von Kontakten und Ergebnissen im CRM-System"
       ],
       "profil": [
-        "Abschluss in Betriebswirtschaft, Vertriebsmanagement, Marketing oder einem vergleichbaren Studiengang",
-        "Mindestens erste, vorzugsweise mehrjährige Erfahrung im B2B-Außendienst mit erklärungsbedürftigen, vorzugsweise technischen Produkten, Investitionsgütern und/oder Dienstleistungen",
-        "Hohe Affinität für beratungsintensiven Vertrieb, starke Zielorientierung, Engagement, Begeisterung und Abschlussstärke",
-        "Schnelle Auffassungsgabe, sehr gute Präsentationsfähigkeiten und adressatengerechte Rhetorik",
+        "Abschluss in Betriebswirtschaft, Vertriebsmanagement, Marketing oder vergleichbarem Studiengang",
+        "Erste, vorzugsweise mehrjährige Erfahrung im B2B-Außendienst mit erklärungsbedürftigen, möglichst technischen Produkten, Investitionsgütern und/oder Dienstleistungen",
+        "Hohe Affinität für beratungsintensiven Vertrieb, ausgeprägte Zielorientierung, Engagement, Begeisterung und Abschlussstärke",
+        "Schnelle Auffassungsgabe, sehr gute Präsentationsfähigkeiten und adressatenorientierte rhetorische Kompetenz",
         "Motivierte und selbstständige Persönlichkeit, dynamisch, proaktiv und zielorientiert auch im Home Office",
         "Sicherer Umgang mit MS-Office, Erfahrung mit ERP- und/oder CRM-Systemen von Vorteil",
-        "Verhandlungssicheres Englisch und Kenntnisse der britischen Geschäftsmentalität und lokaler Marktmechanismen",
-        "Wohnort idealerweise im Raum Bristol"
+        "Verhandlungssicheres Englisch und gute Kenntnisse der britischen Geschäftsmentalität und lokaler Marktmechanismen",
+        "Idealerweise wohnhaft in Bristol oder Umgebung"
       ],
       "fehler": null
     },
     {
       "karriereseite": "https://herchenbach-industrial.com/de/unternehmen/karriere",
       "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/controller-finance-controller-m-w-d",
-      "stellentitel": null,
-      "aufgaben": [],
-      "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZssF4bzYJtei3MwHisPb'}"
+      "stellentitel": "Controller/ Finance Controller (m/w/d)",
+      "aufgaben": [
+        "Unterstützung des jährlichen Budget- und Planungsprozesses, Erarbeitung von Forecasts und laufende Abweichungsanalyse",
+        "Aufbereitung monatlicher Reports, Management-Präsentationen und Ad-hoc-Analysen sowie Erklärung der Story hinter den Zahlen",
+        "Einbringen von Analysen in Performance Reviews und Lieferung von Entscheidungsgrundlagen für das Management",
+        "Aktive Weiterentwicklung von Controlling-Tools, Reports und Prozessen"
+      ],
+      "profil": [
+        "Studium im Bereich Finance, Controlling oder BWL oder vergleichbare Ausbildung mit Praxiserfahrung",
+        "Erste Erfahrung (ca. 2–3 Jahre) im Controlling oder in der CFO-nahen Beratung, idealerweise im mittelständischen Umfeld",
+        "Sehr gute Excel-Kenntnisse, sicherer Umgang mit PowerPoint und Power BI",
+        "Erfahrung mit Microsoft Dynamics Business Central und LucaNet von Vorteil",
+        "Analytisches Denken mit Blick für das große Ganze",
+        "Strukturierte, präzise und zuverlässige Arbeitsweise",
+        "Eigeninitiative und aktives Einbringen von Verbesserungspotenzialen"
+      ],
+      "fehler": null
     },
     {
       "karriereseite": "https://herchenbach-industrial.com/de/unternehmen/karriere",
@@ -534,7 +893,7 @@
         "Qualifizierung von Kundenanfragen durch strukturierte Telefonate und Bedarfsermittlung",
         "Terminierung für den Außendienst mit strategischer Routenplanung",
         "Sorgfältige Datenpflege in CRM & ERP-Systemen",
-        "Vorbereitung von Unterlagen und Kontakten für den Außendienst",
+        "Dokumentation und Vorbereitung von Unterlagen für den Außendienst",
         "Follow-Ups mit Kunden zu offenen Punkten und Prozessen"
       ],
       "profil": [
@@ -543,7 +902,7 @@
         "Gute MS-Office-Kenntnisse sowie Interesse an CRM/ERP-Systemen",
         "Erste Erfahrung im Kundenkontakt (Vertrieb, Service, Callcenter, Einzelhandel, Hotellerie/Gastronomie, Assistenz oder Quereinstieg)",
         "Motivation, Zuverlässigkeit und Freude an messbaren Ergebnissen",
-        "Umschüler, Wiedereinsteiger, Quereinsteiger und Berufseinsteiger ausdrücklich willkommen"
+        "Bewerbungen von Umschülern, Wiedereinsteigern, Quereinsteigern und Berufseinsteigern ausdrücklich erwünscht"
       ],
       "fehler": null
     },
@@ -552,16 +911,16 @@
       "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/b2b-telemarketer-hungary-m-f-d",
       "stellentitel": "B2B Telemarketer Hungary (m/f/d)",
       "aufgaben": [
-        "Identifizierung und Erstkontakt mit potenziellen Kunden über verschiedene Kanäle, insbesondere Telefon, im ungarischen Markt",
-        "Generierung von Projekten und Leads aus Neukunden sowie Qualifizierung für Termine mit dem Field Sales Team",
+        "Identifizierung und Erstkontakt mit potenziellen Kunden über verschiedene Kanäle, insbesondere telefonisch im ungarischen Markt",
+        "Generierung von Projekten und Leads aus Neukunden sowie deren Qualifizierung zur Vorbereitung von Terminen für das Field Sales Team",
         "Beratung von B2B-Kunden und Interessenten zu Produkten und Dienstleistungen als erste Anlaufstelle in der Customer Journey",
         "Überwachung und Dokumentation der Aktivitäten in einem cloudbasierten CRM-System"
       ],
       "profil": [
-        "Freude an telefonischen Erstkontakten mit klar definierten Gesprächszielen und strukturierten KPIs",
-        "Professionelles und sicheres Auftreten mit ausgezeichneten Kenntnissen in Wort und Schrift auf Ungarisch und Englisch",
-        "Hohe Frustrationstoleranz – motiviert und beharrlich auch bei Rückschlägen",
-        "Kreativität bei der Entwicklung von auf Kundenbedürfnisse zugeschnittenen Lösungen",
+        "Freude an telefonischen Erstkontakten im Rahmen klar definierter Gesprächsziele und Arbeit mit strukturierten KPIs",
+        "Professionelles und selbstsicheres Auftreten mit sehr guten Kenntnissen in Ungarisch und Englisch (mündlich und schriftlich)",
+        "Hohe Frustrationstoleranz und Ausdauer bei Rückschlägen",
+        "Kreativität bei der Entwicklung von Lösungen, die auf die Bedürfnisse potenzieller Kunden zugeschnitten sind",
         "Sicherer Umgang mit MS Office-Tools (Teams, Word, Excel, PowerPoint) und allgemeine Affinität für digitale Arbeit",
         "Erfahrung im direkten Kundenkontakt, idealerweise im B2B-Umfeld"
       ],
@@ -570,58 +929,266 @@
     {
       "karriereseite": "https://herchenbach-industrial.com/de/unternehmen/karriere",
       "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/director-operations-project-delivery-m-f-d",
-      "stellentitel": null,
-      "aufgaben": [],
-      "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZssLm4ijmBdjJA9hrjt9'}"
+      "stellentitel": "Director Operations & Project Delivery (m/f/d)",
+      "aufgaben": [
+        "Eigenständige Verantwortung für die gesamte operative Projektabwicklung in Europa",
+        "Führung und Weiterentwicklung der Bereiche Project Management, Operational Procurement sowie Site Management",
+        "Sicherstellung hoher Kundenzufriedenheit entlang der gesamten Operations Customer Journey durch klare Strukturen, transparente Kommunikation und verlässliche Projektumsetzung",
+        "Etablierung klarer Steuerungsmechanismen durch Einführung, Analyse und Weiterentwicklung zentraler KPIs (Kosten, Durchlaufzeiten, NPS, Fehlerquoten, Auslastung)",
+        "Sicherstellung wirtschaftlich erfolgreicher Projektumsetzung durch aktive Steuerung von Projektmargen, Einkaufskonditionen und Ressourcenkapazitäten",
+        "Weiterentwicklung skalierbarer Prozesse und Standards im Projektmanagement, in der Montage sowie im operativen Einkauf",
+        "In kritischen Projektsituationen operative Steuerung übernehmen, klare Priorisierung vornehmen und Projekte lösungsorientiert aus Eskalationen herausführen"
+      ],
+      "profil": [
+        "Master oder Diplom in BWL, International Business oder Wirtschaftsingenieurwesen",
+        "Mehrjährige Führungserfahrung (mind. 6 Jahre) in einer operativen, projektgetriebenen Umgebung (z. B. Bau, Maschinenbau, Industrie-Services oder Anlagenbau)",
+        "Erfahrung in Kosten-, Margen- und Ergebnisverantwortung",
+        "Fähigkeit, datenbasierte Entscheidungen zu treffen und komplexe Projekte zu steuern",
+        "Erfahrung im Umgang mit externen Dienstleistern und Subunternehmern",
+        "Verhandlungssicheres Englisch",
+        "Bereitschaft zu regelmäßigen Reisen innerhalb Europas (ca. 4–8 Tage pro Monat)",
+        "Hands-on-Mentalität und unternehmerisches Denken"
+      ],
+      "fehler": null
     },
     {
       "karriereseite": "https://herchenbach-industrial.com/de/unternehmen/karriere",
       "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/general-manager-country-manager-uk-irl",
-      "stellentitel": null,
-      "aufgaben": [],
-      "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZssPVYuDoine1QZkPJbW'}"
+      "stellentitel": "General Manager / Country Manager UK & IRL",
+      "aufgaben": [
+        "Volle kommerzielle Verantwortung für UK & IRL, einschließlich Umsatzwachstum, Pipeline-Gesundheit, Marktentwicklung und lokale Rentabilität (P&L)",
+        "Definition und Umsetzung eines 3+ Jahres-Wachstumsplans zur Erweiterung der Mietflotte und nachhaltigen Marktanteilssteigerung",
+        "Führung hochrangiger Verhandlungen und Abschluss strategischer Vereinbarungen als Senior Commercial Representative",
+        "Verantwortung für den gesamten Vertriebszyklus vom Erstkontakt bis zur Vertragsunterzeichnung – Neukundengewinnung in Industrie-, Logistik-, Fertigungs- und Baumärkten",
+        "Umsetzung von Markt- und Wettbewerbserkenntnissen in konkrete Go-to-Market-Maßnahmen",
+        "Aufbau, Führung und Entwicklung der lokalen kommerziellen Organisation mit derzeit 6 Mitarbeitern",
+        "Festlegung klarer Leistungserwartungen und Coaching anhand definierter KPIs",
+        "Abstimmung von Marketing, Betrieb und zentralen Supportfunktionen für eine konsistente Customer Journey",
+        "Betrieb einer disziplinierten, datengetriebenen Vertriebsstruktur mit hochwertigen CRM-Daten",
+        "Erstellung zuverlässiger Auftragseingangsprognosen mit transparenten Annahmen",
+        "Regelmäßiges Reporting an das Group Executive Team zu Performance, Risiken und Entwicklungen"
+      ],
+      "profil": [
+        "Master-Abschluss in Betriebswirtschaft, International Business, Wirtschaftsingenieurwesen oder vergleichbarem Bereich",
+        "6+ Jahre Führungserfahrung in vertriebsorientierten, projektbasierten B2B-Umgebungen",
+        "Nachgewiesene Erfolgsbilanz bei der Skalierung von Märkten oder dem Wachstum projektbasierter Unternehmen",
+        "Starkes kaufmännisches Verständnis kombiniert mit der Fähigkeit, Strategie in operative Umsetzung zu überführen",
+        "Ausgeprägte analytische Fähigkeiten zur Ableitung klarer Prioritäten und messbarer Ergebnisse aus Daten",
+        "Sichere Kommunikation auf allen Hierarchieebenen und mit verschiedenen Stakeholdern",
+        "Erfahrung im Einsatz von CRM- und ERP-Systemen als Management- und Steuerungswerkzeuge",
+        "Erfahrung in dezentralen, internationalen Organisationen",
+        "Reisebereitschaft innerhalb der Region und zur deutschen Zentrale (4–6 Mal pro Jahr)"
+      ],
+      "fehler": null
     },
     {
       "karriereseite": "https://herchenbach-industrial.com/de/unternehmen/karriere",
       "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/senior-performance-marketing-manager-m-w-d-dach-region",
-      "stellentitel": null,
-      "aufgaben": [],
-      "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZssSzZFUhPjy9qjtw9dG'}"
+      "stellentitel": "Senior Performance Marketing Manager (m/w/d) – DACH Region",
+      "aufgaben": [
+        "Volle Verantwortung für Performance-Marketing-Kanäle in der DACH-Region von der Strategie bis zur Umsetzung",
+        "Entwicklung von Kampagnen, die performen und Leads liefern",
+        "Kontinuierliche Optimierung entlang klarer KPIs",
+        "Enge Zusammenarbeit mit Sales, Content und Produktmanagement",
+        "Steuerung von Agenturen und Partnern",
+        "Aktives Einbringen von Ideen und Mitgestaltung der Performance-Strategie für die DACH-Region"
+      ],
+      "profil": [
+        "Mindestens 5 Jahre Erfahrung im Performance Marketing",
+        "Erfahrung im Multichannel-Umfeld",
+        "Kenntnisse in Google Ads, LinkedIn, Meta & Co.",
+        "Datengetriebene Arbeitsweise mit Fokus auf Zahlen, Daten und KPIs",
+        "Kombination aus Hands-on-Mentalität und strategischem Blick",
+        "Eigenständige und unternehmerische Arbeitsweise",
+        "Sicheres Bewegen im internationalen Umfeld, auch auf Englisch"
+      ],
+      "fehler": null
     },
     {
       "karriereseite": "https://herchenbach-industrial.com/de/unternehmen/karriere",
       "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/country-manager-netherlands-build-up-pl-ownership",
-      "stellentitel": null,
-      "aufgaben": [],
-      "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZssVqaqFbBgyMEHTxjeM'}"
+      "stellentitel": "Country Manager Netherlands (Build-up | P&L Ownership)",
+      "aufgaben": [
+        "Vollständige kommerzielle Verantwortung für die Niederlande übernehmen (Revenue, Pipeline, Marktentwicklung, lokale Profitabilität / P&L)",
+        "Marktentwicklung von einer frühen Phase an verantworten",
+        "3+ Jahres-Wachstumsplan definieren und umsetzen zur Erweiterung der Mietflotte und nachhaltigen Marktanteilssteigerung",
+        "Als Senior Commercial Representative auftreten, hochwertige Verhandlungen leiten und strategische Vereinbarungen abschließen",
+        "End-to-End-Verkaufszyklus von erstem Kontakt bis Vertragsunterzeichnung verantworten – Neukundengewinnung in Industrie, Logistik, Fertigung und Bauwesen",
+        "In der Frühphase aktiv in den Vertrieb einsteigen, direkte Kundeninteraktion und Vor-Ort-Besuche durchführen",
+        "Markt- und Wettbewerbserkenntnisse in konkrete Go-to-Market-Maßnahmen übersetzen und den kommerziellen Ansatz kontinuierlich verfeinern",
+        "Lokale kommerzielle Organisation mit aktuell 2–3 Mitarbeitern führen und weiterentwickeln",
+        "Klare Leistungserwartungen setzen und anhand definierter KPIs coachen",
+        "Marketing, Operations und zentrale Supportfunktionen abstimmen für eine konsistente Customer Journey",
+        "Datengetriebene Vertriebssteuerung mit hochwertigen CRM-Daten betreiben",
+        "Zuverlässige Auftragseingangs-Forecasts mit transparenten Annahmen liefern",
+        "Regelmäßig an das Group Executive Team über Performance, Risiken und wichtige Entwicklungen berichten"
+      ],
+      "profil": [
+        "Fließende Kenntnisse in Geschäftsdeutsch (Niederländisch) und Englisch",
+        "Master-Abschluss in Betriebswirtschaft, International Business, Wirtschaftsingenieurwesen oder vergleichbarem Bereich",
+        "5+ Jahre Erfahrung in vertriebsorientierten, projektbasierten B2B-Umgebungen",
+        "Erste Erfolge in der Marktentwicklung, dem Aufbau von Strukturen oder in unternehmerischen / frühen Setups",
+        "Starkes kommerzielles Verständnis kombiniert mit der Fähigkeit, Strategie in hands-on Umsetzung zu überführen",
+        "Ausgeprägte analytische Fähigkeiten zur Ableitung klarer Prioritäten und messbarer Ergebnisse aus Daten",
+        "Sicherer Umgang mit CRM- und ERP-Systemen als Management- und Steuerungswerkzeuge",
+        "Erfahrung in dezentralen, internationalen Organisationen"
+      ],
+      "fehler": null
     },
     {
       "karriereseite": "https://herchenbach-industrial.com/de/unternehmen/karriere",
       "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/key-account-manager-m-w-d-strategic-b2b-accounts-industrieumfeld",
-      "stellentitel": null,
-      "aufgaben": [],
-      "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZssYb534zTYUnYoyLXVe'}"
+      "stellentitel": "Key Account Manager (m/w/d) – Strategic B2B Accounts | Industrieumfeld",
+      "aufgaben": [
+        "Entwicklung eines tiefen strategischen Blicks auf Accounts inkl. Marktgegebenheiten und Entscheidungswege",
+        "Analyse bereits umgesetzter Projekte über die gesamte Customer Journey und Skalierung innerhalb des Accounts",
+        "Gezielter Einsatz des CRM zur Bündelung von Kundeninformationen und Unterstützung der Account-Entwicklung",
+        "Sicherstellung eines echten Mehrwerts bei jedem Kundenaustausch (remote oder vor Ort) zur nachhaltigen Stärkung der Kundenbeziehung",
+        "Enge Zusammenarbeit mit internen Abteilungen (Engineering, Einkauf, Projektmanagement) an Großprojekten",
+        "Zentrale Steuerung von 5–7 internationalen Key Accounts aus Deutschland"
+      ],
+      "profil": [
+        "3–5+ Jahre Erfahrung im B2B-Umfeld, idealerweise im Key Account Management",
+        "Erfahrung in einem industriellen Umfeld (z. B. Automotive)",
+        "Strategisches Denken und analytische Herangehensweise statt klassischem Vertriebsprofil",
+        "Schnelles Verständnis komplexer Zusammenhänge und Fähigkeit, die richtigen Fragen zu stellen",
+        "Sichere Kommunikation auf Augenhöhe mit Entscheidern und inhaltliche Gesprächstiefe",
+        "Fokus auf nachhaltige Ergebnisse statt kurzfristiger Abschlüsse",
+        "Reisebereitschaft und aktive Betreuung internationaler Kunden auch auf Englisch"
+      ],
+      "fehler": null
     },
     {
       "karriereseite": "https://www.avescorent.ch/de/arbeitsplaetze/",
-      "stellen_url": null,
-      "stellentitel": null,
-      "aufgaben": [],
-      "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZssbmJXeVhcvp8LeJf5R'}"
+      "stellen_url": "https://www.avescorent.ch/de/karrierelaufbahn/apprentis-es-employe-es-de-commerce-service-et-administration/",
+      "stellentitel": "Apprentis-es Employé-es de commerce – Service et Administration │100% | Apprentissage",
+      "aufgaben": [
+        "Suivi administratif du personnel, gestion des dossiers et notes de frais",
+        "Soutien au recrutement",
+        "Accueil et orientation de collaborateurs lors de formations internes",
+        "Aide à l'organisation de différents événements",
+        "Point de contact des collègues et participation à des projets",
+        "Comptabilisation et suivi des encaissements",
+        "Gestion des contentieux",
+        "Traitement des factures et de pièces comptables et du courrier",
+        "Gestion du standard téléphonique et des fournitures"
+      ],
+      "profil": [
+        "Terminer ou avoir récemment terminé la scolarité obligatoire, ou souhait de se réorienter",
+        "Bonnes compétences en langues, notamment en allemand",
+        "Aimer le contact avec les gens et posséder un bon esprit de collaboration",
+        "Intérêt marqué pour les tâches administratives et les chiffres",
+        "Excellente maîtrise du français oral et rédactionnel",
+        "Maîtrise des outils informatiques standards (Word, Excel, Outlook)",
+        "Être organisé·e, curieux·se, volontaire, flexible et prêt·e à relever de nouveaux défis"
+      ],
+      "fehler": null
     },
     {
-      "karriereseite": "https://www.hkl-baumaschinen.de/karriere/jobs",
-      "stellen_url": "https://www.hkl-baumaschinen.de/karriere/ausbildung",
-      "stellentitel": null,
-      "aufgaben": [],
-      "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsskacLxq5dx4vvZsVwz'}"
+      "karriereseite": "https://www.avescorent.ch/de/arbeitsplaetze/",
+      "stellen_url": "https://www.avescorent.ch/de/karrierelaufbahn/administration-koordinator-mobilbau-80-100-m-w-d/",
+      "stellentitel": "Administration / Koordinator Mobilbau",
+      "aufgaben": [
+        "Erste Anlaufstelle für Kunden – am Telefon, per Mail oder persönlich",
+        "Erkennen von Kundenbedürfnissen und Finden der richtigen Lösung",
+        "Erstellen von Angeboten, Miet- und Kaufverträgen sowie Überblick über Debitoren und Kreditoren",
+        "Organisieren von Transporten und Koordinieren von Einsatzplänen",
+        "Unterstützung des Filialleiters oder Vertretung bei Abwesenheit",
+        "Verwaltung der Flotte und aller Dokumentationen"
+      ],
+      "profil": [
+        "Erfahrung in einer ähnlichen Funktion – idealerweise im Vermietungs- oder Verkaufsumfeld",
+        "Technisches Verständnis und Freude am Organisieren",
+        "Starke Kommunikationsskills in Deutsch und gute mündliche Französischkenntnisse",
+        "Gute IT-Affinität"
+      ],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.avescorent.ch/de/arbeitsplaetze/",
+      "stellen_url": "https://www.avescorent.ch/de/karrierelaufbahn/junior-projektleiter-sales-container-mobilbau-m-w-d/",
+      "stellentitel": "Junior Projektleiter / Sales Container – Mobilbau",
+      "aufgaben": [
+        "Entwicklung und Förderung der Vermietung und des Verkaufs von neuen und gebrauchten Containern",
+        "Akquise und Entwicklung neuer Kunden in Verbindung mit der Geschäftsstrategie und den festgelegten Zielen",
+        "Besuchen, präsentieren und beraten der Kunden über die gesamte angebotene Produktpalette und Anbieten von massgeschneiderten Containerlösungen",
+        "Die Machbarkeit von Projekten untersuchen und die Kundenbetreuung nachverfolgen",
+        "Offerten und entsprechende Kalkulationen nach Vorgabe erstellen",
+        "Nachverfolgung des Angebots und Abschlüsse",
+        "Ansprechpartner für Kunden, Lieferwerk und Netzwerkpartner",
+        "In Zusammenarbeit mit Mitarbeitern und Netzwerkpartnern Projekte umsetzen"
+      ],
+      "profil": [
+        "Solide Erfahrung im kaufmännischen Bereich (3-5 Jahre)",
+        "Solide kommerzielle und technische Kenntnisse",
+        "Hervorragende schriftliche und mündliche Kompetenzen in Deutsch",
+        "Führerausweis Kategorie B",
+        "Gute Anwender-Kenntnisse Microsoft Office"
+      ],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.avescorent.ch/de/arbeitsplaetze/",
+      "stellen_url": "https://www.avescorent.ch/de/karrierelaufbahn/mechaniker-techniker-maschinen-energie-ittigen/",
+      "stellentitel": "Mechaniker / Techniker Maschinen & Energie (m/w/d)",
+      "aufgaben": [
+        "Diagnose & Reparatur von Bau- und Industriemaschinen",
+        "Wartung & Instandhaltung des Maschinenparks",
+        "Vorbereitung von Miet- und Verkaufsmaschinen",
+        "Bestellung von Ersatzteilen & Erstellung von Serviceberichten",
+        "Technische Einführung der Kund*innen"
+      ],
+      "profil": [
+        "Technisches Verständnis & handwerkliches Geschick – egal ob gelernt oder autodidaktisch",
+        "Erfahrung mit Mechanik, Hydraulik, Elektro oder Fahrzeugtechnik",
+        "Selbstständig, zuverlässig & teamorientiert",
+        "Gute Deutschkenntnisse",
+        "Stapler- oder Anhängerführerschein von Vorteil, kein Muss"
+      ],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.avescorent.ch/de/arbeitsplaetze/",
+      "stellen_url": "https://www.avescorent.ch/de/karrierelaufbahn/technicien-polyvalent-m-w-d-80-100/",
+      "stellentitel": "Technicien Polyvalent",
+      "aufgaben": [
+        "Assurer la livraison, la reprise et le bon fonctionnement des installations de protection des eaux (IPE) du parc de location",
+        "Préparer, mettre en service, entretenir et dépanner les installations de manière autonome",
+        "Garantir la qualité, la maintenance et l'état du parc de location IPE",
+        "Gérer les stocks, les entrées / sorties et le contrôle qualité des composants",
+        "Evaluer les dommages du matériel retourné, avec le chef de projet et le responsable d'équipe et définir la suite des actions",
+        "Intervenir comme interface entre les chantiers, l'atelier et les chefs de projet",
+        "Contribuer à l'amélioration continue des processus et au développement des produits",
+        "Participer aux activités de la succursale de Rennaz et intervenir sur les chantiers en Suisse Romande"
+      ],
+      "profil": [
+        "Solides connaissances techniques",
+        "Aisance avec les composants électriques et leur maintenance",
+        "Minimum 5 ans d'expérience professionnelle",
+        "Bonnes connaissances des outils informatiques",
+        "Permis de conduire catégorie B",
+        "Permis cariste",
+        "Langue : français (connaissances orales de l'allemand ou de l'anglais souhaitées)"
+      ],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.avescorent.ch/de/arbeitsplaetze/",
+      "stellen_url": "https://www.avescorent.ch/de/karrierelaufbahn/vielseitiger-techniker-m-w-d-100-oftringen/",
+      "stellentitel": "Servicetechniker / Techniker Maschinen & Energie (m/w/d)",
+      "aufgaben": [
+        "Wartung, Reparatur und Inbetriebnahme von Generatoren, Stromerzeugern, Heiz- und Klimageräten",
+        "Fehlersuche, Diagnose und Behebung technischer Störungen an Energieanlagen",
+        "Kontrolle, Pflege & Bereitstellung des Maschinenparks",
+        "Projektbegleitung & technische Unterstützung vor Ort"
+      ],
+      "profil": [
+        "Technisches Verständnis und Erfahrung mit Energieanlagen (Generatoren, Stromerzeugern, Heiz- und Klimasystemen) – ob aus Ausbildung oder 'on the job'",
+        "Selbstständig, zuverlässig & lösungsorientiert",
+        "Freude am Kundenkontakt und gelegentlichen Ausseneinsätzen",
+        "IT-Grundkenntnisse"
+      ],
+      "fehler": null
     },
     {
       "karriereseite": "https://www.hkl-baumaschinen.de/karriere/jobs",
@@ -632,28 +1199,247 @@
       "fehler": "Keine Stellen gefunden"
     },
     {
-      "karriereseite": "https://kmls.de/karriere/",
-      "stellen_url": "https://kmls.de/jobs/serviceleiter-facility-management-haustechnik-wmd/",
+      "karriereseite": "https://www.hkl-baumaschinen.de/karriere/jobs",
+      "stellen_url": "https://www.hkl-baumaschinen.de/karriere/jobs",
       "stellentitel": null,
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZssuCsPNRUXNG1gtBiPF'}"
+      "fehler": "Keine Stellen gefunden"
+    },
+    {
+      "karriereseite": "https://www.hkl-baumaschinen.de/karriere/jobs",
+      "stellen_url": "https://www.hkl-baumaschinen.de/karriere/technik-service-und-werkstatt",
+      "stellentitel": "Monteur / Mechaniker / Techniker im Bereich Service (m/w/d)",
+      "aufgaben": [
+        "Reparatur, Wartung und Pflege hochwertiger Baumaschinen",
+        "Erstellung von Schadensdiagnosen",
+        "Kalkulation von Kostenvoranschlägen",
+        "Technischer Ansprechpartner für Kunden vor Ort"
+      ],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.hkl-baumaschinen.de/karriere/jobs",
+      "stellen_url": "https://www.hkl-baumaschinen.de/karriere/technik-service-und-werkstatt",
+      "stellentitel": "Monteur / Mechaniker / Techniker im Bereich Miete (m/w/d)",
+      "aufgaben": [
+        "Ausgabe und Rückgabe von Mietmaschinen und -geräten",
+        "Beratung der Kunden zu Einsatzmöglichkeiten und Einweisung in die Bedienung",
+        "Reparatur, Wartung und Reinigung von Baumaschinen",
+        "Sicherstellung der Einsatzbereitschaft und Sicherheit der Mietmaschinen"
+      ],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.hkl-baumaschinen.de/karriere/jobs",
+      "stellen_url": "https://www.hkl-baumaschinen.de/karriere/technik-service-und-werkstatt",
+      "stellentitel": "Elektriker / Elektroniker / Elektroinstallateur (m/w/d)",
+      "aufgaben": [
+        "Instandsetzung, Wartung und Inspektion von Elektrowerkzeugen und Maschinen im Innen- und Außendienst",
+        "Durchführung von Prüfungen nach DGUV V3",
+        "Reparatur und Wartung von Stromerzeugern",
+        "Ansprechpartner für Kunden in allen Fragen rund um elektrische Produkte"
+      ],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.hkl-baumaschinen.de/karriere/jobs",
+      "stellen_url": "https://www.hkl-baumaschinen.de/karriere/vertrieb-verkauf-und-disposition",
+      "stellentitel": "Kundenberater / Disponent für den Bereich Miete (m/w/d)",
+      "aufgaben": [
+        "Verantwortung für die Vermietung moderner Baumaschinen und -geräte",
+        "Erstellung individueller Angebote",
+        "Koordination von Kundenaufträgen",
+        "Zentraler Ansprechpartner für Kunden im Tagesgeschäft",
+        "Begleitung vom ersten Kundenkontakt bis zur erfolgreichen Maschinenübergabe"
+      ],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.hkl-baumaschinen.de/karriere/jobs",
+      "stellen_url": "https://www.hkl-baumaschinen.de/karriere/vertrieb-verkauf-und-disposition",
+      "stellentitel": "Kundenberater / Verkäufer für den Bereich Baushop oder Ersatzteile (m/w/d)",
+      "aufgaben": [
+        "Verkauf und Kundenberatung im Baushop oder Ersatzteilebereich",
+        "Beratung bei der Auswahl des richtigen Equipments für Kundenprojekte",
+        "Betreuung eines großen Sortiments (Großgeräte, Kleingeräte, Werkzeuge, Arbeits- und Schutzkleidung)"
+      ],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.hkl-baumaschinen.de/karriere/jobs",
+      "stellen_url": "https://www.hkl-baumaschinen.de/karriere/vertrieb-verkauf-und-disposition",
+      "stellentitel": "Kundenberater im Außendienst / Sales Manager (m/w/d)",
+      "aufgaben": [
+        "Vertrieb von Mietmaschinen, Baugeräten, Werkzeugen und Zubehör an Neu- und Bestandskunden",
+        "Aufbau und Pflege starker Kundenbeziehungen",
+        "Unterstützung der Kunden bei der optimalen Umsetzung ihrer Bauprojekte"
+      ],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.hkl-baumaschinen.de/karriere/jobs",
+      "stellen_url": "https://www.hkl-baumaschinen.de/karriere/vertrieb-verkauf-und-disposition",
+      "stellentitel": "Kaufmännischer Mitarbeiter im Vertriebsinnendienst (m/w/d)",
+      "aufgaben": [
+        "Eigenständige Betreuung von Bestandskunden",
+        "Gewinnung neuer Kunden und Geschäftspartner",
+        "Erstellung individueller Angebote",
+        "Enge Zusammenarbeit mit dem Außendienst",
+        "Neukundenrecherche und Aufbereitung relevanter Informationen",
+        "Terminvereinbarung und Abstimmung im Team"
+      ],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.hkl-baumaschinen.de/karriere/jobs",
+      "stellen_url": "https://www.hkl-baumaschinen.de/karriere/fuehrungskraefte",
+      "stellentitel": "Betriebsleiter (m/w/d)",
+      "aufgaben": [
+        "Verantwortung für den Erfolg des Centers mit unternehmerischem Denken und Führungsstärke",
+        "Operativ und vertrieblich tätig in der Vermietung und im Verkauf von Baumaschinen und Baugeräten",
+        "Führung des Teams mit Engagement, Klarheit und Teamgeist",
+        "Pflege von direktem Kundenkontakt und Sicherstellung eines verlässlichen Partnerauftritts in der Region",
+        "Überwachung des Betriebsergebnisses und Erstellung regelmäßiger Reportings"
+      ],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.hkl-baumaschinen.de/karriere/jobs",
+      "stellen_url": "https://www.hkl-baumaschinen.de/karriere/fuehrungskraefte",
+      "stellentitel": "Werkstattleiter / Werkstattmeister (m/w/d)",
+      "aufgaben": [
+        "Verantwortung für Servicemonteure und Sicherstellung eines reibungslosen Werkstattablaufs",
+        "Aktive Einbindung in das Tagesgeschäft",
+        "Erstellung von Schadensdiagnosen und Unterstützung bei komplexen Reparaturen",
+        "Betreuung und Beratung von Servicekunden",
+        "Aufbau langfristiger Kundenbeziehungen und Weiterentwicklung des Kundenstamms"
+      ],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.hkl-baumaschinen.de/karriere/jobs",
+      "stellen_url": "https://www.hkl-baumaschinen.de/karriere/fuehrungskraefte",
+      "stellentitel": "Kundendienstleiter (m/w/d)",
+      "aufgaben": [
+        "Leitung der Servicebetriebe in der betreuten Niederlassung",
+        "Planung von Personal, Kosten und Kapazitäten gemeinsam mit dem Team",
+        "Weiterentwicklung der Servicebetriebe",
+        "Pflege von Geschäftsverbindungen und aktive Weiterentwicklung des Kundenkreises",
+        "Verhandlung von Serviceverträgen"
+      ],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.hkl-baumaschinen.de/karriere/jobs",
+      "stellen_url": "https://www.hkl-baumaschinen.de/karriere/fuehrungskraefte",
+      "stellentitel": "Führungskraft in der Unternehmenszentrale (m/w/d)",
+      "aufgaben": [
+        "Betreuung und Weiterentwicklung der gesamten Organisation",
+        "Steuerung strategisch wichtiger Themen und Weiterentwicklung von Prozessen",
+        "Sicherstellung effizienter, kundenorientierter und zukunftssicherer operativer Abläufe",
+        "Enge Zusammenarbeit mit anderen Fachbereichen und Centern",
+        "Leitung eines Teams mit wertschätzender Zusammenarbeit auf Augenhöhe"
+      ],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.hkl-baumaschinen.de/karriere/jobs",
+      "stellen_url": "https://www.hkl-baumaschinen.de/karriere/unternehmenszentrale",
+      "stellentitel": null,
+      "aufgaben": [],
+      "profil": [],
+      "fehler": "Keine Stellen gefunden"
+    },
+    {
+      "karriereseite": "https://www.hkl-baumaschinen.de/karriere/jobs",
+      "stellen_url": "https://www.hkl-baumaschinen.de/karriere/ausbildung",
+      "stellentitel": null,
+      "aufgaben": [],
+      "profil": [],
+      "fehler": "Claude API-Fehler: Error code: 424 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Could not serve request.'}, 'request_id': 'req_011CZunVicorwnab5RQ7jZSp'}"
+    },
+    {
+      "karriereseite": "https://kmls.de/karriere/",
+      "stellen_url": "https://kmls.de/jobs/serviceleiter-facility-management-haustechnik-wmd/",
+      "stellentitel": "Serviceleiter Facility Management | Haustechnik (w|m|d)",
+      "aufgaben": [
+        "Zentrale Ansprechperson für Kunden in der Serviceregion",
+        "Verantwortung für die Kostenstelle in der Region und Sicherstellung reibungsloser Abläufe",
+        "Verantwortung für die Umsetzung aller Wartungs- und Inspektionsarbeiten sowie Einhaltung der Prüfpflichten",
+        "Fachliche und disziplinarische Führung des Teams",
+        "Regelmäßige Besuche der Teammitglieder im Tagesgeschäft zur Qualitätssicherung und Überprüfung der Standards",
+        "Monatliches Reporting nach Kalkulation von einzelnen Projekten und Serviceaufträgen",
+        "Regelmäßige Feedbackgespräche mit Mitarbeitenden zur Förderung ihrer Entwicklung und Zufriedenheit"
+      ],
+      "profil": [
+        "Idealerweise (Fach-)Hochschulabschluss im Bereich Facility Management oder Betriebswirtschaft, alternativ Meisterausbildung oder staatl. geprüfter Techniker im Bereich Metallbau, Elektrotechnik, HKLS oder Versorgungstechnik",
+        "3–5 Jahre Erfahrung in einer Führungsposition",
+        "Erfahrung in der Verantwortung für eine Kostenstelle sowie fachliche und disziplinarische Führung eines Teams von mindestens fünf Mitarbeitenden",
+        "Kenntnisse der Anforderungen und Aufgaben im Facility Management",
+        "Dienstleistungsmentalität",
+        "Teamplayer, selbstständige Arbeitsweise und Bereitschaft, Verantwortung zu übernehmen"
+      ],
+      "fehler": null
     },
     {
       "karriereseite": "https://kmls.de/karriere/",
       "stellen_url": "https://kmls.de/jobs/bauleiter-wmd-fuer-den-bereich-kaelte-klima-und-lueftungstechnik/",
-      "stellentitel": null,
-      "aufgaben": [],
-      "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsswiJW33xiEw8t5x2Zy'}"
+      "stellentitel": "Bauleiter (w|m|d) für den Bereich Klima- und Lüftungstechnik",
+      "aufgaben": [
+        "Fachliche und organisatorische Führung des Baustellenteams, inkl. Nachunternehmer und Azubis",
+        "Planung, Steuerung und Überwachung der Baustellenabläufe hinsichtlich Qualität, Terminen, Sauberkeit und Arbeitssicherheit",
+        "Aktive Mitwirkung bei Montage, Installation und Inbetriebnahme von Klima- und Lüftungsanlagen",
+        "Sicherstellung und Einhaltung aller relevanten Normen und Vorschriften",
+        "Eigenständige Erstellung von Aufmaßen, Bautagebüchern und technischer Dokumentationen",
+        "Materialbedarfsanalyse und -bestellung und Koordination des Materialeinsatzes",
+        "Direkte Ansprechperson für Kunden und Projektverantwortliche vor Ort"
+      ],
+      "profil": [
+        "Experte in der Klima- oder Lüftungstechnik",
+        "Erfahrung in der Übernahme von Verantwortung für Serviceprojekte und Kostenkontrolle",
+        "Erfahrung in der Leitung eines Teams oder einer Abteilung",
+        "Freude daran, ein starkes Team aufzubauen und weiterzuentwickeln",
+        "Eigenverantwortliches, strukturiertes und lösungsorientiertes Arbeiten",
+        "Reisebereitschaft, schwerpunktmäßig für Einsätze in Berlin sowie den östlichen Bundesländern",
+        "Führerschein der Klasse B"
+      ],
+      "fehler": null
     },
     {
       "karriereseite": "https://kmls.de/karriere/",
       "stellen_url": "https://kmls.de/jobs/service-und-wartungstechniker-wmd-elektrotechnik/",
-      "stellentitel": null,
-      "aufgaben": [],
-      "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZsszR5k61vyN5pECAPTV'}"
+      "stellentitel": "Servicetechniker für Elektrotechnik (w|m|d)",
+      "aufgaben": [
+        "Tägliche Einsätze in bestehenden Gewerbeimmobilien zur Wartung und Behebung von Störungen an elektrotechnischen Anlagen",
+        "Eigenständige Durchführung von DGUV-Prüfungen",
+        "Behebung von Störungen, Durchführung von Wartungen und Reparaturen an Elektroanlagen",
+        "Wartung und Installation von MSR-Systemen zur Steuerung von Lüftungs- und Heizungsanlagen",
+        "Fachgerechte Montage und Verdrahtung elektrischer Komponenten",
+        "Installation und Inbetriebnahme von Netzwerkkomponenten",
+        "Eigenständige Durchführung von Sicherheitsprüfungen und Instandsetzung ortsveränderlicher sowie ortsfester Anlagen",
+        "Digitale Dokumentation der durchgeführten Arbeiten auf dem Tablet",
+        "Direkte Ansprechperson vor Ort für Kunden"
+      ],
+      "profil": [
+        "Abgeschlossene Ausbildung im Bereich Elektrotechnik oder vergleichbare Qualifikation",
+        "Erfahrung als Elektroinstallateur oder Elektriker für Energie- und Gebäudetechnik oder mindestens drei Jahre Erfahrung im Kundendienst der Gebäudetechnik",
+        "Strukturierte, lösungsorientierte und eigenständige Arbeitsweise",
+        "Offene und kundenorientierte Art",
+        "Sichere Deutschkenntnisse"
+      ],
+      "fehler": null
     },
     {
       "karriereseite": "https://kmls.de/karriere/",
@@ -667,22 +1453,102 @@
         "Übernahme des Notdienstes (Rufbereitschaft) im Wechsel mit Kollegen alle zwei bis vier Wochen"
       ],
       "profil": [
-        "Abgeschlossene handwerkliche Ausbildung (z. B. Schlosser, Maler, Trockenbauer, Metallbauer, Elektriker oder Anlagenmechaniker)",
-        "Idealerweise erste Erfahrungen im technischen Gebäudemanagement oder als Haustechniker, z. B. in der Instandhaltung gewerblicher Filialen",
-        "Zuverlässige, belastbare und einsatzbereite Arbeitsweise sowie Teamfähigkeit bei gleichzeitig selbstständigem und lösungsorientiertem Vorgehen",
+        "Abgeschlossene handwerkliche Ausbildung, z. B. als Schlosser, Maler, Trockenbauer, Metallbauer, Elektriker oder Anlagenmechaniker (w|m|d)",
+        "Idealerweise erste Erfahrungen im technischen Gebäudemanagement oder als Haustechniker (w|m|d), z. B. in der Instandhaltung von gewerblichen Filialen",
+        "Zuverlässige und belastbare Arbeitsweise, hohes Maß an Einsatzbereitschaft, Teamfähigkeit sowie selbstständiges und lösungsorientiertes Arbeiten",
         "Gutes Organisationsvermögen und technisches Verständnis",
-        "Reisebereitschaft innerhalb der Region sowie Führerschein Klasse B",
-        "Bereitschaft zu gelegentlichen Übernachtungen bei größerer Entfernung zum Kunden"
+        "Reisebereitschaft innerhalb der Region sowie Führerschein der Klasse B",
+        "Bereitschaft zu gelegentlichen Übernachtungen bei größeren Entfernungen zum Kunden"
       ],
       "fehler": null
     },
     {
       "karriereseite": "https://www.sikla.career/",
-      "stellen_url": null,
-      "stellentitel": null,
+      "stellen_url": "./jobs/63942878/Engineering-Consultant-m-w-d-in-der-Technischen-Geb%C3%A4udeausr%C3%BCstung/",
+      "stellentitel": "Engineering Consultant (m/w/d) in der Technischen Gebäudeausrüstung",
       "aufgaben": [],
       "profil": [],
-      "fehler": "Claude API-Fehler: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZst6DF2FHaYnFNwpFBjs'}"
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.sikla.career/",
+      "stellen_url": "./jobs/52935234/Monteur-m-w-d---PKT-Systeme-GmbH-/",
+      "stellentitel": "Monteur (m/w/d) - PKT Systeme GmbH ",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.sikla.career/",
+      "stellen_url": "./jobs/63292364/Key-Account-Manager-m-w-d---Gebiet-Gro%C3%9Fraum-N%C3%BCrnberg---M%C3%BCnchen/",
+      "stellentitel": "Key Account Manager (m/w/d) - Gebiet Großraum Nürnberg - München",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.sikla.career/",
+      "stellen_url": "./jobs/63291464/Key-Account-Manager-m-w-d---Gebiet-Gro%C3%9Fraum-Kassel/",
+      "stellentitel": "Key Account Manager (m/w/d) - Gebiet Großraum Kassel",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.sikla.career/",
+      "stellen_url": "./jobs/61643722/Ausbildungsberufe---Ausbildungsbeginn-2026/",
+      "stellentitel": "Ausbildungsberufe - Ausbildungsbeginn 2026",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.sikla.career/",
+      "stellen_url": "./jobs/63045399/Mitarbeiter-Vorfertigung--montage-m-w-d-/",
+      "stellentitel": "Mitarbeiter Vorfertigung/-montage (m/w/d) ",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.sikla.career/",
+      "stellen_url": "./jobs/63062089/Metallbauer-m-w-d---Metallgestaltung---PKT-Systeme-GmbH/",
+      "stellentitel": "Metallbauer (m/w/d) - Metallgestaltung - PKT-Systeme GmbH",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.sikla.career/",
+      "stellen_url": "./jobs/63720554/Kundenmanager-m-w-d-%E2%80%93-Region-Frankfurt-a-M-/",
+      "stellentitel": "Kundenmanager (m/w/d) – Region Frankfurt a. M.",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.sikla.career/",
+      "stellen_url": "./jobs/58522658/Kundenmanager-m-w-d-%E2%80%93-Region-Osnabr%C3%BCck---Emsland---Mittelweserregion/",
+      "stellentitel": "Kundenmanager (m/w/d) – Region Osnabrück - Emsland - Mittelweserregion",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.sikla.career/",
+      "stellen_url": "./jobs/62719949/Facility-Manager-m-w-d-/",
+      "stellentitel": "Facility Manager (m/w/d) ",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.sikla.career/",
+      "stellen_url": "./jobs/59273663/Praktikant-Masterand-m-w-d---Statik-Softwareentwicklung/",
+      "stellentitel": "Praktikant / Masterand (m/w/d) - Statik &amp; Softwareentwicklung",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
     }
   ]
 }
