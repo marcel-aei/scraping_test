@@ -1,9 +1,9 @@
 {
   "meta": {
-    "timestamp": "2026-04-23T09:03:54.377782+00:00",
+    "timestamp": "2026-04-24T09:09:58.774381+00:00",
     "urls_count": 9,
-    "stellen_count": 138,
-    "fehler_count": 5
+    "stellen_count": 188,
+    "fehler_count": 6
   },
   "stellen": [
     {
@@ -21,9 +21,9 @@
       "aufgaben": [
         "Konzeption und Entwicklung von Integrationen zwischen internen Systemen und externen Partnern",
         "Arbeit mit APIs, Middleware, Events und Datenflüssen",
-        "Weiterentwicklung und Betrieb von Integrationsplattformen inklusive Monitoring und Error Handling",
+        "Weiterentwicklung und Betrieb der Integrationsplattformen inklusive Monitoring und Error Handling",
         "Sicherstellung von Security, Performance und Stabilität im Betrieb",
-        "Definition von Integrationsmustern, Standards und Best Practices",
+        "Definition von Integrationsmustern, Standards und Best Practices sowie Sicherstellung deren Umsetzung",
         "Enge Zusammenarbeit mit Architektur, Data und Business",
         "Analyse von Störungen und Erarbeitung nachhaltiger Lösungen im produktiven Betrieb"
       ],
@@ -105,11 +105,11 @@
         "DataHaus organisatorisch, fachlich und methodisch aufbauen",
         "Führung von Data Architect, Data Steward, Data Quality und Data Operations",
         "Verantwortung für Datenarchitektur, Semantik und Governance über alle Sparten hinweg",
-        "Sicherstellung von stabilen und skalierbaren Stammdaten, Datenqualität und Prozessen",
+        "Sicherstellung stabiler und skalierbarer Stammdaten, Datenqualität und Prozesse",
         "Vorantreiben von Automatisierung und sauberen Datenflüssen zwischen Systemen und Partnern",
-        "Business, Value Streams und Data zusammenbringen und mit klarem Nutzen priorisieren",
-        "Selbst als Data Steward mitwirken und saubere Umsetzung sicherstellen",
-        "DataHaus in neue Domänen und höhere Reife weiterentwickeln"
+        "Zusammenbringen von Business, Value Streams und Data mit klarer Nutzenpriorisierung",
+        "Mitwirkung als Data Steward und Sicherstellung sauberer Umsetzung",
+        "Weiterentwicklung des DataHaus in neue Domänen und höhere Reife"
       ],
       "profil": [
         "Ausbildung oder fundierte Erfahrung im Bereich Datenmanagement, Data Governance oder vergleichbaren Rollen",
@@ -142,7 +142,7 @@
     {
       "karriereseite": "https://www.sabag.ch/de/stellen",
       "stellen_url": "https://jobs.dualoo.com/link/eaa10465-3622-4208-b208-0f5e1ddc74af/apply?lang=DE",
-      "stellentitel": "Kundenberater Profishop Bauprodukte / (m/w/d)",
+      "stellentitel": "Kundenberater Profishop Bauprodukte (m/w/d)",
       "aufgaben": [],
       "profil": [],
       "fehler": null
@@ -160,20 +160,20 @@
       "stellen_url": "https://www.sabag.ch/de/serviceag/job-data-quality-specialist",
       "stellentitel": "Data Quality Specialist",
       "aufgaben": [
-        "Definieren von Qualitätsdimensionen und Messbarkeit von Datenqualität",
-        "Etablieren von KPIs, Regeln und Monitoring über Sparten hinweg",
-        "Analysieren von Ursachen von Datenproblemen und Ableiten wirksamer Massnahmen",
-        "Führen des Data Councils und Sicherstellen klarer Entscheidungen",
-        "Koordinieren der Zusammenarbeit zwischen Data Architect, Data Stewards und weiteren Rollen",
-        "Einbringen von Datenqualität früh in Projekte und Changes («Quality by Design»)",
-        "Transparent und verständlich machen von Fortschritten, Risiken und Qualität"
+        "Qualitätsdimensionen definieren und Datenqualität messbar machen",
+        "KPIs, Regeln und Monitoring über Sparten hinweg etablieren",
+        "Ursachen von Datenproblemen analysieren und wirksame Massnahmen ableiten",
+        "Data Council führen und klare Entscheidungen sicherstellen",
+        "Zusammenarbeit zwischen Data Architect, Data Stewards und weiteren Rollen koordinieren",
+        "Datenqualität früh in Projekte und Changes einbringen ('Quality by Design')",
+        "Fortschritte, Risiken und Qualität transparent und verständlich machen"
       ],
       "profil": [
-        "Ausbildung oder fundierte Erfahrung im Bereich Datenqualität, Data Governance oder vergleichbaren Rollen",
+        "Ausbildung oder fundierte Erfahrung im Bereich Datenqualität, Data Governance oder in vergleichbaren Rollen",
         "Fähigkeit, Qualitätsmetriken zu definieren und Datenprobleme strukturiert zu analysieren",
         "Verständnis von Datenflüssen, Integrationen und Systemzusammenhängen",
         "Erfahrung in Moderation und Steuerung von bereichsübergreifenden Gremien",
-        "Klare Kommunikation und Fähigkeit, komplexe Themen verständlich zu machen",
+        "Klare Kommunikation und die Fähigkeit, komplexe Themen verständlich zu machen",
         "Konfliktfähigkeit und Durchsetzungsstärke bei Zielkonflikten",
         "Fokus auf messbare Verbesserung statt auf Papier",
         "Sehr gutes Deutsch in Wort und Schrift; gutes Englisch und Französisch"
@@ -226,13 +226,13 @@
       "stellen_url": "https://www.sabag.ch/de/serviceag/job-head-service-delivery-operations",
       "stellentitel": "Head of Service Delivery & Operations",
       "aufgaben": [
-        "Fachliche und personelle Führung von Service Delivery & Operations innerhalb der Business Transformation",
-        "Sicherstellen der End-to-End-Lieferfähigkeit von Initiativen bis in den stabilen Betrieb",
+        "Führung von Service Delivery & Operations innerhalb der Business Transformation fachlich und personell",
+        "Sicherstellung der End-to-End-Lieferfähigkeit von Initiativen bis in den stabilen Betrieb",
         "Steuerung eines komplexen Umfelds mit vielen parallelen Themen, Abhängigkeiten und Zielkonflikten",
         "Verantwortung für Priorisierung, Kapazitätssteuerung und Eskalationen über Value Streams hinweg",
         "Aufbau einer verlässlichen Zusammenarbeit mit Platforms & IT-Services",
-        "Frühzeitiges Erkennen von Risiken und gezieltes Stabilisieren von Systemen, Prozessen und Organisation",
-        "Vorantreiben von Standardisierung und Reduzierung struktureller Komplexität über Sparten hinweg"
+        "Frühzeitige Risikoerkennung und gezielte Stabilisierung von Systemen, Prozessen und Organisation",
+        "Vorantreiben von Standardisierung und Reduktion struktureller Komplexität über Sparten hinweg"
       ],
       "profil": [
         "Ausbildung oder fundierte Erfahrung im Bereich Service Delivery, Operations, Business oder in vergleichbaren Rollen",
@@ -240,9 +240,10 @@
         "Verständnis für das Zusammenspiel von Business Transformation und IT-Betrieb",
         "Fähigkeit, Prioritäten zu setzen und auch unter Druck klare Entscheide zu treffen",
         "Hohe Resilienz und Sicherheit im Umgang mit Konflikten und Eskalationen",
-        "Struktur und Pragmatismus – Themen in den Betrieb bringen",
+        "Struktur und Pragmatismus im Sinne von Themen in den Betrieb bringen",
         "Leadership: Entwicklung von Menschen, Zusammenarbeit und Organisation",
-        "Sehr gutes Deutsch in Wort und Schrift; gutes Englisch und Französisch"
+        "Sehr gutes Deutsch in Wort und Schrift",
+        "Gutes Englisch und Französisch"
       ],
       "fehler": null
     },
@@ -305,7 +306,8 @@
       "profil": [
         "Schulzeugnisse der letzten 3 Jahre erforderlich",
         "Multicheck erforderlich",
-        "Praktikumsberichte falls vorhanden"
+        "Bewerbungsschreiben/Motivationsschreiben erforderlich",
+        "Lebenslauf erforderlich"
       ],
       "fehler": null
     },
@@ -342,11 +344,11 @@
       "stellen_url": "https://www.sabag.ch/de/serviceag/job-service-designer",
       "stellentitel": "Service Designer",
       "aufgaben": [
-        "Gestalten von Services, Prozessen und Interaktionen innerhalb der Value Streams",
-        "Analysieren von Kundenbedürfnissen, bestehenden Abläufen, Systemen und Strukturen",
-        "Einbringen von Kundenbedürfnissen und Pain Points strukturiert in Entscheidungen",
-        "Arbeiten mit User Research, Service Blueprints, Prozessen, Co-Creation und Prototypen",
-        "Übersetzen von Ergebnissen in klare Anforderungen und Begleiten der Umsetzung bis zur betreibbaren Lösung",
+        "Gestaltung von Services, Prozessen und Interaktionen innerhalb der Value Streams",
+        "Analyse von Kundenbedürfnissen, bestehenden Abläufen, Systemen und Strukturen",
+        "Einbringen von Kundenbedürfnissen und Pain Points in Entscheidungen",
+        "Arbeit mit User Research, Service Blueprints, Prozessen, Co-Creation und Prototypen",
+        "Übersetzen von Ergebnissen in klare Anforderungen und Begleitung der Umsetzung bis zur betreibbaren Lösung",
         "Enge Zusammenarbeit mit Business, IT und weiteren Rollen",
         "Aus Komplexität verständliche und umsetzbare Lösungen entwickeln"
       ],
@@ -358,7 +360,8 @@
         "Umsetzungsstärke sowie strukturierte und analytische Arbeitsweise, auch bei hoher Komplexität",
         "Kommunikations- und Moderationsstärke in Workshops und Abstimmungen",
         "Fähigkeit, die Kundensicht auch in schwierigen Diskussionen zu vertreten",
-        "Sehr gutes Deutsch in Wort und Schrift; gutes Französisch; weitere Sprachen von Vorteil"
+        "Sehr gutes Deutsch in Wort und Schrift",
+        "Gutes Französisch; weitere Sprachen von Vorteil"
       ],
       "fehler": null
     },
@@ -404,6 +407,9 @@
       "profil": [
         "Schulzeugnisse der letzten 3 Jahre erforderlich",
         "Multicheck erforderlich",
+        "Bewerbungsschreiben/Motivationsschreiben erforderlich",
+        "Lebenslauf erforderlich",
+        "Praktikumsberichte falls vorhanden",
         "Schnupperlehren im gewünschten Beruf von Vorteil"
       ],
       "fehler": null
@@ -414,21 +420,22 @@
       "stellentitel": "Head of Platforms Design & Integration",
       "aufgaben": [
         "Verantwortung für die Architektur der Plattform-, Infrastruktur- und Integrationslandschaft (Cloud, Hybrid, On-Prem)",
-        "Definition von Architektur- und Integrationsstrategien im Einklang mit den Business-Zielen",
+        "Definition klarer Architektur- und Integrationsstrategien im Einklang mit Business-Zielen",
         "Fachliche und personelle Führung der Architektur- und Integrationsteams",
-        "Setzen von Leitplanken für Architektur, Security und Plattformdesign und Sicherstellung deren Umsetzung",
+        "Setzen von Leitplanken für Architektur, Security und Plattformdesign und Sicherstellen deren Umsetzung",
         "Sicherstellung einer stabilen, skalierbaren Integrationslandschaft über Systeme, Daten und Partner hinweg",
         "Treffen technischer Grundsatzentscheide und Eskalation bei Zielkonflikten",
         "Verbindung von Business-Anforderungen mit tragfähigen Plattform- und Integrationslösungen"
       ],
       "profil": [
         "Mehrjährige Erfahrung in IT-Architektur, Plattform- oder Integrationsdesign in anspruchsvollen Umgebungen",
-        "Stärke in Integrationsarchitekturen, APIs, Middleware und End-to-End-Prozessdenken",
+        "Stark in Integrationsarchitekturen, APIs, Middleware und End-to-End-Prozessdenken",
         "Fundiertes Verständnis von Cloud-, Hybrid- und Security-Themen",
         "Erfahrung in der Führung und Steuerung von technischen Teams",
         "Fähigkeit, komplexe Zusammenhänge zu bewerten und klare Entscheidungen zu treffen",
-        "Souveräner Austausch mit Business, Management und Technik",
-        "Sehr gutes Deutsch in Wort und Schrift; gutes Französisch; weitere Sprachen von Vorteil"
+        "Souverän im Austausch mit Business, Management und Technik",
+        "Sehr gutes Deutsch in Wort und Schrift",
+        "Gutes Französisch; weitere Sprachen von Vorteil"
       ],
       "fehler": null
     },
@@ -451,7 +458,7 @@
         "Backlogs, Prioritäten und Releases über mehrere Value Streams steuern",
         "Themen von der Idee bis in den stabilen Betrieb begleiten – inklusive Testing, Abnahme und Hypercare",
         "Sicherstellen, dass Standards, Security- und Betriebsanforderungen eingehalten werden",
-        "Transparenz, klare Entscheidungen und funktionierende Zusammenarbeit sicherstellen"
+        "Für Transparenz, klare Entscheidungen und funktionierende Zusammenarbeit sorgen"
       ],
       "profil": [
         "Ausbildung oder fundierte Erfahrung im Bereich Business, Wirtschaftsinformatik oder in vergleichbaren Rollen",
@@ -461,8 +468,7 @@
         "Strukturierte Arbeitsweise – auch bei hoher Parallelität und wechselnden Prioritäten",
         "Klare Kommunikation und die Fähigkeit, unterschiedliche Interessen zu balancieren",
         "Ownership: Verantwortung übernehmen und für Fortschritt sorgen",
-        "Sehr gutes Deutsch in Wort und Schrift",
-        "Gutes Französisch; weitere Sprachen von Vorteil"
+        "Sehr gutes Deutsch in Wort und Schrift; gutes Französisch; weitere Sprachen von Vorteil"
       ],
       "fehler": null
     },
@@ -472,12 +478,12 @@
       "stellentitel": "Digital Transformation Communication",
       "aufgaben": [
         "Aufbau und Weiterentwicklung einer klaren und konsistenten Transformationskommunikation",
-        "Kommunikative Begleitung von Projekten und Initiativen und sichtbar machen konkreter Veränderungen",
+        "Kommunikative Begleitung von Projekten und Initiativen und Sichtbarmachung konkreter Veränderungen",
         "Übersetzung komplexer Themen in verständliche, praxisnahe Botschaften für unterschiedliche Zielgruppen",
-        "Betrieb und Entwicklung von SABAG Connect als Plattform für Austausch, Dialog und Orientierung",
+        "Betrieb und Weiterentwicklung von SABAG Connect als Plattform für Austausch, Dialog und Orientierung",
         "Auswahl passender Formate und Kanäle sowie Sicherstellung von Wiedererkennbarkeit",
         "Unterstützung von Führungskräften mit klaren Botschaften und Argumentarien",
-        "Einholen von Feedback und kontinuierliche Weiterentwicklung der Kommunikation"
+        "Einholung von Feedback und kontinuierliche Weiterentwicklung der Kommunikation"
       ],
       "profil": [
         "Ausbildung im Bereich Wirtschaft, Service Design, Informatik oder vergleichbare Praxiserfahrung",
@@ -504,13 +510,13 @@
       "stellen_url": "https://www.sabag.ch/de/serviceag/job-data-specialists-lead",
       "stellentitel": "Data Specialists Lead",
       "aufgaben": [
-        "Team Data Specialists fachlich und personell führen",
-        "Operative Stammdatenbewirtschaftung über alle Sparten hinweg verantworten",
-        "Stabile, effiziente und skalierbare Abläufe sicherstellen",
-        "Kapazitäten steuern und Lastspitzen abfangen",
-        "Eng mit Data Architect, Data Quality und weiteren Rollen zusammenarbeiten",
-        "Operative Datenperspektive in Projekte und Vorhaben einbringen",
-        "Weiterentwicklung von Prozessen, Standards und Tools vorantreiben"
+        "Fachliche und personelle Führung des Teams Data Specialists",
+        "Verantwortung für die operative Stammdatenbewirtschaftung über alle Sparten hinweg",
+        "Sicherstellung stabiler, effizienter und skalierbarer Abläufe",
+        "Steuerung von Kapazitäten und Abfangen von Lastspitzen",
+        "Enge Zusammenarbeit mit Data Architect, Data Quality und weiteren Rollen",
+        "Einbringen der operativen Datenperspektive in Projekte und Vorhaben",
+        "Weiterentwicklung von Prozessen, Standards und Tools"
       ],
       "profil": [
         "Ausbildung oder fundierte Erfahrung im datenbezogenen, kaufmännischen oder technischen Umfeld",
@@ -531,13 +537,13 @@
       "stellen_url": "https://www.sabag.ch/de/serviceag/job-project-change-planner",
       "stellentitel": "Project & Change Planner",
       "aufgaben": [
-        "Planung von Initiativen und Vorhaben über mehrere Value Streams hinweg",
-        "Koordination von Abhängigkeiten und Sicherstellung realistischer Zeit-, Ressourcen- und Meilensteinplanung",
-        "Planung von Veränderungen aus Sicht der Mitarbeitenden und Sicherstellung von Verständnis und Anwendung im Alltag",
-        "Abstimmung von Service Design, Service Specialists, Customer Experience und IT in einer gemeinsamen Planung",
-        "Schaffung von Transparenz über Fortschritt, Risiken und Zielkonflikte",
-        "Aufbereitung von Entscheidungsgrundlagen und frühzeitige Eskalation bei Bedarf",
-        "Unterstützung von Führungskräften bei Planung, Kommunikation und Einordnung von Veränderungen"
+        "Initiativen und Vorhaben über mehrere Value Streams hinweg planen",
+        "Abhängigkeiten koordinieren und realistische Zeit-, Ressourcen- und Meilensteinplanung sicherstellen",
+        "Veränderungen aus Sicht der Mitarbeitenden planen und für Verständnis und Anwendung im Alltag sorgen",
+        "Service Design, Service Specialists, Customer Experience und IT in eine abgestimmte Planung bringen",
+        "Transparenz über Fortschritt, Risiken und Zielkonflikte schaffen",
+        "Entscheidungsgrundlagen aufbereiten und frühzeitig eskalieren wenn nötig",
+        "Führungskräfte bei Planung, Kommunikation und Einordnung von Veränderungen unterstützen"
       ],
       "profil": [
         "Ausbildung oder fundierte Erfahrung im Bereich Projektmanagement, Change Management oder vergleichbaren Rollen",
@@ -560,8 +566,8 @@
         "Entwicklung und Verantwortung der fachlichen Datenarchitektur über alle Sparten hinweg",
         "Definition klarer Datenmodelle, Datenobjekte und Informationsflüsse",
         "Sicherstellung konsistenter und verständlicher zentraler Begriffe, Kennzahlen und Strukturen",
-        "Etablierung von Data-Governance-Prinzipien und Sicherung der Datenqualität",
-        "Strukturierung von Datenflüssen über Systeme hinweg in wiederverwendbare Form",
+        "Etablierung von Data-Governance-Prinzipien und Sicherstellung der Datenqualität",
+        "Strukturierung von Datenflüssen über Systeme hinweg in wiederverwendbare Strukturen",
         "Enge Zusammenarbeit mit Data Engineers, Architektur und IT",
         "Unterstützung von Business und Teams bei der richtigen Nutzung und dem Verständnis von Daten"
       ],
@@ -603,25 +609,25 @@
       "stellen_url": "https://www.sabag.ch/de/serviceag/job-executive-assistant",
       "stellentitel": "Executive Assistant CEO",
       "aufgaben": [
-        "Drehscheibe im CEO Office – Themen strukturiert ins Laufen bringen",
+        "Drehscheibe im CEO Office – Themen strukturiert, klar und verbindlich ins Laufen bringen",
         "Proaktive Unterstützung des CEO und des Managements",
-        "Unterstützung bei Budgetierung und Controlling sowie strukturierte Abrechnung gegenüber SABAG Gesellschaften",
+        "Unterstützung der Budgetierung und des Controllings sowie Erstellung strukturierter Abrechnungen gegenüber den SABAG Gesellschaften",
         "Schnittstelle zu HR und Mitwirkung im Rekrutierungsprozess",
         "Steuerung von Terminen, Pendenzen und Prioritäten",
-        "Vorbereitung von Sitzungen, Protokollierung und Sicherstellung der Umsetzung",
+        "Vorbereitung von Sitzungen, Protokollführung und Sicherstellung der Umsetzung",
         "Bearbeitung administrativer Themen",
         "Koordination von Sonderaufträgen und Mitarbeit in Projekten",
-        "Verbesserung von Abläufen und Prozessen"
+        "Verbesserung von Abläufen und Steigerung der Klarheit im Alltag"
       ],
       "profil": [
         "Fundierte kaufmännische oder betriebswirtschaftliche Ausbildung (eidg. dipl. Executive Assistant, HF oder Bachelor)",
         "Mehrjährige Erfahrung als Assistant auf C-Level, idealerweise in einem technologie- oder industriegeprägten Umfeld",
         "Sicherer Umgang mit M365 (Outlook, Teams, SharePoint) und digitalen Tools",
-        "Strukturierte, zuverlässige und selbstständige Arbeitsweise",
+        "Strukturierte, zuverlässige und selbstständige Arbeitsweise auch bei hoher Taktung und parallelen Themen",
         "Klare, freundliche und verbindliche Kommunikation",
         "Fähigkeit, Struktur in komplexe Themen zu bringen und den roten Faden zu behalten",
         "Stilsicheres Deutsch in Wort und Schrift (Muttersprache)",
-        "Gute Französischkenntnisse (mind. Niveau B2)"
+        "Gute Französischkenntnisse (mindestens Niveau B2)"
       ],
       "fehler": null
     },
@@ -659,7 +665,7 @@
         "Entwicklung und Verantwortung der Ziel- und Referenzarchitektur für Plattformen, Infrastruktur und Integrationen",
         "Übersetzung fachlicher Anforderungen in technisch konsistente und skalierbare Lösungen",
         "Definition von Standards, Schnittstellen und Architekturprinzipien (Cloud, Hybrid, Security, Identity)",
-        "Sicherstellung, dass Systeme, Daten und Plattformen sauber zusammenspielen",
+        "Sicherstellung des sauberen Zusammenspiels von Systemen, Daten und Plattformen",
         "Berücksichtigung von Betrieb, Security, Kosten und Skalierbarkeit bereits im Design",
         "Bewertung von Technologien und Architekturvarianten sowie Schaffung von Entscheidungsgrundlagen",
         "Begleitung von Umsetzungen als technischer Sparringpartner und Einhaltung der Leitplanken"
@@ -671,7 +677,7 @@
         "Starkes System- und Betriebsdenken (Stabilität, Skalierung, Kosten, Security)",
         "Fähigkeit, Business-Anforderungen in tragfähige technische Lösungen zu übersetzen",
         "Klarheit in Kommunikation und Dokumentation – auch bei komplexen Themen",
-        "Pragmatismus: Lösungen bauen, die funktionieren",
+        "Pragmatismus: Lösungen bauen, die funktionieren – nicht nur beeindrucken",
         "Sehr gutes Deutsch in Wort und Schrift; gutes Französisch; weitere Sprachen von Vorteil"
       ],
       "fehler": null
@@ -722,7 +728,7 @@
         "Verantwortung für die komplette Abwicklung von Kundenaufträgen – von der Annahme bis zur Erfassung in SAP R/3",
         "Koordination und Nachverfolgung von Streckenaufträgen bis zum erfolgreichen Abschluss",
         "Kundenorientierte Terminplanung und -überwachung für eine reibungslose Abwicklung",
-        "Sorgfältige Dokumentation und Bearbeitung von Reklamationen in Salesforce und im AMM-System",
+        "Sorgfältige Erfassung und Bearbeitung von Reklamationen in Salesforce und im AMM-System",
         "Zentrale Schnittstelle zwischen Unternehmen, Kunden und Lieferanten für effektive Kommunikation und Zusammenarbeit",
         "Flexible Unterstützung im gesamten Auftragsmanagementteam"
       ],
@@ -739,10 +745,27 @@
     },
     {
       "karriereseite": "https://www.sakret.de/de/unternehmen/karriere",
-      "stellen_url": "b0d6b1ba556a5530",
+      "stellen_url": "https://www.sakret.de/de/gebietsverkaufsleiter-fliese-m-w-d-in-region-berlin-brandenburg",
       "stellentitel": "Gebietsverkaufsleiter Fliese (m/w/d) in Region Berlin/ Brandenburg",
-      "aufgaben": [],
-      "profil": [],
+      "aufgaben": [
+        "Gewinnung und Begeisterung neuer sowie bestehender Kunden in der Region Berlin/Brandenburg",
+        "Technische Beratung zu spezifischen Verarbeitungssituationen und Bauobjekten",
+        "Betreuung von Baustofffachhandelsstandorten sowie Fliesenfachhändlern",
+        "Beratung verarbeitender Unternehmen aus dem Bereich Fliesen- und Natursteinverlegung",
+        "Definition der Schwerpunkte der Marktbearbeitung und Fokuskunden innerhalb des Gebietes",
+        "Erfassung und Ausschöpfung der Potentiale von Bestands- und Neukunden",
+        "Entwicklung und Umsetzung strategischer Initiativen zur Kundenentwicklung"
+      ],
+      "profil": [
+        "Große Leidenschaft für Vertrieb bei Zielgruppen aus dem Bereich der Fliesenbauchemie",
+        "Fundierte Marktkenntnisse in der Baustoffbranche, insbesondere im Bereich Fliesenbauchemie",
+        "Erfahrung im Umgang mit CRM-Systemen, vorzugsweise Salesforce",
+        "Hohe Ausdauer zur kontinuierlichen Gewinnung neuer Kunden",
+        "Starke Kundenorientierung",
+        "Hands-on-Mentalität",
+        "Gutes Selbst- und Zeitmanagement",
+        "Verhandlungsgeschick"
+      ],
       "fehler": null
     },
     {
@@ -756,8 +779,8 @@
         "Dokumentation der Arbeiten und Unterstützung bei der Planung und Umsetzung von Projekten"
       ],
       "profil": [
-        "Abgeschlossene Ausbildung zum Industriemechaniker, Landmaschinenmechaniker, Mechatroniker, Schlosser oder vergleichbare Qualifikation (m/w/d)",
-        "Kenntnisse in den Bereichen Hydraulik, Pneumatik und gängigen Schweißverfahren",
+        "Abgeschlossene Ausbildung zum Industriemechaniker, Landmaschinenmechaniker, Mechatroniker, Schlosser (m/w/d) oder vergleichbare Qualifikation",
+        "Kenntnisse in den Bereichen Hydraulik, Pneumatik und gängige Schweißverfahren",
         "Lösungsorientierte Arbeitsweise sowie hohes Maß an Zuverlässigkeit und Bewusstsein für Arbeitssicherheit",
         "Freude bei der Entwicklung und Umsetzung von Optimierungsansätzen",
         "Bereitschaft zur Arbeit im 2-Schicht-Betrieb"
@@ -770,12 +793,14 @@
       "stellentitel": "Verlader (m/w/d)",
       "aufgaben": [
         "Be- und Entladen der LKWs sowie Vorbereitung der Kommissionierung",
-        "Kommissionieren von Kundenaufträgen und Zusammenstellen der Waren für den Versand",
-        "Entladen eingehender Fahrzeuge und Beladen nach internen Aufträgen sowie Überprüfung der Ladungssicherung",
-        "Annahme eingehender Sendungen, Prüfung auf Vollständigkeit und Beschädigungen sowie Dokumentation der Ergebnisse"
+        "Kommissionierung von Kundenaufträgen und Zusammenstellen der Waren für den Versand",
+        "Entladen eingehender Fahrzeuge und Beladen nach internen Aufträgen",
+        "Überprüfung der Ladungssicherung",
+        "Annahme eingehender Sendungen, Prüfung auf Vollständigkeit und Beschädigungen",
+        "Dokumentation der Ergebnisse"
       ],
       "profil": [
-        "Idealerweise Berufserfahrung in einem Produktionsunternehmen bzw. explizit als Verlader (m/w/d)",
+        "Idealerweise Berufserfahrung in einem Produktionsunternehmen bzw. als Verlader (m/w/d)",
         "Gültiger Staplerschein und Erfahrung in der Verladung",
         "Teamplayer mit Engagement und Eigeninitiative",
         "Ausgeprägtes Bewusstsein für Qualität und Arbeitssicherheit"
@@ -790,7 +815,7 @@
         "Bedienung und Überwachung der modernen, automatisierten Produktionsanlage",
         "Einhaltung der Arbeitssicherheitsvorschriften",
         "Abnahme und Einlagerung palettierter Ware mit dem Gabelstapler",
-        "Behebung von Störungen zur Wiederherstellung des Produktionsablaufs",
+        "Schnelle Behebung von Störungen im Produktionsablauf",
         "Durchführung von Reinigungsarbeiten gemäß Reinigungs- und Wartungsplan"
       ],
       "profil": [
@@ -798,7 +823,7 @@
         "Motivation und Lernbereitschaft",
         "Hohes Maß an Qualitäts- und Sicherheitsbewusstsein",
         "Bereitschaft zur Arbeit im Schichtbetrieb",
-        "Staplerschein (Flurförderfahrzeuge) von Vorteil, aber nicht zwingend erforderlich"
+        "Staplerschein (Flurförderfahrzeuge) von Vorteil, aber nicht Voraussetzung"
       ],
       "fehler": null
     },
@@ -814,9 +839,8 @@
         "Ausbildung zum Maschinen- und Anlagenführer"
       ],
       "profil": [
-        "Engagement und Motivation für eine qualifizierte Ausbildung",
-        "Interesse an abwechslungsreichen Aufgabengebieten",
-        "Bereitschaft zu eigenverantwortlichem Handeln"
+        "Interesse an einer qualifizierten Ausbildung",
+        "Engagement und Motivation"
       ],
       "fehler": null
     },
@@ -844,10 +868,11 @@
       "aufgaben": [
         "Unterstützung im Produktionsablauf",
         "Vorbereiten von Produktionsaufträgen und Zugabe von Rohstoffen zum Mischprozess",
-        "Bedienen der Abfülleinrichtung für Säcke und Abfahren der Ware vom Band ins Lager"
+        "Bedienen der Abfülleinrichtung für Säcke",
+        "Abfahren der Ware vom Band ins Lager"
       ],
       "profil": [
-        "Keine spezielle Grundqualifikation oder Berufsausbildung erforderlich, Einarbeitung erfolgt arbeitsplatzbezogen",
+        "Keine spezielle Grundqualifikation oder Berufsausbildung erforderlich",
         "Staplerschein von Vorteil, jedoch nicht zwingend erforderlich",
         "Zuverlässigkeit und Flexibilität",
         "Bereitschaft zum Arbeiten im Schichtdienst (Früh- und Spätschicht im Wechsel)",
@@ -915,46 +940,18 @@
     {
       "karriereseite": "https://junior.talentstorm.de/",
       "stellen_url": "https://junior.talentstorm.de/stellenangebote/mitarbeiter-zentrale-empfang-m-w-d-25990",
-      "stellentitel": "Mitarbeiter Zentrale/Empfang (m/w/d)",
-      "aufgaben": [
-        "Freundlicher Empfang und Betreuung von Besuchern, Kunden und Geschäftspartnern",
-        "Bedienung und Organisation der Telefonzentrale (Annahme und Weiterleitung von Anrufen)",
-        "Koordination von Terminen und Besprechungsräumen",
-        "Vorbereitung und Bewirtung von Besprechungsräumen (z. B. Bereitstellung von Getränken, Ordnung und Nachbereitung)",
-        "Bearbeitung der Ein- und Ausgangspost sowie Durchführung der internen Hauspost-Runde",
-        "Unterstützung bei administrativen und organisatorischen Aufgaben",
-        "Allgemeine Bürotätigkeiten",
-        "Unterstützung und Verwaltung im Fuhrparkmanagement (z. B. Terminüberwachung, Dokumentation, Koordination)",
-        "Gelegentliche Kurierfahrten in der Region",
-        "Unterstützung anderer Abteilungen nach Bedarf"
-      ],
-      "profil": [
-        "Sehr gute kommunikative Fähigkeiten und Sprachkenntnisse in Deutsch sowie einer weiteren Sprache, vorzugsweise Englisch",
-        "Teamfähigkeit und Diskretion im Umgang mit vertraulichen Daten",
-        "Selbstständige und gewissenhafte Arbeitsweise",
-        "Sicherer Umgang mit MS-Office-Produkten",
-        "Besitz einer gültigen Fahrerlaubnis für PKW (Klasse B)"
-      ],
-      "fehler": null
+      "stellentitel": null,
+      "aufgaben": [],
+      "profil": [],
+      "fehler": "Keine Stellen gefunden"
     },
     {
       "karriereseite": "https://junior.talentstorm.de/",
       "stellen_url": "https://junior.talentstorm.de/stellenangebote/mitarbeiter-qualitaetssicherung-m-w-d-3779",
-      "stellentitel": "Mitarbeiter Qualitätssicherung MJ Osterloh und Springer Montage (m/w/d)",
-      "aufgaben": [
-        "Wareneingangsprüfung und Reklamationsbearbeitung (intern/extern)",
-        "Fertigungsbegleitende Prüfungen und Messmittelkalibrierungen",
-        "Erstellung von Erstmusterprüfberichten",
-        "Erstellung von Messprogrammen"
-      ],
-      "profil": [
-        "Abgeschlossene Ausbildung zum Werkzeugmechaniker, Industriemechaniker oder eine vergleichbare Ausbildung",
-        "Sicherer Umgang mit Messmitteln und Messmethoden",
-        "Sicherer Umgang mit dem Microsoft Office-Paket",
-        "Durchsetzungsvermögen und Selbstständigkeit",
-        "Bereitschaft zur Schichtarbeit (Früh- und Spätschicht)"
-      ],
-      "fehler": null
+      "stellentitel": null,
+      "aufgaben": [],
+      "profil": [],
+      "fehler": "Keine Stellen gefunden"
     },
     {
       "karriereseite": "https://junior.talentstorm.de/",
@@ -962,20 +959,404 @@
       "stellentitel": null,
       "aufgaben": [],
       "profil": [],
-      "fehler": "Kein verwertbarer Inhalt nach Bereinigung"
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellentitel": null,
-      "aufgaben": [],
-      "profil": [],
       "fehler": "Keine Stellen gefunden"
     },
     {
       "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
-      "stellentitel": "Ausbildung zum Fachinformatiker für Systemintegration für 2026 (m/w/d)",
+      "stellen_url": null,
+      "stellentitel": "Assistent (m/w/d) Bereichsleitung dxbau",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": null,
+      "stellentitel": "Disponent Kundendienst Baumaschinen (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": null,
+      "stellentitel": "Disponent Mietpark überregional (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": null,
+      "stellentitel": "Disponent Vermietung Baumaschinen (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": null,
+      "stellentitel": "Duales Studium zum Betriebswirt (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": null,
+      "stellentitel": "Elektriker Fahrzeugtechnik (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": null,
+      "stellentitel": "ERP-Softwareentwickler (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": null,
+      "stellentitel": "Gruppenleiter Intensivkundenbetreuung / Forderungsmanagement (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": null,
+      "stellentitel": "Gruppenleiter (m/w/d) Rechnungswesen",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": null,
+      "stellentitel": "Hauptbuchhalter (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": null,
+      "stellentitel": "Hofmonteur (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": null,
+      "stellentitel": "Industrielackierer (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": null,
+      "stellentitel": "Kaufmännischer Mitarbeiter Gewährleistung (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": null,
+      "stellentitel": "Kaufmännischer Mitarbeiter Kundendienst (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": null,
+      "stellentitel": "Kaufmann (m/w/d) Vermietung zentral",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": null,
+      "stellentitel": "Kfz-Mechatroniker im Innendienst (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": null,
+      "stellentitel": "Konstrukteur Maschinenbau (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": null,
+      "stellentitel": "Konstruktionsmechaniker Schweißtechnik (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": null,
+      "stellentitel": "Kundendienstleiter (m/w/d) Baumaschinen",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": null,
+      "stellentitel": "Lagerfachkraft (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": null,
+      "stellentitel": "Land- und Baumaschinenmechatroniker (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": null,
+      "stellentitel": "Leiter Mietpark Baumaschinen (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": null,
+      "stellentitel": "Maschinenwart Baumaschinen (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": null,
+      "stellentitel": "Mechaniker / Techniker (m/w/d) für Umschlagmaschinen Region Unterfranken",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": null,
+      "stellentitel": "Mechatroniker Digitalisierung (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": null,
+      "stellentitel": "Mechatroniker im Innendienst (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": null,
+      "stellentitel": "Mitarbeitender Werkstattmeister (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": null,
+      "stellentitel": "Mitarbeiter Debitorenmanagement / Sanierungsbetreuung (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": null,
+      "stellentitel": "Mitarbeiter Ersatzteilservice (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": null,
+      "stellentitel": "Mitarbeiter (m/w/d) Vertriebsinnendienst Schwerpunkt Key Account / Händlerbetreuung",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": null,
+      "stellentitel": "Platzmeister Baumaschinen (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": null,
+      "stellentitel": "Produktleiter Teleskoplader (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": null,
+      "stellentitel": "Reinigungskraft Baumaschinen (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": null,
+      "stellentitel": "Sachbearbeiter Kunden-Datenpflege (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": null,
+      "stellentitel": "Sachbearbeiter Vertriebsinnendienst (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": null,
+      "stellentitel": "Schlosser im Innendienst (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": null,
+      "stellentitel": "Serviceberater (m/w/d) Baumaschinen",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": null,
+      "stellentitel": "Servicetechniker Innendienst (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": null,
+      "stellentitel": "Stammdatenmanager Ersatzteile (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": null,
+      "stellentitel": "Technischer Mitarbeiter Vermietung (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": null,
+      "stellentitel": "Verkaufsleiter Baumaschinen (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": null,
+      "stellentitel": "Vertriebsingenieur Hafen / Region Nord (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": null,
+      "stellentitel": "Vertriebsmitarbeiter Digitale Baustelle (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": null,
+      "stellentitel": "Vertriebsmitarbeiter im Außendienst (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": null,
+      "stellentitel": "Vertriebsspezialist Abbruch und Rückbau (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": null,
+      "stellentitel": "Vertriebsspezialist Hafen (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": null,
+      "stellentitel": "Vertriebsspezialist Kreislaufwirtschaft (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": null,
+      "stellentitel": "Vertriebsspezialist Umschlagmaschinen / Schwaben (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": null,
+      "stellentitel": "Wäscher Baumaschinen (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": null,
+      "stellentitel": "Werkstattmeister (m/w/d)",
       "aufgaben": [],
       "profil": [],
       "fehler": null
@@ -992,6 +1373,14 @@
       "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
       "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
       "stellentitel": "Ausbildung zum Kaufmann-/frau Büromanagement für 2026 (m/w/d) in Kreuztal",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Altdorf bei Nürnberg",
       "aufgaben": [],
       "profil": [],
       "fehler": null
@@ -1071,6 +1460,14 @@
     {
       "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
       "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Friedrichsthal",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
+      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
       "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Erwitte",
       "aufgaben": [],
       "profil": [],
@@ -1103,7 +1500,7 @@
     {
       "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
       "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
-      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Friedrichsthal",
+      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Aurich",
       "aufgaben": [],
       "profil": [],
       "fehler": null
@@ -1112,14 +1509,6 @@
       "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
       "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
       "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Magdeburg",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
-      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Altdorf bei Nürnberg",
       "aufgaben": [],
       "profil": [],
       "fehler": null
@@ -1136,14 +1525,6 @@
       "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
       "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
       "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Köln",
-      "aufgaben": [],
-      "profil": [],
-      "fehler": null
-    },
-    {
-      "karriereseite": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen",
-      "stellen_url": "https://www.wir-sind-schlueter.de/stellenangebote-schlueter-baumaschinen?ausbildung=true",
-      "stellentitel": "Ausbildung zum Land- und Baumaschinenmechatroniker für 2026 (m/w/d) in Aurich",
       "aufgaben": [],
       "profil": [],
       "fehler": null
@@ -1185,21 +1566,21 @@
       "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/sales-representative-field-sales-manager-b2b-industrial-customersm-f-d",
       "stellentitel": "Sales Representative / Field Sales Manager (B2B - Industrial Customers)(m/f/d)",
       "aufgaben": [
-        "Professionelle, bedarfs- und lösungsorientierte Beratung von Kunden aus Industrie, Logistik und weiteren Branchen",
-        "Vor-Ort-Analyse von Kundenanforderungen und Erstellung individueller und kostenoptimierter Angebote",
-        "Verkaufsverhandlungen, Abschlüsse und proaktives sowie konsequentes Nachfassen offener Angebote",
+        "Professionelle, bedarfs- und lösungsorientierte Beratung von Kunden aus Industrie, Logistik und anderen Branchen mit dem umfangreichen Produktportfolio",
+        "Vor-Ort-Analyse von Kundenanforderungen und Erstellung maßgeschneiderter und kostenoptimierter Angebote",
+        "Verkaufsverhandlungen, Abschlüsse und proaktives sowie konsequentes Follow-up offener Angebote",
         "Enge Zusammenarbeit mit Entscheidungsträgern auf Kundenseite sowie internen Schnittstellen (Projektmanagement, Einkauf, Innendienst, Marketing)",
         "Gewissenhafte Dokumentation von Kontakten und Ergebnissen im CRM-System"
       ],
       "profil": [
-        "Abschluss in Betriebswirtschaft, Vertriebsmanagement, Marketing oder einem vergleichbaren Studiengang",
-        "Mindestens erste, vorzugsweise mehrjährige Erfahrung im B2B-Außendienst mit erklärungsbedürftigen, vorzugsweise technischen Produkten oder Investitionsgütern",
-        "Hohe Affinität für beratungsintensiven Vertrieb, starke Zielorientierung, Engagement und Abschlussstärke",
-        "Schnelle Auffassungsgabe, sehr gute Präsentationsfähigkeiten und adressatenorientierte rhetorische Kompetenz",
-        "Motivierte und eigenverantwortliche Persönlichkeit, dynamisch, proaktiv und zielorientiert auch im Home Office",
+        "Abschluss in Betriebswirtschaft, Vertriebsmanagement, Marketing oder vergleichbares Studium",
+        "Mindestens erste, bevorzugt mehrjährige Erfahrung im B2B-Außendienst mit erklärungsbedürftigen, vorzugsweise technischen Produkten, Investitionsgütern und/oder Dienstleistungen",
+        "Hohe Affinität für beratungsintensiven Vertrieb, starke Zielorientierung, Engagement, Begeisterung und Abschlussstärke",
+        "Schnelle Auffassungsgabe, sehr gute Präsentationsfähigkeiten und adressatenorientierte Rhetorik",
+        "Motivierte, selbstständige Persönlichkeit mit dynamischer, proaktiver und zielorientierter Arbeitsweise auch im Home Office",
         "Sicherer Umgang mit MS-Office, Erfahrung mit ERP- und/oder CRM-Systemen von Vorteil",
-        "Verhandlungssicheres Englisch und gute Kenntnisse der britischen Geschäftsmentalität und lokalen Marktmechanismen",
-        "Idealerweise wohnhaft in Cambridge oder Umgebung"
+        "Verhandlungssicheres Englisch und gute Kenntnisse der britischen Geschäftsmentalität und lokaler Marktmechanismen",
+        "Wohnort idealerweise Cambridge oder Umgebung"
       ],
       "fehler": null
     },
@@ -1210,18 +1591,17 @@
       "aufgaben": [
         "Kommerzielle, technische und organisatorische Leitung der termingerechten, kosteneffizienten und fehlerfreien Umsetzung internationaler Leichtbau-Hallenprojekte",
         "Koordination interner Schnittstellen (Vertrieb, Supply Chain Management, Planung, Terminplanung) und externer Schnittstellen (insbesondere Bauherren und Subunternehmer)",
-        "Sicherstellung, dass alle externen und internen Projektbeteiligten alle notwendigen Informationen und Vorarbeiten rechtzeitig erhalten",
-        "Erstellung von Stücklisten für Komponenten und Materialien aus dem Modulsystem basierend auf Hallenkonfigurationen",
-        "Definition von Kapazitätsanforderungen für Personal, Werkzeuge und Dienstleistungen",
-        "Agieren als starker Kommunikator, Mediator und De-Eskalationspunkt bei Hindernissen und Konflikten im Projekt",
-        "Projektbezogene Baustellenbesuche in Polen oder europäischen Ländern (maximal 30% der Arbeitszeit)"
+        "Erstellung von Stücklisten für Komponenten und Materialien aus dem Modulsystem auf Basis der vom Vertrieb übermittelten Hallenkonfigurationen",
+        "Definition von Kapazitätsbedarfen für Personal, Werkzeuge und Dienstleistungen",
+        "Funktion als Kommunikator, Mediator und Deeskalationspunkt bei Hindernissen und Konflikten im Projektverlauf",
+        "Durchführung projektbezogener Baustellenbesuche in Polen oder anderen europäischen Ländern (max. 30% der Arbeitszeit)"
       ],
       "profil": [
-        "Erfolgreich abgeschlossene Ausbildung oder Studium, idealerweise mit technischem oder baubezogenem Schwerpunkt (z.B. Wirtschaftsingenieur, Bauingenieur, Maschinenbauingenieur, Architekt, Bautechniker, technischer Zeichner, technischer Systemplaner, Bauleiter, technischer Betriebswirt, Industriekaufmann, Metallbauer oder Tischler mit Weiterbildung als Techniker oder Meister)",
-        "Alternativ: relevante Berufserfahrung im technischen Projektmanagement ohne formale Ausbildung (z.B. Messebau, Bühnenbau, Veranstaltungsbau, Fassadenbau, Gerüstbau, Metallbau, Anlagenbau, Mastbau, Windkraft, Solaranlagen)",
+        "Erfolgreich abgeschlossene Ausbildung oder Studium, idealerweise mit technischem oder baubezogenem Schwerpunkt (z.B. Wirtschaftsingenieur, Bauingenieur, Maschinenbauer, Architekt, Bautechniker, Architekturdraftsman, technischer Zeichner, technischer Systemplaner, Bauleiter, technischer Betriebswirt, Industriekaufmann, Metallbauer oder Tischler mit Weiterbildung zum Techniker oder Meister)",
+        "Alternativ: relevante Berufserfahrung im technischen Projektmanagement ohne formale Ausbildung (z.B. Messebau, Bühnenbau, Eventbau, Fassadenbau, Gerüstbau, Metallbau, Anlagenbau, Mastbau, Windkraft, Solaranlagen)",
         "Praktische Erfahrung in den Bereichen Projektmanagement, Projektsteuerung, Projektdurchführung, Projektleitung, Bauleitung, Arbeitsvorbereitung, Produktionsplanung, Produktionssteuerung, Auftragszentrum oder Auftragsabwicklung",
         "Fließende Englisch- und Polnischkenntnisse mindestens auf Niveau B2",
-        "Organisationsstärke, ausgeprägte Umsetzungsstärke und sehr gute Kommunikationsfähigkeiten",
+        "Organisationstalent, ausgeprägte Umsetzungsstärke und sehr gute Kommunikationsfähigkeiten",
         "Sicherer Umgang mit MS Office; Erfahrung mit einem ERP-System von Vorteil",
         "Reisebereitschaft sporadisch im Land und ggf. innerhalb Europas für projektbezogene Zwecke (max. 30%)"
       ],
@@ -1232,19 +1612,21 @@
       "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/performance-marketing-manager-czech-republic-m-f-d-remote-job",
       "stellentitel": "Performance Marketing Manager Czech Republic (m/f/d) remote",
       "aufgaben": [
-        "Entwicklung und Management von Performance-Marketing-Kampagnen für den tschechischen Markt, ausgerichtet auf Lead-Generierungsziele",
-        "Analyse von Markttrends, Nischen und Zielgruppenverhalten zur Identifikation von Optimierungspotenzialen, einschließlich datengetriebener Kampagnen für den tschechischen Markt",
-        "Definition von Kampagnenzielen, Optimierung der Kanalperformance sowie Überwachung von KPIs und Budgets zur ROI-Maximierung",
-        "Auswertung von Kampagnenergebnissen, Ableitung von Erkenntnissen und Umsetzung von Verbesserungen zur Steigerung der Lead-Generierung",
-        "Aufbau und Pflege von Beziehungen zu internen Stakeholdern zur Unterstützung des Kampagnenerfolgs",
-        "Steuerung von Übersetzungen und Recherche von Themen im neuen Markt"
+        "Develop and manage performance marketing campaigns for the Czech market, ensuring alignment with lead generation goals",
+        "Analyze market trends, niches, and audience behavior to identify opportunities for campaign optimization and growth including data-driven campaigns tailored to the Czech market",
+        "Define campaign targets, optimize channel performance, and monitor KPIs and budgets to maximize ROI",
+        "Evaluate campaign results, derive insights, and implement improvements to enhance lead generation performance",
+        "Establish and manage relationships with internal stakeholders to drive campaign success",
+        "Control translation and research topics in the new market"
       ],
       "profil": [
-        "1–2 Jahre Erfahrung im Multichannel-Performance-Marketing (Google Ads, LinkedIn, Facebook) mit Fokus auf den tschechischen Markt und Kenntnissen in CMS, Google Analytics, PPC, SEA und CRM-Systemen",
-        "Nachgewiesener Erfolg in der Konzeption und Umsetzung von Performance-Marketing-Kampagnen mit datengetriebenem KPI-Ansatz",
-        "Tschechisch als Muttersprache sowie fließendes Englisch in Wort und Schrift",
-        "Selbstständige, eigenmotivierte Arbeitsweise mit Zeitmanagementkompetenz; Erfahrung im Remote-Arbeiten von Vorteil",
-        "Unternehmerisches Denken mit tiefem Verständnis des tschechischen Marktes, B2B-Kaufverhaltens und lokaler Gegebenheiten"
+        "1–2 years of experience in multichannel performance marketing (Google Ads, LinkedIn, Facebook), with a focus on the Czech market",
+        "Proficiency in tools like CMS, Google Analytics, PPC, SEA, and CRM systems",
+        "Proven success in conceptualizing and executing performance marketing campaigns, driving growth in new segments and markets",
+        "Strong data-driven approach to KPIs",
+        "Native Czech speaker with fluent English for professional communication, both written and oral",
+        "Independent, self-motivated work style with time management skills; experience in remote work is a plus",
+        "Entrepreneurial mindset with a deep understanding of the Czech market, B2B buying behavior, and local conditions"
       ],
       "fehler": null
     },
@@ -1256,20 +1638,20 @@
         "Entwicklung von Partnerschaften auf Augenhöhe in Industrie, Logistik und anderen Branchen",
         "Analyse von Geschäftsmodellen und Erkennung von Bedarfen vor Ort",
         "Übersetzung von Kundenanforderungen in wirtschaftlich smarte Lösungen",
-        "Führen von Verhandlungen vom ersten Gespräch bis zum unterschriebenen Vertrag",
-        "Pflege und aktive Nutzung des CRM als Steuerungsinstrument (Pipeline, Forecast, Aktivitäten)",
+        "Führung von Verhandlungen vom ersten Gespräch bis zum unterschriebenen Vertrag",
+        "Pflege und Nutzung des CRM als Steuerungsinstrument (Pipeline, Forecast, Aktivitäten)",
         "Professionelle Repräsentation des Unternehmens beim Kunden und im Homeoffice",
-        "Marktaufbau und Gestaltung der ersten Schritte im österreichischen Markt"
+        "Marktentwicklung für den Markteintritt in Österreich"
       ],
       "profil": [
-        "Erfahrung im Vertrieb, idealerweise im B2B-Umfeld mit industriellem Bezug",
-        "Kenntnisse der Mechaniken des deutschen Marktes",
-        "Überzeugende Persönlichkeit und hohes Interesse am Gegenüber",
+        "Vertriebserfahrung, idealerweise im B2B-Umfeld mit industriellem Bezug",
+        "Kenntnisse der Mechaniken des deutschen/österreichischen Marktes",
+        "Überzeugende Persönlichkeit und Interesse am Gegenüber",
         "Sicherer Umgang mit KPIs, Pipeline-Management und Forecasts",
         "Hohe Eigenmotivation und Durchhaltevermögen",
-        "Sehr gute Deutschkenntnisse, gute Englischkenntnisse",
-        "Offenheit für variable Vergütungsmodelle",
-        "Humor"
+        "Bereitschaft zur variablen Vergütung",
+        "Sichere Deutschkenntnisse und gute Englischkenntnisse",
+        "Humor und Teamgeist"
       ],
       "fehler": null
     },
@@ -1278,23 +1660,25 @@
       "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/project-manager-industrial-lightweight-buildings-uk-m-f-d-remote",
       "stellentitel": "Project Manager industrial lightweight buildings UK (m/f/d) Remote",
       "aufgaben": [
-        "Kommerzielle, technische und organisatorische Koordination der termingerechten, budgetkonformen und mangelfreien Realisierung von Leichtbau-Projekten",
-        "Koordination interner Schnittstellen (z.B. Vertrieb, Einkauf, Planung, Terminplanung) und externer Schnittstellen (z.B. Baubehörden, Bauherren, Subunternehmer, Montageteams)",
-        "Plausibilitätsprüfungen eingehender Projekte in früher Phase als Sparringspartner für den Vertrieb",
-        "Identifikation potenzieller Komplikationen und Erarbeitung individueller Lösungen in Zusammenarbeit mit dem Engineering",
-        "Moderation, Mediation und Deeskalation bei Hindernissen und Konflikten im Projektablauf",
-        "Hauptsächlich Tätigkeit im Homeoffice in England, quartalsweise Besuche der Zentrale in Deutschland",
-        "Gelegentliche Besuche der Baustellen (Fokus UK und Irland), Reiseanteil 30%"
+        "Kommerzielle, technische und organisatorische Koordination der termingerechten, budgetkonformen und mängelfreien Realisierung von Leichtbauprojekten",
+        "Koordination interner Schnittstellen (Vertrieb, Einkauf, Planung, Terminplanung) und externer Schnittstellen (Baubehörden, Bauherren, Subunternehmer, Montageteams)",
+        "Plausibilitätsprüfungen eingehender Projekte als Sparringspartner für den Vertrieb und frühzeitige Identifikation möglicher Komplikationen",
+        "Entwicklung individueller Lösungen in Zusammenarbeit mit dem Engineering-Team",
+        "Moderation, Mediation und Deeskalation bei Hindernissen und Konflikten im Projektprozess",
+        "Tätigkeit hauptsächlich aus dem Home Office in England",
+        "Gelegentliche Teilnahme an Strategie-Workshops, Trainings und Teamevents am Hauptsitz in Deutschland (ca. einmal pro Quartal)",
+        "In Ausnahmefällen Besuche der Baustellen (Schwerpunkt UK und Irland), Reiseanteil ca. 30%"
       ],
       "profil": [
         "Abgeschlossene Ausbildung oder Studium mit technischem Schwerpunkt",
         "Fundierte Berufserfahrung im Projektmanagement in einem technischen Umfeld",
-        "Vorerfahrung im Industrie- oder Lagerhallenbau nicht zwingend erforderlich; andere technische Bereiche als Grundlage akzeptiert (z.B. Anlagenbau, Hoch- oder Tiefbau, Metallbau, Stahlbau, Holzbau, Solarbau, Windkraftanlagen, Maschinenbau)",
-        "Sehr gute Englischkenntnisse zwingend erforderlich",
+        "Erfahrung in relevanten technischen Bereichen wie Anlagenbau, Hoch- oder Tiefbau, Industriebau, Metallbau, Stahlbau, Holzbau, Mastbau, Solaranlagenbau, Windkraftanlagenbau oder Maschinenbau (Erfahrung in Industrie- oder Lagerhallenbau nicht zwingend)",
+        "Sehr gute Englischkenntnisse (zwingend erforderlich)",
         "Sicherer Umgang mit MS Office und Affinität zu digitalen Tools",
-        "Vorkenntnisse mit ERP-System und CAD-Software von Vorteil, aber nicht zwingend",
-        "Organisationstalent, sehr gute Kommunikationsfähigkeiten, Umsetzungsstärke und hohe Eigenmotivation",
-        "Bereitschaft zu gelegentlichen nationalen und internationalen Dienstreisen von mehreren Tagen (30%)"
+        "Erfahrung mit ERP-Systemen und CAD-Software von Vorteil, aber nicht zwingend",
+        "Organisationstalent und sehr gute Kommunikationsfähigkeiten",
+        "Umsetzungsstärke und hohe Eigenmotivation",
+        "Bereitschaft zu gelegentlichen nationalen und internationalen Dienstreisen (ca. 1,5 Tage pro Woche, 30%)"
       ],
       "fehler": null
     },
@@ -1310,10 +1694,11 @@
       ],
       "profil": [
         "Plaisir à réaliser des premiers contacts téléphoniques dans le cadre d'objectifs d'entretien clairement définis",
-        "Présentation professionnelle et assurée, avec d'excellentes connaissances du français/Anglais à l'oral comme à l'écrit",
+        "Présentation professionnelle et assurée, avec d'excellentes connaissances du français/anglais à l'oral comme à l'écrit",
         "Grande tolérance à la frustration – rester motivé·e et persévérant·e même face aux revers",
         "Créativité dans la recherche de solutions adaptées aux besoins des clients potentiels",
-        "Maîtrise des outils MS Office (Teams, Word, Excel, PowerPoint, etc.) et affinité générale pour le travail numérique"
+        "Maîtrise des outils MS Office (Teams, Word, Excel, PowerPoint, etc.) et affinité générale pour le travail numérique",
+        "Expérience dans le contact direct avec les clients, idéalement dans un environnement B2B"
       ],
       "fehler": null
     },
@@ -1346,20 +1731,20 @@
       "stellentitel": "Sales Representative / Field Sales Manager (B2B - Industrial Customers)(m/f/d) - South West",
       "aufgaben": [
         "Professionelle, bedarfs- und lösungsorientierte Beratung von Kunden aus Industrie, Logistik und anderen Sektoren",
-        "Vor-Ort-Analyse von Kundenanforderungen und Erstellung maßgeschneiderter und kostenoptimierter Angebote",
-        "Verkaufsverhandlungen, Abschlüsse und proaktives sowie konsequentes Follow-up offener Angebote",
+        "Vor-Ort-Analyse von Kundenanforderungen und Erstellung individueller, kostenoptimierter Angebote",
+        "Verkaufsverhandlungen, Abschlüsse und proaktives sowie konsequentes Nachfassen offener Angebote",
         "Enge Zusammenarbeit mit Entscheidungsträgern auf Kundenseite sowie internen Schnittstellen (Projektmanagement, Einkauf, Innendienst, Marketing)",
         "Gewissenhafte Dokumentation von Kontakten und Ergebnissen im CRM-System"
       ],
       "profil": [
-        "Studium in Betriebswirtschaft, Vertriebsmanagement, Marketing oder vergleichbarem Studiengang",
-        "Mindestens erste, vorzugsweise mehrjährige Erfahrung im B2B-Außendienst mit erklärungsbedürftigen, vorzugsweise technischen Produkten, Investitionsgütern und/oder Dienstleistungen",
-        "Hohe Affinität zu beratungsintensivem Vertrieb, starke Zielorientierung, Engagement, Begeisterungsfähigkeit und Abschlussstärke",
+        "Abschluss in Betriebswirtschaft, Vertriebsmanagement, Marketing oder vergleichbarem Studiengang",
+        "Mindestens erste, bevorzugt mehrjährige Erfahrung im B2B-Außendienst mit erklärungsbedürftigen, vorzugsweise technischen Produkten, Investitionsgütern und/oder Dienstleistungen",
+        "Hohe Affinität für beratungsintensiven Vertrieb, starke Zielorientierung, Engagement, Begeisterung und Abschlussstärke",
         "Schnelle Auffassungsgabe, sehr gute Präsentationsfähigkeiten und adressatenorientierte Rhetorik",
-        "Motivierte und selbstständige Persönlichkeit, die dynamisch, proaktiv und zielorientiert agiert",
+        "Motivierte, selbstständige Persönlichkeit mit dynamischer, proaktiver und zielorientierter Arbeitsweise auch im Homeoffice",
         "Sicherer Umgang mit MS-Office, Erfahrung mit ERP- und/oder CRM-Systemen von Vorteil",
-        "Verhandlungssicheres Englisch und gute Kenntnisse der britischen Geschäftsmentalität und lokalen Marktmechanismen",
-        "Idealerweise wohnhaft in Bristol oder Umgebung"
+        "Verhandlungssicheres Englisch sowie Kenntnisse der britischen Geschäftsmentalität und lokaler Marktmechanismen",
+        "Wohnort idealerweise in Bristol oder Umgebung"
       ],
       "fehler": null
     },
@@ -1368,16 +1753,17 @@
       "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/controller-finance-controller-m-w-d",
       "stellentitel": "Controller/ Finance Controller (m/w/d)",
       "aufgaben": [
-        "Unterstützung des jährlichen Budget- und Planungsprozesses, Erarbeitung von Forecasts und laufende Abweichungsanalysen",
-        "Aufbereitung monatlicher Reports, Management-Präsentationen und Ad-hoc-Analysen sowie Erklärung der Story hinter den Zahlen",
+        "Unterstützung des jährlichen Budget- und Planungsprozesses, Erarbeitung von Forecasts und laufende Abweichungsanalyse",
+        "Aufbereitung monatlicher Reports, Management-Präsentationen und Ad-hoc-Analysen",
+        "Erklärung und Interpretation der Story hinter den Zahlen",
         "Einbringen von Analysen in Performance Reviews und Lieferung von Entscheidungsgrundlagen für das Management",
         "Aktive Weiterentwicklung von Controlling-Tools, Reports und Prozessen"
       ],
       "profil": [
-        "Studium im Bereich Finance, Controlling oder BWL oder vergleichbare Ausbildung mit entsprechender Praxiserfahrung",
+        "Studium im Bereich Finance, Controlling oder BWL oder vergleichbare Ausbildung mit Praxiserfahrung",
         "Erste Erfahrung (ca. 2–3 Jahre) im Controlling oder in der CFO-nahen Beratung, idealerweise im mittelständischen Umfeld",
         "Sehr gute Excel-Kenntnisse, sicherer Umgang mit PowerPoint und Power BI",
-        "Erfahrung mit Microsoft Dynamics Business Central und LucaNet ist hilfreich, aber kein Muss",
+        "Erfahrung mit Microsoft Dynamics Business Central und LucaNet von Vorteil",
         "Analytisches Denken mit Blick für das große Ganze",
         "Strukturierte, präzise und zuverlässige Arbeitsweise",
         "Eigeninitiative und aktives Einbringen von Verbesserungspotenzialen"
@@ -1390,8 +1776,8 @@
       "stellentitel": "Mitarbeiter Inside Sales / Vertriebsinnendienst (m/w/d)",
       "aufgaben": [
         "Qualifizierung von Kundenanfragen durch strukturierte Telefonate und Bedarfserkennung",
-        "Terminierung für den Außendienst mit Blick auf effiziente Routen und smarte Touren",
-        "Sorgfältige Datenpflege in CRM & ERP sowie Vorbereitung von Unterlagen für den Außendienst",
+        "Terminierung für den Außendienst mit strategischer Routenplanung",
+        "Sorgfältige Datenpflege in CRM & ERP sowie Vorbereitung für den Außendienst",
         "Follow-Ups mit Kunden zu offenen Punkten und Aufrechterhaltung von Prozessen"
       ],
       "profil": [
@@ -1406,20 +1792,20 @@
     },
     {
       "karriereseite": "https://herchenbach-industrial.com/de/unternehmen/karriere",
-      "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/b2b-telemarketer-hungary-m-f-d",
-      "stellentitel": "B2B Telemarketer Hungary (m/f/d)",
+      "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/szenvedely-es-felelosseg-b2b-telemarketing-magyarorszag-m-f-d",
+      "stellentitel": "B2B telemarketing, Magyarország (m/f/d)",
       "aufgaben": [
-        "Identifizierung und Erstkontakt mit potenziellen Kunden über verschiedene Kanäle, insbesondere telefonisch im ungarischen Markt",
-        "Generierung von Projekten und Leads aus Neukunden sowie deren Qualifizierung zur Vorbereitung von Terminen für das Field Sales Team",
-        "Beratung von B2B-Kunden und Interessenten zu Produkten und Dienstleistungen als erste Anlaufstelle in der Customer Journey",
-        "Überwachung und Dokumentation der Aktivitäten in einem cloudbasierten CRM-System"
+        "Potenzielle Kunden identifizieren und Erstkontakt über verschiedene Kanäle herstellen, insbesondere per Telefon auf dem ungarischen Markt",
+        "Projekte und Leads von Neukunden generieren sowie qualifizieren zur Vorbereitung von Terminen mit dem Field Sales Team",
+        "B2B-Kunden und Interessenten zu Produkten und Dienstleistungen beraten als erster Kontaktpunkt in der Customer Journey",
+        "Aktivitäten in einem cloudbasierten CRM-System nachverfolgen und dokumentieren"
       ],
       "profil": [
-        "Freude an telefonischen Erstkontakten im Rahmen klar definierter Gesprächsziele und strukturierter KPIs",
-        "Professionelles und sicheres Auftreten mit ausgezeichneten Kenntnissen in Wort und Schrift auf Ungarisch und Englisch",
-        "Hohe Frustrationstoleranz – motiviert und beharrlich auch bei Rückschlägen",
+        "Freude an telefonischen Erstkontakten mit klar definierten Gesprächszielen und Arbeit nach strukturierten KPIs",
+        "Professionelles und selbstsicheres Auftreten, ausgezeichnete Ungarisch- und Englischkenntnisse in Wort und Schrift",
+        "Hohe Frustrationstoleranz – motiviert und ausdauernd auch bei Rückschlägen",
         "Kreativität bei der Entwicklung von Lösungen, die auf die Bedürfnisse potenzieller Kunden zugeschnitten sind",
-        "Kenntnisse in MS Office-Tools (z.B. Teams, Word, Excel, PowerPoint) und allgemeine Affinität für digitale Arbeit",
+        "Sicherer Umgang mit MS Office (Teams, Word, Excel, PowerPoint) und Affinität zur digitalen Arbeit",
         "Erfahrung im direkten Kundenkontakt, idealerweise im B2B-Umfeld"
       ],
       "fehler": null
@@ -1431,15 +1817,15 @@
       "aufgaben": [
         "Eigenständige Verantwortung für die gesamte operative Projektabwicklung in Europa",
         "Führung und Weiterentwicklung der Bereiche Project Management, Operational Procurement sowie Site Management",
-        "Sicherstellung hoher Kundenzufriedenheit entlang der gesamten Operations Customer Journey durch klare Strukturen, transparente Kommunikation und verlässliche Projektumsetzung",
+        "Sicherstellung hoher Kundenzufriedenheit entlang der gesamten Operations Customer Journey",
         "Etablierung zentraler KPIs (Kosten, Durchlaufzeiten, NPS, Fehlerquoten, Auslastung) und deren Analyse und Weiterentwicklung",
-        "Sicherstellung wirtschaftlich erfolgreicher Projektumsetzung durch Steuerung von Projektmargen, Einkaufskonditionen und Ressourcenkapazitäten",
+        "Wirtschaftlich erfolgreiche Projektumsetzung durch aktive Steuerung von Projektmargen, Einkaufskonditionen und Ressourcenkapazitäten",
         "Weiterentwicklung skalierbarer Prozesse und Standards im Projektmanagement, in der Montage sowie im operativen Einkauf",
-        "Operative Steuerung in kritischen Projektsituationen, klare Priorisierung und lösungsorientierte Führung aus Eskalationen heraus"
+        "Operative Steuerung in kritischen Projektsituationen, Priorisierung und lösungsorientierte Führung aus Eskalationen heraus"
       ],
       "profil": [
         "Master oder Diplom in BWL, International Business oder Wirtschaftsingenieurwesen",
-        "Mehrjährige Führungserfahrung (mind. 6 Jahre) in einer operativen, projektgetriebenen Umgebung (z. B. Bau, Maschinenbau, Industrie-Services oder Anlagenbau)",
+        "Mehrjährige Führungserfahrung (mind. 6 Jahre) in einer operativen, projektgetriebenen Umgebung (z.B. Bau, Maschinenbau, Industrie-Services oder Anlagenbau)",
         "Erfahrung in Kosten-, Margen- und Ergebnisverantwortung",
         "Fähigkeit, datenbasierte Entscheidungen zu treffen und komplexe Projekte zu steuern",
         "Erfahrung im Umgang mit externen Dienstleistern und Subunternehmern",
@@ -1455,27 +1841,27 @@
       "stellentitel": "General Manager / Country Manager UK & IRL",
       "aufgaben": [
         "Volle kommerzielle Verantwortung für UK & IRL, einschließlich Umsatzwachstum, Pipeline-Gesundheit, Marktentwicklung und lokale Rentabilität (P&L)",
-        "Definition und Umsetzung eines 3+ Jahre Wachstumsplans zur Erweiterung der Mietflotte und nachhaltigen Marktanteilssteigerung",
-        "Führung von hochrangigen Verhandlungen und Abschluss strategischer Vereinbarungen",
-        "Verantwortung für den gesamten Verkaufszyklus vom ersten Kontakt bis zur Vertragsunterzeichnung",
-        "Übersetzung von Markt- und Wettbewerbserkenntnissen in konkrete Go-to-Market-Maßnahmen",
-        "Aufbau, Führung und Entwicklung der lokalen kommerziellen Organisation mit derzeit 6 Mitarbeitern",
+        "Definition und Umsetzung eines 3+ Jahre Wachstumsplans zur Erweiterung der Mietflotte und nachhaltigen Steigerung des Marktanteils",
+        "Führung hochrangiger Verhandlungen und Abschluss strategischer Vereinbarungen",
+        "Verantwortung für den End-to-End-Verkaufszyklus von der ersten Kontaktaufnahme bis zur Vertragsunterzeichnung",
+        "Umsetzung von Markt- und Wettbewerbserkenntnissen in konkrete Go-to-Market-Maßnahmen",
+        "Aufbau, Führung und Entwicklung der lokalen kommerziellen Organisation mit aktuell 6 Mitarbeitern",
         "Festlegung klarer Leistungserwartungen und Coaching anhand definierter KPIs",
-        "Abstimmung von Marketing, Operations und zentralen Support-Funktionen für eine konsistente Customer Journey",
-        "Betrieb einer disziplinierten, datengetriebenen Vertriebsstruktur mit hochwertigen CRM-Daten",
+        "Abstimmung von Marketing, Betrieb und zentralen Supportfunktionen für eine konsistente Customer Journey",
+        "Betrieb einer datengetriebenen Vertriebs-Engine mit hochwertigen CRM-Daten",
         "Lieferung zuverlässiger Auftragseingangs-Prognosen mit transparenten Annahmen",
-        "Regelmäßige Berichterstattung an das Group Executive Team über Performance, Risiken und wichtige Entwicklungen"
+        "Regelmäßiges Reporting an das Group Executive Team zu Performance, Risiken und wichtigen Entwicklungen"
       ],
       "profil": [
-        "Master-Abschluss in Betriebswirtschaft, International Business, Wirtschaftsingenieurwesen oder einem vergleichbaren Bereich",
+        "Masterabschluss in Betriebswirtschaft, International Business, Wirtschaftsingenieurwesen oder vergleichbarem Fachgebiet",
         "6+ Jahre Führungserfahrung in vertriebsorientierten, projektbasierten B2B-Umgebungen",
         "Nachgewiesene Erfolgsbilanz bei der Skalierung von Märkten oder dem Wachstum projektbasierter Unternehmen",
-        "Starkes kommerzielles Verständnis kombiniert mit der Fähigkeit, Strategie in operative Umsetzung zu übersetzen",
-        "Starke analytische Fähigkeiten zur Ableitung klarer Prioritäten und messbarer Ergebnisse aus Daten",
+        "Starkes kommerzielles Gespür kombiniert mit der Fähigkeit, Strategie in operative Umsetzung zu übersetzen",
+        "Ausgeprägte analytische Fähigkeiten zur Ableitung klarer Prioritäten und messbarer Ergebnisse",
         "Sicheres Kommunizieren auf verschiedenen Hierarchieebenen und mit diversen Stakeholdern",
-        "Erfahrung im Einsatz von CRM- und ERP-Systemen als Management- und Steuerungswerkzeuge",
+        "Nutzung von CRM- und ERP-Systemen als effektive Management- und Steuerungstools",
         "Erfahrung in dezentralen, internationalen Organisationen",
-        "Reisebereitschaft innerhalb der Region und zum deutschen Hauptsitz (4–6 Mal pro Jahr)"
+        "Reisebereitschaft innerhalb der Region und zur deutschen Zentrale (4–6 Mal pro Jahr)"
       ],
       "fehler": null
     },
@@ -1485,7 +1871,7 @@
       "stellentitel": "Senior Performance Marketing Manager (m/w/d) – DACH Region",
       "aufgaben": [
         "Volle Verantwortung für Performance-Marketing-Kanäle in der DACH-Region von der Strategie bis zur Umsetzung",
-        "Entwicklung von Kampagnen, die Leads liefern und wirklich performen",
+        "Entwicklung von Kampagnen, die performen und Leads liefern",
         "Kontinuierliche Optimierung entlang klarer KPIs",
         "Enge Zusammenarbeit mit Sales, Content und Produktmanagement",
         "Steuerung von Agenturen und Partnern",
@@ -1507,28 +1893,29 @@
       "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/country-manager-netherlands-build-up-pl-ownership",
       "stellentitel": "Country Manager Netherlands (Build-up | P&L Ownership)",
       "aufgaben": [
-        "Vollständige kommerzielle Verantwortung für die Niederlande, einschließlich Umsatzwachstum, Pipeline-Gesundheit, Marktentwicklung und lokale Rentabilität (P&L)",
-        "Definition und Umsetzung eines 3+ Jahres-Wachstumsplans zur Erweiterung der Mietflotte und nachhaltigen Steigerung des Marktanteils",
-        "Führen von hochrangigen Verhandlungen und Abschluss strategischer Vereinbarungen als leitender kommerzieller Repräsentant",
-        "Verantwortung für den gesamten Verkaufszyklus von der ersten Kontaktaufnahme bis zur Vertragsunterzeichnung",
-        "Aktive Verkaufsrolle in der Frühphase mit direkter Kundeninteraktion und Vor-Ort-Besuchen",
-        "Übersetzung von Markt- und Wettbewerbseinblicken in konkrete Go-to-Market-Maßnahmen",
-        "Führung und Entwicklung der lokalen kommerziellen Organisation mit derzeit 2–3 Mitarbeitern",
-        "Setzen klarer Leistungserwartungen und Coaching anhand definierter KPIs",
-        "Abstimmung von Marketing, Operations und zentralen Support-Funktionen für eine konsistente Customer Journey",
-        "Betrieb eines disziplinierten, datengetriebenen Vertriebssystems mit hochwertigen CRM-Daten",
-        "Lieferung zuverlässiger Auftragseingangs-Prognosen mit transparenten Annahmen",
-        "Regelmäßiges Reporting an das Group Executive Team zu Performance, Risiken und wichtigen Entwicklungen"
+        "Vollständige kommerzielle Verantwortung für die Niederlande übernehmen (Revenue, Pipeline, Marktentwicklung, lokale Profitabilität / P&L)",
+        "Marktentwicklung von einer frühen Phase aus vorantreiben",
+        "3+ Jahres-Wachstumsplan definieren und umsetzen, um Mietflotte und Marktanteile nachhaltig auszubauen",
+        "Als Senior Commercial Representative agieren, hochwertige Verhandlungen führen und strategische Vereinbarungen abschließen",
+        "End-to-End-Verkaufszyklus von Erstkontakt bis Vertragsunterzeichnung verantworten",
+        "In der Anfangsphase aktive Vertriebsrolle übernehmen, inklusive direkter Kundeninteraktion und Vor-Ort-Besuchen",
+        "Markt- und Wettbewerbserkenntnisse in konkrete Go-to-Market-Maßnahmen übersetzen",
+        "Lokale kommerzielle Organisation mit aktuell 2–3 Mitarbeitenden führen und weiterentwickeln",
+        "Klare Leistungserwartungen setzen und Coaching anhand definierter KPIs durchführen",
+        "Marketing, Operations und zentrale Supportfunktionen aufeinander abstimmen",
+        "Datengetriebene Sales-Engine mit hochwertigen CRM-Daten betreiben",
+        "Zuverlässige Auftragseingangs-Forecasts mit transparenten Annahmen liefern",
+        "Regelmäßig an das Group Executive Team über Performance, Risiken und wichtige Entwicklungen berichten"
       ],
       "profil": [
-        "Fließende Kenntnisse in Business-Niederländisch und Englisch",
-        "Master-Abschluss in Betriebswirtschaft, International Business, Wirtschaftsingenieurwesen oder vergleichbarem Bereich",
+        "Fließend in Niederländisch (Business-Level) und Englisch",
+        "Masterabschluss in Betriebswirtschaft, International Business, Wirtschaftsingenieurwesen oder vergleichbarem Bereich",
         "5+ Jahre Erfahrung in vertriebsorientierten, projektbasierten B2B-Umgebungen",
-        "Erste Erfolge in der Marktentwicklung, Strukturaufbau oder unternehmerischen/Early-Stage-Umgebungen",
-        "Starke kommerzielle Kompetenz kombiniert mit der Fähigkeit, Strategie in hands-on Umsetzung zu übersetzen",
-        "Starke analytische Fähigkeiten zur Umsetzung von Daten in klare Prioritäten und messbare Ergebnisse",
-        "Kenntnisse in CRM- und ERP-Systemen als effektive Management- und Steuerungswerkzeuge",
-        "Erfahrung in dezentralen, internationalen Organisationen"
+        "Erste Erfolge in der Marktentwicklung, im Aufbau von Strukturen oder in unternehmerischen / frühen Setups",
+        "Starke kommerzielle Kompetenz kombiniert mit der Fähigkeit, Strategie in operative Umsetzung zu überführen",
+        "Ausgeprägte analytische Fähigkeiten zur Übersetzung von Daten in klare Prioritäten und messbare Ergebnisse",
+        "Erfahrung im Umgang mit CRM- und ERP-Systemen als Steuerungsinstrumente",
+        "Fähigkeit, in dezentralen, internationalen Organisationen zu arbeiten"
       ],
       "fehler": null
     },
@@ -1537,22 +1924,20 @@
       "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/key-account-manager-m-w-d-strategic-b2b-accounts-industrieumfeld",
       "stellentitel": "Key Account Manager (m/w/d) – Strategic B2B Accounts | Industrieumfeld",
       "aufgaben": [
-        "Entwicklung eines tiefen strategischen Blicks auf die Accounts, Erfassung von Marktgegebenheiten und zentralen Entscheidungswegen",
+        "Entwicklung eines tiefen strategischen Blicks auf 5–7 internationale Key Accounts inkl. Marktgegebenheiten und Entscheidungswege",
         "Analyse bereits umgesetzter Projekte über die gesamte Customer Journey und Skalierung innerhalb des Accounts",
-        "Gezielter Einsatz des CRM zur Bündelung von Kundeninformationen und strategische Account-Entwicklung",
+        "Gezielter Einsatz des CRM zur Bündelung von Kundeninformationen und strategischen Account-Entwicklung",
         "Sicherstellung eines echten Mehrwerts bei jedem Kundenaustausch (remote oder vor Ort) zur nachhaltigen Stärkung der Kundenbeziehung",
-        "Enge Zusammenarbeit an Großprojekten mit internen Abteilungen wie Engineering, Einkauf und Projektmanagement",
-        "Verantwortung für eine ausgewählte Gruppe internationaler Key Accounts (5–7 Kunden) im industriellen B2B-Umfeld",
-        "Zentrale Steuerung der Accounts aus Deutschland in enger Zusammenarbeit mit internen und externen Stakeholdern"
+        "Enge Zusammenarbeit mit internen Abteilungen wie Engineering, Einkauf und Projektmanagement bei Großprojekten"
       ],
       "profil": [
         "3–5+ Jahre Erfahrung im B2B-Umfeld, idealerweise im Key Account Management",
         "Erfahrung in einem industriellen Umfeld (z. B. Automotive)",
-        "Strategische Herangehensweise statt klassischem Vertriebsprofil, Überzeugung durch Substanz und analytisches Denken",
+        "Strategisches Denken und analytische Kompetenz statt klassisches Vertriebsprofil",
         "Schnelles Verständnis komplexer Zusammenhänge und Fähigkeit, die richtigen Fragen zu stellen",
-        "Sichere Kommunikation auf Augenhöhe mit Entscheidern und inhaltlich tiefe Gesprächsführung",
+        "Sichere Kommunikation auf Augenhöhe mit Entscheidern und inhaltliche Gesprächstiefe",
         "Fokus auf nachhaltige Ergebnisse statt kurzfristiger Abschlüsse",
-        "Reisebereitschaft und aktive Betreuung internationaler Kunden, auch auf Englisch"
+        "Reisebereitschaft und Fähigkeit zur aktiven Betreuung internationaler Kunden auch auf Englisch"
       ],
       "fehler": null
     },
@@ -1561,23 +1946,23 @@
       "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/senior-people-services-expert-m-w-d",
       "stellentitel": "Senior People Services Expert (m/w/d)",
       "aufgaben": [
-        "Gemeinsam mit einer erfahrenen HR-Sachbearbeiterin das neue People Services Team bilden und an den Head of People & Culture berichten",
-        "Reibungslose Abläufe im gesamten Employee Lifecycle sicherstellen – vom Arbeitsvertrag bis zum Offboarding",
-        "Fundiertes HR-Reporting zur Entscheidungsunterstützung bereitstellen",
-        "Sicherstellen, dass alle Mitarbeitenden pünktlich und korrekt entlohnt werden – mit hoher Datenqualität und Steuerung von Payroll-Partnern",
-        "Führungskräften rechtliche Sicherheit geben – von Vertragsgestaltung bis zu arbeitsrechtlichen Fragestellungen sowie Koordination externer Partner bei europäischen Themen",
-        "Owner der People-Software Personio sein – Prozesse abbilden, Self-Services sicherstellen und Datenqualität gewährleisten",
-        "Mittelfristig eine wirksame und performance-orientierte Vergütungsstruktur einführen"
+        "Bildung des People Services Teams gemeinsam mit einer erfahrenen HR-Sachbearbeiterin, Berichtslinie an den Head of People & Culture",
+        "Sicherstellung reibungsloser Abläufe im gesamten Employee Lifecycle – vom Arbeitsvertrag bis zum Offboarding",
+        "Erstellung eines fundierten HR-Reportings für transparente Entscheidungsgrundlagen",
+        "Sicherstellung pünktlicher und korrekter Lohnzahlungen mit hoher Datenqualität und Steuerung von Payroll-Partnern",
+        "Rechtliche Beratung von Führungskräften bei Vertragsgestaltung und arbeitsrechtlichen Fragestellungen sowie Koordination externer Partner im europäischen Kontext",
+        "Ownership der People-Software Personio: Prozesse sauber abbilden, Self-Services sicherstellen und Datenqualität gewährleisten",
+        "Mittelfristige Einführung einer wirksamen und performance-orientierten Vergütungsstruktur"
       ],
       "profil": [
         "Mindestens 10 Jahre Berufserfahrung in People Services Einheiten",
-        "Erfahrung im Aufbau professioneller HR-Prozesse auf der grünen Wiese in einem mittelständischen Unternehmen wünschenswert",
-        "Abgeschlossenes Studium bevorzugt",
+        "Erfahrung im Aufbau professioneller HR-Prozesse von Grund auf, idealerweise in einem mittelständischen Unternehmen",
+        "Abgeschlossenes Studium wünschenswert für strategische und analytische Perspektive",
         "Vertiefte Erfahrungen mit People Software, idealerweise Personio",
-        "Unterscheidung zwischen perfekten und pragmatischen Lösungen – pragmatische Herangehensweise",
+        "Fähigkeit, zwischen perfekten und pragmatischen Lösungen zu unterscheiden und pragmatisch zu handeln",
         "Ausgeprägte Dienstleistungshaltung sowie souveränes Auftreten auf Geschäftsführungsebene",
-        "Gute Englischkenntnisse für den europäischen Kontext",
-        "Leidenschaft für HR und Motivation, wirklich etwas zu bewegen"
+        "Gute Englischkenntnisse für die Beratung im europäischen Kontext",
+        "Leidenschaft für HR und den Antrieb, Veränderungen zu bewegen"
       ],
       "fehler": null
     },
@@ -1586,21 +1971,20 @@
       "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/field-sales-manager-b2b-industrial-sector-czech-republic-slovakia",
       "stellentitel": "Field Sales Manager (B2B Industrial Sector) – Czech Republic + Slovakia",
       "aufgaben": [
-        "Aufbau von Partnerschaften auf Augenhöhe mit Industrieunternehmen, Logistik und anderen Sektoren",
-        "Bedarfsanalyse vor Ort und Übersetzung von Kundenanforderungen in kommerzielle Lösungen",
-        "Verhandlungsführung vom Erstgespräch bis zum unterzeichneten Vertrag",
-        "Pflege und Nutzung des CRM-Systems als Kontrollzentrum (Pipeline, Forecasts, Aktivitäten)",
-        "Professionelle Repräsentation des Unternehmens beim Kunden sowie aus dem Homeoffice",
+        "Aufbau von Partnerschaften auf Augenhöhe mit Industrieunternehmen, Logistik und anderen Branchen",
+        "Analyse von Kundenbedürfnissen vor Ort und Übersetzen von Anforderungen in kommerzielle Lösungen",
+        "Verhandlungen vom ersten Gespräch bis zum unterzeichneten Vertrag",
+        "Pflege und aktive Nutzung des CRM-Systems als Kontrollzentrum (Pipeline, Forecasts, Aktivitäten)",
+        "Professionelle Repräsentation des Unternehmens beim Kunden, aus dem Home Office und darüber hinaus",
         "Entwicklung des tschechischen und slowakischen Marktes"
       ],
       "profil": [
         "Erfahrung im B2B-Vertrieb, idealerweise mit industriellem Hintergrund",
-        "Kenntnisse der Mechanismen des tschechischen und slowakischen Marktes",
-        "Überzeugende Persönlichkeit und echtes Interesse an Menschen",
+        "Kenntnisse des tschechischen und slowakischen Marktes",
+        "Überzeugende Persönlichkeit mit echtem Interesse an Menschen",
         "Sicherer Umgang mit KPIs, Pipeline-Management und Forecasting",
         "Hohe Eigenmotivation und Ausdauer",
-        "Bereitschaft zu variablem Vergütungsanteil",
-        "Fließende Kenntnisse der tschechischen Sprache und mittlere Englischkenntnisse",
+        "Fließende Tschechischkenntnisse und Englisch auf mittlerem Niveau",
         "Hohes Maß an Eigenverantwortung (Ownership)"
       ],
       "fehler": null
@@ -1610,22 +1994,21 @@
       "stellen_url": "https://herchenbach-industrial.com/de/unternehmen/karriere/jobs/project-manager-industrial-lightweight-buildings-hungary-m-f-d-remote",
       "stellentitel": "Project Manager industrial lightweight buildings Hungary (m/f/d) - Remote",
       "aufgaben": [
-        "Kaufmännische, technische und organisatorische Leitung der termingerechten, kosteneffizienten und fehlerfreien Umsetzung internationaler Leichtbauhallen-Projekte",
+        "Kommerzielle, technische und organisatorische Leitung der termingerechten, kosteneffizienten und fehlerfreien Umsetzung internationaler Leichtbauhallenp rojekte",
         "Koordination interner Schnittstellen (Vertrieb, Supply Chain Management, Planung, Terminplanung) und externer Schnittstellen (insbesondere Bauherren und Subunternehmer)",
-        "Sicherstellung der rechtzeitigen Informationsversorgung aller internen und externen Projektbeteiligten",
-        "Erstellung von Stücklisten für Bauteile und Materialien aus dem Modulsystem auf Basis der Hallenkonfigurationen vom Vertrieb",
-        "Definition von Kapazitätsanforderungen für Personal, Werkzeuge und Dienstleistungen",
-        "Handeln als Kommunikator, Vermittler und De-Eskalationsstelle bei Hindernissen und Konflikten im Projekt",
-        "Arbeit überwiegend im Remote-Modus in Ungarn, mit projektbezogenen Baustellenbesuchen (max. 30% der Arbeitszeit)"
+        "Sicherstellung der rechtzeitigen Informations- und Vorarbeitsversorgung aller externen und internen Projektbeteiligten",
+        "Erstellung von Stücklisten für Komponenten und Materialien aus dem Modulsystem sowie Definition von Kapazitätsanforderungen für Personal, Werkzeuge und Dienstleistungen",
+        "Funktion als Kommunikator, Vermittler und Deeskalationspunkt bei Hindernissen und Konflikten im Projektverlauf",
+        "Arbeit überwiegend im Remote-Modus in Ungarn mit projektbezogenen Baustellenbesuchen (max. 30% der Arbeitszeit)"
       ],
       "profil": [
-        "Abgeschlossene Ausbildung oder Studium, idealerweise mit technischem oder baubezogenem Schwerpunkt (z.B. Wirtschaftsingenieur, Bauingenieur, Maschinenbauingenieur, Architekt, Bautechniker, Architekturdraftsman, technischer Zeichner, technischer Systemplaner, Bauleiter, technischer Betriebswirt, Industriekaufmann, Metallbauer oder Tischler mit Weiterbildung als Techniker oder Meister)",
-        "Alternativ: relevante Berufserfahrung im technischen Projektmanagement ohne formale Ausbildung (z.B. Messebau, Bühnenbau, Eventbau, Fassadenbau, Gerüstbau, Metallbau, Anlagenbau, Mastbau, Windkraft, Solaranlagen)",
-        "Praktische Erfahrung in Projektmanagement, Projektsteuerung, Projektdurchführung, Projektleitung, Bauleitung, Arbeitsvorbereitung, Produktionsplanung, Produktionssteuerung oder ähnlichen Bereichen",
-        "Fließende Englisch- und Ungarischkenntnisse (mindestens B2/C1)",
+        "Erfolgreich abgeschlossene Ausbildung oder Studium, idealerweise mit technischem oder baubezogenem Schwerpunkt (z.B. Wirtschaftsingenieur, Bauingenieur, Maschinenbauingenieur, Architekt, Bautechniker, Architekt, technischer Zeichner, technischer Systemplaner, Bauleiter, technischer Betriebswirt, Industriekaufmann, Metallbauer oder Schreiner mit Weiterbildung zum Techniker oder Meister)",
+        "Alternativ: keine formale Ausbildung im Bereich, aber relevante Berufserfahrung im technischen Projektmanagement (z.B. Messebau, Bühnenbau, Veranstaltungsbau, Fassadenbau, Gerüstbau, Metallbau, Anlagenbau, Mastenbau, Windkraft, Solaranlagen)",
+        "Praktische Erfahrung in Projektmanagement, Projektsteuerung, Projektabwicklung, Projektleitung, Bauleitung, Arbeitsvorbereitung, Produktionsplanung, Produktionssteuerung, Auftragszentrum oder Auftragsabwicklung",
+        "Fließende Englisch- und Ungarischkenntnisse mindestens auf Sprachniveau B2/C1",
         "Organisationstalent, ausgeprägte Umsetzungsstärke und sehr gute Kommunikationsfähigkeiten",
-        "Sicherer Umgang mit MS Office; Erfahrung mit einem ERP-System von Vorteil",
-        "Reisebereitschaft innerhalb des Landes und ggf. innerhalb Europas (max. 30%)"
+        "Sicherer Umgang mit MS Office; Erfahrung mit einem ERP-System von Vorteil, aber nicht zwingend erforderlich",
+        "Reisebereitschaft sporadisch im Land und ggf. europaweit für projektbezogene Zwecke (max. 30%)"
       ],
       "fehler": null
     },
@@ -1635,20 +2018,20 @@
       "stellentitel": "Inside Sales Representative - Czech Republic (m/f/d)",
       "aufgaben": [
         "Erste Anlaufstelle für eingehende Anfragen von Interessenten und Bestandskunden aus tschechischsprachigen Märkten",
-        "Beratung zum Produkt- und Serviceangebot sowie Ermittlung kundenspezifischer Anforderungen und Bedürfnisse",
+        "Beratung zum Produkt- und Serviceportfolio sowie Ausarbeitung kundenspezifischer Anforderungen und Bedürfnisse",
         "Qualifizierung von Anfragen nach definierten Klassifikationen",
-        "Terminvereinbarung für Vor-Ort-Beratungen mit Außendienstmitarbeitern für qualifizierte Leads",
-        "Eigenständige Erstellung und Versendung von Preisangeboten in bestimmten Fällen",
+        "Terminvereinbarung für Vor-Ort-Beratungen mit Außendienstmitarbeitern bei qualifizierten Leads",
+        "In einigen Fällen selbstständige Erstellung und Versendung von Preisangeboten",
         "Organisation und Dokumentation aller Aktivitäten im CRM- und ERP-System",
         "Durchführung gezielter Outbound-Aktivitäten zur Ansprache potenzieller Interessenten oder Bestandskunden",
         "Unterstützung bei verschiedenen Aktivitäten wie Übersetzungen und Recherchen"
       ],
       "profil": [
-        "Abgeschlossene Berufsausbildung oder erste Berufserfahrung in einer kaufmännischen oder kundenorientierten Rolle",
-        "Berufseinsteiger und Kandidaten mit Erfahrung aus Praktika, Studentenjobs oder ähnlichem willkommen",
-        "Starke Kommunikationsfähigkeiten in geschäftsfließendem Tschechisch und mindestens konversationssicherem Englisch",
+        "Abgeschlossene Berufsausbildung oder erste Berufserfahrung in einer kaufmännischen oder kundenorientierten Tätigkeit",
+        "Berufseinsteiger sowie Kandidaten mit Erfahrung aus Praktika, Studentenjobs o. Ä. willkommen",
+        "Ausgeprägte Kommunikationsfähigkeiten in geschäftsfließendem Tschechisch und mindestens konversationsfähigem Englisch",
         "Deutschkenntnisse von Vorteil, aber keine Voraussetzung",
-        "Sicherer Umgang mit digitalen Tools (CRM, ERP, MS Office), ohne vertiefte Fachkenntnisse erforderlich",
+        "Sicherer Umgang mit digitalen Tools (CRM, ERP, MS Office), ohne vertiefte Fachkenntnisse",
         "Sicheres Auftreten, schnelle Auffassungsgabe und ausgeprägte Empathie",
         "Freude am Erfolg und Wille zur kontinuierlichen beruflichen und persönlichen Weiterentwicklung"
       ],
@@ -1793,7 +2176,7 @@
         "Projektbegleitung & technische Unterstützung vor Ort"
       ],
       "profil": [
-        "Technisches Verständnis und Erfahrung mit Energieanlagen (Generatoren, Stromerzeugern, Heiz- und Klimasystemen)",
+        "Technisches Verständnis und Erfahrung mit Energieanlagen (Generatoren, Stromerzeugern, Heiz- und Klimasystemen) – ob aus Ausbildung oder 'on the job'",
         "Selbstständig, zuverlässig & lösungsorientiert",
         "Freude am Kundenkontakt und gelegentlichen Ausseneinsätzen",
         "IT-Grundkenntnisse"
@@ -1820,12 +2203,7 @@
         "BackOffice Tätigkeiten",
         "Einblicke und Übernahme von Verantwortung in den Bereichen Rechnungswesen, Finanzen, Marketing und Export"
       ],
-      "profil": [
-        "Interesse für Vertrieb",
-        "Verlässlichkeit und Bereitschaft Verantwortung zu übernehmen",
-        "Teamfähigkeit",
-        "Einbringen eigener Ideen"
-      ],
+      "profil": [],
       "fehler": null
     },
     {
@@ -1834,16 +2212,12 @@
       "stellentitel": "Land- und Baumaschinenmechatroniker/-in",
       "aufgaben": [
         "Wartung von Baumaschinen und -geräten",
-        "Diagnose und Fehlersuche an Maschinen",
+        "Diagnose und Fehlersuche an unseren Maschinen",
         "Umgang mit neuester Motor- und Antriebstechnik",
         "Erstellung von Kostenvoranschlägen",
-        "Erwerb von außerbetrieblichen Zertifikaten wie Schweißerschein und Staplerschein"
+        "Erwerb von außerbetrieblichen Zertifikaten wie z.B. Schweißerschein und Staplerschein"
       ],
-      "profil": [
-        "Interesse für Technikinnovationen",
-        "Begeisterung für Schweißen mit modernster Datentechnik",
-        "Freude an der Arbeit im Team"
-      ],
+      "profil": [],
       "fehler": null
     },
     {
@@ -1857,11 +2231,7 @@
         "Ermittlung von Verpackungskosten",
         "Optimierung des Informations- und Materialflusses"
       ],
-      "profil": [
-        "Begeisterung für Baumaschinen, Werkzeug und Zubehör",
-        "Interesse an Lieferungszusammenstellung und Verladungskoordination",
-        "Interesse an Ersatzteildisposition und Lagerbestandsplanung"
-      ],
+      "profil": [],
       "fehler": null
     },
     {
@@ -1877,7 +2247,7 @@
       "stellen_url": "https://www.hkl-baumaschinen.de/karriere/technik-service-und-werkstatt",
       "stellentitel": "Monteur / Mechaniker / Techniker im Bereich Service (m/w/d)",
       "aufgaben": [
-        "Reparatur, Wartung und Pflege von hochwertigen Baumaschinen",
+        "Reparatur, Wartung und Pflege hochwertiger Baumaschinen",
         "Erstellung von Schadensdiagnosen",
         "Kalkulation von Kostenvoranschlägen",
         "Technischer Ansprechpartner für Kunden vor Ort"
@@ -1891,9 +2261,9 @@
       "stellentitel": "Monteur / Mechaniker / Techniker im Bereich Miete (m/w/d)",
       "aufgaben": [
         "Ausgabe und Rückgabe von Mietmaschinen und -geräten",
-        "Beratung von Kunden zu Einsatzmöglichkeiten und Einweisung in die Bedienung",
-        "Reparatur, Wartung und Reinigung von Baumaschinen",
-        "Sicherstellung der Einsatzbereitschaft und Sicherheit der Mietmaschinen"
+        "Beratung von Kunden zu Einsatzmöglichkeiten",
+        "Einweisung in die Bedienung der Maschinen",
+        "Reparatur, Wartung und Reinigung von Baumaschinen"
       ],
       "profil": [],
       "fehler": null
@@ -1913,14 +2283,30 @@
     },
     {
       "karriereseite": "https://www.hkl-baumaschinen.de/karriere/jobs",
+      "stellen_url": "https://www.hkl-baumaschinen.de/karriere/technik-service-und-werkstatt",
+      "stellentitel": "Lagerist (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.hkl-baumaschinen.de/karriere/jobs",
+      "stellen_url": "https://www.hkl-baumaschinen.de/karriere/technik-service-und-werkstatt",
+      "stellentitel": "Kraftfahrer (m/w/d)",
+      "aufgaben": [],
+      "profil": [],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.hkl-baumaschinen.de/karriere/jobs",
       "stellen_url": "https://www.hkl-baumaschinen.de/karriere/vertrieb-verkauf-und-disposition",
       "stellentitel": "Kundenberater / Disponent für den Bereich Miete (m/w/d)",
       "aufgaben": [
-        "Verantwortung für die Vermietung moderner Baumaschinen und -geräte",
+        "Verantwortung für die Vermietung von Baumaschinen und -geräten",
         "Erstellung individueller Angebote",
         "Koordination von Kundenaufträgen",
-        "Sicherstellung reibungsloser Abläufe vom ersten Kundenkontakt bis zur Maschinenübergabe",
-        "Zentraler Ansprechpartner für Kunden im Tagesgeschäft"
+        "Zentraler Ansprechpartner für Kunden im Tagesgeschäft",
+        "Begleitung vom ersten Kundenkontakt bis zur erfolgreichen Maschinenübergabe"
       ],
       "profil": [],
       "fehler": null
@@ -1931,7 +2317,7 @@
       "stellentitel": "Kundenberater / Verkäufer für den Bereich Baushop oder Ersatzteile (m/w/d)",
       "aufgaben": [
         "Verkauf und Kundenberatung im Baushop oder Ersatzteilebereich",
-        "Beratung der Kunden bei der Auswahl des richtigen Equipments für ihre Projekte",
+        "Beratung der Kunden beim Finden des richtigen Equipments",
         "Betreuung eines großen Sortiments (Großgeräte, Kleingeräte, Werkzeuge, Arbeits- und Schutzkleidung)"
       ],
       "profil": [],
@@ -1969,11 +2355,12 @@
       "stellen_url": "https://www.hkl-baumaschinen.de/karriere/fuehrungskraefte",
       "stellentitel": "Betriebsleiter (m/w/d)",
       "aufgaben": [
-        "Verantwortung für den Erfolg des Centers mit unternehmerischem Denken und Führungsstärke",
-        "Operative und vertriebliche Tätigkeit in der Vermietung und im Verkauf von Baumaschinen und Baugeräten",
+        "Verantwortung für den Erfolg des Centers",
+        "Operativ und vertrieblich aktiv in der Vermietung und im Verkauf von Baumaschinen und Baugeräten",
         "Führung des Teams mit Engagement, Klarheit und Teamgeist",
         "Pflege von direktem Kundenkontakt",
-        "Verantwortung für das Betriebsergebnis und Erstellung regelmäßiger Reportings"
+        "Sicherstellung, dass das Center ein verlässlicher und kompetenter Partner für Kunden in der Region ist",
+        "Betriebsergebnis im Blick behalten und regelmäßige Reportings erstellen"
       ],
       "profil": [],
       "fehler": null
@@ -1983,9 +2370,12 @@
       "stellen_url": "https://www.hkl-baumaschinen.de/karriere/fuehrungskraefte",
       "stellentitel": "Werkstattleiter / Werkstattmeister (m/w/d)",
       "aufgaben": [
-        "Führungsverantwortung für Servicemonteure",
+        "Verantwortung für Servicemonteure",
         "Sicherstellung eines reibungslosen Ablaufs in der Werkstatt",
-        "Erstellung von Schadensdiagnosen und Unterstützung bei komplexen Reparaturen",
+        "Aktive Einbindung ins Tagesgeschäft",
+        "Erstellen von Schadensdiagnosen",
+        "Unterstützung bei komplexen Reparaturen",
+        "Überblick über alle Abläufe behalten",
         "Betreuung und Beratung von Servicekunden",
         "Aufbau langfristiger Kundenbeziehungen und Weiterentwicklung des Kundenstamms"
       ],
@@ -2000,7 +2390,9 @@
         "Leitung der Servicebetriebe in der betreuten Niederlassung",
         "Planung von Personal, Kosten und Kapazitäten gemeinsam mit dem Team",
         "Weiterentwicklung der Servicebetriebe",
-        "Pflege von Geschäftsverbindungen und aktive Weiterentwicklung des Kundenkreises",
+        "Pflege von Geschäftsverbindungen",
+        "Aktive Weiterentwicklung des Kundenkreises",
+        "Aktive Kundenbetreuung",
         "Verhandlung von Serviceverträgen"
       ],
       "profil": [],
@@ -2011,11 +2403,12 @@
       "stellen_url": "https://www.hkl-baumaschinen.de/karriere/fuehrungskraefte",
       "stellentitel": "Führungskraft in der Unternehmenszentrale (m/w/d)",
       "aufgaben": [
-        "Betreuung und Weiterentwicklung der gesamten Organisation",
+        "Übernahme einer Schlüsselrolle in der Betreuung und Weiterentwicklung der gesamten Organisation",
         "Steuerung strategisch wichtiger Themen",
         "Weiterentwicklung von Prozessen",
         "Sicherstellung effizienter, kundenorientierter und zukunftssicherer operativer Abläufe",
-        "Enge Zusammenarbeit mit anderen Fachbereichen und Centern",
+        "Einsatz in verschiedenen Bereichen wie Controlling oder Personalbereich",
+        "Enge Zusammenarbeit mit Fachbereichen und Centern",
         "Leitung eines starken Teams"
       ],
       "profil": [],
@@ -2036,18 +2429,18 @@
       "aufgaben": [
         "Zentrale Ansprechperson für Kunden in der Serviceregion",
         "Verantwortung für die Kostenstelle in der Region und Sicherstellung reibungsloser Abläufe",
-        "Verantwortung für die Umsetzung aller Wartungs- und Inspektionsarbeiten sowie Einhaltung der Prüfpflichten",
+        "Verantwortung für die Umsetzung aller Wartungs- und Inspektionsarbeiten sowie Prüfpflichten",
         "Fachliche und disziplinarische Führung des Teams",
-        "Regelmäßige Besuche der Teammitglieder im Tagesgeschäft zur Qualitätssicherung",
+        "Regelmäßige Besuche der Teammitglieder im Tagesgeschäft zur Qualitätssicherung und Einhaltung von Standards",
         "Monatliches Reporting nach Kalkulation von einzelnen Projekten und Serviceaufträgen",
         "Regelmäßige Feedbackgespräche mit Mitarbeitenden zur Förderung von Entwicklung und Zufriedenheit"
       ],
       "profil": [
-        "(Fach-) Hochschulabschluss im Bereich Facility Management oder Betriebswirtschaft, alternativ Meisterausbildung oder staatl. geprüfter Techniker in Metallbau, Elektrotechnik, HKLS oder Versorgungstechnik",
+        "(Fach-)Hochschulabschluss im Bereich Facility Management, Betriebswirtschaft oder Meisterausbildung bzw. staatl. geprüfter Techniker im Bereich Metallbau, Elektrotechnik, HKLS oder Versorgungstechnik",
         "3–5 Jahre Erfahrung in einer Führungsposition",
         "Erfahrung in der Verantwortung für eine Kostenstelle sowie fachliche und disziplinarische Führung eines Teams von mindestens fünf Mitarbeitenden",
-        "Kenntnisse der Anforderungen im Facility Management und echte Dienstleistungsmentalität",
-        "Teamplayer mit selbstständiger Arbeitsweise und Verantwortungsbewusstsein"
+        "Kenntnisse der Anforderungen im Facility Management und Dienstleistungsmentalität",
+        "Teamplayer mit selbstständiger Arbeitsweise und Verantwortungsbereitschaft"
       ],
       "fehler": null
     },
@@ -2066,8 +2459,9 @@
       ],
       "profil": [
         "Experte in der Klima- oder Lüftungstechnik",
-        "Erfahrung in der Übernahme von Verantwortung für Serviceprojekte inkl. Kostenkontrolle",
+        "Erfahrung in der Übernahme von Verantwortung für Serviceprojekte, Steuerung der Abläufe und Kostenkontrolle",
         "Erfahrung in der Leitung eines Teams oder einer Abteilung",
+        "Freude daran, ein starkes Team aufzubauen und weiterzuentwickeln",
         "Eigenverantwortliches, strukturiertes und lösungsorientiertes Arbeiten",
         "Reisebereitschaft, schwerpunktmäßig für Einsätze in Berlin sowie den östlichen Bundesländern",
         "Führerschein der Klasse B"
@@ -2087,11 +2481,11 @@
         "Installation und Inbetriebnahme von Netzwerkkomponenten",
         "Eigenständige Durchführung von Sicherheitsprüfungen und Instandsetzung ortsveränderlicher sowie ortsfester Anlagen",
         "Digitale Dokumentation der durchgeführten Arbeiten auf dem Tablet",
-        "Direkte Ansprechperson vor Ort für Kunden"
+        "Reibungslose Kommunikation und professioneller Ablauf der Arbeiten als Ansprechperson vor Ort"
       ],
       "profil": [
         "Abgeschlossene Ausbildung im Bereich Elektrotechnik oder vergleichbare Qualifikation",
-        "Erfahrung als Elektroinstallateur oder Elektriker für Energie- und Gebäudetechnik oder mindestens drei Jahre Erfahrung im Kundendienst der Gebäudetechnik",
+        "Erfahrung als Elektroinstallateur oder Elektriker für Energie- und Gebäudetechnik (w|m|d) oder mindestens drei Jahre Erfahrung im Kundendienst der Gebäudetechnik",
         "Strukturierte, lösungsorientierte und eigenständige Arbeitsweise",
         "Offene und kundenorientierte Art",
         "Sichere Deutschkenntnisse"
@@ -2104,7 +2498,7 @@
       "stellentitel": "Haustechniker im Kundendienst (w|m|d)",
       "aufgaben": [
         "Überwachung des Zustands technischer Anlagen in Gewerbeimmobilien (Lüftung, Beleuchtung, sanitäre Einrichtungen) und frühzeitige Meldung von Auffälligkeiten oder Störungen",
-        "Eigenständige Durchführung handwerklicher Reparaturen (Malerarbeiten, Leuchtmittelaustausch, kleinere Sanitär- und Trockenbauarbeiten)",
+        "Eigenständige Durchführung handwerklicher Reparaturen (Malerarbeiten, Austausch von Leuchtmitteln, kleinere Sanitär- und Trockenbauarbeiten)",
         "Sicherstellung eines gepflegten Erscheinungsbilds der Filialen und Einhaltung von Sicherheits- und Sauberkeitsstandards",
         "Überwachung von Wartungsintervallen und Abstimmung mit externen Handwerkern, Dienstleistern und Partnern",
         "Übernahme des Notdienstes (Rufbereitschaft) im Wechsel mit Kollegen alle zwei bis vier Wochen"
@@ -2112,11 +2506,19 @@
       "profil": [
         "Abgeschlossene handwerkliche Ausbildung, z. B. als Schlosser, Maler, Trockenbauer, Metallbauer, Elektriker oder Anlagenmechaniker (w|m|d)",
         "Idealerweise erste Erfahrungen im technischen Gebäudemanagement oder als Haustechniker (w|m|d), z. B. in der Instandhaltung von gewerblichen Filialen",
-        "Zuverlässige und belastbare Arbeitsweise, hohes Maß an Einsatzbereitschaft, Teamfähigkeit sowie selbstständiges und lösungsorientiertes Arbeiten",
+        "Zuverlässige, belastbare und einsatzbereite Arbeitsweise sowie Teamfähigkeit bei gleichzeitig selbstständiger und lösungsorientierter Arbeitsweise",
         "Gutes Organisationsvermögen und technisches Verständnis",
         "Reisebereitschaft innerhalb der Region sowie Führerschein der Klasse B",
         "Bereitschaft zu gelegentlichen Übernachtungen bei größerer Entfernung zum Kunden"
       ],
+      "fehler": null
+    },
+    {
+      "karriereseite": "https://www.sikla.career/",
+      "stellen_url": "./jobs/64319118/Werkstudent-m-w-d-im-Bereich-Marketing-und-Produktmanagement/",
+      "stellentitel": "Werkstudent (m/w/d) im Bereich Marketing und Produktmanagement",
+      "aufgaben": [],
+      "profil": [],
       "fehler": null
     },
     {
