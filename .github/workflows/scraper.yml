@@ -1,10 +1,6 @@
 name: Job Scraper
 
 on:
-  schedule:
-    # Täglich um 6:00 UTC (8:00 MEZ)
-    - cron: "0 6 * * *"
-
   workflow_dispatch:
     inputs:
       urls:
